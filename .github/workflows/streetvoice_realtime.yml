@@ -1,5 +1,8 @@
 name: StreetVoice Realtime Chart (hourly)
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "5 * * * *"   # every hour at minute 05 (UTC). Taiwan = UTC+8
