@@ -2,7 +2,7 @@ name: StreetVoice Realtime Charts (All)
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "5 * * * *"
   workflow_dispatch:
 
 permissions:
