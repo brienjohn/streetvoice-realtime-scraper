@@ -1,16 +1,9 @@
-name: StreetVoice Realtime Charts (All)
+name: StreetVoice Realtime Chart (hourly)
 
 on:
   schedule:
-    - cron: "5 * * * *"
+    - cron: "5 * * * *"   # every hour at minute 05 (UTC). Taiwan = UTC+8
   workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: streetvoice-realtime-all
-  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -18,10 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -30,15 +21,22 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: Run scraper
         run: |
-          python streetvoice_realtime_scrape.py
+          python streetvoice_realtime_scrape.py --out-dir data --limit 50
 
-      - name: Commit & push CSV
+      - name: Commit CSV
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*.csv
-          git commit -m "Update StreetVoice realtime CSV" || echo "No changes to commit"
+          git commit -m "Add StreetVoice realtime CSV" || echo "No changes to commit"
           git push
+
+      - name: Upload artifact (easy download)
+        uses: actions/upload-artifact@v4
+        with:
+          name: streetvoice-realtime-csv
+          path: data/*.csv
