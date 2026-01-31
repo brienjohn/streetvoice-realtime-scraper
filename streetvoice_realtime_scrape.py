@@ -1,780 +1,1069 @@
-#!/usr/bin/env python3
+from pathlib import Path
+script_path = Path("/mnt/data/streetvoice_realtime_scraper.py")
+req_path = Path("/mnt/data/requirements.txt")
+workflow_path = Path("/mnt/data/.github_workflows_streetvoice_realtime.yml")
+script = r'''#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 """
-StreetVoice realtime chart scraper (All)
+StreetVoice realtime chart scraper (hourly) -> CSV
 
-Fixes requested:
-1) critic_review_url: ONLY set when song page contains "達人推薦" (otherwise blank)
-2) album_title: improved extraction (API + HTML fallbacks)
-3) collaborators: extracted ONLY from "合作音樂人" section (won't leak into comments / "最相關留言")
-4) lyrics/description: extracted by section boundaries, stops before "留言"
-5) likes_count / cover_image_url / artist counts / play_count: API-first, then Next.js JSON, then regex, then visible text
-6) output filenames include scrape time (Asia/Taipei), accumulate hourly snapshots
+Key improvements for your reported issues:
+- genre: extract from <a href="/music/browse/<id>/recommend/latest/">TEXT</a>
+- album_title + album_url: extract if present on song page
+- comments_count: extract from <span id="comment-counts">34</span> or fallback "留言（34）"
+- likes_count / play_count + artist_*_count: avoid "0" placeholders caused by cookie-disabled/SSR;
+  try API, try __NEXT_DATA__ fuzzy search, finally optional Playwright (JS-rendered) fallback.
+- collaborators: only from "合作音樂人" section (never from comments)
+- description/lyrics: only from their sections; never include comment area
+- critic_review_url: ONLY if "達人推薦" appears on the song page, else blank
+- social links: ignore StreetVoice official accounts/footers when selecting artist socials
+- output filename includes timestamp; suitable for 24 files/day.
+
+Usage:
+  python streetvoice_realtime_scraper.py --out-dir data --limit 50
+
+Optional (recommended) for accurate counts:
+  pip install playwright && python -m playwright install --with-deps chromium
 
 Notes:
-- Tries StreetVoice public JSON endpoint /api/v1/public/song/<id>/ with POST data=b'' (API-first strategy).
+- This script is designed to run in GitHub Actions (Ubuntu).
+- It will still run without Playwright; counts may remain blank if API is blocked/changed.
 """
+
+from __future__ import annotations
 
 import argparse
 import csv
+import datetime as dt
 import json
 import os
 import re
+import sys
 import time
 from dataclasses import dataclass, asdict
-from datetime import datetime
 from typing import Any, Dict, Iterable, List, Optional, Tuple
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
-try:
-    from zoneinfo import ZoneInfo
-except Exception:
-    ZoneInfo = None  # GH Actions py3.11 should have it
-
-
+# -----------------------------
+# Config
+# -----------------------------
 BASE = "https://streetvoice.com"
 CHART_URL = "https://streetvoice.com/music/charts/realtime/all/"
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
+USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+)
+
+HTML_HEADERS = {
+    "User-Agent": USER_AGENT,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
     "Connection": "keep-alive",
 }
 
 API_HEADERS = {
-    **HEADERS,
+    "User-Agent": USER_AGENT,
     "Accept": "application/json, text/plain, */*",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
     "X-Requested-With": "XMLHttpRequest",
-    "Referer": BASE,
+    "Origin": BASE,
+    "Referer": BASE + "/",
+    "Connection": "keep-alive",
 }
 
-STOP_UI_PHRASES = {
-    "...查看更多 收合",
-    "...查看更多",
-    "收合",
-    "收起來",
-    "查看更多",
+# Filter out obvious StreetVoice official socials (these polluted your CSV)
+SOCIAL_BLACKLIST_SUBSTR = {
+    "facebook.com/StreetVoiceTaiwan",
+    "m.facebook.com/StreetVoiceTaiwan",
+    "instagram.com/streetvoice",
+    "instagram.com/streetvoice_taiwan",
+    "youtube.com/StreetVoiceTV",
+    "youtube.com/@StreetVoiceTV",
+    "youtube.com/channel/UC",  # keep, but we'll prefer non-blacklisted
 }
 
+# -----------------------------
+# Optional Playwright
+# -----------------------------
+HAVE_PLAYWRIGHT = False
+try:
+    from playwright.sync_api import sync_playwright  # type: ignore
+    HAVE_PLAYWRIGHT = True
+except Exception:
+    HAVE_PLAYWRIGHT = False
 
+
+# -----------------------------
+# Data Model
+# -----------------------------
 @dataclass
 class Row:
-    scraped_at: str
+    # chart-level
+    snapshot_time: str
     rank: int
-
-    artist_name: str
     song_title: str
-
+    artist_name: str
     likes_count: Optional[int]
-    play_count: Optional[int]
-    comments_count: Optional[int]
-
     song_url: str
     artist_url: str
-    cover_image_url: str
+    cover_image_url: Optional[str]
 
-    # artist page
-    artist_handle: str
-    artist_identity: str
-    artist_city: str
-    artist_joined_date: str  # YYYY-MM-01
-    artist_accredited_datetime: str  # YYYY-MM-DD HH:MM:SS
+    # artist extra
+    artist_handle: Optional[str]
+    artist_identity: Optional[str]
+    artist_city: Optional[str]
+    artist_joined_date: Optional[str]  # YYYY-MM-01 (month precision)
     artist_music_count: Optional[int]
     artist_fans_count: Optional[int]
     artist_following_count: Optional[int]
-    artist_facebook_url: str
-    artist_instagram_url: str
-    artist_youtube_url: str
+    artist_facebook_url: Optional[str]
+    artist_instagram_url: Optional[str]
+    artist_youtube_url: Optional[str]
+    artist_accredited_datetime: Optional[str]  # YYYY-MM-DD HH:MM
 
-    # song page
-    genre: str
-    album_title: str
-    collaborators: str
-    description: str
-    lyrics: str
-    published_date: str  # YYYY-MM-DD
-    is_editorial_pick: bool
-    is_song_of_the_day: bool
-    critic_review_url: str
-
-
-def tz_now_taipei() -> datetime:
-    if ZoneInfo is None:
-        return datetime.utcnow()
-    return datetime.now(ZoneInfo("Asia/Taipei"))
-
-
-def fmt_scraped_at(dt: datetime) -> str:
-    return dt.strftime("%Y-%m-%d %H:%M:%S")
+    # song extra
+    play_count: Optional[int]
+    genre: Optional[str]
+    description: Optional[str]
+    lyrics: Optional[str]
+    release_date: Optional[str]  # YYYY-MM-DD
+    collaborators: Optional[str]
+    album_title: Optional[str]
+    album_url: Optional[str]
+    comments_count: Optional[int]
+    is_editor_recommended: Optional[bool]
+    is_song_of_the_day: Optional[bool]
+    critic_review_url: Optional[str]
+    song_accredited_datetime: Optional[str]  # YYYY-MM-DD HH:MM
 
 
-def clean_int_from_text(s: str) -> Optional[int]:
-    if not s:
+# -----------------------------
+# Helpers
+# -----------------------------
+def now_taipei_iso() -> str:
+    # GitHub Actions uses UTC; if you want Asia/Taipei timestamp, apply +8
+    t = dt.datetime.utcnow() + dt.timedelta(hours=8)
+    return t.strftime("%Y-%m-%d %H:%M:%S")
+
+
+def filename_ts() -> str:
+    t = dt.datetime.utcnow() + dt.timedelta(hours=8)
+    return t.strftime("%Y-%m-%d_%H%M")
+
+
+def ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+
+def to_int(s: str) -> Optional[int]:
+    if s is None:
         return None
-    m = re.search(r"(\d[\d,]*)", s)
-    if not m:
+    s2 = re.sub(r"[^\d]", "", str(s))
+    return int(s2) if s2 else None
+
+
+def clean_text(s: Optional[str]) -> Optional[str]:
+    if s is None:
         return None
-    try:
-        return int(m.group(1).replace(",", ""))
-    except Exception:
-        return None
+    s = re.sub(r"\s+\n", "\n", s)
+    s = re.sub(r"\n{3,}", "\n\n", s)
+    s = s.strip()
+    return s if s else None
 
 
-def normalize_ws(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "")).strip()
+def absolute_url(href: str) -> str:
+    return urljoin(BASE + "/", href)
 
 
-def fetch_html(session: requests.Session, url: str) -> str:
-    r = session.get(url, headers={**HEADERS, "Referer": BASE}, timeout=35)
-    r.raise_for_status()
-    return r.text
+def is_blacklisted_social(url: str) -> bool:
+    if not url:
+        return True
+    for bad in SOCIAL_BLACKLIST_SUBSTR:
+        if bad.lower() in url.lower():
+            return True
+    return False
 
 
-def post_json(session: requests.Session, url: str, data: bytes = b"") -> Optional[Dict[str, Any]]:
-    try:
-        r = session.post(url, headers=API_HEADERS, data=data, timeout=35)
-        r.raise_for_status()
-        return r.json()
-    except Exception:
-        return None
-
-
-def soup_of(html: str) -> BeautifulSoup:
-    # Prefer lxml for speed; fall back to built-in parser if lxml isn't installed.
-    try:
-        return BeautifulSoup(html, "lxml")
-    except Exception:
-        return BeautifulSoup(html, "html.parser")
-
-
-def pick_og_image(soup: BeautifulSoup) -> str:
-    for attrs in (
-        {"property": "og:image"},
-        {"name": "twitter:image"},
-    ):
-        tag = soup.find("meta", attrs=attrs)
-        if tag and tag.get("content"):
-            return tag["content"].strip()
-    return ""
-
-
-def extract_next_data(raw_html: str) -> Optional[Dict[str, Any]]:
-    m = re.search(r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', raw_html, flags=re.S)
-    if not m:
-        return None
-    blob = (m.group(1) or "").strip()
-    if not blob:
-        return None
-    try:
-        return json.loads(blob)
-    except Exception:
-        return None
-
-
-def deep_find_values(obj: Any, keys: Iterable[str], max_hits: int = 120) -> List[Any]:
-    keys_set = set(keys)
-    hits: List[Any] = []
-
-    def rec(x: Any):
-        nonlocal hits
-        if len(hits) >= max_hits:
-            return
-        if isinstance(x, dict):
-            for k, v in x.items():
-                if k in keys_set:
-                    hits.append(v)
-                    if len(hits) >= max_hits:
-                        return
-                rec(v)
-        elif isinstance(x, list):
-            for v in x:
-                rec(v)
-
-    rec(obj)
-    return hits
-
-
-def best_int_candidate(cands: Iterable[Any], min_value: int = 0) -> Optional[int]:
-    vals: List[int] = []
-    for v in cands:
-        if v is None or isinstance(v, bool):
-            continue
-        if isinstance(v, (int, float)):
-            try:
-                iv = int(v)
-                if iv >= min_value:
-                    vals.append(iv)
-            except Exception:
-                pass
-        elif isinstance(v, str):
-            iv = clean_int_from_text(v)
-            if iv is not None and iv >= min_value:
-                vals.append(iv)
-    return max(vals) if vals else None
-
-
-def regex_int_from_html(raw_html: str, patterns: List[str]) -> Optional[int]:
-    for pat in patterns:
-        m = re.search(pat, raw_html, flags=re.S)
-        if m:
-            iv = clean_int_from_text(m.group(1))
-            if iv is not None:
-                return iv
+def request_with_retries(
+    session: requests.Session,
+    method: str,
+    url: str,
+    *,
+    headers: Dict[str, str],
+    data: Optional[bytes] = None,
+    timeout: int = 30,
+    max_tries: int = 3,
+    sleep_base: float = 0.8,
+) -> Optional[requests.Response]:
+    for i in range(max_tries):
+        try:
+            resp = session.request(method, url, headers=headers, data=data, timeout=timeout)
+            if resp.status_code in (429, 500, 502, 503, 504):
+                time.sleep(sleep_base * (2 ** i))
+                continue
+            return resp
+        except requests.RequestException:
+            time.sleep(sleep_base * (2 ** i))
     return None
 
 
-def parse_chart_items(chart_html: str, limit: int) -> List[Tuple[int, str, str]]:
+def get_html(session: requests.Session, url: str) -> Optional[str]:
+    resp = request_with_retries(session, "GET", url, headers=HTML_HEADERS)
+    if not resp:
+        return None
+    if resp.status_code != 200:
+        return None
+    resp.encoding = resp.apparent_encoding or "utf-8"
+    return resp.text
+
+
+def get_soup(session: requests.Session, url: str) -> Optional[BeautifulSoup]:
+    html = get_html(session, url)
+    if not html:
+        return None
+    return BeautifulSoup(html, "lxml")
+
+
+def deep_iter_dict(obj: Any) -> Iterable[Tuple[str, Any]]:
+    """Yield (keypath, value) for nested dict/list structures."""
+    stack: List[Tuple[str, Any]] = [("", obj)]
+    while stack:
+        path, cur = stack.pop()
+        if isinstance(cur, dict):
+            for k, v in cur.items():
+                kp = f"{path}.{k}" if path else str(k)
+                stack.append((kp, v))
+        elif isinstance(cur, list):
+            for idx, v in enumerate(cur):
+                kp = f"{path}[{idx}]"
+                stack.append((kp, v))
+        else:
+            yield path, cur
+
+
+def fuzzy_find_int(
+    obj: Any,
+    include: List[str],
+    exclude: Optional[List[str]] = None,
+) -> Optional[int]:
     """
-    Return list of (rank, song_url, artist_url) ordered as in the realtime chart.
+    Find an int by scanning keys (case-insensitive substring matching).
+    include: list of patterns that MUST match keypath.
+    exclude: patterns that MUST NOT match keypath.
     """
-    soup = soup_of(chart_html)
-    anchors = soup.find_all("a", href=True)
-
-    items: List[Tuple[str, str]] = []
-    seen = set()
-
-    for a in anchors:
-        href = a["href"].strip()
-        m = re.match(r"^/([^/]+)/songs/(\d+)/?$", href)
-        if not m:
+    exclude = exclude or []
+    candidates: List[int] = []
+    for keypath, value in deep_iter_dict(obj):
+        kp = keypath.lower()
+        if any(p.lower() in kp for p in exclude):
             continue
-        artist_slug = m.group(1)
-        song_id = m.group(2)
-        key = (artist_slug, song_id)
-        if key in seen:
+        if not all(p.lower() in kp for p in include):
             continue
-
-        # Only accept anchors that actually contain song title text
-        title_txt = a.get_text(strip=True)
-        if not title_txt:
-            continue
-
-        seen.add(key)
-        items.append((href, artist_slug))
-        if len(items) >= limit:
-            break
-
-    out: List[Tuple[int, str, str]] = []
-    for i, (href, artist_slug) in enumerate(items, start=1):
-        song_url = urljoin(BASE, href)
-        artist_url = urljoin(BASE, f"/{artist_slug}/")
-        out.append((i, song_url, artist_url))
-    return out
+        if isinstance(value, (int, float)) and not isinstance(value, bool):
+            if value >= 0 and value < 10**10:
+                candidates.append(int(value))
+        elif isinstance(value, str):
+            iv = to_int(value)
+            if iv is not None:
+                candidates.append(iv)
+    if not candidates:
+        return None
+    # Heuristic: prefer larger numbers (play count usually larger than likes)
+    return max(candidates)
 
 
-def heading_tag_matches(tag: Any, pattern: re.Pattern) -> bool:
-    if not tag or not getattr(tag, "name", None):
-        return False
-    if tag.name not in ("h2", "h3", "h4"):
-        return False
-    txt = tag.get_text(" ", strip=True)
-    return bool(pattern.search(txt))
-
-
-def collect_section_text(
-    soup: BeautifulSoup,
-    start_heading_re: str,
-    stop_heading_res: List[str],
-    max_chars: int = 12000,
-) -> str:
+def parse_zh_month_joined(text: str) -> Optional[str]:
     """
-    Collect text after a heading (h2/h3/h4) until a stop heading is met.
-    This prevents leaking into comments section.
+    Parse strings like:
+      "新北市・於 2014 年 10 月 加入"
+      "於 2020 年 3 月 加入"
+      "於 2007 年 6 月 加入"
+    -> "YYYY-MM-01"
     """
-    start_pat = re.compile(start_heading_re)
-    stop_pats = [re.compile(x) for x in stop_heading_res]
-
-    start = soup.find(lambda t: heading_tag_matches(t, start_pat))
-    if not start:
-        return ""
-
-    parts: List[str] = []
-    for node in start.find_all_next():
-        # stop at next heading
-        if getattr(node, "name", None) in ("h2", "h3", "h4") and node is not start:
-            txt = node.get_text(" ", strip=True)
-            if any(p.search(txt) for p in stop_pats):
-                break
-            if txt.startswith("留言"):
-                break
-
-        if getattr(node, "name", None) in ("script", "style"):
-            continue
-
-        txt = node.get_text(" ", strip=True) if hasattr(node, "get_text") else ""
-        txt = normalize_ws(txt)
-        if not txt:
-            continue
-        if txt in STOP_UI_PHRASES:
-            continue
-
-        parts.append(txt)
-        if sum(len(p) for p in parts) >= max_chars:
-            break
-
-    # Deduplicate consecutive repeats
-    cleaned: List[str] = []
-    last = None
-    for t in parts:
-        if t == last:
-            continue
-        cleaned.append(t)
-        last = t
-
-    out = "\n".join(cleaned).strip()
-    for p in STOP_UI_PHRASES:
-        out = out.replace(p, "")
-    return out.strip()
-
-
-def parse_ymd(text: str) -> str:
-    """
-    Convert 'YYYY 年 M 月 D 日' to 'YYYY-MM-DD' if possible.
-    """
-    m = re.search(r"(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", text)
+    if not text:
+        return None
+    m = re.search(r"於\s*(\d{4})\s*年\s*(\d{1,2})\s*月\s*加入", text)
     if not m:
-        return ""
-    y, mo, d = map(int, m.groups())
-    return f"{y:04d}-{mo:02d}-{d:02d}"
+        return None
+    y = int(m.group(1))
+    mo = int(m.group(2))
+    return f"{y:04d}-{mo:02d}-01"
 
 
-def song_id_from_url(song_url: str) -> Optional[str]:
-    m = re.search(r"/songs/(\d+)", song_url)
+def parse_zh_datetime(text: str) -> Optional[str]:
+    """
+    Parse "2021 年 4 月 6 日 17:27" -> "2021-04-06 17:27"
+    """
+    if not text:
+        return None
+    m = re.search(r"(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*(\d{1,2}):(\d{2})", text)
+    if not m:
+        return None
+    y, mo, d, hh, mm = map(int, m.groups())
+    return f"{y:04d}-{mo:02d}-{d:02d} {hh:02d}:{mm:02d}"
+
+
+def parse_release_date(text: str) -> Optional[str]:
+    # Matches "發布時間 2026-01-29"
+    m = re.search(r"發布時間\s*(\d{4}-\d{2}-\d{2})", text)
     return m.group(1) if m else None
 
 
-def parse_song_page(session: requests.Session, song_url: str) -> Dict[str, Any]:
-    raw = fetch_html(session, song_url)
-    soup = soup_of(raw)
-    page_text = soup.get_text("\n", strip=True)
-
-    # --- API first (most reliable for counts + album) ---
-    api = None
-    sid = song_id_from_url(song_url)
-    if sid:
-        api = post_json(session, f"{BASE}/api/v1/public/song/{sid}/", data=b"")
-
-    # Title / artist
-    song_title = ""
-    artist_name = ""
-
-    if isinstance(api, dict):
-        song_title = normalize_ws(str(api.get("name") or ""))
-        user = api.get("user") or {}
-        if isinstance(user, dict):
-            artist_name = normalize_ws(str(user.get("nickname") or user.get("name") or ""))
-    if not song_title:
-        h1 = soup.find("h1")
-        if h1:
-            song_title = h1.get_text(" ", strip=True)
-    if not artist_name:
-        a_artist = soup.find("a", href=re.compile(r"^/[^/]+/?$"))
-        if a_artist:
-            artist_name = a_artist.get_text(" ", strip=True)
-
-    # Genre
-    genre = ""
-    if isinstance(api, dict) and api.get("genre"):
-        genre = normalize_ws(str(api.get("genre")))
-    if not genre:
-        a_genre = soup.find("a", href=re.compile(r"^/music/genres/|^/genres/"))
-        if a_genre:
-            genre = a_genre.get_text(" ", strip=True)
-
-    cover_image_url = pick_og_image(soup)
-
-    # published date
-    published_date = ""
-    if isinstance(api, dict):
-        for k in ("published_at", "released_at", "created_at", "created"):
-            if api.get(k):
-                published_date = parse_ymd(str(api.get(k))) or str(api.get(k))[:10]
-                break
-    if not published_date:
-        m = re.search(r"發布時間\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", page_text)
-        if m:
-            published_date = m.group(1)
-
-    # comments count (your hint: <span id="comment-counts">34</span>)
-    comments_count = None
-    if isinstance(api, dict):
-        comments_count = best_int_candidate(
-            [
-                api.get("comment_count"),
-                api.get("comments_count"),
-                api.get("comment_counts"),
-            ],
-            min_value=0,
-        )
-    if comments_count is None:
-        cc = soup.select_one("#comment-counts")
-        if cc:
-            comments_count = clean_int_from_text(cc.get_text(strip=True))
-    if comments_count is None:
-        m = re.search(r"留言（\s*(\d+)\s*）", page_text)
-        if m:
-            comments_count = int(m.group(1))
-
-    # likes / play (API -> NEXT_DATA -> regex -> visible)
-    likes_count = None
-    play_count = None
-    if isinstance(api, dict):
-        likes_count = best_int_candidate(
-            [
-                api.get("likes_count"),
-                api.get("like_count"),
-                api.get("likes"),
-                api.get("favorite_count"),
-                api.get("favorites_count"),
-                api.get("favourite_count"),
-            ],
-            min_value=0,
-        )
-        play_count = best_int_candidate(
-            [
-                api.get("play_count"),
-                api.get("plays_count"),
-                api.get("plays"),
-                api.get("listen_count"),
-                api.get("played_count"),
-            ],
-            min_value=0,
-        )
-
-    next_data = extract_next_data(raw) or {}
-    if likes_count is None:
-        likes_count = best_int_candidate(
-            deep_find_values(next_data, ["likes_count", "like_count", "likes", "favorite_count", "favorites_count", "favourite_count"]),
-            min_value=0,
-        )
-    if play_count is None:
-        play_count = best_int_candidate(
-            deep_find_values(next_data, ["play_count", "plays_count", "plays", "listen_count", "played_count"]),
-            min_value=0,
-        )
-
-    if likes_count is None:
-        likes_count = regex_int_from_html(raw, [
-            r'"likes_count"\s*:\s*([0-9,]+)',
-            r'"like_count"\s*:\s*([0-9,]+)',
-            r'"favorite_count"\s*:\s*([0-9,]+)',
-            r'"favorites_count"\s*:\s*([0-9,]+)',
-            r'"likes"\s*:\s*([0-9,]+)',
-        ])
-    if play_count is None:
-        play_count = regex_int_from_html(raw, [
-            r'"play_count"\s*:\s*([0-9,]+)',
-            r'"plays_count"\s*:\s*([0-9,]+)',
-            r'"listen_count"\s*:\s*([0-9,]+)',
-            r'"plays"\s*:\s*([0-9,]+)',
-        ])
-
-    # editorial pick / song of the day
-    is_editorial_pick = ("編輯推薦" in page_text)
-    is_song_of_the_day = ("Song of the Day" in page_text) or ("今日歌曲" in page_text) or ("每日歌曲" in page_text)
-
-    # collaborators: ONLY within "合作音樂人" section
-    collaborators: List[str] = []
-    start = soup.find(lambda t: heading_tag_matches(t, re.compile(r"^合作音樂人$")))
-    if start:
-        for node in start.find_all_next():
-            if getattr(node, "name", None) in ("h2", "h3", "h4") and node is not start:
-                break
-            if getattr(node, "name", None) == "a" and node.get("href"):
-                name = node.get_text(" ", strip=True)
-                if name and name not in collaborators:
-                    collaborators.append(name)
-            if len(collaborators) >= 60:
-                break
-    collaborators_text = "; ".join(collaborators)
-
-    # description / lyrics: stop before "留言"
-    description = collect_section_text(
-        soup,
-        start_heading_re=r"^介紹$",
-        stop_heading_res=[r"^歌詞", r"^留言", r"^相信你也會喜歡$"],
-    )
-    lyrics = collect_section_text(
-        soup,
-        start_heading_re=r"^歌詞",
-        stop_heading_res=[r"^留言", r"^相信你也會喜歡$"],
-    )
-
-    # album_title: API -> HTML -> regex -> text fallback
-    album_title = ""
-    if isinstance(api, dict):
-        # common shapes
-        if isinstance(api.get("album"), dict):
-            album_title = normalize_ws(str(api["album"].get("name") or api["album"].get("title") or ""))
-        if not album_title and isinstance(api.get("albums"), list) and api["albums"]:
-            # sometimes it's a list
-            first = api["albums"][0]
-            if isinstance(first, dict):
-                album_title = normalize_ws(str(first.get("name") or first.get("title") or ""))
-        if not album_title and api.get("album_title"):
-            album_title = normalize_ws(str(api.get("album_title")))
-    if not album_title:
-        a_album = soup.select_one('a[href*="/albums/"], a[href*="/album/"]')
-        if a_album:
-            album_title = a_album.get_text(" ", strip=True)
-    if not album_title:
-        for pat in [
-            r'"album_title"\s*:\s*"([^"]{1,200})"',
-            r'"album"\s*:\s*\{[^}]*"name"\s*:\s*"([^"]{1,200})"',
-            r'"album"\s*:\s*\{[^}]*"title"\s*:\s*"([^"]{1,200})"',
-        ]:
-            m = re.search(pat, raw, flags=re.S)
-            if m:
-                album_title = m.group(1).strip()
-                break
-    if not album_title:
-        mm = re.search(r"收錄於(?:專輯)?\s*([^\n]{1,120})", page_text)
-        if mm:
-            album_title = mm.group(1).strip()
-
-    # critic review url: ONLY if "達人推薦" appears on this song page
-    critic_review_url = ""
-    if "達人推薦" in page_text:
-        # Prefer a real link in the block if present
-        a = soup.find("a", href=True, string=re.compile(r"達人推薦"))
-        if a and a.get("href"):
-            critic_review_url = urljoin(BASE, a["href"].strip())
-        else:
-            # last resort: known path (works when the tab exists)
-            critic_review_url = urljoin(song_url if song_url.endswith("/") else song_url + "/", "critic_reviews/")
-
-    return {
-        "song_title": song_title,
-        "artist_name": artist_name,
-        "genre": genre,
-        "cover_image_url": cover_image_url,
-        "published_date": published_date,
-        "likes_count": likes_count,
-        "play_count": play_count,
-        "comments_count": comments_count,
-        "is_editorial_pick": is_editorial_pick,
-        "is_song_of_the_day": is_song_of_the_day,
-        "collaborators": collaborators_text,
-        "description": description,
-        "lyrics": lyrics,
-        "album_title": album_title,
-        "critic_review_url": critic_review_url,
-        "api": api or {},
-        "raw_html": raw,
-    }
+def parse_comments_count(soup: BeautifulSoup) -> Optional[int]:
+    # Preferred: <span id="comment-counts">34</span>
+    span = soup.select_one("#comment-counts")
+    if span and span.get_text(strip=True):
+        v = to_int(span.get_text(strip=True))
+        if v is not None:
+            return v
+    # Fallback: "留言（14）"
+    h2 = soup.find(lambda tag: tag.name in ("h1","h2","h3") and tag.get_text(strip=True).startswith("留言（"))
+    if h2:
+        v = to_int(h2.get_text(strip=True))
+        return v
+    # Another fallback: any text containing "留言（<n>）"
+    txt = soup.get_text("\n", strip=True)
+    m = re.search(r"留言（\s*(\d+)\s*）", txt)
+    return int(m.group(1)) if m else None
 
 
-def parse_artist_page(session: requests.Session, artist_url: str, song_api: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-    raw = fetch_html(session, artist_url)
-    soup = soup_of(raw)
-    page_text = soup.get_text("\n", strip=True)
-
-    artist_name = ""
-    h1 = soup.find("h1")
-    if h1:
-        artist_name = h1.get_text(" ", strip=True)
-
-    # handle + identity line like "@Cliff949・音樂人"
-    artist_handle = ""
-    artist_identity = ""
-    m = re.search(r"(@[A-Za-z0-9_\.]+)\s*・\s*([^\n]{1,30})", page_text)
-    if m:
-        artist_handle = m.group(1).strip()
-        artist_identity = m.group(2).strip()
-
-    # city + joined "新北市・於 2014 年 10 月 加入"
-    artist_city = ""
-    joined_date = ""
-    m = re.search(r"([^\n]{1,30})\s*・於\s*(\d{4})\s*年\s*(\d{1,2})\s*月\s*加入", page_text)
-    if m:
-        artist_city = m.group(1).strip()
-        y, mo = int(m.group(2)), int(m.group(3))
-        joined_date = f"{y:04d}-{mo:02d}-01"
-
-    # accredited datetime data attribute
-    accredited_dt = ""
-    m = re.search(r'data-accredited-datetime="([^"]+)"', raw)
-    if m:
-        s = m.group(1)
-        mm = re.search(r"(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*(\d{1,2}):(\d{2})", s)
-        if mm:
-            y, mo, d, hh, mi = map(int, mm.groups())
-            accredited_dt = f"{y:04d}-{mo:02d}-{d:02d} {hh:02d}:{mi:02d}:00"
-
-    # socials
-    fb = ig = yt = ""
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
-        if not fb and ("facebook.com" in href or "m.facebook.com" in href):
-            fb = href
-        if not ig and "instagram.com" in href:
-            ig = href
-        if not yt and ("youtube.com" in href or "youtu.be" in href):
-            yt = href
-
-    # counts: user fields from song_api -> NEXT_DATA -> regex -> visible labels
-    music = fans = following = None
-
-    if isinstance(song_api, dict):
-        user = song_api.get("user") or {}
-        if isinstance(user, dict):
-            music = best_int_candidate([user.get("music_count"), user.get("songs_count"), user.get("tracks_count")], min_value=0)
-            fans = best_int_candidate([user.get("fans_count"), user.get("followers_count")], min_value=0)
-            following = best_int_candidate([user.get("following_count"), user.get("followings_count")], min_value=0)
-
-    next_data = extract_next_data(raw) or {}
-    if music is None:
-        music = best_int_candidate(deep_find_values(next_data, ["music_count", "songs_count", "tracks_count"]), min_value=0)
-    if fans is None:
-        fans = best_int_candidate(deep_find_values(next_data, ["fans_count", "followers_count"]), min_value=0)
-    if following is None:
-        following = best_int_candidate(deep_find_values(next_data, ["following_count", "followings_count"]), min_value=0)
-
-    if music is None:
-        music = regex_int_from_html(raw, [
-            r'"music_count"\s*:\s*([0-9,]+)',
-            r'"songs_count"\s*:\s*([0-9,]+)',
-            r'"tracks_count"\s*:\s*([0-9,]+)',
-        ])
-    if fans is None:
-        fans = regex_int_from_html(raw, [
-            r'"fans_count"\s*:\s*([0-9,]+)',
-            r'"followers_count"\s*:\s*([0-9,]+)',
-        ])
-    if following is None:
-        following = regex_int_from_html(raw, [
-            r'"following_count"\s*:\s*([0-9,]+)',
-            r'"followings_count"\s*:\s*([0-9,]+)',
-        ])
-
-    def count_after_label(label: str) -> Optional[int]:
-        lines = [ln.strip() for ln in page_text.splitlines() if ln.strip()]
-        for i, ln in enumerate(lines):
-            if ln == label and i + 1 < len(lines):
-                v = clean_int_from_text(lines[i + 1])
-                if v is not None:
-                    return v
+def section_text_by_h2(soup: BeautifulSoup, h2_startswith: str) -> Optional[str]:
+    """
+    Collect text under a section header <h2> that begins with h2_startswith,
+    until next <h2>.
+    """
+    h2 = soup.find("h2", string=lambda s: isinstance(s, str) and s.strip().startswith(h2_startswith))
+    if not h2:
+        # Sometimes it's <h2>歌詞 動態歌詞</h2> (no exact match)
+        h2 = soup.find(lambda tag: tag.name == "h2" and tag.get_text(strip=True).startswith(h2_startswith))
+    if not h2:
         return None
 
-    if music is None:
-        music = count_after_label("音樂")
-    if fans is None:
-        fans = count_after_label("粉絲")
-    if following is None:
-        following = count_after_label("追蹤中")
+    parts: List[str] = []
+    for sib in h2.find_all_next():
+        if sib == h2:
+            continue
+        if getattr(sib, "name", None) == "h2":
+            break
+        # stop before comments area aggressively
+        if getattr(sib, "name", None) in ("h1","h2") and "留言（" in sib.get_text(strip=True):
+            break
+        txt = sib.get_text(" ", strip=True) if hasattr(sib, "get_text") else ""
+        if txt:
+            parts.append(txt)
 
-    return {
-        "artist_name": artist_name,
-        "artist_handle": artist_handle,
-        "artist_identity": artist_identity,
-        "artist_city": artist_city,
-        "artist_joined_date": joined_date,
-        "artist_accredited_datetime": accredited_dt,
-        "artist_music_count": music,
-        "artist_fans_count": fans,
-        "artist_following_count": following,
-        "artist_facebook_url": fb,
-        "artist_instagram_url": ig,
-        "artist_youtube_url": yt,
-        "raw_html": raw,
+    return clean_text("\n".join(parts))
+
+
+def extract_genre(soup: BeautifulSoup) -> Optional[str]:
+    """
+    Your hint:
+      <a href="/music/browse/2/recommend/latest/">Hip hop / Rap</a>
+    We'll match that href pattern and read anchor text.
+    """
+    a = soup.select_one(r'a[href^="/music/browse/"][href$="/recommend/latest/"]')
+    if a:
+        g = a.get_text(strip=True)
+        return g or None
+
+    # Fallback: sometimes the browse link might not be "recommend/latest"
+    a2 = soup.select_one(r'a[href^="/music/browse/"]')
+    if a2:
+        g = a2.get_text(strip=True)
+        return g or None
+
+    return None
+
+
+def extract_album(soup: BeautifulSoup) -> Tuple[Optional[str], Optional[str]]:
+    """
+    Find album info and url if present.
+    Many pages include something like "收錄於專輯" near an <a>.
+    As fallback, look for links that look like album pages.
+    """
+    # Strategy 1: label + next link
+    txt = soup.get_text("\n", strip=True)
+    if "收錄於專輯" in txt or "收錄於" in txt:
+        # look for an anchor near the label in DOM
+        label = soup.find(string=lambda s: isinstance(s, str) and ("收錄於專輯" in s or s.strip() == "收錄於"))
+        if label:
+            # try next anchor
+            parent = label.parent if hasattr(label, "parent") else None
+            if parent:
+                a = parent.find_next("a")
+                if a and a.get("href"):
+                    title = a.get_text(strip=True) or None
+                    return title, absolute_url(a["href"])
+
+    # Strategy 2: any obvious album link patterns
+    for sel in [r'a[href*="/albums/"]', r'a[href*="/album/"]', r'a[href*="/release/"]']:
+        a = soup.select_one(sel)
+        if a and a.get("href"):
+            title = a.get_text(strip=True) or None
+            return title, absolute_url(a["href"])
+
+    return None, None
+
+
+def extract_critic_review_url(soup: BeautifulSoup) -> Optional[str]:
+    """
+    Requirement: only if page contains the literal "達人推薦".
+    If present, take the first link in that section (best effort).
+    """
+    full_text = soup.get_text("\n", strip=True)
+    if "達人推薦" not in full_text:
+        return None
+
+    # Try find a section header containing "達人推薦"
+    header = soup.find(lambda tag: tag.name in ("h2", "h3") and "達人推薦" in tag.get_text(strip=True))
+    if header:
+        a = header.find_next("a")
+        if a and a.get("href"):
+            return absolute_url(a["href"])
+
+    # fallback: any anchor with text containing "達人推薦"
+    a2 = soup.find("a", string=lambda s: isinstance(s, str) and "達人推薦" in s)
+    if a2 and a2.get("href"):
+        return absolute_url(a2["href"])
+
+    return None
+
+
+def extract_accredited_datetime_from_song(soup: BeautifulSoup) -> Optional[str]:
+    """
+    Requirement:
+      <a ... class="js-accredited" data-accredited-datetime="2021 年 4 月 6 日 17:27">
+    """
+    a = soup.select_one("a.js-accredited[data-accredited-datetime]")
+    if not a:
+        return None
+    raw = a.get("data-accredited-datetime")
+    return parse_zh_datetime(raw or "")
+
+
+def extract_editor_flags(soup: BeautifulSoup) -> Tuple[Optional[bool], Optional[bool]]:
+    text = soup.get_text("\n", strip=True)
+    is_editor = "編輯推薦" in text
+    # Some pages may show English or Chinese variants. Best-effort:
+    is_sotd = ("Song of the Day" in text) or ("本日之歌" in text) or ("今日之歌" in text)
+    return is_editor, is_sotd
+
+
+def extract_collaborators(soup: BeautifulSoup) -> Optional[str]:
+    """
+    Only from the "合作音樂人" section.
+    Never include comment area, never include semicolons preceding "最相關留言".
+    """
+    h2 = soup.find("h2", string=lambda s: isinstance(s, str) and s.strip() == "合作音樂人")
+    if not h2:
+        h2 = soup.find(lambda tag: tag.name == "h2" and tag.get_text(strip=True) == "合作音樂人")
+    if not h2:
+        return None
+
+    names: List[str] = []
+    for a in h2.find_all_next("a"):
+        # stop at next section header
+        nxt_h2 = a.find_previous("h2")
+        if nxt_h2 and nxt_h2 != h2:
+            break
+        t = a.get_text(strip=True)
+        if t and t not in names:
+            names.append(t)
+
+    return "、".join(names) if names else None
+
+
+def api_public_song(session: requests.Session, song_id: int, song_url: str) -> Optional[dict]:
+    """
+    Try the public API that youtube-dl/yt-dlp historically used:
+      https://streetvoice.com/api/v1/public/song/<id>/
+    It sometimes returns 403; we do POST then GET with referer set to the song page.
+    """
+    api_url = f"{BASE}/api/v1/public/song/{song_id}/"
+    headers = dict(API_HEADERS)
+    headers["Referer"] = song_url
+
+    for method in ("POST", "GET"):
+        resp = request_with_retries(session, method, api_url, headers=headers, data=(b"" if method == "POST" else None))
+        if not resp:
+            continue
+        if resp.status_code != 200:
+            continue
+        ctype = resp.headers.get("content-type", "")
+        if "json" not in ctype:
+            # sometimes HTML/challenge is returned
+            continue
+        try:
+            return resp.json()
+        except Exception:
+            continue
+    return None
+
+
+def parse_counts_from_api_or_nextdata(song_api: Optional[dict], nextdata: Optional[dict]) -> Tuple[Optional[int], Optional[int]]:
+    """
+    Return (likes_count, play_count).
+    Use fuzzy scanning because key names vary.
+    """
+    likes = None
+    plays = None
+
+    if song_api:
+        likes = (
+            fuzzy_find_int(song_api, include=["like"], exclude=["comment", "reply", "dislike"]) or
+            fuzzy_find_int(song_api, include=["favorite"], exclude=["comment", "reply"]) or
+            fuzzy_find_int(song_api, include=["fav"], exclude=["comment", "reply"])
+        )
+        plays = (
+            fuzzy_find_int(song_api, include=["play"], exclude=["display"]) or
+            fuzzy_find_int(song_api, include=["listen"], exclude=[]) or
+            fuzzy_find_int(song_api, include=["view"], exclude=["review"])
+        )
+
+    if not likes and nextdata:
+        likes = (
+            fuzzy_find_int(nextdata, include=["like"], exclude=["comment", "reply", "dislike"]) or
+            fuzzy_find_int(nextdata, include=["favorite"], exclude=["comment", "reply"])
+        )
+    if not plays and nextdata:
+        plays = (
+            fuzzy_find_int(nextdata, include=["play"], exclude=["display"]) or
+            fuzzy_find_int(nextdata, include=["listen"], exclude=[]) or
+            fuzzy_find_int(nextdata, include=["view"], exclude=["review"])
+        )
+
+    return likes, plays
+
+
+def extract_next_data_json(html: str) -> Optional[dict]:
+    """
+    If StreetVoice is Next.js, sometimes pages contain <script id="__NEXT_DATA__">JSON</script>.
+    We try to parse it if present.
+    """
+    m = re.search(r'<script[^>]+id="__NEXT_DATA__"[^>]*>\s*(\{.*?\})\s*</script>', html, re.S)
+    if not m:
+        return None
+    raw = m.group(1)
+    try:
+        return json.loads(raw)
+    except Exception:
+        return None
+
+
+def playwright_fetch_counts_song(page_text: str) -> Tuple[Optional[int], Optional[int]]:
+    """
+    Parse rendered page text for play/like counts in the *header stats* area.
+    Avoid matching comment likes (e.g. "1 個喜歡") by restricting to content before "發布時間".
+    """
+    head = page_text.split("發布時間", 1)[0]
+    # Plays
+    pm = re.search(r"播放次數\s*([0-9,]+)", head, re.S)
+    plays = int(pm.group(1).replace(",", "")) if pm else None
+
+    # Likes: match the first "喜歡 <number>" near top;
+    # ensure it's not "個喜歡" style in comments by matching immediately after label.
+    lm = re.search(r"\b喜歡\s*([0-9,]+)\b", head, re.S)
+    likes = int(lm.group(1).replace(",", "")) if lm else None
+    return likes, plays
+
+
+def playwright_fetch_counts_artist(page_text: str) -> Tuple[Optional[int], Optional[int], Optional[int]]:
+    """
+    Parse rendered artist page text for 音樂/粉絲/追蹤中 counts.
+    Restrict to header block before navigation tabs ("主頁" / "關於") to avoid noise.
+    """
+    head = page_text.split("主頁", 1)[0]
+    music = to_int(re.search(r"音樂\s*([0-9,]+)", head, re.S).group(1)) if re.search(r"音樂\s*([0-9,]+)", head, re.S) else None
+    fans = to_int(re.search(r"粉絲\s*([0-9,]+)", head, re.S).group(1)) if re.search(r"粉絲\s*([0-9,]+)", head, re.S) else None
+    following = to_int(re.search(r"追蹤中\s*([0-9,]+)", head, re.S).group(1)) if re.search(r"追蹤中\s*([0-9,]+)", head, re.S) else None
+    return music, fans, following
+
+
+def scrape_chart(session: requests.Session, limit: int) -> List[Tuple[int, str, str, str, str]]:
+    """
+    Returns list of (rank, song_title, artist_name, song_url, artist_url)
+    """
+    soup = get_soup(session, CHART_URL)
+    if not soup:
+        raise RuntimeError("Failed to load chart page.")
+
+    items = []
+    # The chart DOM can change; best-effort: collect all song links containing '/songs/<id>/'
+    for a in soup.select('a[href*="/songs/"]'):
+        href = a.get("href")
+        if not href:
+            continue
+        song_url = absolute_url(href)
+        # Find song id
+        m = re.search(r"/songs/(\d+)/", song_url)
+        if not m:
+            continue
+
+        # Try to capture title/artist from nearby text
+        # We'll look at the nearest container (li/div) and pick first 2 lines
+        container = a.find_parent(["li", "div", "tr"]) or a.parent
+        text_lines = []
+        if container:
+            for t in container.stripped_strings:
+                t = str(t).strip()
+                if t:
+                    text_lines.append(t)
+        # Heuristic: within container, song title is usually present
+        song_title = a.get_text(strip=True) or (text_lines[0] if text_lines else "")
+        # Artist might be another link to profile
+        artist_url = ""
+        artist_name = ""
+        if container:
+            artist_a = container.select_one('a[href^="/"][href$="/"]:not([href*="/songs/"])')
+            if artist_a and artist_a.get("href"):
+                artist_url = absolute_url(artist_a["href"])
+                artist_name = artist_a.get_text(strip=True) or ""
+        items.append((0, song_title, artist_name, song_url, artist_url))
+        if len(items) >= limit:
+            break
+
+    # If rank not on page reliably, set rank sequentially.
+    final = []
+    for idx, (r, st, an, su, au) in enumerate(items, start=1):
+        final.append((idx, st, an, su, au))
+    return final
+
+
+def scrape_artist_profile(
+    session: requests.Session,
+    artist_url: str,
+    *,
+    pw_page=None,
+) -> Dict[str, Any]:
+    """
+    Return dict with:
+      handle, identity, city, joined_date, music_count, fans_count, following_count,
+      fb/ig/yt urls, accredited_datetime (from data-accredited-datetime if present on page)
+    """
+    out: Dict[str, Any] = {
+        "artist_handle": None,
+        "artist_identity": None,
+        "artist_city": None,
+        "artist_joined_date": None,
+        "artist_music_count": None,
+        "artist_fans_count": None,
+        "artist_following_count": None,
+        "artist_facebook_url": None,
+        "artist_instagram_url": None,
+        "artist_youtube_url": None,
+        "artist_accredited_datetime": None,
     }
 
+    soup = get_soup(session, artist_url)
+    if not soup:
+        return out
 
-def write_csv(path: str, rows: List[Row]) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    if not rows:
-        return
-    fieldnames = list(asdict(rows[0]).keys())
-    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+    page_text = soup.get_text("\n", strip=True)
+
+    # Handle
+    # Example line: "@Cliff949・音樂人"
+    h5 = soup.find(lambda tag: tag.name in ("h5", "h4") and tag.get_text(strip=True).startswith("@"))
+    if h5:
+        raw = h5.get_text(strip=True)
+        m = re.match(r"(@[^\s・]+)", raw)
+        if m:
+            out["artist_handle"] = m.group(1)
+
+        # Identity is after "・"
+        if "・" in raw:
+            parts = raw.split("・", 1)
+            if len(parts) == 2:
+                out["artist_identity"] = parts[1].strip() or None
+
+    # City + joined date
+    # Example: "新北市・於 2014 年 10 月 加入"
+    h5b = soup.find(lambda tag: tag.name in ("h5", "h4") and "加入" in tag.get_text(strip=True) and "年" in tag.get_text(strip=True))
+    if h5b:
+        raw = h5b.get_text(strip=True)
+        if "・" in raw:
+            city, rest = raw.split("・", 1)
+            out["artist_city"] = city.strip() or None
+            out["artist_joined_date"] = parse_zh_month_joined(rest)
+        else:
+            out["artist_joined_date"] = parse_zh_month_joined(raw)
+
+    # Accredited datetime on artist pages (if any)
+    a_acc = soup.select_one("a.js-accredited[data-accredited-datetime]")
+    if a_acc:
+        out["artist_accredited_datetime"] = parse_zh_datetime(a_acc.get("data-accredited-datetime") or "")
+
+    # Social links: prefer links in header block (they usually appear near follow button)
+    socials = soup.select('a[href*="facebook.com"], a[href*="instagram.com"], a[href*="youtube.com"], a[href*="youtu.be"]')
+    fb = ig = yt = None
+    for a in socials:
+        href = a.get("href")
+        if not href:
+            continue
+        u = href if href.startswith("http") else absolute_url(href)
+        # Skip story URLs etc.
+        if "instagram.com/stories" in u:
+            continue
+        if is_blacklisted_social(u):
+            continue
+        if ("facebook.com" in u or "m.facebook.com" in u) and not fb:
+            fb = u
+        elif ("instagram.com" in u) and not ig:
+            ig = u.split("?")[0]
+        elif ("youtube.com" in u or "youtu.be" in u) and not yt:
+            yt = u.split("?")[0]
+    out["artist_facebook_url"] = fb
+    out["artist_instagram_url"] = ig
+    out["artist_youtube_url"] = yt
+
+    # Counts in SSR HTML appear as 0 when cookie-disabled
+    cookie_disabled = "Cookie 已被禁用" in page_text
+    music = fans = following = None
+
+    # Try parse from SSR (may be 0 placeholder)
+    def stat_after(label: str) -> Optional[int]:
+        # find "#### 音樂" then next text numeric
+        lab = soup.find(lambda tag: tag.name in ("h3","h4","h5","div") and tag.get_text(strip=True) == label)
+        if not lab:
+            return None
+        nxt = lab.find_next(string=True)
+        if not nxt:
+            return None
+        return to_int(str(nxt))
+
+    music0 = stat_after("音樂")
+    fans0 = stat_after("粉絲")
+    following0 = stat_after("追蹤中")
+
+    # If cookie_disabled and these are 0, treat as unknown
+    if not (cookie_disabled and (music0 == 0 or fans0 == 0 or following0 == 0)):
+        music, fans, following = music0, fans0, following0
+
+    # Playwright fallback
+    if (music is None or fans is None or following is None) and pw_page is not None:
+        try:
+            pw_page.goto(artist_url, wait_until="networkidle", timeout=60000)
+            txt = pw_page.locator("body").inner_text()
+            m2, f2, fo2 = playwright_fetch_counts_artist(txt)
+            music = music if music is not None else m2
+            fans = fans if fans is not None else f2
+            following = following if following is not None else fo2
+        except Exception:
+            pass
+
+    out["artist_music_count"] = music
+    out["artist_fans_count"] = fans
+    out["artist_following_count"] = following
+
+    return out
+
+
+def scrape_song_page(
+    session: requests.Session,
+    song_url: str,
+    *,
+    pw_page=None,
+) -> Dict[str, Any]:
+    """
+    Extract song-level fields:
+      likes_count, play_count, genre, description, lyrics, release_date,
+      collaborators, album_title, album_url, comments_count,
+      is_editor_recommended, is_song_of_the_day, critic_review_url,
+      song_accredited_datetime, cover_image_url
+    """
+    out: Dict[str, Any] = {
+        "likes_count": None,
+        "play_count": None,
+        "genre": None,
+        "description": None,
+        "lyrics": None,
+        "release_date": None,
+        "collaborators": None,
+        "album_title": None,
+        "album_url": None,
+        "comments_count": None,
+        "is_editor_recommended": None,
+        "is_song_of_the_day": None,
+        "critic_review_url": None,
+        "song_accredited_datetime": None,
+        "cover_image_url": None,
+    }
+
+    html = get_html(session, song_url)
+    if not html:
+        return out
+    soup = BeautifulSoup(html, "lxml")
+
+    page_text = soup.get_text("\n", strip=True)
+    cookie_disabled = "Cookie 已被禁用" in page_text
+
+    # Cover image
+    og = soup.select_one('meta[property="og:image"]')
+    if og and og.get("content"):
+        out["cover_image_url"] = og["content"]
+
+    # Comments count
+    out["comments_count"] = parse_comments_count(soup)
+
+    # Release date
+    out["release_date"] = parse_release_date(page_text)
+
+    # Genre
+    out["genre"] = extract_genre(soup)
+
+    # Description / Lyrics
+    out["description"] = section_text_by_h2(soup, "介紹")
+    out["lyrics"] = section_text_by_h2(soup, "歌詞")
+
+    # Collaborators
+    out["collaborators"] = extract_collaborators(soup)
+
+    # Album
+    at, au = extract_album(soup)
+    out["album_title"] = at
+    out["album_url"] = au
+
+    # Flags
+    ed, sotd = extract_editor_flags(soup)
+    out["is_editor_recommended"] = ed
+    out["is_song_of_the_day"] = sotd
+
+    # Critic review
+    out["critic_review_url"] = extract_critic_review_url(soup)
+
+    # Accredited datetime
+    out["song_accredited_datetime"] = extract_accredited_datetime_from_song(soup)
+
+    # Likes / plays:
+    # 1) Try to parse from API
+    m = re.search(r"/songs/(\d+)/", song_url)
+    song_id = int(m.group(1)) if m else None
+
+    nextdata = extract_next_data_json(html)
+
+    likes = plays = None
+    song_api = None
+    if song_id is not None:
+        song_api = api_public_song(session, song_id, song_url)
+
+    likes, plays = parse_counts_from_api_or_nextdata(song_api, nextdata)
+
+    # 2) SSR HTML stats often show "0" when cookie-disabled; treat as unknown.
+    if (likes is None or plays is None) and not cookie_disabled:
+        # Try SSR extraction (only if not cookie_disabled)
+        # Find blocks like "播放次數" then the next numeric
+        def stat_after_label(label: str) -> Optional[int]:
+            lab = soup.find(string=lambda s: isinstance(s, str) and s.strip() == label)
+            if not lab:
+                # sometimes inside headings
+                lab = soup.find(lambda tag: tag.name in ("h4","h5","div") and tag.get_text(strip=True) == label)
+            if not lab:
+                return None
+            nxt = lab.parent.find_next(string=True) if hasattr(lab, "parent") else None
+            return to_int(str(nxt)) if nxt else None
+
+        plays0 = stat_after_label("播放次數")
+        likes0 = stat_after_label("喜歡")
+        # If values are 0, still consider possibly placeholder; keep only if >0
+        if plays0 and plays0 > 0:
+            plays = plays0
+        if likes0 and likes0 > 0:
+            likes = likes0
+
+    # 3) Playwright fallback (recommended) to execute JS and read the true counts.
+    if (likes is None or plays is None) and pw_page is not None:
+        try:
+            pw_page.goto(song_url, wait_until="networkidle", timeout=60000)
+            txt = pw_page.locator("body").inner_text()
+            l2, p2 = playwright_fetch_counts_song(txt)
+            likes = likes if likes is not None else l2
+            plays = plays if plays is not None else p2
+        except Exception:
+            pass
+
+    out["likes_count"] = likes
+    out["play_count"] = plays
+
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out-dir", default="data", help="Output directory for CSV files")
+    ap.add_argument("--limit", type=int, default=50, help="How many chart items to scrape")
+    args = ap.parse_args()
+
+    ensure_dir(args.out_dir)
+
+    session = requests.Session()
+    session.headers.update(HTML_HEADERS)
+
+    snapshot_time = now_taipei_iso()
+
+    chart_items = scrape_chart(session, limit=args.limit)
+
+    # Optional Playwright context (reuse one page for performance)
+    pw = None
+    browser = None
+    page = None
+    if HAVE_PLAYWRIGHT:
+        try:
+            pw = sync_playwright().start()
+            browser = pw.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.set_extra_http_headers({"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7"})
+        except Exception:
+            page = None
+
+    rows: List[Row] = []
+
+    for rank, song_title, artist_name, song_url, artist_url in chart_items:
+        # Song page extraction
+        song_extra = scrape_song_page(session, song_url, pw_page=page)
+
+        # Artist page extraction
+        artist_extra = {}
+        if artist_url:
+            artist_extra = scrape_artist_profile(session, artist_url, pw_page=page)
+        else:
+            artist_extra = {
+                "artist_handle": None,
+                "artist_identity": None,
+                "artist_city": None,
+                "artist_joined_date": None,
+                "artist_music_count": None,
+                "artist_fans_count": None,
+                "artist_following_count": None,
+                "artist_facebook_url": None,
+                "artist_instagram_url": None,
+                "artist_youtube_url": None,
+                "artist_accredited_datetime": None,
+            }
+
+        row = Row(
+            snapshot_time=snapshot_time,
+            rank=rank,
+            song_title=song_title,
+            artist_name=artist_name,
+            likes_count=song_extra.get("likes_count"),
+            song_url=song_url,
+            artist_url=artist_url,
+            cover_image_url=song_extra.get("cover_image_url"),
+            artist_handle=artist_extra.get("artist_handle"),
+            artist_identity=artist_extra.get("artist_identity"),
+            artist_city=artist_extra.get("artist_city"),
+            artist_joined_date=artist_extra.get("artist_joined_date"),
+            artist_music_count=artist_extra.get("artist_music_count"),
+            artist_fans_count=artist_extra.get("artist_fans_count"),
+            artist_following_count=artist_extra.get("artist_following_count"),
+            artist_facebook_url=artist_extra.get("artist_facebook_url"),
+            artist_instagram_url=artist_extra.get("artist_instagram_url"),
+            artist_youtube_url=artist_extra.get("artist_youtube_url"),
+            artist_accredited_datetime=artist_extra.get("artist_accredited_datetime"),
+            play_count=song_extra.get("play_count"),
+            genre=song_extra.get("genre"),
+            description=song_extra.get("description"),
+            lyrics=song_extra.get("lyrics"),
+            release_date=song_extra.get("release_date"),
+            collaborators=song_extra.get("collaborators"),
+            album_title=song_extra.get("album_title"),
+            album_url=song_extra.get("album_url"),
+            comments_count=song_extra.get("comments_count"),
+            is_editor_recommended=song_extra.get("is_editor_recommended"),
+            is_song_of_the_day=song_extra.get("is_song_of_the_day"),
+            critic_review_url=song_extra.get("critic_review_url"),
+            song_accredited_datetime=song_extra.get("song_accredited_datetime"),
+        )
+
+        rows.append(row)
+
+    if browser:
+        try:
+            browser.close()
+        except Exception:
+            pass
+    if pw:
+        try:
+            pw.stop()
+        except Exception:
+            pass
+
+    out_file = os.path.join(args.out_dir, f"streetvoice_realtime_all_{filename_ts()}.csv")
+    fieldnames = list(asdict(rows[0]).keys()) if rows else [f.name for f in Row.__dataclass_fields__.values()]  # type: ignore
+
+    with open(out_file, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         for r in rows:
-            w.writerow(asdict(r))
+            d = asdict(r)
+            # Normalize empty strings to None
+            for k, v in list(d.items()):
+                if isinstance(v, str):
+                    d[k] = clean_text(v)
+            w.writerow(d)
 
-
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out-dir", default="data")
-    ap.add_argument("--limit", type=int, default=50)
-    ap.add_argument("--sleep", type=float, default=0.5)
-    ap.add_argument("--write-latest", action="store_true", help="also write/overwrite streetvoice_realtime_all_latest.csv")
-    args = ap.parse_args()
-
-    dt = tz_now_taipei()
-    scraped_at = fmt_scraped_at(dt)
-    out_name = f"streetvoice_realtime_all_{dt:%Y-%m-%d_%H%M}.csv"
-    out_path = os.path.join(args.out_dir, out_name)
-
-    session = requests.Session()
-
-    chart_html = fetch_html(session, CHART_URL)
-    chart_items = parse_chart_items(chart_html, limit=args.limit)
-
-    rows: List[Row] = []
-    for rank, song_url, artist_url in chart_items:
-        try:
-            song = parse_song_page(session, song_url)
-            time.sleep(args.sleep)
-
-            artist = parse_artist_page(session, artist_url, song_api=song.get("api") or {})
-            time.sleep(args.sleep)
-
-            artist_name = normalize_ws(artist.get("artist_name") or song.get("artist_name") or "")
-            song_title = normalize_ws(song.get("song_title") or "")
-
-            row = Row(
-                scraped_at=scraped_at,
-                rank=rank,
-                artist_name=artist_name,
-                song_title=song_title,
-                likes_count=song.get("likes_count"),
-                play_count=song.get("play_count"),
-                comments_count=song.get("comments_count"),
-                song_url=song_url,
-                artist_url=artist_url,
-                cover_image_url=song.get("cover_image_url") or "",
-                artist_handle=artist.get("artist_handle") or "",
-                artist_identity=artist.get("artist_identity") or "",
-                artist_city=artist.get("artist_city") or "",
-                artist_joined_date=artist.get("artist_joined_date") or "",
-                artist_accredited_datetime=artist.get("artist_accredited_datetime") or "",
-                artist_music_count=artist.get("artist_music_count"),
-                artist_fans_count=artist.get("artist_fans_count"),
-                artist_following_count=artist.get("artist_following_count"),
-                artist_facebook_url=artist.get("artist_facebook_url") or "",
-                artist_instagram_url=artist.get("artist_instagram_url") or "",
-                artist_youtube_url=artist.get("artist_youtube_url") or "",
-                genre=normalize_ws(song.get("genre") or ""),
-                album_title=normalize_ws(song.get("album_title") or ""),
-                collaborators=normalize_ws(song.get("collaborators") or ""),
-                description=song.get("description") or "",
-                lyrics=song.get("lyrics") or "",
-                published_date=song.get("published_date") or "",
-                is_editorial_pick=bool(song.get("is_editorial_pick")),
-                is_song_of_the_day=bool(song.get("is_song_of_the_day")),
-                critic_review_url=song.get("critic_review_url") or "",
-            )
-            rows.append(row)
-        except Exception as e:
-            print(f"[WARN] rank={rank} url={song_url} failed: {e}")
-
-    write_csv(out_path, rows)
-    print(f"[OK] wrote {len(rows)} rows -> {out_path}")
-
-    if args.write_latest:
-        latest_path = os.path.join(args.out_dir, "streetvoice_realtime_all_latest.csv")
-        write_csv(latest_path, rows)
-        print(f"[OK] wrote latest -> {latest_path}")
+    print(f"Wrote {len(rows)} rows -> {out_file}")
+    print("NOTE: For accurate counts, ensure Playwright is installed and chromium is available.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
+'''
+requirements = """requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+playwright>=1.40.0
+"""
+workflow = """name: StreetVoice Realtime Chart (hourly)
+
+on:
+  schedule:
+    - cron: "5 * * * *"  # every hour at minute 05 (UTC). This is 13:05 Asia/Taipei.
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: |
+          python streetvoice_realtime_scraper.py --out-dir data --limit 50
+
+      - name: Commit CSV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv
+          git commit -m "Add StreetVoice realtime CSV" || echo "No changes to commit"
+          git push
+
+      - name: Upload artifact (easy download)
+        uses: actions/upload-artifact@v4
+        with:
+          name: streetvoice-realtime-csv
+          path: data/*.csv
+"""
+
+script_path.write_text(script, encoding="utf-8")
+req_path.write_text(requirements, encoding="utf-8")
+workflow_path.write_text(workflow, encoding="utf-8")
+(str(script_path), str(req_path), str(workflow_path))
+
