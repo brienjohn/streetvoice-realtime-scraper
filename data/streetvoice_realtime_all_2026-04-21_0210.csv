@@ -1,0 +1,662 @@
+﻿snapshot_time,rank,artist_name,song_title,likes_count,play_count,comments_count,song_url,artist_url,cover_image_url,artist_handle,artist_identity,artist_city,artist_joined_date,artist_accredited_datetime,artist_music_count,artist_fans_count,artist_following_count,artist_facebook_url,artist_instagram_url,artist_youtube_url,genre,album_title,album_url,collaborators,description,lyrics,release_date,song_accredited_datetime,is_editor_recommended,is_song_of_the_day,critic_review_url
+2026-04-21 02:07:02,1,,,54,2411,18,https://streetvoice.com/lily_linglan/songs/852871/,https://streetvoice.com/lily_linglan/,"https://akstatic.streetvoice.com/song_covers/li/ly/lily_linglan/KxzSWUfEBwBHThLjoa4KhU.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbGkvbHkvbGlseV9saW5nbGFuL0t4elNXVWZFQndCSFRoTGpvYTRLaFUuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@lily_linglan,音樂人,新北市,2023-06-01,2023-06-19 15:36,5,3772,1,https://www.facebook.com/profile.php?id=100085132184829,https://www.instagram.com/linglan_lily/,https://www.youtube.com/channel/UC3ZTQ8VZVCpwLHjFKSFe5Uw,Pop,,,,"MV： https://youtu.be/8HZky4WBjuI 全數位平台連結： https://bfan.link/lilylinglan003 「開吧開吧，種下的花。 明年一定會長大。　　」 至於所有的其他， 讓它在來年的花季裡， 溫柔淡化。 ⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝ 製作人 Producer｜盧鈞右 Neon Lu 配唱製作人 Vocal Producer｜森森鈴蘭 Lily Linglan 編曲 Arranger｜林郡彥 Giu 主唱 Vocal｜森森鈴蘭 Lily Linglan 電吉他 E.Guitar｜林郡彥 Giu 木吉他 Acoustic Guitar｜林郡彥 Giu 鋼琴 Piano｜林郡彥 Giu 和聲編寫 Backing Vocals Arranger｜森森鈴蘭 Lily Linglan 和聲演唱 Backing Vocals｜森森鈴蘭 Lily Linglan 人聲錄音室 Recording Studio｜烘嗓音樂製作 Home Sound Studio 錄音工程師 Recording Engineer｜鍾承沂 Zhong Cheng Yi 混音工程師 Mixing Engineer｜李小天 TeddyRsLi 母帶預約經理 Mastering Booking Manager｜Akemi Gotoh @Sony Music Studios Tokyo 母帶後期處理工程師 Mastering｜Yuji Chinone @Sony Music Studios Tokyo 母帶後期處理錄音室 Mastering Studio｜Sony Music Studios Tokyo 製作統籌 Executive Producer｜李小天 TeddyRsLi、菜菜 YongNi 企宣統籌 Marketing Promotion Supervisor｜李小天 TeddyRsLi、菜菜 YongNi 企劃統籌 Marketing Supervisor｜李小天 TeddyRsLi、菜菜 YongNi 製片 Producer｜花花們 動畫導演 Motion Director｜舞苡 WUYi. 美術設計 Album Design｜九品 服裝設計 Clothing Design｜九品 動畫設計 Animation｜りんう 角色動畫師 Character Animator｜阿哲 製作公司 Production｜箱箱 The Box、烘嗓音樂製作 Home Sound Studio ⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝ 🐺Twitter： https://twitter.com/linglanthebox 🐺Facebook： https://reurl.cc/rR96lO 🐺Instagram： https://www.instagram.com/linglan_lily/ 🐺二次創作規範： https://reurl.cc/kOOQYq 🐺箱箱專屬Discord： https://discord.gg/theboxdc 🐺合作聯絡信箱：theboxvtuber@gmail.com 
+MV： https://youtu.be/8HZky4WBjuI
+https://youtu.be/8HZky4WBjuI
+全數位平台連結： https://bfan.link/lilylinglan003
+https://bfan.link/lilylinglan003
+「開吧開吧，種下的花。 明年一定會長大。　　」
+至於所有的其他， 讓它在來年的花季裡，
+溫柔淡化。
+⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝
+製作人 Producer｜盧鈞右 Neon Lu 配唱製作人 Vocal Producer｜森森鈴蘭 Lily Linglan 編曲 Arranger｜林郡彥 Giu 主唱 Vocal｜森森鈴蘭 Lily Linglan
+電吉他 E.Guitar｜林郡彥 Giu 木吉他 Acoustic Guitar｜林郡彥 Giu 鋼琴 Piano｜林郡彥 Giu
+和聲編寫 Backing Vocals Arranger｜森森鈴蘭 Lily Linglan 和聲演唱 Backing Vocals｜森森鈴蘭 Lily Linglan
+人聲錄音室 Recording Studio｜烘嗓音樂製作 Home Sound Studio 錄音工程師 Recording Engineer｜鍾承沂 Zhong Cheng Yi 混音工程師 Mixing Engineer｜李小天 TeddyRsLi 母帶預約經理 Mastering Booking Manager｜Akemi Gotoh @Sony Music Studios Tokyo 母帶後期處理工程師 Mastering｜Yuji Chinone @Sony Music Studios Tokyo 母帶後期處理錄音室 Mastering Studio｜Sony Music Studios Tokyo
+製作統籌 Executive Producer｜李小天 TeddyRsLi、菜菜 YongNi 企宣統籌 Marketing Promotion Supervisor｜李小天 TeddyRsLi、菜菜 YongNi 企劃統籌 Marketing Supervisor｜李小天 TeddyRsLi、菜菜 YongNi
+製片 Producer｜花花們 動畫導演 Motion Director｜舞苡 WUYi. 美術設計 Album Design｜九品 服裝設計 Clothing Design｜九品 動畫設計 Animation｜りんう 角色動畫師 Character Animator｜阿哲
+製作公司 Production｜箱箱 The Box、烘嗓音樂製作 Home Sound Studio
+⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝✦⚝
+🐺Twitter： https://twitter.com/linglanthebox 🐺Facebook： https://reurl.cc/rR96lO 🐺Instagram： https://www.instagram.com/linglan_lily/ 🐺二次創作規範： https://reurl.cc/kOOQYq 🐺箱箱專屬Discord： https://discord.gg/theboxdc 🐺合作聯絡信箱：theboxvtuber@gmail.com
+https://twitter.com/linglanthebox
+https://reurl.cc/rR96lO
+https://www.instagram.com/linglan_lily/
+https://reurl.cc/kOOQYq
+https://discord.gg/theboxdc","《有一天會盛開的花》 詞：森森鈴蘭 曲：森森鈴蘭／瑪格麗特．諾爾絲／盧鈞右／李小天 啦啦啦啦 種下的花 明年一定會長大 今天你過得好嗎 翻開全新的篇章 將童年遺忘 是斷了線的風箏 承諾的重量 隨風飄盪 開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打 答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花 說再多愛我的話 但是背地裡卻 咒罵 失控 喧嘩 可是愛太複雜 想過很多原因 還捨不得放下 開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打 答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花 開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打 答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花 
+《有一天會盛開的花》 詞：森森鈴蘭 曲：森森鈴蘭／瑪格麗特．諾爾絲／盧鈞右／李小天
+啦啦啦啦 種下的花 明年一定會長大
+今天你過得好嗎 翻開全新的篇章 將童年遺忘
+是斷了線的風箏 承諾的重量 隨風飄盪
+開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打
+答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花
+說再多愛我的話 但是背地裡卻 咒罵 失控 喧嘩
+可是愛太複雜 想過很多原因 還捨不得放下
+開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打
+答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花
+開吧開吧 種下的花 明年一定會長大 一個轉眼我又忘啦 是誰在爭吵 誰在敲打
+答拉答拉 暗中許下 幼稚的願望 總有一天會盛開的花
+留言（ 18 ） 最相關留言 所有留言
+留言（ 18 ）",2026-04-20,,True,False,
+2026-04-21 02:07:02,2,,,24,952,13,https://streetvoice.com/aiden_chen_/songs/852382/,https://streetvoice.com/aiden_chen_/,"https://akstatic.streetvoice.com/song_covers/ai/de/aiden_chen_/VXRfxy7UeJ8rqPZpizu6r8.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYWkvZGUvYWlkZW5fY2hlbl8vVlhSZnh5N1VlSjhycVBacGl6dTZyOC5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@aiden_chen_,音樂人,,,2026-04-10 10:26,,,,,https://www.instagram.com/aiden_chen_/,https://www.youtube.com/user/StreetVoiceTV,Alternative,,,,"我答應你。 作曲 Composed by： Aiden Chen 作詞 Lyrics by： Aiden Chen 製作人 Produced by： 陳翰 Chen Han、Aiden Chen 編曲 Music Arranged by： Aiden Chen 混音 Mixed by： Aiden Chen 母帶後期 Mastered by：陳翰 Chen Han 音樂工作室：U&I Studio 你我音樂工作室 
+我答應你。
+作曲 Composed by： Aiden Chen 作詞 Lyrics by： Aiden Chen 製作人 Produced by： 陳翰 Chen Han、Aiden Chen 編曲 Music Arranged by： Aiden Chen 混音 Mixed by： Aiden Chen 母帶後期 Mastered by：陳翰 Chen Han 音樂工作室：U&I Studio 你我音樂工作室","動態歌詞
+You stare at my face Never mind Stuck in my head 幸福美滿 你敢會看無 轉來的路 閣貼佇貨櫃 彩色的廣告 這个世界 啥人知影你的苦 放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好） 無啥智慧 無啥志氣 實在不應該 無啥趣味 無啥秘密 孤單囥心內 If you need me now I’ll come around 見面當做已經無以後 Hate me Hate me Hate me Oh, you can hate me 放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好） 你是 我的快樂 喔 放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好） 
+You stare at my face Never mind Stuck in my head 幸福美滿
+你敢會看無 轉來的路 閣貼佇貨櫃 彩色的廣告 這个世界 啥人知影你的苦
+放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好）
+無啥智慧 無啥志氣 實在不應該 無啥趣味 無啥秘密 孤單囥心內
+If you need me now I’ll come around 見面當做已經無以後 Hate me Hate me Hate me Oh, you can hate me
+放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好）
+你是 我的快樂 喔
+放袂記一片海 放袂記當初的理想 （理想 理想） 向望你會了解 你是阮心肝的快樂 （快樂 快樂） 我答應你我改 我以後袂反起反倒 （反起 反倒） 記持暗坎無奈 你轉來阮身邊好無 （敢好 敢好）
+留言（ 13 ） 最相關留言 所有留言
+留言（ 13 ）",2026-04-07,,True,True,
+2026-04-21 02:07:02,3,,,71,6621,7,https://streetvoice.com/mintgreenmill/songs/851816/,https://streetvoice.com/mintgreenmill/,"https://akstatic.streetvoice.com/song_covers/mi/nt/mintgreenmill/3uezX68wWtGDkExxCSLSpB.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbWkvbnQvbWludGdyZWVubWlsbC8zdWV6WDY4d1d0R0RrRXh4Q1NMU3BCLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@mintgreenmill,音樂人,高雄市,2015-02-01,2021-11-02 15:12,3,259,1,https://www.facebook.com/MGMBAND,https://www.instagram.com/mintgreenmill/,https://www.youtube.com/channel/UCnbbuGK1DGcY9gbj2b-TLrQ,Pop,,,趙廣絜 KJ,"📣 薄荷綠工廠2026《Stay or Go》全新發行巡迴售票網頁： https://www.indievox.com/tour/search/386 「在每一個岔路口，我們都曾問過自己：Stay or Go？」 有人決定離開，有人留在原地，把日子慢慢過成自己的形狀。牆上的明信片、一次次送別的背影，在時間裡慢慢泛黃，成為提醒著我們曾經站在同一個路口的記號。 當我們問自己：如果重新站在那個路口，我會做出更好的選擇嗎？ 〈Stay or Go〉不急著給答案，而是在矛盾與不確定之中，讓時間帶著我們繼續前行。世界的輪子不停轉動，無論選擇留下或離開，都是與自己並肩的最好決定。 
+📣 薄荷綠工廠2026《Stay or Go》全新發行巡迴售票網頁： https://www.indievox.com/tour/search/386
+https://www.indievox.com/tour/search/386
+「在每一個岔路口，我們都曾問過自己：Stay or Go？」
+有人決定離開，有人留在原地，把日子慢慢過成自己的形狀。牆上的明信片、一次次送別的背影，在時間裡慢慢泛黃，成為提醒著我們曾經站在同一個路口的記號。
+當我們問自己：如果重新站在那個路口，我會做出更好的選擇嗎？
+〈Stay or Go〉不急著給答案，而是在矛盾與不確定之中，讓時間帶著我們繼續前行。世界的輪子不停轉動，無論選擇留下或離開，都是與自己並肩的最好決定。","動態歌詞
+Stay or Go Stay or Go Stay or Go Stay or Go 喔 這是第幾次 我送你離開 你搭上一趟單程的航班 偶爾羨慕你的勇敢 但我想過 要留在這裡也不簡單 Stay or go Stay or go Stay or go 牆上你寄的明信片 泛黃了上面也有點灰 這很美 you should come some day 但我卻在這邊 我還在這邊 我問自己 在那個岔路口 我還能做什麼 更好的選擇 我解不開心中的疑問 沒有誰一直都在 你會有你的舞台 我數著我的節拍 No matter you stay, stay or go 不停轉動的輪胎 自己和自己比賽 世界它繼續循環 No matter you stay, stay or go stay or go stay or go No matter you stay, stay or go stay or go stay or go 
+Stay or Go Stay or Go Stay or Go Stay or Go 喔 這是第幾次 我送你離開 你搭上一趟單程的航班 偶爾羨慕你的勇敢 但我想過 要留在這裡也不簡單 Stay or go Stay or go Stay or go 牆上你寄的明信片 泛黃了上面也有點灰 這很美 you should come some day 但我卻在這邊 我還在這邊 我問自己 在那個岔路口 我還能做什麼 更好的選擇 我解不開心中的疑問 沒有誰一直都在 你會有你的舞台 我數著我的節拍 No matter you stay, stay or go 不停轉動的輪胎 自己和自己比賽 世界它繼續循環 No matter you stay, stay or go stay or go stay or go No matter you stay, stay or go stay or go stay or go
+留言（ 7 ） 最相關留言 所有留言
+留言（ 7 ）",2026-04-01,,True,True,https://streetvoice.com/mintgreenmill/songs/851816/critic_reviews/
+2026-04-21 02:07:02,4,,,14,406,4,https://streetvoice.com/ControlT/songs/853939/,https://streetvoice.com/ControlT/,"https://akstatic.streetvoice.com/song_covers/Co/nt/ControlT/ZGctMhj6AQj26XRYsRCeSD.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvQ28vbnQvQ29udHJvbFQvWkdjdE1oajZBUWoyNlhSWXNSQ2VTRC5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@ControlT,音樂人,,,2021-09-27 15:35,16,8729,13,https://www.facebook.com/controltband/,https://instagram.com/controltband,https://youtube.com/c/ControlTband,Pop,,,,"總以為時間會稀釋那些， 逐漸不合時宜的友情、 彼此辜負又錯過的愛情、 錯付又難以和解的童年⋯⋯ 但它們其實從未離開過， 總在進行的日子裡， 被微不足道的天氣、氣味、 似曾相識的場景挑起， 一次又一次回放。 後來， 我們才終於驕傲、勇敢地， 在夜深人靜的時候承認， 我們放不下的， 是感性而珍貴的自己。 — 製作人 Producer | Control T 作詞人 Lyricist |  李妮蓁 Nichen Lee 作曲人 Composer | 黃正嘉 Zheng Jia Huang 編曲 Music Arranger | 陳信伯 Hsinpo Chen /Control T/韋仲恩 Zhong En Wei 合聲編寫 Backing Vocal Arranger | 李妮蓁 Nichen Lee/黃正嘉 Zheng Jia Huang 人聲編輯 Vocal Editing | 韋仲恩 Zhong En Wei 主唱 Lead Vocalist | 李妮蓁 Nichen Lee/黃正嘉 Zheng Jia Huang/邱建豪 Kidding Chiu 合成器 Synthesizer | 韋仲恩 Zhong En Wei 電吉他 Electric Guitar |黃正嘉 Zheng Jia Huang 木吉他 Acoustic Guitar | 黃正嘉 Zheng Jia Huang 鋼琴 Piano | 韋仲恩 Zhong En Wei 貝斯 Bass | 韋仲恩 Zhong En Wei 錄音師 Recording Engineer | 韋仲恩 Zhong En Wei /黃渝傑 UJay Huang 混音師 Mixing Engineer |  黃渝傑 UJay Huang 母帶後期工程師 Mastering Engineer | 黃渝傑 UJay Huang 錄音室 Recording Studio | One Stroke Studio #ControlT#雞丁Kidding#過去不曾過去#Single#Past#Taiwanmusic#Music 
+總以為時間會稀釋那些， 逐漸不合時宜的友情、 彼此辜負又錯過的愛情、 錯付又難以和解的童年⋯⋯
+但它們其實從未離開過， 總在進行的日子裡， 被微不足道的天氣、氣味、 似曾相識的場景挑起， 一次又一次回放。
+後來， 我們才終於驕傲、勇敢地， 在夜深人靜的時候承認， 我們放不下的， 是感性而珍貴的自己。 —
+製作人 Producer | Control T 作詞人 Lyricist |  李妮蓁 Nichen Lee 作曲人 Composer | 黃正嘉 Zheng Jia Huang 編曲 Music Arranger | 陳信伯 Hsinpo Chen /Control T/韋仲恩 Zhong En Wei 合聲編寫 Backing Vocal Arranger | 李妮蓁 Nichen Lee/黃正嘉 Zheng Jia Huang 人聲編輯 Vocal Editing | 韋仲恩 Zhong En Wei 主唱 Lead Vocalist | 李妮蓁 Nichen Lee/黃正嘉 Zheng Jia Huang/邱建豪 Kidding Chiu 合成器 Synthesizer | 韋仲恩 Zhong En Wei 電吉他 Electric Guitar |黃正嘉 Zheng Jia Huang 木吉他 Acoustic Guitar | 黃正嘉 Zheng Jia Huang 鋼琴 Piano | 韋仲恩 Zhong En Wei 貝斯 Bass | 韋仲恩 Zhong En Wei
+錄音師 Recording Engineer | 韋仲恩 Zhong En Wei /黃渝傑 UJay Huang 混音師 Mixing Engineer |  黃渝傑 UJay Huang 母帶後期工程師 Mastering Engineer | 黃渝傑 UJay Huang 錄音室 Recording Studio | One Stroke Studio
+#ControlT#雞丁Kidding#過去不曾過去#Single#Past#Taiwanmusic#Music","大雨過後的冷清 和我們分岔的顯影 在這一晚 隔著蒼白的盡是嘆息 裝作沒反應 無人問起的情緒 換某人安心的睡去 不再去想 要錯過的會有多可惜 當作沒關係 那個他　轉身就離去 原諒我來不及 護送你前進 那個我　埋藏的記憶 不再被隨意提及 仍待在原地 過去不曾　能真讓它過去 莫名不捨　說真的別在意 已到了某個年紀 學會了世俗的判定 懂得逞強　懂得體諒 但誰能懂我 心底的感性 在那談愛的年紀 又能和誰稱兄道弟 時間一晃 多少成光陰永成話題 不等誰釐清 那個他　轉身就離去 原諒我來不及 護送你前進 那個我　埋藏的記憶 不再被隨意提及 仍待在原地 過去不曾　能真讓它過去 莫名不捨　說真的別忘記 我有理想過的 我有追尋過的 
+大雨過後的冷清 和我們分岔的顯影 在這一晚 隔著蒼白的盡是嘆息 裝作沒反應
+無人問起的情緒 換某人安心的睡去 不再去想 要錯過的會有多可惜 當作沒關係
+那個他　轉身就離去 原諒我來不及 護送你前進 那個我　埋藏的記憶 不再被隨意提及 仍待在原地 過去不曾　能真讓它過去 莫名不捨　說真的別在意
+已到了某個年紀 學會了世俗的判定 懂得逞強　懂得體諒 但誰能懂我 心底的感性
+在那談愛的年紀 又能和誰稱兄道弟 時間一晃 多少成光陰永成話題 不等誰釐清
+那個他　轉身就離去 原諒我來不及 護送你前進 那個我　埋藏的記憶 不再被隨意提及 仍待在原地
+過去不曾　能真讓它過去 莫名不捨　說真的別忘記
+我有理想過的 我有追尋過的
+留言（ 4 ） 最相關留言 所有留言
+留言（ 4 ）",2026-04-17,,True,False,
+2026-04-21 02:07:02,5,,,210,18082,27,https://streetvoice.com/atlantixgemini0605/songs/852786/,https://streetvoice.com/atlantixgemini0605/,"https://akstatic.streetvoice.com/song_covers/at/la/atlantixgemini0605/AR66qjJZ5UTkgbAc87rEn3.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYXQvbGEvYXRsYW50aXhnZW1pbmkwNjA1L0FSNjZxakpaNVVUa2diQWM4N3JFbjMuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@atlantixgemini0605,音樂人,台北市,2022-01-01,2022-07-12 11:30,5,3709,1,,https://instagram.com/atlantix__official,https://youtube.com/channel/UCcExTmyJ-mVp_GV0XNwHm7Q,Hip hop / Rap,,,,,"AK - 如果台北下了雪 如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say Toss my ball like Brady 等不到你的回應 轉移注意力對應 少了有你在的回憶 造個space ship 到每個宇宙裡找你 像你最愛的電影 遊遍了星際 只為了見妳 I’ll never skrr on ya Try my best to work on you brr brr brr put a bullet on me 還是沒有遮擋住 你的身影還在我的眼裡 像是被踏過的陷阱 Shoulda never miss you baby Can’t say never miss you baby 不要教我怎麼say goodbye Cuz I miss the way you Say goodnight 叫你男友小心點 不是我太小心眼 如果讓我咬緊點 可能僥倖點 就能make that girl mine again 如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say 好久沒有感覺到害羞 不知道你最近是否比較好過 心裡小鹿撞倒我發抖 有沒有想我呢 一邊問一趣喝 還記得你勾著我的手讚嘆著那天的天氣 今天的你就算幾杯酒依然是特別的客氣 以前說我是你的SUPERMAN 你開心的理由 現在搞地像個四分衛 我進攻你防守 oh~ 這一次不想再錯過 不想要你溫柔變問候 就算是真的沒有以後（回過頭我會在你身後） 如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say 
+AK - 如果台北下了雪
+如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say Toss my ball like Brady 等不到你的回應 轉移注意力對應 少了有你在的回憶 造個space ship 到每個宇宙裡找你 像你最愛的電影 遊遍了星際 只為了見妳 I’ll never skrr on ya Try my best to work on you brr brr brr put a bullet on me 還是沒有遮擋住 你的身影還在我的眼裡 像是被踏過的陷阱 Shoulda never miss you baby Can’t say never miss you baby 不要教我怎麼say goodbye Cuz I miss the way you Say goodnight 叫你男友小心點 不是我太小心眼 如果讓我咬緊點 可能僥倖點 就能make that girl mine again 如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say 好久沒有感覺到害羞 不知道你最近是否比較好過 心裡小鹿撞倒我發抖 有沒有想我呢 一邊問一趣喝 還記得你勾著我的手讚嘆著那天的天氣 今天的你就算幾杯酒依然是特別的客氣 以前說我是你的SUPERMAN 你開心的理由 現在搞地像個四分衛 我進攻你防守 oh~ 這一次不想再錯過 不想要你溫柔變問候 就算是真的沒有以後（回過頭我會在你身後） 如果台北下雪 Girl would you stay 如果倒轉時間 會不會對 如果台北下雪 Girl would you stay 我能當你的snowman 守著你要的冬天 但baby shxt sh sh 這不下雪 sh sh 我沒有你ㄊㄇ過什麼聖誕節 但baby shxt sh sh 這不下雪 sh sh But shawty would you stay But shawty what you say
+留言（ 27 ） 最相關留言 所有留言
+留言（ 27 ）",2026-04-08,,True,False,
+2026-04-21 02:07:02,6,,,56,33859,91,https://streetvoice.com/billowing_sea_0d/songs/850395/,https://streetvoice.com/billowing_sea_0d/,"https://akstatic.streetvoice.com/song_covers/bi/ll/billowing_sea_0d/2jEui64GraH8Gvphy3JDPY.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYmkvbGwvYmlsbG93aW5nX3NlYV8wZC8yakV1aTY0R3JhSDhHdnBoeTNKRFBZLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@billowing_sea_0d,音樂人,台北市,2016-09-01,2025-11-10 09:55,10,94,16,,https://www.instagram.com/docstar_sing,https://youtube.com/@docstar_sing,Rock,,,,"≪ㄧ首平凡無奇的歌≫創作背景故事: 這首歌寫於我當住院醫師的時期。 那時候生活被日復一日的工作填滿，曾經掛在嘴上說著的夢想，慢慢退到很遠的地方。 有時你會突然發現，自己沒有失敗，也沒有放棄，只是生活變得很安靜、很單調—— 然後某天，你開始覺得自己正在慢慢變得平凡。 副歌那句「當生活變得平凡無厭，節奏不再那麼多元」，其實就是那種說不太出口的心情。 「請給我點根菸」不是頹廢，只是想讓時間暫停一下，好像還能喘一口氣。 歌裡的「那個夢幻的你」，是心裡還沒完全消失的那一點幻想。但很多時候，就像歌曲最後，我們又會回到一樣的生活； 而這一切過程，就是每天點起又熄掉的那根煙。 編曲像一個人在房間裡自彈自唱，從低聲自語，到最後忍不住把情緒吶喊出來。 如果你也曾經在城市裡生活、工作、追夢， 也許會在某一句歌詞裡，聽見自己的影子吧! — 星甫 
+≪ㄧ首平凡無奇的歌≫創作背景故事: 這首歌寫於我當住院醫師的時期。 那時候生活被日復一日的工作填滿，曾經掛在嘴上說著的夢想，慢慢退到很遠的地方。
+有時你會突然發現，自己沒有失敗，也沒有放棄，只是生活變得很安靜、很單調—— 然後某天，你開始覺得自己正在慢慢變得平凡。
+副歌那句「當生活變得平凡無厭，節奏不再那麼多元」，其實就是那種說不太出口的心情。 「請給我點根菸」不是頹廢，只是想讓時間暫停一下，好像還能喘一口氣。 歌裡的「那個夢幻的你」，是心裡還沒完全消失的那一點幻想。但很多時候，就像歌曲最後，我們又會回到一樣的生活； 而這一切過程，就是每天點起又熄掉的那根煙。
+編曲像一個人在房間裡自彈自唱，從低聲自語，到最後忍不住把情緒吶喊出來。
+如果你也曾經在城市裡生活、工作、追夢， 也許會在某一句歌詞裡，聽見自己的影子吧!
+— 星甫","動態歌詞
+詞/曲:陳星甫 當生活變得平凡無厭 節奏不再那麼多元 請給我點根菸 嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了吧 再會了啊 當生活變得平凡無厭 節奏不再那麼多元 請給我點根菸 嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了啊 再會了吧 給我 一個和弦 讓我 唱出你的耀眼 還有一點時間 再給我一天 給我 一個瞬間 讓我 再一次完成 那些說的 當 生活變得平凡無厭 節奏不再那麼多元 請給我點根菸 嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了啊 再會了吧 沒有什麼值得 留戀 沒有什麼值得 追戀 那個夢幻的你 那個夢幻的我 我們夢幻的世界 當生活變得平凡無厭 節奏不再那麼多元 請給我點根 
+詞/曲:陳星甫 當生活變得平凡無厭 節奏不再那麼多元 請給我點根菸
+嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了吧 再會了啊
+當生活變得平凡無厭 節奏不再那麼多元 請給我點根菸
+嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了啊 再會了吧
+給我 一個和弦 讓我 唱出你的耀眼 還有一點時間 再給我一天 給我 一個瞬間 讓我 再一次完成 那些說的 當
+生活變得平凡無厭 節奏不再那麼多元 請給我點根菸 嘴上總掛的那些 夢裡那些情節 請給我點根菸 再會了啊 再會了吧
+沒有什麼值得 留戀 沒有什麼值得 追戀 那個夢幻的你 那個夢幻的我 我們夢幻的世界
+當生活變得平凡無厭 節奏不再那麼多元 請給我點根
+留言（ 91 ） 最相關留言 所有留言
+留言（ 91 ）",2026-04-08,,False,False,
+2026-04-21 02:07:02,7,,,181,18772,17,https://streetvoice.com/atlantixgemini0605/songs/852784/,https://streetvoice.com/atlantixgemini0605/,"https://akstatic.streetvoice.com/song_covers/at/la/atlantixgemini0605/SQHmzUYwBaFcEzhPcX46F2.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYXQvbGEvYXRsYW50aXhnZW1pbmkwNjA1L1NRSG16VVl3QmFGY0V6aFBjWDQ2RjIuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@atlantixgemini0605,音樂人,台北市,2022-01-01,2022-07-12 11:30,11,8341,2,,https://instagram.com/atlantix__official,https://youtube.com/channel/UCcExTmyJ-mVp_GV0XNwHm7Q,Hip hop / Rap,,,,,"AK - T.O.O 天黑黑 This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you Too I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O No make up she a 10 她說她don’t need a man 做你的Peter pan 入不了你的眼 買不了她的時間 Racks on racks on racks 少了她之後的夜 像秋天凋的葉子 胸口的傷還沒結痂 懷念的不只we make up 懷念你還叫我Mia 懷念你愛穿我的adidas 懷念你愛拿我的吉他像Megan Fox 一樣 回不去的過往枕頭上空當當的臂膀 原本love story 變了misery 像被拔掉了battery 現在我買得起diamond ring 還能夠帶你去馬德里 但你不在 我的無奈 誰來跟我合唱「不該」 不會再看哪個女孩so bad 不會再管哪個女孩so sad This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you TOO I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O Baby girl   每天 I love you more 其實也搞不明白 你心裡我猜不透 還想問好多問題 時間又不夠 叫我不要太急 那明天再嫁給我 兩人世界 Shall we? 每晚聽你心跳動 手搖只點小冰 為你的身體立大功 捨不得看著你傷心 Tomorrow Beverly shopping 把生活過的像電影 妳轉身叫我不要停 你想要的都任你擺佈 我們的喜帖要寄出一百戶 讓全世界知道你有我守護 I just wanna tell you *2 This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you TOO I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O 
+AK - T.O.O 天黑黑
+This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you Too I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O No make up she a 10 她說她don’t need a man 做你的Peter pan 入不了你的眼 買不了她的時間 Racks on racks on racks 少了她之後的夜 像秋天凋的葉子 胸口的傷還沒結痂 懷念的不只we make up 懷念你還叫我Mia 懷念你愛穿我的adidas 懷念你愛拿我的吉他像Megan Fox 一樣 回不去的過往枕頭上空當當的臂膀 原本love story 變了misery 像被拔掉了battery 現在我買得起diamond ring 還能夠帶你去馬德里 但你不在 我的無奈 誰來跟我合唱「不該」 不會再看哪個女孩so bad 不會再管哪個女孩so sad This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you TOO I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O Baby girl   每天 I love you more 其實也搞不明白 你心裡我猜不透 還想問好多問題 時間又不夠 叫我不要太急 那明天再嫁給我 兩人世界 Shall we? 每晚聽你心跳動 手搖只點小冰 為你的身體立大功 捨不得看著你傷心 Tomorrow Beverly shopping 把生活過的像電影 妳轉身叫我不要停 你想要的都任你擺佈 我們的喜帖要寄出一百戶 讓全世界知道你有我守護 I just wanna tell you *2 This is what I feel Loving is a ill 曾是我的唯一 卻把她弄丟 Girl I love you TOO I hurt you TOO 她的天天黑黑 她的天天黑黑 每當你的天黑黑 黑黑 會不會一樣的想起我ㄛㄛㄛㄛ You know I luv you T O O O O Ain’t gone hurt you anymore O OO O
+留言（ 17 ） 最相關留言 所有留言
+留言（ 17 ）",2026-04-08,,True,False,
+2026-04-21 02:07:02,8,,,7,543,1,https://streetvoice.com/HaoMing_tw/songs/850620/,https://streetvoice.com/HaoMing_tw/,"https://akstatic.streetvoice.com/song_covers/Ha/oM/HaoMing_tw/JFxxko6euGGxDfqj298TfF.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvSGEvb00vSGFvTWluZ190dy9KRnh4a282ZXVHR3hEZnFqMjk4VGZGLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@HaoMing_tw,音樂人,高雄市,2022-10-01,,2,9,,,,https://www.youtube.com/user/StreetVoiceTV,Pop,回憶三部曲,https://streetvoice.com/HaoMing_tw/songs/album/97324951/,,"很久以後的我們，是什麼樣子？還玩在一起嗎？有過上想要的生活嗎？世界有變更好嗎？ 過度樂觀、自我感動，大聲對著宇宙宣告：這是我要的生活！！ 
+很久以後的我們，是什麼樣子？還玩在一起嗎？有過上想要的生活嗎？世界有變更好嗎？
+過度樂觀、自我感動，大聲對著宇宙宣告：這是我要的生活！！","我們又聊起小時候 發生的事情 我總印象模糊 你卻清醒 不去談論很久以後 可怕的事情 不是不想面對 是希望你了解 很久以後 我知道你和我 過得快樂 還有一隻很笨的狗 很久以後 跟我一起說 我相信你一定可以 我也相信我自己 他們又談起對我來說 不重要的事情 我知道你擔心 但其實不必 不如大聲大聲地說 這是我要的生活 畢竟在這個宇宙 太多事等著我 很久以後 我知道你和我 過得快樂 還有一隻很笨的狗 很久以後 跟我一起說 我相信你一定可以 我也相信我自己 
+我們又聊起小時候 發生的事情 我總印象模糊 你卻清醒 不去談論很久以後 可怕的事情 不是不想面對 是希望你了解
+很久以後 我知道你和我 過得快樂 還有一隻很笨的狗 很久以後 跟我一起說 我相信你一定可以 我也相信我自己
+他們又談起對我來說 不重要的事情 我知道你擔心 但其實不必 不如大聲大聲地說 這是我要的生活 畢竟在這個宇宙 太多事等著我
+很久以後 我知道你和我 過得快樂 還有一隻很笨的狗 很久以後 跟我一起說 我相信你一定可以 我也相信我自己
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-04-08,,True,True,
+2026-04-21 02:07:02,9,,,176,15074,29,https://streetvoice.com/atlantixgemini0605/songs/852782/,https://streetvoice.com/atlantixgemini0605/,"https://akstatic.streetvoice.com/song_covers/at/la/atlantixgemini0605/E8MP8gWGi5YkHrcPkEmZyi.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYXQvbGEvYXRsYW50aXhnZW1pbmkwNjA1L0U4TVA4Z1dHaTVZa0hyY1BrRW1aeWkuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@atlantixgemini0605,音樂人,台北市,2022-01-01,2022-07-12 11:30,11,8341,2,,https://instagram.com/atlantix__official,https://youtube.com/channel/UCcExTmyJ-mVp_GV0XNwHm7Q,Hip hop / Rap,,,,,"AK - 春風直直吹 (La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 握緊排檔桿 秋名山上過個彎 I feel like 藤園拓海 送的豆腐沒白幹 賭上命bands on bands 好菜我街上點 My papa told me 要幹大事得先餵飽胃 看扁我想得美身價會像RDJ 回到復仇者再多個幾個零 想把我貶謫到邊疆那邊疆會像是Tokyo 的Disney 靠什麼我靠靠靠一個天才的基因 百倍的努力配MY Mama 胎教放的柴克夫斯基 就像是愚公移山 我不管山大還山小 當年我雨中期盼 的夢我竟然已辦到 望春風吹過半山腰 奶奶她沒白教 她說長苗別拔高 要用心灌溉讓風直直繞 (La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 全部 hands up face down 看我直直直直直的飛 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 擋住鏡頭 用多巴胺體會 不要拍手 採一罐不會醉 三點蟹肉 每天給FENDI喂 三點沒露 沒時間搞曖昧 三年前起飛 WE BEGINNER 他們嫉妒吃醋 VINEGAR 荀子托夢教我要比你狠 惡人沒有下限 MIINIMUM 以前緊抓MINIMUM WAGE 時間是MINIMUM WASTE 我推掉所有 MIINIMUM CHECK 不中意 MINIMUM SWAG 防小人 MINIMAN 退 Holding up  X 3 以前有太多的drama 每天在做牛又做馬 現在在煩惱要坐牛還坐馬 Showing up x3 同學會我要吃龍蝦 不用再擔心誰結帳 Brother we made it on the top (La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 全部 hands up face down 看我直直直直直的飛 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 
+AK - 春風直直吹
+(La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 握緊排檔桿 秋名山上過個彎 I feel like 藤園拓海 送的豆腐沒白幹 賭上命bands on bands 好菜我街上點 My papa told me 要幹大事得先餵飽胃 看扁我想得美身價會像RDJ 回到復仇者再多個幾個零 想把我貶謫到邊疆那邊疆會像是Tokyo 的Disney 靠什麼我靠靠靠一個天才的基因 百倍的努力配MY Mama 胎教放的柴克夫斯基 就像是愚公移山 我不管山大還山小 當年我雨中期盼 的夢我竟然已辦到 望春風吹過半山腰 奶奶她沒白教 她說長苗別拔高 要用心灌溉讓風直直繞 (La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 全部 hands up face down 看我直直直直直的飛 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 擋住鏡頭 用多巴胺體會 不要拍手 採一罐不會醉 三點蟹肉 每天給FENDI喂 三點沒露 沒時間搞曖昧 三年前起飛 WE BEGINNER 他們嫉妒吃醋 VINEGAR 荀子托夢教我要比你狠 惡人沒有下限 MIINIMUM 以前緊抓MINIMUM WAGE 時間是MINIMUM WASTE 我推掉所有 MIINIMUM CHECK 不中意 MINIMUM SWAG 防小人 MINIMAN 退 Holding up  X 3 以前有太多的drama 每天在做牛又做馬 現在在煩惱要坐牛還坐馬 Showing up x3 同學會我要吃龍蝦 不用再擔心誰結帳 Brother we made it on the top (La la la la la la la la la 春風直直吹～ La la la la la la la la la 準備好AK~) 全部 hands up face down 看我直直直直直的飛 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi 春風直直吹 Yeah we 直直飛 春風直直吹 Yeah we did it boi Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛 Didn’t we did it did it did it did it we did it again Didn’t we 直直直直直直直直的飛
+留言（ 29 ） 最相關留言 所有留言
+留言（ 29 ）",2026-04-08,,True,False,
+2026-04-21 02:07:02,10,,,45,3147,24,https://streetvoice.com/ROCKWALL/songs/853785/,https://streetvoice.com/ROCKWALL/,"https://akstatic.streetvoice.com/song_covers/RO/CK/ROCKWALL/cH8sHkj3iTxR9PrUsfmzaz.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvUk8vQ0svUk9DS1dBTEwvY0g4c0hrajNpVHhSOVByVXNmbXphei5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@ROCKWALL,音樂人,,,,,,,,,https://www.youtube.com/user/StreetVoiceTV,Rock,,,,"對自己的內心 發出無聲的吶喊 作曲 Composer｜小P  葉秉豐Felix 作詞 Lyrics｜小P 編曲 Arrangement｜牛寶良  葉秉豐Felix 製作人 Producer｜牛寶良 人聲Vocal｜小P 吉他Guitar｜葉秉豐Felix 貝斯Bass｜牛寶良 鼓Drum｜牛寶良  葉秉豐Felix 和聲編寫Backing Vocal & Arrangement｜小P 合成器編寫Synth & Arrangement｜李子維Wesley 人聲錄音室 Recording Studio｜Akisnow Studio 人聲錄音師Recording Engineer｜黃子誠MartinHuang 混音師 Mixing Engineer｜李子維Wesley 母帶後期處理 Mastering｜李子維Wesley 
+對自己的內心 發出無聲的吶喊
+作曲 Composer｜小P  葉秉豐Felix 作詞 Lyrics｜小P 編曲 Arrangement｜牛寶良  葉秉豐Felix 製作人 Producer｜牛寶良 人聲Vocal｜小P 吉他Guitar｜葉秉豐Felix 貝斯Bass｜牛寶良 鼓Drum｜牛寶良  葉秉豐Felix 和聲編寫Backing Vocal & Arrangement｜小P 合成器編寫Synth & Arrangement｜李子維Wesley 人聲錄音室 Recording Studio｜Akisnow Studio 人聲錄音師Recording Engineer｜黃子誠MartinHuang 混音師 Mixing Engineer｜李子維Wesley 母帶後期處理 Mastering｜李子維Wesley","慢慢 時間改變 現實 吞噬我的一切 早就 習慣躲在黑夜 閉上眼睛 暫時逃離 無法去分辨是非對錯 迷茫的生活 已成常態 當我用力呼吸的時候 你在哪裡呼喊我 當我用力呼吸的時候 你在哪裡呼喊我 懸著的心找不到出口 原地停留我走不出來 當我用力呼吸的時候 你在哪裡呼喊我 當我用力呼吸的時候 你在哪裡呼喊我 
+慢慢 時間改變 現實 吞噬我的一切 早就 習慣躲在黑夜 閉上眼睛 暫時逃離
+無法去分辨是非對錯 迷茫的生活 已成常態
+當我用力呼吸的時候 你在哪裡呼喊我 當我用力呼吸的時候 你在哪裡呼喊我
+懸著的心找不到出口 原地停留我走不出來
+當我用力呼吸的時候 你在哪裡呼喊我 當我用力呼吸的時候 你在哪裡呼喊我
+留言（ 24 ） 最相關留言 所有留言
+留言（ 24 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,11,,,3,375,3,https://streetvoice.com/loststar926/songs/854230/,https://streetvoice.com/loststar926/,"https://akstatic.streetvoice.com/song_covers/lo/st/loststar926/Do8FR5S7sihYKcXTA5HzTF.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbG8vc3QvbG9zdHN0YXI5MjYvRG84RlI1UzdzaWhZS2NYVEE1SHpURi5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@loststar926,音樂人,宜蘭縣,2022-11-01,2023-12-12 17:35,47,90,25,https://www.facebook.com/Funcal.tw,https://instagram.com/funcal.tw,https://youtube.com/@funcalmusic,Singer / Songwriter,星星的台語精選輯,https://streetvoice.com/loststar926/songs/album/97322731/,,"心若痛過 才有勇氣 
+心若痛過 才有勇氣","痛過的心 詞曲/Lost Star 透露光線的窗簾 一語不發在床邊 曝曬昨夜失的眠 蒸發我的淚水 刺痛我的雙眼 越是晴天 越是諷刺 越討厭 距離多少的光年 刻下多少的誓言 一字一句的經典 一次次地浮現 如今只剩想念 越是靠近 越是疏遠 越遙遠 是啥物原因咱兩個人 最後沒走鬥陣 乎我日思夜夢 夢袂返你身邊 我嘛應該慣勢 外面的日頭是赤焰焰 心內是烏陰天 無知欲去都位 只好自己想開 覓來覓去 無意義 是啥物原因咱兩個人 最後沒走鬥陣 乎我日思夜夢 夢袂返你身邊 我嘛已經慣勢 外面的小雨是漸漸落 心內的虹帶路 帶離開這痛苦 走向未來路途 惦在過去 沒意義 心若痛過 才有勇氣 
+痛過的心 詞曲/Lost Star
+透露光線的窗簾 一語不發在床邊 曝曬昨夜失的眠 蒸發我的淚水 刺痛我的雙眼 越是晴天 越是諷刺 越討厭
+距離多少的光年 刻下多少的誓言 一字一句的經典 一次次地浮現 如今只剩想念 越是靠近 越是疏遠 越遙遠
+是啥物原因咱兩個人 最後沒走鬥陣 乎我日思夜夢 夢袂返你身邊 我嘛應該慣勢
+外面的日頭是赤焰焰 心內是烏陰天 無知欲去都位 只好自己想開 覓來覓去 無意義
+是啥物原因咱兩個人 最後沒走鬥陣 乎我日思夜夢 夢袂返你身邊 我嘛已經慣勢
+外面的小雨是漸漸落 心內的虹帶路 帶離開這痛苦 走向未來路途 惦在過去 沒意義 心若痛過 才有勇氣
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-04-18,,False,False,
+2026-04-21 02:07:02,12,,,5,206,14,https://streetvoice.com/kidy00001217/songs/854212/,https://streetvoice.com/kidy00001217/,"https://akstatic.streetvoice.com/song_covers/ki/dy/kidy00001217/jFeeLKgTPxj88wyL6rEm5J.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMva2kvZHkva2lkeTAwMDAxMjE3L2pGZWVMS2dUUHhqODh3eUw2ckVtNUouanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@kidy00001217,音樂人,,,,,1,6,,,https://www.youtube.com/user/StreetVoiceTV,Rock,,,,"製作人 Producer｜于修 Yssue ( 淨土PureLand ) 製作助理 Assistant Producer｜高稚喬 Gaoge4150 詞曲 Compose & Lyrics｜吳維鈞 Dav / 黃俊閔 Jimmy 編曲 Arrangement｜于修 Yssue 配唱製作 Vocal Production｜吳維鈞 Dav 人聲錄音師 Vocal Recording Engineer｜高稚喬 Gaoge4150 人聲錄音室 Vocal Recording Studio｜淨土 PureLand 人聲編輯 Vocal Editing｜高稚喬 Gaoge4150 人聲效果 Vocal Effect｜高稚喬 Gaoge4150 混音工程師 Mixing Engineer｜于修 Yssue 混音工作室 Mixing Studio｜淨土 PureLand 分軌母帶後期處理工程師 Stem Mastering Engineer｜Wayson Scream 母帶後期處理錄音室 Mastering Studio｜マタタ Production 
+製作人 Producer｜于修 Yssue ( 淨土PureLand )
+製作助理 Assistant Producer｜高稚喬 Gaoge4150
+詞曲 Compose & Lyrics｜吳維鈞 Dav / 黃俊閔 Jimmy
+編曲 Arrangement｜于修 Yssue
+配唱製作 Vocal Production｜吳維鈞 Dav
+人聲錄音師 Vocal Recording Engineer｜高稚喬 Gaoge4150
+人聲錄音室 Vocal Recording Studio｜淨土 PureLand
+人聲編輯 Vocal Editing｜高稚喬 Gaoge4150
+人聲效果 Vocal Effect｜高稚喬 Gaoge4150
+混音工程師 Mixing Engineer｜于修 Yssue
+混音工作室 Mixing Studio｜淨土 PureLand
+分軌母帶後期處理工程師 Stem Mastering Engineer｜Wayson Scream
+母帶後期處理錄音室 Mastering Studio｜マタタ Production","I gotta risk it all 讓咽不下的痛苦踩進每一次的重拍 管他成功還是失敗 體面還是失態 都沒打算要再重來 為此早就卸下防備 即使看不好的人會來自各個方位 So I gotta risk it all like 把所有質疑全都瓦解 想起當初的那一天 還對未來懵懵懂懂的我 還沒辦法忘記過去的那種痛苦 I try to figure out 到底是什麼在腦海 不停地吞噬著我 讓我找不到答案 I try to find my self 一刻都從不懈怠 I know it’s hard to try 等待著那天我回來 I wanna rescue myself 我從來沒再管別人 到底是怎麼看我 so u should rescue yourself 有天你也能夠越過那些掙扎 想起當初的那一天 我還想爬到更高的地方 看山頂的風景 是不是跟你的一樣 I try to figure out 到底是什麼在腦海 不停地吞噬著我 讓我找不到答案 I try to find my self 一刻都從不懈怠 I know it’s hard to try 等待著那天我回來 Risk it all Risk it all ( 甘欸無法度 ） Risk it all Risk it all ( 全然無退路 ） Risk it all Risk it all Risk it all Risk it all 等待著那天我回來 
+I gotta risk it all 讓咽不下的痛苦踩進每一次的重拍
+管他成功還是失敗 體面還是失態 都沒打算要再重來
+為此早就卸下防備 即使看不好的人會來自各個方位 So I gotta risk it all like 把所有質疑全都瓦解
+想起當初的那一天 還對未來懵懵懂懂的我 還沒辦法忘記過去的那種痛苦
+I try to figure out 到底是什麼在腦海 不停地吞噬著我 讓我找不到答案
+I try to find my self 一刻都從不懈怠
+I know it’s hard to try 等待著那天我回來
+I wanna rescue myself 我從來沒再管別人 到底是怎麼看我
+so u should rescue yourself 有天你也能夠越過那些掙扎
+想起當初的那一天 我還想爬到更高的地方 看山頂的風景 是不是跟你的一樣
+I try to figure out 到底是什麼在腦海 不停地吞噬著我 讓我找不到答案
+I try to find my self 一刻都從不懈怠 I know it’s hard to try 等待著那天我回來
+Risk it all Risk it all ( 甘欸無法度 ）
+Risk it all Risk it all ( 全然無退路 ）
+Risk it all Risk it all
+Risk it all Risk it all
+等待著那天我回來
+留言（ 14 ） 最相關留言 所有留言
+留言（ 14 ）",2026-04-18,,False,False,
+2026-04-21 02:07:02,13,,,2,479,1,https://streetvoice.com/changriki/songs/854058/,https://streetvoice.com/changriki/,"https://akstatic.streetvoice.com/song_covers/ch/an/changriki/UM2HbdJreaPaSnmdFn35Z6.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvY2gvYW4vY2hhbmdyaWtpL1VNMkhiZEpyZWFQYVNubWRGbjM1WjYuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@changriki,音樂人,新北市,2017-06-01,2021-09-01 16:19,20,699,94,https://www.facebook.com/RIKI-110277277099075/,https://www.instagram.com/changriki/,https://www.youtube.com/c/RIKIChang/,Dance,,,,"烏蘇拉偷走我聲帶。 
+烏蘇拉偷走我聲帶。","我 完全不記得那時候是怎樣 好 像是灰色 往上的頭髮 她 似乎是帶著有珍珠的老花 手 指甲很長 戒指都很大 她叫住我 說我前途無量 連她桌上的小鳥都忍不住的對我歌唱 窩問她手上拿ㄉ那個貝殼要尬麻 她沒有縮但 她的眼睛發亮 窩嚇瘋都忘記剛剛要去旁邊的金玉堂 該相信她ㄇ但她ㄅ是躺槍 I’d better run 一個人吃台式I’m so gay 一個人煮紅燒牛肉man 莫名其妙聲帶被泥碾碎 欸 窩完全ㄅ記得有跟你借 一雙腳或是一雙鞋 烏蘇拉貝殼快點還來欸 欸 烏蘇 拉貝 殼快 點給 窩拿 出來 烏蘇 拉貝 殼快 還來 烏蘇 拉貝 殼拿 來我 不會給 你Line 烏蘇 拉貝 殼快 還來 你們以為這就是一首可愛的歌嗎？ No 我去年瘋狂重感冒 一年被烏蘇拉偷三次聲帶 看病都要等一個月以上我都要葛ㄌ 你們真的以為我寫這些歌詞都沒有意義嗎 聽同事說 只要到陸地上 那裡是先進世界殊不知連WiFi都差 好辣她是辛苦但那個貝殼要尬嘛 她沒有縮但 她的眼睛發亮 窩嚇到都忘記剛剛要去旁邊金玉堂 不能相信她ㄅ她ㄅ是躺槍 Too late to run 一個人吃台式I’m so gay 一個人煮紅燒牛肉man 莫名其妙聲帶被泥碾碎 欸 窩完全ㄅ記得有跟你借 一雙腳或是一雙鞋 烏蘇拉貝殼快點還來欸 欸 烏蘇 拉貝 殼快 點給 窩拿 出來 烏蘇 拉貝 殼快 還來 烏蘇 拉貝 殼拿 來我 不會給 你Line 烏蘇 拉貝 殼快 還來 
+我 完全不記得那時候是怎樣 好 像是灰色 往上的頭髮 她 似乎是帶著有珍珠的老花 手 指甲很長 戒指都很大
+她叫住我 說我前途無量 連她桌上的小鳥都忍不住的對我歌唱 窩問她手上拿ㄉ那個貝殼要尬麻 她沒有縮但 她的眼睛發亮 窩嚇瘋都忘記剛剛要去旁邊的金玉堂 該相信她ㄇ但她ㄅ是躺槍 I’d better run
+一個人吃台式I’m so gay 一個人煮紅燒牛肉man 莫名其妙聲帶被泥碾碎 欸 窩完全ㄅ記得有跟你借 一雙腳或是一雙鞋 烏蘇拉貝殼快點還來欸 欸
+烏蘇 拉貝 殼快 點給 窩拿 出來 烏蘇 拉貝 殼快 還來 烏蘇 拉貝 殼拿 來我 不會給 你Line 烏蘇 拉貝 殼快 還來
+你們以為這就是一首可愛的歌嗎？ No 我去年瘋狂重感冒 一年被烏蘇拉偷三次聲帶 看病都要等一個月以上我都要葛ㄌ 你們真的以為我寫這些歌詞都沒有意義嗎
+聽同事說 只要到陸地上 那裡是先進世界殊不知連WiFi都差 好辣她是辛苦但那個貝殼要尬嘛 她沒有縮但 她的眼睛發亮 窩嚇到都忘記剛剛要去旁邊金玉堂 不能相信她ㄅ她ㄅ是躺槍 Too late to run
+一個人吃台式I’m so gay 一個人煮紅燒牛肉man 莫名其妙聲帶被泥碾碎 欸 窩完全ㄅ記得有跟你借 一雙腳或是一雙鞋 烏蘇拉貝殼快點還來欸 欸
+烏蘇 拉貝 殼快 點給 窩拿 出來 烏蘇 拉貝 殼快 還來 烏蘇 拉貝 殼拿 來我 不會給 你Line 烏蘇 拉貝 殼快 還來
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-04-17,,True,False,
+2026-04-21 02:07:02,14,,,139,7023,10,https://streetvoice.com/OBSESS/songs/852040/,https://streetvoice.com/OBSESS/,"https://akstatic.streetvoice.com/song_covers/OB/SE/OBSESS/Q9NhLbMMn6KwBDDwRrZJTr.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvT0IvU0UvT0JTRVNTL1E5TmhMYk1NbjZLd0JERHdSclpKVHIuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@OBSESS,音樂人,台中市,2008-07-01,2021-09-08 15:59,16,3626,,,,https://www.youtube.com/user/StreetVoiceTV,Rock,,,,"生存專家（Demo） 2026.04.02 20:00｜StreetVoice 
+生存專家（Demo） 2026.04.02 20:00｜StreetVoice","欸你真的看不見嗎 為何撇開了 你的視線 習慣了漠然置之對吧 眼角餘光的苦難 你還在辯解 感受的到痛嗎 過來感受我的痛吧 感受在痛裡深陷 這世界的混亂的不值錢的恨 在乎嗎？ 早就繃緊到極限 讓我帶你去地獄 呼吸窒息的秩序 你沒有反抗的權利因為你生在這裡 讓我帶你去地獄 ㄧ場盛大的悲劇 他們口中哼的歌那是你譜寫的旋律 在海面下拼命掙扎 沈默滲進每一張嘴啊 壓抑在板機上一觸即發 你還記得自己嗎？誰在故事中蒸發 人們放棄所有 深陷危險之中 他只能不顧一切 It's time for revenge All people rising up 他沒有權力奪走你的所有 We don't need war You fucking Dictator 
+欸你真的看不見嗎 為何撇開了 你的視線 習慣了漠然置之對吧 眼角餘光的苦難 你還在辯解
+感受的到痛嗎 過來感受我的痛吧 感受在痛裡深陷 這世界的混亂的不值錢的恨 在乎嗎？ 早就繃緊到極限
+讓我帶你去地獄 呼吸窒息的秩序 你沒有反抗的權利因為你生在這裡
+讓我帶你去地獄 ㄧ場盛大的悲劇 他們口中哼的歌那是你譜寫的旋律
+在海面下拼命掙扎 沈默滲進每一張嘴啊 壓抑在板機上一觸即發 你還記得自己嗎？誰在故事中蒸發
+人們放棄所有 深陷危險之中 他只能不顧一切
+It's time for revenge
+All people rising up
+他沒有權力奪走你的所有
+We don't need war
+You fucking Dictator
+留言（ 10 ） 最相關留言 所有留言
+留言（ 10 ）",2026-04-02,,True,True,
+2026-04-21 02:07:02,15,,,5,222,5,https://streetvoice.com/viber2020/songs/853973/,https://streetvoice.com/viber2020/,"https://akstatic.streetvoice.com/song_covers/vi/be/viber2020/Z279AkHaiE2hohrTPQhLTG.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvdmkvYmUvdmliZXIyMDIwL1oyNzlBa0hhaUUyaG9oclRQUWhMVEcuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@viber2020,音樂人,,,2021-11-01 16:42,,,,https://www.facebook.com/Viber-Band-104498224726347/,https://instagram.com/viberband_official,https://youtube.com/channel/UCcpkZUKGCwMARNdIIZjte-w,Rock,,,,"他在未來前行 我困在過去 這通電話 能不能 留言給你。 
+他在未來前行 我困在過去
+這通電話 能不能 留言給你。","把夜晚攤平後看不到盡頭 就像你離開後的宇宙 窗外霓虹像心跳一樣失控 映著我沒睡好的輪廓 把時間揉成褶皺藏進夜空 就讓他靜靜的跟著 銀河微光閃爍 獨自把回憶裝箱全部帶走 卻沒帶我走 好多話來不及說 只剩呼吸在顫抖 怎麼寂寞慢慢取代你的輪廓 難過的話笑著說 是曾經說好的溫柔 該放手該停留該怎麼做 在這孤單電話亭 電話那一頭的你 讓沉默換取一點靠近 這通孤單電話 聽電話那一頭的你 想念你 想念你的那句 回家小心 沉默打不破 因為都上了鎖 習慣比愛重 你卻先放了手 窗外霓虹像 心跳一樣失控 孤單怎麼找 不到地方降落 街燈的昏暗 眼淚在氾濫 怎麼只剩下我還困在這時候 把時間揉成褶皺藏進夜空 就讓他靜靜的跟著 銀河微光閃爍 獨自把回憶裝箱全部帶走 卻沒帶我走 好多話來不及說 只剩呼吸在顫抖 怎麼寂寞慢慢取代你的輪廓 難過的話笑著說 是曾經說好的溫柔 該放手該停留該怎麼做 在這孤單電話亭 電話那一頭的你 讓沉默換取一點靠近 這通孤單電話 聽電話那一頭的你 想念你 想念你的那句 回家小心 在這孤單電話亭 電話 這通孤單電話 聽電話 在這孤單電話亭 電話 這通孤單電話 聽電話 
+把夜晚攤平後看不到盡頭 就像你離開後的宇宙 窗外霓虹像心跳一樣失控 映著我沒睡好的輪廓
+把時間揉成褶皺藏進夜空 就讓他靜靜的跟著 銀河微光閃爍 獨自把回憶裝箱全部帶走 卻沒帶我走
+好多話來不及說 只剩呼吸在顫抖 怎麼寂寞慢慢取代你的輪廓 難過的話笑著說 是曾經說好的溫柔 該放手該停留該怎麼做
+在這孤單電話亭 電話那一頭的你 讓沉默換取一點靠近 這通孤單電話 聽電話那一頭的你 想念你 想念你的那句 回家小心
+沉默打不破 因為都上了鎖 習慣比愛重 你卻先放了手 窗外霓虹像 心跳一樣失控 孤單怎麼找 不到地方降落
+街燈的昏暗 眼淚在氾濫 怎麼只剩下我還困在這時候
+把時間揉成褶皺藏進夜空 就讓他靜靜的跟著 銀河微光閃爍 獨自把回憶裝箱全部帶走 卻沒帶我走
+好多話來不及說 只剩呼吸在顫抖 怎麼寂寞慢慢取代你的輪廓 難過的話笑著說 是曾經說好的溫柔 該放手該停留該怎麼做
+在這孤單電話亭 電話那一頭的你 讓沉默換取一點靠近 這通孤單電話 聽電話那一頭的你 想念你 想念你的那句 回家小心
+在這孤單電話亭 電話 這通孤單電話 聽電話 在這孤單電話亭 電話 這通孤單電話 聽電話
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-04-17,,True,False,
+2026-04-21 02:07:02,16,,,9,580,3,https://streetvoice.com/hsiangyukao/songs/852139/,https://streetvoice.com/hsiangyukao/,"https://akstatic.streetvoice.com/song_covers/hs/ia/hsiangyukao/n8jw3F3WCwaa9epUSMvSwh.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvaHMvaWEvaHNpYW5neXVrYW8vbjhqdzNGM1dDd2FhOWVwVVNNdlN3aC5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@hsiangyukao,音樂人,,,2021-09-08 15:59,12,237,56,https://www.facebook.com/Hsiang-yu-Kao-1877217215631075,https://www.instagram.com/hsiangyukao/,https://www.youtube.com/channel/UCPPds2EzbEuj_JdybwIzWLg,Folk,,,Theseus忒修斯,"🎧 導讀 🎧 「那不是你或我的錯。」 回頭看自己十餘年的命，如果可以，希望有一個人一直跟你說這句話， 而今我希望用唱的能跟那些人說，那些相似的靈魂。 我們即便被無法選擇的緣份拋擲到這世界，亦有我們的存在， 當你的現實是一場無止境的綁架，繼續被綁架，繼續蠶食靈魂， 很好，這就是長大的樣子，我花了十年在心有餘悸的路上再思索， 這永遠談論不完的問題，我僅能繳交這份不算答案的答案。 「你想活出怎樣的人生？」 擇人所不得是性格，明知山有虎，偏往行，搭上那班列車亦然。 我們能在一次次的，深受命運制肘，深受未知誘惑與困惑的命裡， 想辦法不要討厭自己還能跟自己共度的明天即可， 此刻我們便能贖回，即便開盤之初我們就能以承接， 不過被拋擲是命定，我們只能在形式的條條框框裡找答案。 🎵 製作 🎵 作詞 Lyricist ｜高翔煜 XY Kao 作曲 Composer ｜高翔煜 XY Kao 編曲 Arranger ｜高翔煜 XY Kao 和聲編寫 Backing Vocal Arranger ｜高翔煜 XY Kao 和聲 Backing Vocals ｜高翔煜 XY Kao 木吉他 Acoustic Guitar ｜高翔煜 XY Kao 貝斯 Bass ｜高翔煜 XY Kao 鼓 Drums ｜高翔煜 XY Kao 鋼琴編寫 Piano Arranger ｜高翔煜 XY Kao 合成器編寫與音效設計  Keys & EFX｜高翔煜 XY Kao 混音師 Mixing Engineer ｜高翔煜 XY Kao 人聲剪輯 Vocal Editing｜高翔煜 XY Kao 母帶後期工程師 Mastering Engineer ｜高翔煜 XY Kao 
+🎧 導讀 🎧
+「那不是你或我的錯。」
+回頭看自己十餘年的命，如果可以，希望有一個人一直跟你說這句話， 而今我希望用唱的能跟那些人說，那些相似的靈魂。
+我們即便被無法選擇的緣份拋擲到這世界，亦有我們的存在， 當你的現實是一場無止境的綁架，繼續被綁架，繼續蠶食靈魂， 很好，這就是長大的樣子，我花了十年在心有餘悸的路上再思索， 這永遠談論不完的問題，我僅能繳交這份不算答案的答案。
+「你想活出怎樣的人生？」
+擇人所不得是性格，明知山有虎，偏往行，搭上那班列車亦然。 我們能在一次次的，深受命運制肘，深受未知誘惑與困惑的命裡， 想辦法不要討厭自己還能跟自己共度的明天即可，
+此刻我們便能贖回，即便開盤之初我們就能以承接， 不過被拋擲是命定，我們只能在形式的條條框框裡找答案。
+🎵 製作 🎵
+作詞 Lyricist ｜高翔煜 XY Kao 作曲 Composer ｜高翔煜 XY Kao 編曲 Arranger ｜高翔煜 XY Kao 和聲編寫 Backing Vocal Arranger ｜高翔煜 XY Kao 和聲 Backing Vocals ｜高翔煜 XY Kao
+木吉他 Acoustic Guitar ｜高翔煜 XY Kao 貝斯 Bass ｜高翔煜 XY Kao 鼓 Drums ｜高翔煜 XY Kao 鋼琴編寫 Piano Arranger ｜高翔煜 XY Kao 合成器編寫與音效設計  Keys & EFX｜高翔煜 XY Kao
+混音師 Mixing Engineer ｜高翔煜 XY Kao 人聲剪輯 Vocal Editing｜高翔煜 XY Kao 母帶後期工程師 Mastering Engineer ｜高翔煜 XY Kao","It’s been so so so so many times we used to believe with no doubt 何度も、何度も、僕たちは疑いもなく信じていた 수없이 많이, 우린 의심 없이 믿곤 했지 你聲音停靠 月台的對面 也拄好 十年 Your voice pulls into the opposite platform, it's been exactly ten years 君の声がホームの向こう側に止まる、ちょうど十年が過ぎた 네 목소리가 승강장 반대편에 머무네, 벌써 꼬박 십 년이야 我看見燈火 裏我的理想 嘛離開 十年 I see my ideals within the city lights, they too have been gone for ten years 街の灯りの中に僕の理想が見える、それもまた十年前に去っていった 등불 속 내 이상을 보았어, 그 역시 떠난 지 십 년이네 It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어 甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지 我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어 歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해 可恨我是平庸的人 也想欲贖回自己 I hate that I’m just an ordinary person, yet I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を取り戻したいんだ 평범한 사람인 내가 밉다, 나 자신을 되찾고 싶어 It’s so so so so many times we all knew me and you couldn’t be us 何度も、何度も、僕と君が「僕たち」になれないことは分かっていた 수없이 많이, 너와 내가 '우리'가 될 수 없음을 알고 있었지 記憶放 滿滿路面的未來 再看見啥物 Memories fill the road of the future, what else is there to see 記憶が未来の道に溢れている、次は何が見えるだろう 기억이 가득한 미래의 길 위에서, 또 무엇을 보게 될까 火車駛 離開北邊的風景 哪會珠淚滴 The train leaves the northern scenery behind, why do the tears fall 列車が北の景色を離れていく、どうして涙がこぼれるんだろう 기차가 북쪽 풍경을 떠나가네, 어째서 눈물이 고일까 It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어 甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지 我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어 歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해 可恨我是平庸的人 也想欲贖回 I hate that I am just an ordinary person, and I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を贖いたいんだ 평범한 사람인 내가 밉다, 그럼에도 나를 되찾고 싶어 farewell farewell old times of us さらば、さらば、僕たちの過ぎ去りし日々 안녕, 안녕, 우리의 옛 시간들이여 farewell farewell right turns into the light さらば、さらば、正しい道が光へと変わるまで 안녕, 안녕, 옳은 것이 빛으로 변할 때까지 It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어 甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지 我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어 歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해 可恨我是平庸的人 也想欲贖回自己 I hate that I’m just an ordinary person, yet I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を取り戻したいんだ 평범한 사람인 내가 밉다, 나 자신을 되찾고 싶어 
+It’s been so so so so many times we used to believe with no doubt 何度も、何度も、僕たちは疑いもなく信じていた 수없이 많이, 우린 의심 없이 믿곤 했지
+你聲音停靠 月台的對面 也拄好 十年 Your voice pulls into the opposite platform, it's been exactly ten years 君の声がホームの向こう側に止まる、ちょうど十年が過ぎた 네 목소리가 승강장 반대편에 머무네, 벌써 꼬박 십 년이야
+我看見燈火 裏我的理想 嘛離開 十年 I see my ideals within the city lights, they too have been gone for ten years 街の灯りの中に僕の理想が見える、それもまた十年前に去っていった 등불 속 내 이상을 보았어, 그 역시 떠난 지 십 년이네
+It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어
+甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지
+我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어
+歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해
+可恨我是平庸的人 也想欲贖回自己 I hate that I’m just an ordinary person, yet I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を取り戻したいんだ 평범한 사람인 내가 밉다, 나 자신을 되찾고 싶어
+It’s so so so so many times we all knew me and you couldn’t be us 何度も、何度も、僕と君が「僕たち」になれないことは分かっていた 수없이 많이, 너와 내가 '우리'가 될 수 없음을 알고 있었지
+記憶放 滿滿路面的未來 再看見啥物 Memories fill the road of the future, what else is there to see 記憶が未来の道に溢れている、次は何が見えるだろう 기억이 가득한 미래의 길 위에서, 또 무엇을 보게 될까
+火車駛 離開北邊的風景 哪會珠淚滴 The train leaves the northern scenery behind, why do the tears fall 列車が北の景色を離れていく、どうして涙がこぼれるんだろう 기차가 북쪽 풍경을 떠나가네, 어째서 눈물이 고일까
+It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어
+甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지
+我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어
+歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해
+可恨我是平庸的人 也想欲贖回 I hate that I am just an ordinary person, and I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を贖いたいんだ 평범한 사람인 내가 밉다, 그럼에도 나를 되찾고 싶어
+farewell farewell old times of us さらば、さらば、僕たちの過ぎ去りし日々 안녕, 안녕, 우리의 옛 시간들이여
+farewell farewell right turns into the light さらば、さらば、正しい道が光へと変わるまで 안녕, 안녕, 옳은 것이 빛으로 변할 때까지
+It wasn’t fault of mine or yours at all それは決して僕や君のせいじゃない 그건 결코 내 잘못도 네 잘못도 아니었어
+甘願予現實綁票交換靈魂 Willingly kidnapped by reality in exchange for our souls 現実にさらわれ、魂を差し出した 기꺼이 현실에 납치되어 영혼을 맞바꿨지
+我的選擇用盡珍貴 記憶 My choices have exhausted all precious memories 僕の選択は、大切な記憶を使い果たしてしまった 내 선택은 소중한 기억들을 모두 써버렸어
+歹勢過去想欲攬牢牢的你 I’m sorry to the you I wanted to hold so tight in the past 過去の、強く抱きしめたかった君に申し訳ない 과거에 꽉 안아주고 싶었던 너에게 미안해
+可恨我是平庸的人 也想欲贖回自己 I hate that I’m just an ordinary person, yet I still want to redeem myself 凡庸な自分が恨めしい、それでも自分を取り戻したいんだ 평범한 사람인 내가 밉다, 나 자신을 되찾고 싶어
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,17,,,29,2460,5,https://streetvoice.com/Plus2/songs/844575/,https://streetvoice.com/Plus2/,"https://akstatic.streetvoice.com/music_albums/Pl/us/Plus2/9DYFao49MDC5UpReHJufPh.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_bXVzaWNfYWxidW1zL1BsL3VzL1BsdXMyLzlEWUZhbzQ5TURDNVVwUmVISnVmUGguanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Plus2,音樂人,新北市,2022-09-01,2026-01-30 10:26,25,66,29,,https://www.instagram.com/josh.415_,https://youtube.com/@plustwo7954,Hip hop / Rap,煩躁。抗噪,https://streetvoice.com/Plus2/songs/album/97324297/,,"1.煩躁。抗噪 製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2 
+1.煩躁。抗噪 製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2","心情特別燥 小心地滑 差點跌倒 好的壞的都來像演無間道 錢不嫌多事不嫌少 只想讓事故減少 你在賣我保險還是偷偷置入邪教 又得踏回剛走的前腳 事情一件一件浮現 又想拖延到 日子一天一天不見 又把那是非顛倒 我只想錄歌 外面又在放鞭炮 我只好睡覺 真的太吵 要怎麼睡著 那什麼味道 又是誰家的廢料 又沒倒 害得臭氣熏天圍繞 在我的房間怎麼噴都沒效 他媽的蚊子一直飛到我的耳朵 抓都抓不到 又是一顆老鼠屎就壞了整鍋 其他鳥事還有很多 但我通常都是寫歌不怎麼說 太多煩躁的事 在開我玩笑的是 太多煩躁的事 它們一個一個來 要我一個一個試 太多煩躁的事 在開我玩笑的是 太多煩躁的事 但我一個一個排 寫成一個一個字 我還有譜還沒打 鐵車還沒拉 這麼多的進度但我只想回家 我應該掙扎還是躺好 細節你沒想好 但明年繼續一個都別想跑 他們說人自然涼只要人心靜 難怪12月我還能汗流成一地 有人堅信的事就有人迷信 你那不是想像力你只是神經病 太多煩躁的事 在開我玩笑的是 太多煩躁的事 它們一個一個來 要我一個一個試 太多煩躁的事 在開我玩笑的是 太多煩躁的事 但我一個一個排 寫成一個一個字 。 寫不完的歌詞 吵不完的爭執 戴上耳機開著抗噪 說不完的堅持 沒意義的偏執 聽著歌我全部放掉 我知道如果真的沒有來生前世 那你的人生就真的只有一次 即便所有你的煩惱都轉瞬即逝 即便這首歌你可能只會聽過一次 你問我問題的答案 沒有答案要怎麼給你提示 如果沒有現在 也沒有彼此 除了你的煩惱其他都是其次 為了多久後而奮鬥 卻忘記有事要趁早 這個問題我也問過 卻總被自己給問倒 學會愛自己更多  愛他人愛面子更少 關閉聽覺掙脫 煩躁和困擾 
+心情特別燥 小心地滑 差點跌倒 好的壞的都來像演無間道 錢不嫌多事不嫌少 只想讓事故減少 你在賣我保險還是偷偷置入邪教 又得踏回剛走的前腳 事情一件一件浮現 又想拖延到 日子一天一天不見 又把那是非顛倒 我只想錄歌 外面又在放鞭炮 我只好睡覺 真的太吵 要怎麼睡著 那什麼味道 又是誰家的廢料 又沒倒 害得臭氣熏天圍繞 在我的房間怎麼噴都沒效 他媽的蚊子一直飛到我的耳朵 抓都抓不到 又是一顆老鼠屎就壞了整鍋 其他鳥事還有很多 但我通常都是寫歌不怎麼說
+太多煩躁的事 在開我玩笑的是 太多煩躁的事 它們一個一個來 要我一個一個試
+太多煩躁的事 在開我玩笑的是 太多煩躁的事 但我一個一個排 寫成一個一個字
+我還有譜還沒打 鐵車還沒拉 這麼多的進度但我只想回家 我應該掙扎還是躺好 細節你沒想好 但明年繼續一個都別想跑 他們說人自然涼只要人心靜 難怪12月我還能汗流成一地 有人堅信的事就有人迷信 你那不是想像力你只是神經病
+太多煩躁的事 在開我玩笑的是 太多煩躁的事 它們一個一個來 要我一個一個試
+太多煩躁的事 在開我玩笑的是 太多煩躁的事 但我一個一個排 寫成一個一個字
+。
+寫不完的歌詞 吵不完的爭執 戴上耳機開著抗噪 說不完的堅持 沒意義的偏執 聽著歌我全部放掉 我知道如果真的沒有來生前世 那你的人生就真的只有一次 即便所有你的煩惱都轉瞬即逝 即便這首歌你可能只會聽過一次 你問我問題的答案 沒有答案要怎麼給你提示 如果沒有現在 也沒有彼此 除了你的煩惱其他都是其次
+為了多久後而奮鬥 卻忘記有事要趁早 這個問題我也問過 卻總被自己給問倒 學會愛自己更多  愛他人愛面子更少 關閉聽覺掙脫 煩躁和困擾
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-04-05,,True,True,
+2026-04-21 02:07:02,18,,,10,401,2,https://streetvoice.com/diana40717/songs/853766/,https://streetvoice.com/diana40717/,"https://akstatic.streetvoice.com/song_covers/di/an/diana40717/BHrj7GQo433FvwyiXpqKfE.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvZGkvYW4vZGlhbmE0MDcxNy9CSHJqN0dRbzQzM0Z2d3lpWHBxS2ZFLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@diana40717,音樂人,新北市,2016-12-01,2023-11-03 19:04,4,76,18,,https://instagram.com/diana40717,https://youtube.com/@diana40717,Folk,,,,"〈一陣風〉 作詞/作曲：張倚瑄 本作品為參與聞到夏天青年音樂家培訓計劃之成果，並取樣文夏老師的〈黃昏的故鄉〉作為致敬。 特別感謝台南西港最美三合院-白埕物所，提供靜謐的創作空間。自己很喜歡這個剛寫完就隨性在榻榻米上用手機錄製的版本！ 
+〈一陣風〉 作詞/作曲：張倚瑄
+本作品為參與聞到夏天青年音樂家培訓計劃之成果，並取樣文夏老師的〈黃昏的故鄉〉作為致敬。
+特別感謝台南西港最美三合院-白埕物所，提供靜謐的創作空間。自己很喜歡這個剛寫完就隨性在榻榻米上用手機錄製的版本！","一陣風吹來 日頭拄欲爬上山 彼個揹著guitar的少年家 你欲去佗 離開故鄉幾十年 為著理想認真拚 若是有風 免驚惶 免煩惱 勇敢綴伊飛 飛去天公頂 隨雲尪仔做伙 若是拄著西北雨直直落 就別勉強 咱恬恬覕佇厝內 共每一个思念 寫做一條歌 頭前的路是彎彎斡斡 咱就大聲 唱著歌 給心情 放予輕鬆 若是有風 免驚惶 免煩惱 勇敢綴伊飛 飛去天公頂 隨雲尪仔做伙 若是拄著西北雨直直落 就別勉強 恬恬覕佇厝內 共每一个思念 寫做一條歌 
+一陣風吹來 日頭拄欲爬上山 彼個揹著guitar的少年家 你欲去佗 離開故鄉幾十年 為著理想認真拚
+若是有風 免驚惶 免煩惱 勇敢綴伊飛 飛去天公頂 隨雲尪仔做伙 若是拄著西北雨直直落 就別勉強 咱恬恬覕佇厝內 共每一个思念 寫做一條歌
+頭前的路是彎彎斡斡 咱就大聲 唱著歌 給心情 放予輕鬆
+若是有風 免驚惶 免煩惱 勇敢綴伊飛 飛去天公頂 隨雲尪仔做伙 若是拄著西北雨直直落 就別勉強 恬恬覕佇厝內 共每一个思念 寫做一條歌
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,19,,,0,39,0,https://streetvoice.com/yoztiger/songs/854033/,https://streetvoice.com/yoztiger/,"https://akstatic.streetvoice.com/song_covers/yo/zt/yoztiger/7FHTJXknRB4awgF5ZuVhde.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMveW8venQveW96dGlnZXIvN0ZIVEpYa25SQjRhd2dGNVp1VmhkZS5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@yoztiger,音樂人,,,,46,218,,,,https://www.youtube.com/user/StreetVoiceTV,Rock,2015宅錄《北方》,https://streetvoice.com/yoztiger/songs/album/97263309/,,"made by bowztiger band orginal song idea&guitar riff:bonkit sing&back up chord:yoz bass:loretta drum:Leeyu lyrics:bonkit&yoz 
+made by bowztiger band orginal song idea&guitar riff:bonkit sing&back up chord:yoz bass:loretta drum:Leeyu lyrics:bonkit&yoz","這是沒有提供歌詞的歌曲
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-17,,True,False,
+2026-04-21 02:07:02,20,,,42,3070,20,https://streetvoice.com/10020486/songs/852825/,https://streetvoice.com/10020486/,"https://akstatic.streetvoice.com/song_covers/10/02/10020486/VX2Gh9qZRew8YVKZFSCcpf.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvMTAvMDIvMTAwMjA0ODYvVlgyR2g5cVpSZXc4WVZLWkZTQ2NwZi5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@10020486,音樂人,新竹市,2016-06-01,2026-03-13 10:13,,32,1,https://www.facebook.com/profile.php?id=61587051151950,https://www.instagram.com/rightway_band.tw/,https://www.youtube.com/@RightWayBand,Rock,,,,"有些話輕描淡寫，卻足以在一個人的心裡留下長久無法癒合的傷。 我們活在被標籤的世界裡，習慣在誤解中沈默，以為不回應就能換來平靜。 但那些聲音，從來沒有消失。 當我們拆穿「我不在乎」的偽裝，才發現所有的退讓，其實來自於對自己的忽視。 ________ 音樂製作 Music Production｜淨土 PURELAND 作詞 Lyricist｜BingPong 作曲 Composer｜BingPong 製作人 Producer｜于修 Yssue / Right Way 製作助理 Assistant Producer｜Eason13 配唱製作 Vocal Production｜Dav 吳維鈞 和聲編寫 Backing Vocal Arrangement｜Dav 吳維鈞 編曲 Arranger｜于修 Yssue / Right Way 人聲 Vocal｜BingPong 和聲 Backing Vocal｜BingPong 人聲錄音師 Vocal Recording Engineer｜Eason13 人聲錄音室 Vocal Recording Studio｜淨土 PURELAND 混音工程師 Mixing Engineer｜于修 Yssue / Eason13 混音工作室 Mixing Studio｜淨土 PURELAND 母帶後期處理工程師 Mastering Engineer｜于修 Yssue / Eason13 母帶後期處理錄音室 Mastering Studio｜淨土 PURELAND 
+有些話輕描淡寫，卻足以在一個人的心裡留下長久無法癒合的傷。 我們活在被標籤的世界裡，習慣在誤解中沈默，以為不回應就能換來平靜。
+但那些聲音，從來沒有消失。
+當我們拆穿「我不在乎」的偽裝，才發現所有的退讓，其實來自於對自己的忽視。 ________ 音樂製作 Music Production｜淨土 PURELAND 作詞 Lyricist｜BingPong 作曲 Composer｜BingPong 製作人 Producer｜于修 Yssue / Right Way 製作助理 Assistant Producer｜Eason13 配唱製作 Vocal Production｜Dav 吳維鈞 和聲編寫 Backing Vocal Arrangement｜Dav 吳維鈞 編曲 Arranger｜于修 Yssue / Right Way 人聲 Vocal｜BingPong 和聲 Backing Vocal｜BingPong
+人聲錄音師 Vocal Recording Engineer｜Eason13 人聲錄音室 Vocal Recording Studio｜淨土 PURELAND 混音工程師 Mixing Engineer｜于修 Yssue / Eason13 混音工作室 Mixing Studio｜淨土 PURELAND 母帶後期處理工程師 Mastering Engineer｜于修 Yssue / Eason13 母帶後期處理錄音室 Mastering Studio｜淨土 PURELAND","動態歌詞
+漸漸習慣身上那些標籤 選擇性視而不見 心裡大雨下了好長時間 窗外好陣子沒透進光線 嘗試找個人理解 努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲 看我被傷透的心 看我支離破碎的心 總以為沉默能解釋一切 卻只換來更深的誤解 把情緒藏進每句敷衍 連我都快忘了原來的臉 誰又真的聽得見 努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲 看我被傷透的心 看我支離破碎的心 不想去在意 只會越來越在意 想努力做好我自己 卻永遠做不了我 努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲 看我被傷透的心 看我支離破碎的心 
+漸漸習慣身上那些標籤 選擇性視而不見 心裡大雨下了好長時間 窗外好陣子沒透進光線 嘗試找個人理解
+努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲
+看我被傷透的心 看我支離破碎的心
+總以為沉默能解釋一切 卻只換來更深的誤解 把情緒藏進每句敷衍 連我都快忘了原來的臉 誰又真的聽得見
+努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲
+看我被傷透的心 看我支離破碎的心
+不想去在意 只會越來越在意 想努力做好我自己 卻永遠做不了我
+努力抹掉的蹤跡 終於只剩下自己 不曾真實的聲音 或許不只是遊戲
+看我被傷透的心 看我支離破碎的心
+留言（ 20 ） 最相關留言 所有留言
+留言（ 20 ）",2026-04-10,,True,False,
+2026-04-21 02:07:02,21,,,0,51,0,https://streetvoice.com/yoztiger/songs/854027/,https://streetvoice.com/yoztiger/,"https://akstatic.streetvoice.com/song_covers/yo/zt/yoztiger/AqtmKHtRGc9SEDCYS9Avn9.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMveW8venQveW96dGlnZXIvQXF0bUtIdFJHYzlTRURDWVM5QXZuOS5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@yoztiger,音樂人,,,,14,68,,,,https://www.youtube.com/user/StreetVoiceTV,Singer / Songwriter,2006木柵天台之歌,https://streetvoice.com/yoztiger/songs/album/12899/,,"i hope u all good and happy 
+i hope u all good and happy","這是沒有提供歌詞的歌曲
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-17,,True,False,
+2026-04-21 02:07:02,22,,,6,224,0,https://streetvoice.com/RABand2507/songs/852640/,https://streetvoice.com/RABand2507/,"https://akstatic.streetvoice.com/song_covers/RA/Ba/RABand2507/7jAai3UG8ZLdiuoPwGQyoZ.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvUkEvQmEvUkFCYW5kMjUwNy83akFhaTNVRzhaTGRpdW9Qd0dReW9aLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@RABand2507,音樂人,,,2025-09-25 13:13,3,43,4,https://www.facebook.com/profile.php?id=61578943824622,https://www.instagram.com/theband_ra/,https://www.youtube.com/user/StreetVoiceTV,Rock,RA 同名專輯,https://streetvoice.com/RABand2507/songs/album/97324823/,,"作曲Composer：劉橘男 LupinOrange Liu 作詞Lyricist ：劉橘男 LupinOrange Liu 編曲 Arrangement： RA 拉 Presented by RA 拉 RA is 主唱 Lead Vocal ： 劉橘男 LupinOrange Liu 吉他 Guitar：劉橘男 LupinOrange Liu 低音吉他 Bass：郭振華 Edward Kuo 鼓 Drums ：邱凡宸 Fan Chen Chiu 薩克斯風 Saxophone ：柯達 Kevin Ko 和音 Backing Vocal：劉橘男 LupinOrange Liu 
+作曲Composer：劉橘男 LupinOrange Liu 作詞Lyricist ：劉橘男 LupinOrange Liu 編曲 Arrangement： RA 拉 Presented by RA 拉
+RA is 主唱 Lead Vocal ： 劉橘男 LupinOrange Liu 吉他 Guitar：劉橘男 LupinOrange Liu 低音吉他 Bass：郭振華 Edward Kuo 鼓 Drums ：邱凡宸 Fan Chen Chiu 薩克斯風 Saxophone ：柯達 Kevin Ko 和音 Backing Vocal：劉橘男 LupinOrange Liu","口袋裝紙鈔 腦袋裝狗屎 男人貪慕虛榮 女人不知羞恥 貧窮富翁 慈善玩家 階級蠕蟲 繁殖交配 打擊貪腐 振興經濟 are you joking me 你愛過來 你愛過去 你的愛就是資本主義 你的愛  沈重的愛 太輕浮啦 stupid people stupid government stupid lover stupid stupid bored stupid parents stupid children we all live in this stupid world 
+口袋裝紙鈔 腦袋裝狗屎 男人貪慕虛榮 女人不知羞恥
+貧窮富翁 慈善玩家 階級蠕蟲 繁殖交配 打擊貪腐 振興經濟 are you joking me
+你愛過來 你愛過去 你的愛就是資本主義 你的愛  沈重的愛 太輕浮啦
+stupid people stupid government stupid lover stupid stupid bored stupid parents stupid children we all live in this stupid world
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,23,,,2,72,0,https://streetvoice.com/yen1982/songs/853251/,https://streetvoice.com/yen1982/,"https://akstatic.streetvoice.com/song_covers/ye/n1/yen1982/NwHQjHvp43zpRkiKEgpUqu.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMveWUvbjEveWVuMTk4Mi9Od0hRakh2cDQzenBSa2lLRWdwVXF1LmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@yen1982,音樂人,新北市,2007-03-01,2021-10-19 15:06,140,907,51,https://www.facebook.com/salamander.yz.com.tw,,https://www.youtube.com/watch,Dance,SUPER LO-FI RADIO,https://streetvoice.com/yen1982/songs/album/97320840/,,"Samples control it’s by forming and shapes design to create the track structure. 
+Samples control it’s by forming and shapes design to create the track structure.","這是沒有提供歌詞的歌曲
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-11,,False,False,https://streetvoice.com/yen1982/songs/853251/critic_reviews/
+2026-04-21 02:07:02,24,,,43,10630,2,https://streetvoice.com/ninjawenwen/songs/852488/,https://streetvoice.com/ninjawenwen/,"https://akstatic.streetvoice.com/song_covers/ni/nj/ninjawenwen/C25DEJLFRtncfsXg2hTBjH.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbmkvbmovbmluamF3ZW53ZW4vQzI1REVKTEZSdG5jZnNYZzJoVEJqSC5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@ninjawenwen,音樂人,,,,,7,2,,,https://www.youtube.com/user/StreetVoiceTV,Folk,,,魏祺修,"歌手許瓊文與魏祺修首度合作的男女對唱情歌〈若我們沒遇見，你會不會再快樂一點？〉，於 2026 年 4 月發行。 〈若我們沒遇見，你會不會再快樂一點？〉是一首關於成長後對遺憾的釋然，以及對年少無知的告解之作。曲中兩人錯過彼此，在結束關係後回望那段時光的錯身與遺憾，有了更多感慨，也曾想像平行時空中是否存在不同的劇本。 如果當初不曾相遇呢？「你會不會再快樂一點？」 
+歌手許瓊文與魏祺修首度合作的男女對唱情歌〈若我們沒遇見，你會不會再快樂一點？〉，於 2026 年 4 月發行。
+〈若我們沒遇見，你會不會再快樂一點？〉是一首關於成長後對遺憾的釋然，以及對年少無知的告解之作。曲中兩人錯過彼此，在結束關係後回望那段時光的錯身與遺憾，有了更多感慨，也曾想像平行時空中是否存在不同的劇本。
+如果當初不曾相遇呢？「你會不會再快樂一點？」","動態歌詞
+若我們沒遇見 你會不會再快樂一點？ 曾經曾經 我們都學會了體貼 每一秒都像是錯覺 想暫停 寂靜卻讓人 向後退 好險好險 我們都習慣了離別 沒人說就 沒人思念 這樣想 會成熟點 也容易些 我希望你能諒解 當時的我總以為 感情不就是 相互依偎 你想做的 我不迷戀 我擁有的 你沒感覺 只好承認彼此不匹配 若我們沒遇見 你會不會再快樂一點？ 好險好險 我們都習慣了離別 沒人說就沒人思念 這樣想 會成熟點 也容易些 我希望你能諒解 當時的我總以為 感情不就是 相互依偎 你想做的 我不迷戀 我擁有的 你沒感覺 （沒有感覺） 只好承認彼此不匹配 若我們沒遇見 你會不會再快樂一點？ 我希望你能諒解 當時的我總以為 感情不就是 自我陶醉 你想要的 我不能給 好像做什麼都不對 卻把問題都丟給時間 如果再次擦肩 你（我）會不會再說一遍？ 
+若我們沒遇見 你會不會再快樂一點？ 曾經曾經 我們都學會了體貼 每一秒都像是錯覺 想暫停 寂靜卻讓人 向後退 好險好險 我們都習慣了離別 沒人說就 沒人思念 這樣想 會成熟點 也容易些 我希望你能諒解 當時的我總以為 感情不就是 相互依偎 你想做的 我不迷戀 我擁有的 你沒感覺 只好承認彼此不匹配 若我們沒遇見 你會不會再快樂一點？ 好險好險 我們都習慣了離別 沒人說就沒人思念 這樣想 會成熟點 也容易些 我希望你能諒解 當時的我總以為 感情不就是 相互依偎 你想做的 我不迷戀 我擁有的 你沒感覺 （沒有感覺） 只好承認彼此不匹配 若我們沒遇見 你會不會再快樂一點？ 我希望你能諒解 當時的我總以為 感情不就是 自我陶醉 你想要的 我不能給 好像做什麼都不對 卻把問題都丟給時間 如果再次擦肩 你（我）會不會再說一遍？
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-04-10,,True,False,
+2026-04-21 02:07:02,25,,,44,4222,20,https://streetvoice.com/kingdomofrain/songs/853519/,https://streetvoice.com/kingdomofrain/,"https://akstatic.streetvoice.com/song_covers/ki/ng/kingdomofrain/cPTfyekTCAnP7auz9zR89B.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMva2kvbmcva2luZ2RvbW9mcmFpbi9jUFRmeWVrVENBblA3YXV6OXpSODlCLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@kingdomofrain,音樂人,,,2021-05-20 15:42,59,1690,1,,,https://youtu.be/GRV3uu6d_xw,Electronic,,,,"詞曲：陳翰 混音：陳翰 母帶：陳翰、曹安 
+詞曲：陳翰 混音：陳翰 母帶：陳翰、曹安","動態歌詞
+你懷疑各種事物 內耗能量 沒人能理解自己 獨自對抗 保有最後的善良 學著對話 通往前方的路上 發亮的遠方 你思考各種面向 撐住理想 總有人能理解你 獨自成長 保有一絲的善良 學著原諒 通往前方的路上 未知的地方 照亮前方的路徑 劃破黑暗 從過往的迷失裡 尋找答案 不再盲目崇拜 真誠看待 學會面對坦白 理解釋懷 吐出來一口氣息    跨步邁開 別總是藏在夜裡 躲在黑暗 卸下來人設面具 並不困難 對的人對的事情 看清看淡 你懷疑各種事物 內耗能量 沒人能理解自己 獨自對抗 保有最後的善良 學著對話 通往前方的路上 發亮的遠方 你思考各種面向 撐住理想 總有人能理解你 獨自成長 保有一絲的善良 學著原諒 通往前方的路上 未知的地方 照亮前方的路徑 劃破黑暗 從過往的迷失裡 尋找答案 不再盲目崇拜 真誠看待 學會面對坦白 理解釋懷 吐出來一口氣息    跨步邁開 別總是藏在夜裡 躲在黑暗 卸下來人設面具 並不困難 對的人對的事情 看清看淡 
+你懷疑各種事物 內耗能量 沒人能理解自己 獨自對抗 保有最後的善良 學著對話 通往前方的路上 發亮的遠方 你思考各種面向 撐住理想 總有人能理解你 獨自成長 保有一絲的善良 學著原諒 通往前方的路上 未知的地方 照亮前方的路徑 劃破黑暗 從過往的迷失裡 尋找答案 不再盲目崇拜 真誠看待 學會面對坦白 理解釋懷 吐出來一口氣息    跨步邁開 別總是藏在夜裡 躲在黑暗 卸下來人設面具 並不困難 對的人對的事情 看清看淡 你懷疑各種事物 內耗能量 沒人能理解自己 獨自對抗 保有最後的善良 學著對話 通往前方的路上 發亮的遠方 你思考各種面向 撐住理想 總有人能理解你 獨自成長 保有一絲的善良 學著原諒 通往前方的路上 未知的地方 照亮前方的路徑 劃破黑暗 從過往的迷失裡 尋找答案 不再盲目崇拜 真誠看待 學會面對坦白 理解釋懷 吐出來一口氣息    跨步邁開 別總是藏在夜裡 躲在黑暗 卸下來人設面具 並不困難 對的人對的事情 看清看淡
+留言（ 20 ） 最相關留言 所有留言
+留言（ 20 ）",2026-04-13,,True,False,
+2026-04-21 02:07:02,26,,,0,8,0,https://streetvoice.com/luna_blaze/songs/852792/,https://streetvoice.com/luna_blaze/,"https://akstatic.streetvoice.com/song_covers/lu/na/luna_blaze/etrM3fhqfpw2kQ6gHSaxjf.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbHUvbmEvbHVuYV9ibGF6ZS9ldHJNM2ZocWZwdzJrUTZnSFNheGpmLmpwZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@luna_blaze,音樂人,新北市,2024-08-01,,,,,,,https://www.youtube.com/user/StreetVoiceTV,Rock,,,,"如果自己活在一個充滿讚美的環境裡，是不是就能更自信一點？算了，過去的事已是身體裡的陳年毒素，那些批評指教我全都吃進去，奮力一嚼，讓唾液慢慢軟化，拿走那些極小的養份，學會讓那些像蚊子嗡嗡嗡的聲音在我身體裡環繞一圈之後自然排出💨，我要創造自己想要的環境。我口吐芬芳，也要活的自由自在。就讓我們大聲的對自己說：「我今天選擇不美麗~」 [音樂製作 | Music Credit] 詞曲 Lyricist & Composer | 呂茄伊 Luna 製作人 Producer | 楊恢宇 G.B 編曲 Arranger | 楊恢宇G.B 混音 Mixing Engineer | 楊恢宇G.B 
+如果自己活在一個充滿讚美的環境裡，是不是就能更自信一點？算了，過去的事已是身體裡的陳年毒素，那些批評指教我全都吃進去，奮力一嚼，讓唾液慢慢軟化，拿走那些極小的養份，學會讓那些像蚊子嗡嗡嗡的聲音在我身體裡環繞一圈之後自然排出💨，我要創造自己想要的環境。我口吐芬芳，也要活的自由自在。就讓我們大聲的對自己說：「我今天選擇不美麗~」
+[音樂製作 | Music Credit] 詞曲 Lyricist & Composer | 呂茄伊 Luna 製作人 Producer | 楊恢宇 G.B 編曲 Arranger | 楊恢宇G.B 混音 Mixing Engineer | 楊恢宇G.B","動態歌詞
+# 醜蝴蝶 毛毛蟲養在玻璃罐裡 一旁批評聲音像噪音 總習慣被評論的遊戲 蝴蝶看不清他的身體 掉入他們設下的陷阱 騙你美的標準很單一 Am I beautiful ？Am I beautiful ? Am I beautiful? Am I beautiful? 焦慮焦慮全丟掉 我要醜蝴蝶閃耀 Sorry sorry 我不要 休想讓我進圈套 Girls, I can do like this now Let go 那些傷人的話 還沒輪到他們來tell you how 焦慮焦慮全丟掉 我要醜蝴蝶閃耀 
+# 醜蝴蝶 毛毛蟲養在玻璃罐裡 一旁批評聲音像噪音 總習慣被評論的遊戲 蝴蝶看不清他的身體 掉入他們設下的陷阱 騙你美的標準很單一 Am I beautiful ？Am I beautiful ? Am I beautiful? Am I beautiful? 焦慮焦慮全丟掉 我要醜蝴蝶閃耀 Sorry sorry 我不要 休想讓我進圈套 Girls, I can do like this now Let go 那些傷人的話 還沒輪到他們來tell you how 焦慮焦慮全丟掉 我要醜蝴蝶閃耀
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-20,,False,False,
+2026-04-21 02:07:02,27,,,1,68,2,https://streetvoice.com/13lefty/songs/854023/,https://streetvoice.com/13lefty/,"https://akstatic.streetvoice.com/song_covers/13/le/13lefty/o2Y4ui8P37zA6H3UwuqEJ9.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvMTMvbGUvMTNsZWZ0eS9vMlk0dWk4UDM3ekE2SDNVd3VxRUo5LmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@13lefty,音樂人,台灣,2017-03-01,2022-03-18 15:06,1,71,3,,https://www.instagram.com/_13lefty/,https://www.youtube.com/channel/UCibeM5ryWNXDddfI5GYHROA,Hip hop / Rap,,,Double,"//音樂製作【Music Production 】 製作人 Producer｜13Lefty 詞/曲Lyricist/Composer｜13Lefty 編曲 Beat Arranger｜朱全Z.ChUAN 和聲編寫 BV Arranger | 13Lefty 混音工程師 Mixing Engineer｜Double  @NERDYBOY , 13Lefty 母帶工程師Mastering Engineer | Double @NERDYBOY 母帶工作室Mastering Studio | Nerdyboy Space Capsule 視覺動畫 Visualizer | o_cyber.0 // 追蹤我們【Follow us】 https://www.instagram.com/_13lefty/ https://www.instagram.com/z.chuan/ https://www.instagram.com/doublewei666/ 
+//音樂製作【Music Production 】
+製作人 Producer｜13Lefty 詞/曲Lyricist/Composer｜13Lefty 編曲 Beat Arranger｜朱全Z.ChUAN 和聲編寫 BV Arranger | 13Lefty 混音工程師 Mixing Engineer｜Double  @NERDYBOY , 13Lefty 母帶工程師Mastering Engineer | Double @NERDYBOY 母帶工作室Mastering Studio | Nerdyboy Space Capsule 視覺動畫 Visualizer | o_cyber.0
+// 追蹤我們【Follow us】
+https://www.instagram.com/_13lefty/
+https://www.instagram.com/_13lefty/
+https://www.instagram.com/z.chuan/
+https://www.instagram.com/z.chuan/
+https://www.instagram.com/doublewei666/
+https://www.instagram.com/doublewei666/","你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 殘破的 毀壞的  碎裂的 我 使用過後 失去重新組織 的   節奏 你曾說 我是最珍貴的理由 那變成刀鋒指著我潰爛的傷口 You ruined me then throw me away You ruined me then throw me away 在你眼裡我是不是這樣的愚昧 沒有任何防備 給了你我全部一切 你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 Yeah I'll lie for you I'll die for you I’ll do everything 只要我能夠 I’ll do everything 只要你能夠回眸 
+你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯
+殘破的 毀壞的  碎裂的 我 使用過後 失去重新組織 的   節奏 你曾說 我是最珍貴的理由 那變成刀鋒指著我潰爛的傷口
+You ruined me then throw me away You ruined me then throw me away 在你眼裡我是不是這樣的愚昧 沒有任何防備 給了你我全部一切
+你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯 你讓我深陷其中 再把靈魂狠狠帶走 把這一切掏空沒留下什麼給我 就掉進這漩渦 I know I know你沒錯
+Yeah I'll lie for you I'll die for you I’ll do everything 只要我能夠 I’ll do everything 只要你能夠回眸
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-04-20,,False,False,
+2026-04-21 02:07:02,28,,,1,29,0,https://streetvoice.com/red_sun_uzz/songs/854287/,https://streetvoice.com/red_sun_uzz/,"https://akstatic.streetvoice.com/song_covers/re/d_/red_sun_uzz/8hBxdn7JqjcEconAd5APgb.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvcmUvZF8vcmVkX3N1bl91enovOGhCeGRuN0pxamNFY29uQWQ1QVBnYi5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@red_sun_uzz,音樂人,台北市,2021-11-01,,1,6,3,,,https://www.youtube.com/user/StreetVoiceTV,Metal,,,,"在窒息與麻木之間掙扎，這首歌描繪一種逐漸失去 感覺的內在崩壞. 
+在窒息與麻木之間掙扎，這首歌描繪一種逐漸失去 感覺的內在崩壞.","放掉一切的執念 一切執念都來自眷戀 畫面在我眼前浮現 直到最後慢慢遮蔽了 雙眼 幹 我什麼都看不見 為什麼都沒有變 一次次選擇犯賤 我發現自己漸漸 It’s just so hard to breathe （呼吸變得如此困難） Gonna find some way to keep it （我試著抓住一點什麼，讓自己不至於墜落） ‘Cause I can’t feel anything （因為我早已失去感覺） 太多 感覺 重現 太久 忘了 感覺 絕望 不斷 蔓延 想法 不斷 重現 放掉一切的執念 一切執念都來自眷戀 畫面在我眼前浮現 直到最後慢慢遮蔽了雙眼 放  我知道我要放下 傷口正要結痂 It’s just so hard to breathe （呼吸變得如此困難） Gonna find some way to keep it （我試著抓住一點什麼，讓自己不至於墜落） ‘Cause I can’t feel anything （因為我早已失去感覺） And as time goes more slowly （而隨著時間愈發緩慢） 一切彷彿都要暫停 混亂快填滿身體 完全沒感覺 感覺往下墜 墜落到地面 地面在下陷 
+放掉一切的執念 一切執念都來自眷戀 畫面在我眼前浮現 直到最後慢慢遮蔽了 雙眼 幹 我什麼都看不見 為什麼都沒有變 一次次選擇犯賤 我發現自己漸漸
+It’s just so hard to breathe （呼吸變得如此困難） Gonna find some way to keep it （我試著抓住一點什麼，讓自己不至於墜落） ‘Cause I can’t feel anything （因為我早已失去感覺）
+太多 感覺 重現 太久 忘了 感覺 絕望 不斷 蔓延 想法 不斷 重現 放掉一切的執念 一切執念都來自眷戀 畫面在我眼前浮現 直到最後慢慢遮蔽了雙眼 放  我知道我要放下 傷口正要結痂
+It’s just so hard to breathe （呼吸變得如此困難） Gonna find some way to keep it （我試著抓住一點什麼，讓自己不至於墜落） ‘Cause I can’t feel anything （因為我早已失去感覺）
+And as time goes more slowly （而隨著時間愈發緩慢） 一切彷彿都要暫停 混亂快填滿身體
+完全沒感覺 感覺往下墜 墜落到地面 地面在下陷
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-19,,False,False,
+2026-04-21 02:07:02,29,,,1,18,0,https://streetvoice.com/kireyung/songs/854318/,https://streetvoice.com/kireyung/,"https://akstatic.streetvoice.com/song_covers/ki/re/kireyung/YmExDJgdmFN4nchnyrdQwR.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMva2kvcmUva2lyZXl1bmcvWW1FeERKZ2RtRk40bmNobnlyZFF3Ui5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@kireyung,音樂人,,,2021-07-19 16:29,31,1759,1,https://www.facebook.com/kireyung,https://www.instagram.com/kireyung/,https://www.youtube.com/c/kireyung/,Hip hop / Rap,,,,,"Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ I don’t wanna fight babe I just wanna vibe baby Let’s make up tonight mm Tell me how to make this right Man we acting like we animals oh she got me going screaming cussing blasting through the phone won't you let it go? Oh I knew I should’ve let this go You know i never mean it yeah Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ I don’t wanna fight babe I just wanna vibe baby Let’s make up tonight mm Tell me how to make this right I see the tear fall down your eyes I just watch you leave I don’t know how to love I tried to play it tough i'm scared im not enough know i fucked this up I just want to be with ya Teach me how to love Please don't give up on us 
+Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~
+I don’t wanna fight babe I just wanna vibe baby Let’s make up tonight mm Tell me how to make this right Man we acting like we animals oh she got me going screaming cussing blasting through the phone won't you let it go? Oh I knew I should’ve let this go You know i never mean it yeah
+Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~ Na~Na~Na~Na~
+I don’t wanna fight babe I just wanna vibe baby Let’s make up tonight mm Tell me how to make this right
+I see the tear fall down your eyes I just watch you leave I don’t know how to love I tried to play it tough i'm scared im not enough know i fucked this up I just want to be with ya Teach me how to love Please don't give up on us
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-19,,True,False,
+2026-04-21 02:07:02,30,,,0,47,0,https://streetvoice.com/_Apricity_/songs/854425/,https://streetvoice.com/_Apricity_/,"https://akstatic.streetvoice.com/song_covers/_A/pr/_Apricity_/SdbFf9azhH939RZ9Jj4Q7J.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvX0EvcHIvX0FwcmljaXR5Xy9TZGJGZjlhemhIOTM5Ulo5Smo0UTdKLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@_Apricity_,音樂人,,,,2,27,1,,,https://www.youtube.com/user/StreetVoiceTV,Folk,,,,"舞火是2018年的創作 創作的感動來自人生第一次觀賞朋友的火舞秀 只是當年的音檔 在我心血來潮整理自己往年街聲作品時 一不小心 按了刪除 不曉得是不是應了這首歌 舞 火 這一瞬間後 四處尋不回他的蹤跡 於是重新詮釋 好在一開口 那夜的感動又回來了 這次以bass＋vocal的形式 希望浴火 重生 
+舞火是2018年的創作 創作的感動來自人生第一次觀賞朋友的火舞秀
+只是當年的音檔 在我心血來潮整理自己往年街聲作品時 一不小心 按了刪除
+不曉得是不是應了這首歌 舞 火 這一瞬間後 四處尋不回他的蹤跡
+於是重新詮釋 好在一開口 那夜的感動又回來了
+這次以bass＋vocal的形式 希望浴火 重生","舞火 詞曲：石 bass：UB 星星之火 可以燎原 那渺小的我 是否也可以改變 漫漫黑夜 因你點燃 若隱若現 忽明忽滅 我們與烈焰共舞 沐浴火焰中 飛蛾撲火的秘密 撲朔迷離 我和螢火蟲共舞 有月亮星星伴舞 一見如故 不斷 反覆 不同元素 相互拼湊 正如你我 擦出火花 壯碩 我們像這場花火 絢麗奪目 心臟賣力地跳動 炙熱的血液 流動 我們與烈焰共舞 沐浴火焰中 飛蛾撲火的秘密 撲朔迷離 我和螢火蟲共舞 有月亮星星伴舞 一見如故 不斷 反覆 舞火 舞火 舞火 
+舞火 詞曲：石 bass：UB
+星星之火 可以燎原 那渺小的我 是否也可以改變 漫漫黑夜 因你點燃 若隱若現 忽明忽滅
+我們與烈焰共舞 沐浴火焰中 飛蛾撲火的秘密 撲朔迷離 我和螢火蟲共舞 有月亮星星伴舞 一見如故 不斷 反覆
+不同元素 相互拼湊 正如你我 擦出火花 壯碩
+我們像這場花火 絢麗奪目 心臟賣力地跳動 炙熱的血液 流動
+我們與烈焰共舞 沐浴火焰中 飛蛾撲火的秘密 撲朔迷離 我和螢火蟲共舞 有月亮星星伴舞 一見如故 不斷 反覆 舞火 舞火 舞火
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-20,,False,False,
+2026-04-21 02:07:02,31,,,3,1099,5,https://streetvoice.com/bennuband0410/songs/852807/,https://streetvoice.com/bennuband0410/,"https://akstatic.streetvoice.com/song_covers/be/nn/bennuband0410/ZodNDbuXckBweYzZ8BeVa5.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYmUvbm4vYmVubnViYW5kMDQxMC9ab2RORGJ1WGNrQndlWXpaOEJlVmE1LmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@bennuband0410,音樂人,,,,,3,,,,https://www.youtube.com/user/StreetVoiceTV,Rock,,,,"詞：竣傑 曲：竣傑 Vocal: 孟曦 Guitar: 竣傑 Bass: 田中智也 Drum: 小潘 城市裡 遇見你 在最平凡的日常裡相遇 不管白天還是夜晚 都有屬於我們記憶的場景 相遇就是一切的起點 Bennu的起點就發生在這首歌 
+詞：竣傑 曲：竣傑
+Vocal: 孟曦 Guitar: 竣傑 Bass: 田中智也 Drum: 小潘
+城市裡 遇見你 在最平凡的日常裡相遇 不管白天還是夜晚 都有屬於我們記憶的場景
+相遇就是一切的起點 Bennu的起點就發生在這首歌","城市裡 陽光裡  直到遇見你 在日記 在心底 全都是你 小小的咖啡廳 公園的森林 一起漫步在午後光影 城市裡 月光裡  只想遇見你 在夢境 在回憶  全都是你 坐在高樓屋頂  將你雙手握緊 It's forever darling 擁擠的 地鐵車廂裡 戴上耳機 音樂在唱著愛情 心動不已 偷偷地 看著身旁的你 當地鐵 離開了地底 那陽光 灑落在妳的眼睛 將你喚醒 被發現我正看著你 瞳孔的倒影 聽見心跳也共鳴 感受你呼吸 再也不需要言語 吵鬧的 熙來攘往人群 和你一起 感覺是如此安靜 不可思議 走進我世界的中心 看電影 感動的淚滴 想和你 一起穿越了劇情 在螢幕飛行 一直到城市的天際 城市裡 遇見你 Nothing gonna stop us darling It's forever darling 城市裡 遇見你 Nothing gonna stop us darling It's forever darling Oh my darling 
+城市裡 陽光裡  直到遇見你 在日記 在心底 全都是你 小小的咖啡廳 公園的森林 一起漫步在午後光影
+城市裡 月光裡  只想遇見你 在夢境 在回憶  全都是你 坐在高樓屋頂  將你雙手握緊 It's forever darling
+擁擠的 地鐵車廂裡 戴上耳機 音樂在唱著愛情 心動不已 偷偷地 看著身旁的你
+當地鐵 離開了地底 那陽光 灑落在妳的眼睛 將你喚醒 被發現我正看著你
+瞳孔的倒影 聽見心跳也共鳴 感受你呼吸 再也不需要言語
+吵鬧的 熙來攘往人群 和你一起 感覺是如此安靜 不可思議 走進我世界的中心
+看電影 感動的淚滴 想和你 一起穿越了劇情 在螢幕飛行 一直到城市的天際
+城市裡 遇見你 Nothing gonna stop us darling It's forever darling 城市裡 遇見你 Nothing gonna stop us darling It's forever darling Oh my darling
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-04-11,,True,False,
+2026-04-21 02:07:02,32,,,1,12,0,https://streetvoice.com/yiting_chang_/songs/854362/,https://streetvoice.com/yiting_chang_/,"https://akstatic.streetvoice.com/song_covers/yi/ti/yiting_chang_/UrYrkYcswhnHTZA4qxern6.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMveWkvdGkveWl0aW5nX2NoYW5nXy9Vcllya1ljc3dobkhUWkE0cXhlcm42LmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@yiting_chang_,音樂人,,,2022-01-04 18:49,,,,,https://instagram.com/yiting_chang_,https://www.youtube.com/channel/UCNuqUnM5olqZp7jRcTIw0MA,Electronic,,,,"3C阿嬤 （n.）2026年被首次發掘，屬於一種人類文化遺產，傳承古老的通訊習慣及資訊取得模式。 資料加載中 ▓▓▓▓░░░░░░░░░░ 30% 小學的風光時刻就是擁有一台Sony Ericsson w995，全班同學爭先恐後圍著我 但才得意沒多久，蘋果就推出第一支iphone QQ 太好了，從此我就從時代尖端隕落^_^ 資料加載中 ▓▓▓▓▓░░░░░░░░░ 43% 大學買了第一支iphone，用了 7 年不知道怎麼升級系統 重要時刻相簿永遠沒有容量、手機太舊無法叫外送滑D卡 iphone8 和 Nokia3310 沒有兩樣，朋友都笑我是3C阿嬤^_^ 資料加載極限中 ▓▓▓▓▓▓▓░░░░░░░ 66% 當人們說 Instagram 已經落伍，改流行 tiktok、小紅書、Threads…… 還沒學完，他們又說不學 AI 的人即將被取代????? 好啊，等到 AI 消滅人類的時候 3C阿嬤就是萬中選一、難得一見的文化遺產！o(︶︿︶)o .☆.｡.:*・°･.｡*･.｡* .☆.｡.:* ・°･.｡*･.｡* . 來，來阿嬤這裡，加入3C阿嬤的列隊 我們一起準備接管宇宙🛸 .☆.｡.:*・°･.｡*･.｡* .☆.｡.:* ・°･.｡*･.｡* . | Music | 製作人Producer / A.F 作詞 Lyricist / 翊庭 作曲 Composer / 翊庭 編曲 Arrangement / A.F 錄音 Recording Engineer / A.F 混音 Mixing Engineer / Wayson Scream 古箏 Guzheng / 郭靖沐 | Artist | 統籌 Coordinator / Eira女士 藝人經紀 Artist Manager / 老高 A&R / 瑞發Reva Chen 企劃 Planning / 阿湯 | Photography | 攝影 Photographer / Jove Wong 攝助 Photo Assistant / Helen Yeh & Pang Chau 妝髮 MUA / Liz Lee 妝髮助理 MUA Assistant / Pei Yu Tseng 造型 Stylist / Fish Kuang | Cover Design | 設計 Designer / 劉謹愷 Alan Kai 
+3C阿嬤 （n.）2026年被首次發掘，屬於一種人類文化遺產，傳承古老的通訊習慣及資訊取得模式。
+資料加載中 ▓▓▓▓░░░░░░░░░░ 30% 小學的風光時刻就是擁有一台Sony Ericsson w995，全班同學爭先恐後圍著我 但才得意沒多久，蘋果就推出第一支iphone QQ 太好了，從此我就從時代尖端隕落^_^
+資料加載中 ▓▓▓▓▓░░░░░░░░░ 43% 大學買了第一支iphone，用了 7 年不知道怎麼升級系統 重要時刻相簿永遠沒有容量、手機太舊無法叫外送滑D卡 iphone8 和 Nokia3310 沒有兩樣，朋友都笑我是3C阿嬤^_^
+資料加載極限中 ▓▓▓▓▓▓▓░░░░░░░ 66% 當人們說 Instagram 已經落伍，改流行 tiktok、小紅書、Threads…… 還沒學完，他們又說不學 AI 的人即將被取代?????
+好啊，等到 AI 消滅人類的時候 3C阿嬤就是萬中選一、難得一見的文化遺產！o(︶︿︶)o
+.☆.｡.:*・°･.｡*･.｡* .☆.｡.:* ・°･.｡*･.｡* .
+來，來阿嬤這裡，加入3C阿嬤的列隊 我們一起準備接管宇宙🛸
+.☆.｡.:*・°･.｡*･.｡* .☆.｡.:* ・°･.｡*･.｡* .
+| Music | 製作人Producer / A.F 作詞 Lyricist / 翊庭 作曲 Composer / 翊庭 編曲 Arrangement / A.F 錄音 Recording Engineer / A.F 混音 Mixing Engineer / Wayson Scream 古箏 Guzheng / 郭靖沐
+| Artist | 統籌 Coordinator / Eira女士 藝人經紀 Artist Manager / 老高 A&R / 瑞發Reva Chen 企劃 Planning / 阿湯
+| Photography | 攝影 Photographer / Jove Wong 攝助 Photo Assistant / Helen Yeh & Pang Chau 妝髮 MUA / Liz Lee 妝髮助理 MUA Assistant / Pei Yu Tseng 造型 Stylist / Fish Kuang
+| Cover Design | 設計 Designer / 劉謹愷 Alan Kai","動態歌詞
+阿嬤駕到 3C阿嬤駕到 3C阿嬤駕到 阿嬤駕到 當機 所有問題我都一律直接關機 umm 內建軟體 start from day one 從不更新 Shhh 我要發個限動大家別吵 讓我專心！！ ㄣ...... 這個…怎麼用…結果又 當機 umm 所有問題我都一律直接關機 Sorry 兩個月沒消息抱歉讓你擔心 yeah 網路上的聲音太多讓我無法呼吸 換氣 現代新科技 有chatGPT VR AR AGI 我連IG都打不開 線上繳費都全負債 阿嬤不是沒有錢換 只是 不懂軟體怎麼重灌 密碼忘記要怎麼辦 備份要怎麼按 設定要怎麼看 這怎麼那麼爛！ 3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down 全都 shut down！ 3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down shut it down！ shut it down！down！down！ shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah (shut it down！ shut it down！shut it, yeah) 不行你必須跟上 你的價值都取決於你的聲量 不畏上場的人才能刮起風浪 不要超過七點發文快點分享 對 按這裡分享 跟上大世界 結果忘了社會事件 關注性別 我就快要沒有時間 看完真的很氣 結果昨天發現 那件事 已經是 兩年之前 文案一篇 我就打了三天 才化好妝 我又錯過派對 發完 IG 還要發脆 歐！還有抖音欸 對！ umm 還是算了（算了？） 也不會有人想看的（也對） 而且這一切都讓我好累（好累） 等一下 我手機又要沒電了 喂喂 聽得到嗎 那我繼續 最醜的時候 我又開到視訊 剛唱到哪？豪 然後 這段要沒了？！ 我的生活不夠彩色 比起快樂我更常忐忑 我有什麼可以分享給你 如果連我都討厭我自己 3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down 全都 shut down！ 3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 woo～直接嚇到 通訊行老闆看我進門把店直接shut down shut it down！ shut it down！down！down！ shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah (3C阿嬤駕到！) 
+阿嬤駕到 3C阿嬤駕到 3C阿嬤駕到 阿嬤駕到
+當機 所有問題我都一律直接關機 umm 內建軟體 start from day one 從不更新 Shhh 我要發個限動大家別吵 讓我專心！！ ㄣ...... 這個…怎麼用…結果又
+當機 umm 所有問題我都一律直接關機 Sorry 兩個月沒消息抱歉讓你擔心 yeah 網路上的聲音太多讓我無法呼吸 換氣
+現代新科技 有chatGPT VR AR AGI 我連IG都打不開 線上繳費都全負債 阿嬤不是沒有錢換 只是 不懂軟體怎麼重灌 密碼忘記要怎麼辦 備份要怎麼按 設定要怎麼看 這怎麼那麼爛！
+3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down 全都 shut down！
+3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down shut it down！ shut it down！down！down！
+shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah (shut it down！ shut it down！shut it, yeah)
+不行你必須跟上 你的價值都取決於你的聲量 不畏上場的人才能刮起風浪 不要超過七點發文快點分享 對 按這裡分享
+跟上大世界 結果忘了社會事件 關注性別 我就快要沒有時間 看完真的很氣 結果昨天發現 那件事 已經是 兩年之前
+文案一篇 我就打了三天 才化好妝 我又錯過派對 發完 IG 還要發脆 歐！還有抖音欸 對！
+umm 還是算了（算了？） 也不會有人想看的（也對） 而且這一切都讓我好累（好累） 等一下 我手機又要沒電了 喂喂 聽得到嗎 那我繼續 最醜的時候 我又開到視訊 剛唱到哪？豪 然後 這段要沒了？！
+我的生活不夠彩色 比起快樂我更常忐忑 我有什麼可以分享給你 如果連我都討厭我自己
+3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 電腦先生看到我又來了直接嚇到 通訊行老闆看我進門把店直接shut down 全都 shut down！
+3C 阿嬤駕到 客服姐姐跟我聊到最後直接掛掉 woo～直接嚇到 通訊行老闆看我進門把店直接shut down shut it down！ shut it down！down！down！
+shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah shut it down！ shut it down！shut it, yeah
+(3C阿嬤駕到！)
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-20,,False,False,
+2026-04-21 02:07:02,33,,,3,155,0,https://streetvoice.com/Milkway1966/songs/852216/,https://streetvoice.com/Milkway1966/,"https://akstatic.streetvoice.com/song_covers/Mi/lk/Milkway1966/VwaRiQrEZSpc2QYmfCbVUw.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvTWkvbGsvTWlsa3dheTE5NjYvVndhUmlRckVaU3BjMlFZbWZDYlZVdy5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Milkway1966,音樂人,,,2024-09-18 10:15,2,110,1,https://www.facebook.com/milkway1966,https://www.instagram.com/milkway1966/,https://www.youtube.com/@Milkway1966,Rock,,,,"各位好，我們今年整理了過去寫的歌，用宅錄的方式做成了新的demo，陸續上傳與各位分享 編曲：銀河1966 混音：吳奕宏 照片：周柏辰 
+各位好，我們今年整理了過去寫的歌，用宅錄的方式做成了新的demo，陸續上傳與各位分享
+編曲：銀河1966 混音：吳奕宏 照片：周柏辰","在一個相同的午後 相信著一開始的直覺 你奔向遠方 就不再回頭 找一個相同的理由 相信著一開始的第六感 你就算跌倒 也不會責備他 想拉住你的手 就在這裡暫停吧 時間他擅長說謊 別像我一樣 
+在一個相同的午後 相信著一開始的直覺 你奔向遠方 就不再回頭
+找一個相同的理由 相信著一開始的第六感 你就算跌倒 也不會責備他
+想拉住你的手 就在這裡暫停吧
+時間他擅長說謊 別像我一樣
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-03,,True,True,
+2026-04-21 02:07:02,34,,,1,101,0,https://streetvoice.com/Plus2/songs/831590/,https://streetvoice.com/Plus2/,"https://akstatic.streetvoice.com/music_albums/Pl/us/Plus2/D35uXmGJsCvbkh6Mk4Dajh.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_bXVzaWNfYWxidW1zL1BsL3VzL1BsdXMyL0QzNXVYbUdKc0N2YmtoNk1rNERhamguanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Plus2,音樂人,新北市,2022-09-01,2026-01-30 10:26,6,15,7,,https://www.instagram.com/josh.415_,https://youtube.com/@plustwo7954,Hip hop / Rap,雜記,https://streetvoice.com/Plus2/songs/album/97325052/,,"製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2 
+製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2","太暗我沒有開電燈 有多久看不見你的眼神 我不想著急 還沒等到燈亮 你不需要知道真相 我過去找你 卻只怕把你給吵醒 不該輕易靠近 我怕這輩子累積太多偽裝現在只剩下報應 但只要還剩下你 如果我的世界只有你是真的 我該拿什麼去換你的笑 如果我的世界只有你是真的 我該用什麼去換你的好 如果忘記一切只有你最深刻 那我算什麼 卸下我的虛假後 那我算什麼 白天黑夜 到底誰先 只有月亮曉得自己的背面 沒有勇氣自己拆穿自己虛偽 直到你讓我想要拋下一切去追 去追太陽 卻把自己活活燒死 現實太過鋒利有時像是一把刀子 但我不會就消失 即便沒有明天我不會就這麼消失 如果我的世界只有你是真的 我該拿什麼去換你的笑 如果我的世界只有你是真的 我該用什麼去換你的好 如果忘記一切只有你最深刻 那我算什麼 卸下我的虛假後 那我算什麼 
+太暗我沒有開電燈 有多久看不見你的眼神 我不想著急 還沒等到燈亮 你不需要知道真相 我過去找你 卻只怕把你給吵醒 不該輕易靠近 我怕這輩子累積太多偽裝現在只剩下報應 但只要還剩下你
+如果我的世界只有你是真的 我該拿什麼去換你的笑 如果我的世界只有你是真的 我該用什麼去換你的好 如果忘記一切只有你最深刻 那我算什麼 卸下我的虛假後 那我算什麼
+白天黑夜 到底誰先 只有月亮曉得自己的背面 沒有勇氣自己拆穿自己虛偽 直到你讓我想要拋下一切去追 去追太陽 卻把自己活活燒死 現實太過鋒利有時像是一把刀子 但我不會就消失 即便沒有明天我不會就這麼消失
+如果我的世界只有你是真的 我該拿什麼去換你的笑 如果我的世界只有你是真的 我該用什麼去換你的好 如果忘記一切只有你最深刻 那我算什麼 卸下我的虛假後 那我算什麼
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,35,,,2,95,1,https://streetvoice.com/Snake1017/songs/853779/,https://streetvoice.com/Snake1017/,"https://akstatic.streetvoice.com/song_covers/Sn/ak/Snake1017/fg6yPTV3v8Ha2QWGt9HdBs.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvU24vYWsvU25ha2UxMDE3L2ZnNnlQVFYzdjhIYTJRV0d0OUhkQnMuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Snake1017,音樂人,,,,3,44,1,,,https://www.youtube.com/user/StreetVoiceTV,Hip hop / Rap,,,,"詞/武承翰 曲/snake樂團 歌名Lalauya，是樂野部落，也是楓葉的意思。 主場Pasuya來自阿里山樂野部落。 離鄉背井到台北讀書，久久才回一次部落，把回家的喜悅用音樂分享給大家，也提醒自己不能忘記自己的族語名字。 
+詞/武承翰 曲/snake樂團
+歌名Lalauya，是樂野部落，也是楓葉的意思。 主場Pasuya來自阿里山樂野部落。 離鄉背井到台北讀書，久久才回一次部落，把回家的喜悅用音樂分享給大家，也提醒自己不能忘記自己的族語名字。","看著天空 心情非常放鬆 坐上副駕播著音樂放空 享受假期 不被時間操控 心情的美景 是回部落的憧憬 看到那條熟悉路口下去 曾經笑的如此甜蜜 楓葉一年四季不停變化 lalauya這裡才是我長大的地方 我走在路上 感受這個風吹過的氣息 看著牆上塗鴉紀錄小時候的回憶 美麗 長大後才發現多麼不容易 珍惜現在 也許是少有的寧靜 路 會帶你往前走 如果有了以後你會想起這條路 不要太過在意 永遠在這等你 或許事物變了 但是你的根在這裡 (鄒語） mi'o cu maine'e ta moo. congeoha ta yofna. mi'o cu maine'e ta moo. yu'oe'oyu ci zomx mi'o cu maine'e ta moo. congeoha ta yofna. Pasuya mʉknana 看著楓葉一片一片的慢慢落下 原來時間過的非常快在陪我們長大 回頭 看看 風景也變了樣 雖然離開了一下 但感情不會散 聞著這裡熟悉的空氣 享受部落少有的寧靜 欣賞天空最美的風景 那是夜晚最美的星星 走吧 走吧 感受風吹過的相遇 吹吧 落葉 期待下一次的相聚 來吧 來吧  這裡回憶拼湊過去 記住 故事  還在耳邊不曾離去 哇 時間過的快 就算各自分開 但是畫面還存在 葉子雖會覆蓋 還是會在重來 時間不會等待每一步上天的安排 (鄒語） mi'o cu maine'e ta moo. congeoha ta yofna. mi'o cu maine'e ta moo. yu'oe'oyu ci zomx mi'o cu maine'e ta moo. congeoha ta yofna. Pasuya mʉknana 
+看著天空 心情非常放鬆 坐上副駕播著音樂放空 享受假期 不被時間操控 心情的美景 是回部落的憧憬 看到那條熟悉路口下去 曾經笑的如此甜蜜 楓葉一年四季不停變化 lalauya這裡才是我長大的地方
+我走在路上 感受這個風吹過的氣息 看著牆上塗鴉紀錄小時候的回憶 美麗 長大後才發現多麼不容易 珍惜現在 也許是少有的寧靜 路 會帶你往前走 如果有了以後你會想起這條路 不要太過在意 永遠在這等你 或許事物變了 但是你的根在這裡
+(鄒語） mi'o cu maine'e ta moo. congeoha ta yofna. mi'o cu maine'e ta moo. yu'oe'oyu ci zomx mi'o cu maine'e ta moo. congeoha ta yofna. Pasuya mʉknana
+看著楓葉一片一片的慢慢落下 原來時間過的非常快在陪我們長大 回頭 看看 風景也變了樣 雖然離開了一下 但感情不會散 聞著這裡熟悉的空氣 享受部落少有的寧靜 欣賞天空最美的風景 那是夜晚最美的星星
+走吧 走吧 感受風吹過的相遇 吹吧 落葉 期待下一次的相聚 來吧 來吧  這裡回憶拼湊過去 記住 故事  還在耳邊不曾離去 哇 時間過的快 就算各自分開 但是畫面還存在 葉子雖會覆蓋 還是會在重來 時間不會等待每一步上天的安排
+(鄒語） mi'o cu maine'e ta moo. congeoha ta yofna. mi'o cu maine'e ta moo. yu'oe'oyu ci zomx mi'o cu maine'e ta moo. congeoha ta yofna. Pasuya mʉknana
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,36,,,66,5042,8,https://streetvoice.com/sunqiao04/songs/851665/,https://streetvoice.com/sunqiao04/,"https://akstatic.streetvoice.com/music_albums/su/nq/sunqiao04/6HJiGjxu7FuA4REjYzC86c.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_bXVzaWNfYWxidW1zL3N1L25xL3N1bnFpYW8wNC82SEppR2p4dTdGdUE0UkVqWXpDODZjLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@sunqiao04,音樂人,,,,3,39,14,,,https://www.youtube.com/user/StreetVoiceTV,Hip hop / Rap,愛的形狀,https://streetvoice.com/sunqiao04/songs/album/97324972/,,"孫孫《再見你》 再見 / 音樂製作 Music Credit / 詞 Lyrics | 孫孫 曲 Composer | 孫孫 製作人 Producer | lct 編曲 Arrangement | THEPXRTY & Ayoley 和聲 Backing Vocals｜賴意晴 和聲編寫Backing Vocal Arranger｜賴意晴 錄音師 Recording Engineer｜lct 混音師 Mixing Engineer｜lct 母帶後製 Mastering Engineer｜lct / 影像製作 Music Video Credit / 視覺製作 Visual Production | 孫孫 動畫 Animation｜賴意晴 
+孫孫《再見你》
+再見
+/ 音樂製作 Music Credit / 詞 Lyrics | 孫孫 曲 Composer | 孫孫 製作人 Producer | lct 編曲 Arrangement | THEPXRTY & Ayoley 和聲 Backing Vocals｜賴意晴 和聲編寫Backing Vocal Arranger｜賴意晴 錄音師 Recording Engineer｜lct 混音師 Mixing Engineer｜lct 母帶後製 Mastering Engineer｜lct
+/ 影像製作 Music Video Credit / 視覺製作 Visual Production | 孫孫 動畫 Animation｜賴意晴","看到了嗎 盛開的花 映照著光線 迎接了晚霞  你說的話 我全放在心裡面 聽見 她輕輕的對著我說 多愛你的我 再見你一面的時候 記得抱抱我 帶著對未來的憧憬 把信都放進了抽屜 想要每天都有你 看盡日落和潮汐 屏住了呼吸 想要更靠近 是你  讓我抱緊你 瞬間的光影 再給我一個春天的時間 準備行李去見你 在遙遠的世界 你我的指尖 靠著肩相依 再見你 我想見你 最美好的一天 你看著我說 躺在我左邊 昨夜 想了很多 城裡兜風的憧憬 幸運的夠 我們過幾個平凡恬淡的冬 幾時記不起 即使從哪天在一起 會劇終 也曾想執筆寫續集 儘管分離終將聚集 是你 遇見的是你 世界上最美的事情 想再見你就算遙望著背影 記起你的臉 我想再見你 再給我一個春天的時間 準備行李去見你 在遙遠的世界 你我的指尖 靠著肩相依 再見你 我想見你 最美好的一天 
+看到了嗎 盛開的花 映照著光線 迎接了晚霞  你說的話 我全放在心裡面 聽見 她輕輕的對著我說 多愛你的我 再見你一面的時候 記得抱抱我 帶著對未來的憧憬 把信都放進了抽屜 想要每天都有你 看盡日落和潮汐 屏住了呼吸 想要更靠近 是你  讓我抱緊你 瞬間的光影
+再給我一個春天的時間 準備行李去見你 在遙遠的世界 你我的指尖 靠著肩相依 再見你 我想見你 最美好的一天
+你看著我說 躺在我左邊 昨夜 想了很多 城裡兜風的憧憬 幸運的夠 我們過幾個平凡恬淡的冬 幾時記不起 即使從哪天在一起 會劇終 也曾想執筆寫續集 儘管分離終將聚集 是你 遇見的是你
+世界上最美的事情 想再見你就算遙望著背影 記起你的臉 我想再見你
+再給我一個春天的時間 準備行李去見你 在遙遠的世界 你我的指尖 靠著肩相依 再見你 我想見你 最美好的一天
+留言（ 8 ） 最相關留言 所有留言
+留言（ 8 ）",2026-03-30,,True,True,
+2026-04-21 02:07:02,37,,,5,85,0,https://streetvoice.com/glimpseofkawa/songs/854131/,https://streetvoice.com/glimpseofkawa/,"https://akstatic.streetvoice.com/song_covers/gl/im/glimpseofkawa/FvhNFHJBRirFX45Cm7fNWL.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvZ2wvaW0vZ2xpbXBzZW9ma2F3YS9GdmhORkhKQlJpckZYNDVDbTdmTldMLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@glimpseofkawa,音樂人,其他,2022-08-01,,1,8,,,,https://www.youtube.com/user/StreetVoiceTV,Dance,,,V,"『撥開草叢，接受野性的引領，在只有盛夏的叢林裡探索，這裏你所看到的一切皆可觸摸、破壞或者品嚐，請於活動其間內盡情享受。』 深度探索浸漫城『馬蒂斯嘉年華』：專屬藝術家和美食家的瘋狂感官盛宴，活動採全會員制，詳情請洽「浸漫城」第二十一號加密夢境。 
+『撥開草叢，接受野性的引領，在只有盛夏的叢林裡探索，這裏你所看到的一切皆可觸摸、破壞或者品嚐，請於活動其間內盡情享受。』
+深度探索浸漫城『馬蒂斯嘉年華』：專屬藝術家和美食家的瘋狂感官盛宴，活動採全會員制，詳情請洽「浸漫城」第二十一號加密夢境。","動態歌詞
+Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) I'm drowning in wild We should trade before it runs out (I’m ready ,ready, yeah yeah) Never thought it’ll be easy, but i got a fucking craving for it (So locked in, locked in, yeah yeah) Guide me the way (Come take me, treat me softly) But how to do it? (You know it, Yeah you know it) I’ll take the bait (Yeah baby, naughty panfish) If you (Move over, come taste my treat) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) 櫻桃和小嘴 輕佻地搖尾 信號的交會 令我心跳搞鬼 同步的節奏 思緒也交融 隨時會醒的夢 不斷靠近我 最後一秒鐘 Guide me the way (Come take me, treat me softly) But how to do it? (You know it, Yeah you know it) I’ll take the bait (Yeah baby, naughty panfish) If you (Move over, come taste my treat ) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware Cuz baby lately, I can not sleep tight Without you can’t call this night I wanna be, I wanna be Keep living in this, living in this, living in this 
+Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere)
+I'm drowning in wild We should trade before it runs out (I’m ready ,ready, yeah yeah) Never thought it’ll be easy, but i got a fucking craving for it (So locked in, locked in, yeah yeah) Guide me the way (Come take me, treat me softly) But how to do it? (You know it, Yeah you know it) I’ll take the bait (Yeah baby, naughty panfish) If you (Move over, come taste my treat)
+Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere)
+櫻桃和小嘴 輕佻地搖尾 信號的交會 令我心跳搞鬼 同步的節奏 思緒也交融 隨時會醒的夢 不斷靠近我 最後一秒鐘
+Guide me the way (Come take me, treat me softly) But how to do it? (You know it, Yeah you know it) I’ll take the bait (Yeah baby, naughty panfish) If you (Move over, come taste my treat )
+Your dream I crave Matisse He shouted Breathe in Beware (I’m everywhere) Your dream I crave Matisse He shouted Breathe in Beware
+Cuz baby lately, I can not sleep tight Without you can’t call this night I wanna be, I wanna be Keep living in this, living in this, living in this
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-18,,True,False,
+2026-04-21 02:07:02,38,,,10,3510,8,https://streetvoice.com/odd_disk_1zb/songs/853645/,https://streetvoice.com/odd_disk_1zb/,"https://akstatic.streetvoice.com/song_covers/od/d_/odd_disk_1zb/UyqQQk3QK6BS9g4STXfn7Z.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvb2QvZF8vb2RkX2Rpc2tfMXpiL1V5cVFRazNRSzZCUzlnNFNUWGZuN1ouanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@odd_disk_1zb,音樂人,高雄市,2022-12-01,,,,,,,https://www.youtube.com/user/StreetVoiceTV,Singer / Songwriter,,,,"嘿，我先走一步了。 這首歌留給你們想念我吧。 
+嘿，我先走一步了。 這首歌留給你們想念我吧。","嘿 你們得好好的 日子依舊在走著 三餐要吃還可以配杯手搖喝 嘿 別為我難過了 不希望你們停在這一刻 還有很多事要做呢 愛我的家人朋友們 照顧好自己就好了 請原諒我先離開這 但我是真的待不下去了 有人說過打開窗戶看看雲朵 但我只看見了夜空 有人說難過時記得訴說 但按下通話鍵卻總是沒通 有人說會陪我到最後 但我發的求救信號沒有人回過 有人說他會很難過 但怎麼做呢 生活也很難過 嘿 你們別把葬禮弄的太悲傷 能不能請個樂團送我離開 嘿 別再責怪自己害我離開 這是我的抉擇 我不會再給你們添麻煩 愛我的家人朋友們 照顧好自己就好了 請原諒我先離開這 但我是真的待不下去了 睜眼是必須面對的喜怒哀樂 生存法則是得做些什麼 不想讓我難受 就請放我走 已經沒有方法存活了 有人說過打開窗戶看看雲朵 但我只看見了夜空 有人說難過時記得訴說 但按下通話鍵卻總是沒通 有人說會陪我到最後 但我發的求救信號沒有人回過 有人說他會很難過 但怎麼做呢 生活也很難過 有人說他們一直都在 但對話框沒有一個人能夠抒發 有人說生活沒這麼難 但事實是我撐不住一點 有人說要大聲呼喊 但只成了無病呻吟吶 有人說有事記得講 但每一次的結論都是別想太多啦 嘿 你們得好好的 日子依舊在走著 三餐要吃還可以配杯手搖喝 嘿 別為我難過了 不希望你們停在這一刻 還有很多事要做呢 嘿 我知道你們依然愛我 但請放手 就讓我住在你們心中 難過幾日就會過 日子繼續走 讓我隨著時間流動 還是一起向前走 
+嘿 你們得好好的 日子依舊在走著 三餐要吃還可以配杯手搖喝 嘿 別為我難過了 不希望你們停在這一刻 還有很多事要做呢
+愛我的家人朋友們 照顧好自己就好了 請原諒我先離開這 但我是真的待不下去了
+有人說過打開窗戶看看雲朵 但我只看見了夜空 有人說難過時記得訴說 但按下通話鍵卻總是沒通
+有人說會陪我到最後 但我發的求救信號沒有人回過 有人說他會很難過 但怎麼做呢 生活也很難過
+嘿 你們別把葬禮弄的太悲傷 能不能請個樂團送我離開 嘿 別再責怪自己害我離開 這是我的抉擇 我不會再給你們添麻煩
+愛我的家人朋友們 照顧好自己就好了 請原諒我先離開這 但我是真的待不下去了
+睜眼是必須面對的喜怒哀樂 生存法則是得做些什麼 不想讓我難受 就請放我走 已經沒有方法存活了
+有人說過打開窗戶看看雲朵 但我只看見了夜空 有人說難過時記得訴說 但按下通話鍵卻總是沒通
+有人說會陪我到最後 但我發的求救信號沒有人回過 有人說他會很難過 但怎麼做呢 生活也很難過
+有人說他們一直都在 但對話框沒有一個人能夠抒發 有人說生活沒這麼難 但事實是我撐不住一點
+有人說要大聲呼喊 但只成了無病呻吟吶 有人說有事記得講 但每一次的結論都是別想太多啦
+嘿 你們得好好的 日子依舊在走著 三餐要吃還可以配杯手搖喝 嘿 別為我難過了 不希望你們停在這一刻 還有很多事要做呢
+嘿 我知道你們依然愛我 但請放手 就讓我住在你們心中 難過幾日就會過 日子繼續走 讓我隨著時間流動 還是一起向前走
+留言（ 8 ） 最相關留言 所有留言
+留言（ 8 ）",2026-04-14,,False,False,
+2026-04-21 02:07:02,39,,,112,13930,7,https://streetvoice.com/poi24865/songs/852481/,https://streetvoice.com/poi24865/,"https://akstatic.streetvoice.com/song_covers/po/i2/poi24865/LL9XN9SoXWGu8bReVFvRYs.jpg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvcG8vaTIvcG9pMjQ4NjUvTEw5WE45U29YV0d1OGJSZVZGdlJZcy5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@poi24865,音樂人,新北市,2018-09-01,2023-07-12 17:17,4,408,5,,https://instagram.com/awkward_official_167,https://youtube.com/@awkward8116,Rock,,,,"詞 Lyricist｜蘇晨昊 曲 Composer｜蘇晨昊 編曲 Arrangers｜阿克沃 Awkward 人聲 Vocalist｜蘇晨昊 合聲 Backing Vocalist｜李念侲 合聲編寫 Chorus Arranger｜李念侲 電吉他 Guitarist｜林伯儒 貝斯 Bassist｜李念侲 鼓 Drummer｜劉羿璿 
+詞 Lyricist｜蘇晨昊 曲 Composer｜蘇晨昊 編曲 Arrangers｜阿克沃 Awkward
+人聲 Vocalist｜蘇晨昊 合聲 Backing Vocalist｜李念侲 合聲編寫 Chorus Arranger｜李念侲 電吉他 Guitarist｜林伯儒 貝斯 Bassist｜李念侲 鼓 Drummer｜劉羿璿","動態歌詞
+你才沒有 所謂敵人 也不為誰的期待 你才沒有 所謂敵人 也不為誰的期待 全都只是 所謂過程 凋零同時會盛開 我還記得那句承諾 為了什麼不肯回收 原因 再單純不過 我還記得那雙眼眸 為了什麼如此閃爍 終於 得到 自由 就算到頭來一場空 我的人生 我來揮霍 不再少年 也能追求 只為自己而活 再沒有敵人 (才沒有敵人) 不為誰的期待 都只是過程 (都只是過程） 凋零同時會盛開 我還記得那句承諾 (我還記得那句承諾) 為了什麼不肯回收 (為了什麼不肯回收) 我還記得那雙眼眸 為了什麼如此閃爍 終於 得到 自由 就算到頭來是場空 我的人生 我來揮霍 不再少年 也能追求 只為自己而活 就算到頭來一場空 我的人生 我來揮霍 不再少年 也能追求 不需 感到 愧疚 只為 自己 而活 
+你才沒有 所謂敵人 也不為誰的期待
+你才沒有 所謂敵人 也不為誰的期待 全都只是 所謂過程 凋零同時會盛開
+我還記得那句承諾 為了什麼不肯回收 原因 再單純不過 我還記得那雙眼眸 為了什麼如此閃爍 終於 得到 自由
+就算到頭來一場空 我的人生 我來揮霍 不再少年 也能追求 只為自己而活
+再沒有敵人 (才沒有敵人) 不為誰的期待 都只是過程 (都只是過程） 凋零同時會盛開
+我還記得那句承諾 (我還記得那句承諾) 為了什麼不肯回收 (為了什麼不肯回收)
+我還記得那雙眼眸 為了什麼如此閃爍 終於 得到 自由
+就算到頭來是場空 我的人生 我來揮霍 不再少年 也能追求 只為自己而活
+就算到頭來一場空 我的人生 我來揮霍 不再少年 也能追求 不需 感到 愧疚 只為 自己 而活
+留言（ 7 ） 最相關留言 所有留言
+留言（ 7 ）",2026-04-06,,True,False,
+2026-04-21 02:07:02,40,,,10,1034,1,https://streetvoice.com/shiyin99music/songs/852226/,https://streetvoice.com/shiyin99music/,"https://akstatic.streetvoice.com/song_covers/sh/iy/shiyin99music/J2AFSLxZzr8JXNcEzjXMyG.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvc2gvaXkvc2hpeWluOTltdXNpYy9KMkFGU0x4WnpyOEpYTmNFempYTXlHLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@shiyin99music,音樂人,馬來西亞,2023-03-01,,5,10,14,,,https://www.youtube.com/user/StreetVoiceTV,Jazz,,,,"歌曲描繪了一個如夢似幻的人物——Mila。她的出現像是鋒利又柔軟的絲綢，甜美又帶著誘惑，讓人忍不住靠近，卻又無法完全看透。整首歌在節奏、旋律和氛圍上，都充滿了這種微妙的矛盾感和故事張力。 在製作上，《Mila》融合了多種風格：以巴西 Samba、Bossa Nova 和 Montuno 的律動為基礎靈感，又加入現代 Synth、Conga 鼓和尼龍弦吉他，使歌曲在節奏和編曲上充滿意想不到的變化。加上 SHIYIN 空靈而富有穿透力的嗓音，這首歌不僅是聽覺的享受，也讓人感受到情緒的起伏和複雜。 SHIYIN表示，希望聽眾在聆聽《Mila》時，不只是感受到旋律，更能沉浸於那份欲近還離、甜蜜又危險的魅力裡，甚至跟著節拍輕輕搖擺，完全沉醉在這場音樂的迷幻舞會中。 
+歌曲描繪了一個如夢似幻的人物——Mila。她的出現像是鋒利又柔軟的絲綢，甜美又帶著誘惑，讓人忍不住靠近，卻又無法完全看透。整首歌在節奏、旋律和氛圍上，都充滿了這種微妙的矛盾感和故事張力。
+在製作上，《Mila》融合了多種風格：以巴西 Samba、Bossa Nova 和 Montuno 的律動為基礎靈感，又加入現代 Synth、Conga 鼓和尼龍弦吉他，使歌曲在節奏和編曲上充滿意想不到的變化。加上 SHIYIN 空靈而富有穿透力的嗓音，這首歌不僅是聽覺的享受，也讓人感受到情緒的起伏和複雜。
+SHIYIN表示，希望聽眾在聆聽《Mila》時，不只是感受到旋律，更能沉浸於那份欲近還離、甜蜜又危險的魅力裡，甚至跟著節拍輕輕搖擺，完全沉醉在這場音樂的迷幻舞會中。","[Verse] Mila 時光為你倒流 Mila 夜風為你輕柔 Mila 指尖藏著帶刺的溫柔 Mila 眼神為你逗留 Mila 心跳為你懸空 Mila 唇間藏著甜膩的迷惑 [Pre-chorus] 不懂 不透 到底是想靠近還是退後 是刃 是綢 你的魅力氣息我想偷走 [Samba] 夢裡在 鏡子的 倒影我 竟若隱 若現看 見的是你 夢醒我 思緒卻 纏繞著 纓綹的戀恨 [Pre-chorus] 不懂 不透 到底是想靠近還是退後 是刃 是綢 你的魅力氣息我想偷走 [Interlude] [Verse 2] Mila Je brûle sans feu en moi Mila Je vis dans l’ombre de toi Mila Tes lèvres ont le goût du tourment lent Mila 眼神為你逗留 Mila 心跳為你懸空 Mila 唇間藏著甜膩的迷惑 [Bridge] 藏不住我的心 卻沒那麼透明 要不靠近一點 讓我告訴你個秘密 Yeabadadu 鼓不起勇氣 Shhh [Samba] 夢裡在 鏡子的 倒影我 竟若隱 若現看 見的是你 夢醒我 思緒卻 纏繞著 纓綹的戀恨 [Pre-chorus] 不懂 不透 到底是想靠近還是退後 是刃 是綢 你的魅力氣息我想偷走 [Ending] Mila Mila Mila Mila 
+[Verse] Mila 時光為你倒流 Mila 夜風為你輕柔 Mila 指尖藏著帶刺的溫柔
+Mila 眼神為你逗留 Mila 心跳為你懸空 Mila 唇間藏著甜膩的迷惑
+[Pre-chorus] 不懂 不透 到底是想靠近還是退後
+是刃 是綢 你的魅力氣息我想偷走
+[Samba] 夢裡在 鏡子的 倒影我 竟若隱 若現看 見的是你 夢醒我 思緒卻 纏繞著 纓綹的戀恨
+[Pre-chorus] 不懂 不透 到底是想靠近還是退後
+是刃 是綢 你的魅力氣息我想偷走
+[Interlude]
+[Verse 2] Mila Je brûle sans feu en moi Mila Je vis dans l’ombre de toi Mila Tes lèvres ont le goût du tourment lent
+Mila 眼神為你逗留 Mila 心跳為你懸空 Mila 唇間藏著甜膩的迷惑
+[Bridge]
+藏不住我的心 卻沒那麼透明 要不靠近一點 讓我告訴你個秘密 Yeabadadu 鼓不起勇氣 Shhh
+[Samba] 夢裡在 鏡子的 倒影我 竟若隱 若現看 見的是你 夢醒我 思緒卻 纏繞著 纓綹的戀恨
+[Pre-chorus] 不懂 不透 到底是想靠近還是退後
+是刃 是綢 你的魅力氣息我想偷走
+[Ending] Mila Mila Mila Mila
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-04-03,,True,True,
+2026-04-21 02:07:02,41,,,3,193,6,https://streetvoice.com/hsiaoA/songs/853229/,https://streetvoice.com/hsiaoA/,"https://akstatic.streetvoice.com/song_covers/hs/ia/hsiaoA/dx2pHRBc7YxiDnbUopWm4f.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvaHMvaWEvaHNpYW9BL2R4MnBIUkJjN1l4aURuYlVvcFdtNGYuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@hsiaoA,音樂人,新北市,2019-01-01,2024-04-24 15:48,4,190,62,https://www.facebook.com/profile.php?id=100067669486241&mibextid=ZbWKwL,https://www.instagram.com/amber_guitar_/,https://youtube.com/channel/UCYJEpfLbZYWTA_Xx85vN8Yg,R&B / Soul,,,邱宣凱,"我想要學會瞬間移動，這樣就能一直在你身邊… ————————————————————— ✦《Credit》✦ 詞 Lyricist｜蕭晏博 Alan Hsiao 曲Composer｜蕭晏博 Alan Hsiao 製作人 Producer｜邱宣凱 Kenny Chiu、蕭晏博 Alan Hsiao 演唱人 Artist｜蕭晏博 Alan Hsiao 編曲 Arranger｜Rick Huang 黃瑞克 管樂編寫 Brass Arrangement｜Rick Huang 黃瑞克、Facundo Borgia 木吉他編曲 Acoustic Guitar Arranger｜蕭晏博 Alan Hsiao 鼓組 Drum｜江冠豪Eric 銅管 Brass｜Facundo Borgia 木吉他 Acoustic Guitar｜蕭晏博 Alan Hsiao 和聲｜蕭晏博 Alan Hsiao 和聲編寫 | 蕭晏博 Alan Hsiao 配唱製作人｜謝青燁Eric 鼓組錄音工程師 Drum Recording Engineer｜柯嘉森 （阿耀）Jia Sen Ko 鼓組錄音室 Drum Recording Studio｜強力錄音室 Mega Force Studio 鼓組錄音助理 Drum Recording Assistant | 林照勛 DAX Lin 鼓技師 Drum Technician｜林照勛 DAX Lin 木吉他錄音工程師 Acoustic Guitar Recording Engineer｜ 14043侯湘寧 木吉他錄音室 Acoustic Guitar Tracking Studio｜唯晨音樂 Onlymorning Studio 人聲錄音師 Vocal Recording Engineer｜梯依恩TeN、張凱KaiCaesar、邱宣凱 Kenny Chiu 人聲錄音室 Vocal  Recording Studio｜海揚創意股份有限公司 Major 7 Creative Co., Ltd. 混音工程師 Mixing Engineer｜邱宣凱 Kenny Chiu 母帶後期製作 Mastering｜許騰文 Tengwen Hsu 母帶後期製作錄音室 Mastering studio｜唯晨音樂 Onlymorning Studio - 服裝 Costumer｜嵐 妝髮 Makeup/Hairstyle｜Louise 封面攝影 Photography｜陳嘉婕 封面設計 Cover Design｜漆安 - 特別感謝 Special Thanks｜梯依恩 TeN、江宛柔 Ronees Chiang、海揚創意、14043侯湘寧、蔣濬宇 Danny、申宇琳 Rain、Benson 陳浩宇、家婕 Ally、莊舒婷 Sylvia、Avery 
+我想要學會瞬間移動，這樣就能一直在你身邊…
+—————————————————————
+✦《Credit》✦
+詞 Lyricist｜蕭晏博 Alan Hsiao 曲Composer｜蕭晏博 Alan Hsiao 製作人 Producer｜邱宣凱 Kenny Chiu、蕭晏博 Alan Hsiao 演唱人 Artist｜蕭晏博 Alan Hsiao 編曲 Arranger｜Rick Huang 黃瑞克 管樂編寫 Brass Arrangement｜Rick Huang 黃瑞克、Facundo Borgia 木吉他編曲 Acoustic Guitar Arranger｜蕭晏博 Alan Hsiao
+鼓組 Drum｜江冠豪Eric 銅管 Brass｜Facundo Borgia 木吉他 Acoustic Guitar｜蕭晏博 Alan Hsiao
+和聲｜蕭晏博 Alan Hsiao 和聲編寫 | 蕭晏博 Alan Hsiao 配唱製作人｜謝青燁Eric
+鼓組錄音工程師 Drum Recording Engineer｜柯嘉森 （阿耀）Jia Sen Ko 鼓組錄音室 Drum Recording Studio｜強力錄音室 Mega Force Studio 鼓組錄音助理 Drum Recording Assistant | 林照勛 DAX Lin 鼓技師 Drum Technician｜林照勛 DAX Lin 木吉他錄音工程師 Acoustic Guitar Recording Engineer｜ 14043侯湘寧 木吉他錄音室 Acoustic Guitar Tracking Studio｜唯晨音樂 Onlymorning Studio 人聲錄音師 Vocal Recording Engineer｜梯依恩TeN、張凱KaiCaesar、邱宣凱 Kenny Chiu 人聲錄音室 Vocal  Recording Studio｜海揚創意股份有限公司 Major 7 Creative Co., Ltd. 混音工程師 Mixing Engineer｜邱宣凱 Kenny Chiu 母帶後期製作 Mastering｜許騰文 Tengwen Hsu 母帶後期製作錄音室 Mastering studio｜唯晨音樂 Onlymorning Studio - 服裝 Costumer｜嵐 妝髮 Makeup/Hairstyle｜Louise 封面攝影 Photography｜陳嘉婕 封面設計 Cover Design｜漆安 - 特別感謝 Special Thanks｜梯依恩 TeN、江宛柔 Ronees Chiang、海揚創意、14043侯湘寧、蔣濬宇 Danny、申宇琳 Rain、Benson 陳浩宇、家婕 Ally、莊舒婷 Sylvia、Avery","1…2…3…！ 我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候… 嘿 能不能看我一眼 就 出現在你的身邊 想每天每天 賴床 到12點 睡在你左邊 在 夢境的回憶裡面 你 完美無瑕的側臉 左 右我一整天心情的喜悲 又不在身邊 我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候 直奔你門口 我想要學會瞬間移動 帶你去看看我家的狗 沒關西不用給他骨頭 他就跟你走 我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候 直奔你門口 我想要學會瞬間移動 帶你去看看我家的狗 沒關西不用給他骨頭 他就跟你走 我想要學會瞬間移動 這樣就能一直 在你左右 不再被工作生活佔有 能夠陪妳走… 
+1…2…3…！ 我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候…
+嘿 能不能看我一眼 就 出現在你的身邊 想每天每天 賴床 到12點 睡在你左邊
+在 夢境的回憶裡面 你 完美無瑕的側臉 左 右我一整天心情的喜悲 又不在身邊
+我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候 直奔你門口
+我想要學會瞬間移動 帶你去看看我家的狗 沒關西不用給他骨頭 他就跟你走
+我想要學會瞬間移動 這樣就能夠 到你星球 還可以 不打招呼問候 直奔你門口
+我想要學會瞬間移動 帶你去看看我家的狗 沒關西不用給他骨頭 他就跟你走
+我想要學會瞬間移動 這樣就能一直 在你左右 不再被工作生活佔有 能夠陪妳走…
+留言（ 6 ） 最相關留言 所有留言
+留言（ 6 ）",2026-04-11,,True,False,
+2026-04-21 02:07:02,42,,,1,121,3,https://streetvoice.com/psvsun/songs/853498/,https://streetvoice.com/psvsun/,"https://akstatic.streetvoice.com/song_covers/ps/vs/psvsun/4eiiU692jkatd9TzRDoEtp.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvcHMvdnMvcHN2c3VuLzRlaWlVNjkyamthdGQ5VHpSRG9FdHAuanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@psvsun,音樂人,桃園市,2018-04-01,2024-07-09 10:27,,,,,https://www.instagram.com/psvsun,https://youtube.com/@psvsun,Singer / Songwriter,,,,"碟抹cakee 
+碟抹cakee","動態歌詞
+藉口 他們都說是藉口 一切只是合理化自己的理由 我懂 所以無法說出口 所以吞下自我安慰的幻藥 奇怪 情緒怎麼沒有和我重修舊好 不管了 不顧了 我的快樂大過於體重上升 難過就吃蛋糕 奶油越甜越好 叉子拿起 一口把憂鬱都吞進肚子就好 當然解決不了 只能無用的祈禱 不過只是一片煩惱 睡醒有什麼無法忘掉 偷走 快樂都被你偷走 為什麼要把負能量通通丟給我 我懂 所以沒要和你吵 然後走出家門把垃圾丟掉 奇怪 情緒怎麼沒有和我重修舊好 不管了 不顧了 我的快樂大過於體重上升 難過就吃蛋糕 水果布丁也好 甜點的胃全都塞滿不快樂就全部丟掉 當然只是逃跑 也只能無奈的祈禱 不過只是一片煩惱 睡醒有什麼無法忘掉 出了這扇門全都 
+藉口 他們都說是藉口 一切只是合理化自己的理由 我懂 所以無法說出口 所以吞下自我安慰的幻藥
+奇怪 情緒怎麼沒有和我重修舊好 不管了 不顧了 我的快樂大過於體重上升
+難過就吃蛋糕 奶油越甜越好 叉子拿起 一口把憂鬱都吞進肚子就好 當然解決不了 只能無用的祈禱 不過只是一片煩惱 睡醒有什麼無法忘掉
+偷走 快樂都被你偷走 為什麼要把負能量通通丟給我 我懂 所以沒要和你吵 然後走出家門把垃圾丟掉
+奇怪 情緒怎麼沒有和我重修舊好 不管了 不顧了 我的快樂大過於體重上升
+難過就吃蛋糕 水果布丁也好 甜點的胃全都塞滿不快樂就全部丟掉 當然只是逃跑 也只能無奈的祈禱 不過只是一片煩惱 睡醒有什麼無法忘掉
+出了這扇門全都
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-04-13,,True,False,
+2026-04-21 02:07:02,43,,,2,113,0,https://streetvoice.com/_Apricity_/songs/854351/,https://streetvoice.com/_Apricity_/,"https://akstatic.streetvoice.com/song_covers/_A/pr/_Apricity_/foyhtgeSEZBcMy4p2HxjYi.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvX0EvcHIvX0FwcmljaXR5Xy9mb3lodGdlU0VaQmNNeTRwMkh4allpLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@_Apricity_,音樂人,,,,1,6,,,,https://www.youtube.com/user/StreetVoiceTV,Folk,,,,"六月 詞曲：石 封面攝影：阿逗 
+六月 詞曲：石 封面攝影：阿逗","六月 詞曲：石 六月的天空 是藍藍的 六月的陽光 是燦爛的 六年的時光 回憶暖暖的 六月說再見 會捨不得 說再見 再見 再見不容易 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你 六歲的我們 愛哭 也愛笑 六年級我們 耍酷 偶爾搞笑 六年我們常 讓人又氣 又好笑 六年後的今天 眼角淚 嘴角笑（為你驕傲） 說再見 再見 再見不容易 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你 六歲的世界 腳步跌跌撞撞（常常受傷） 六年的時間 站在巨人肩膀（我做你肩膀） 六個春夏秋冬 看花開花落（星星依然閃爍） 流淚留念今夜 繼續勇敢向前方 說再見 再見 再見不容易（從來不容易） 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你 說再見 再見 期待再次相見 再一起聊天 說說 彼此的冒險 
+六月 詞曲：石
+六月的天空 是藍藍的 六月的陽光 是燦爛的 六年的時光 回憶暖暖的 六月說再見 會捨不得
+說再見 再見 再見不容易 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你
+六歲的我們 愛哭 也愛笑 六年級我們 耍酷 偶爾搞笑 六年我們常 讓人又氣 又好笑 六年後的今天 眼角淚 嘴角笑（為你驕傲）
+說再見 再見 再見不容易 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你
+六歲的世界 腳步跌跌撞撞（常常受傷） 六年的時間 站在巨人肩膀（我做你肩膀） 六個春夏秋冬 看花開花落（星星依然閃爍） 流淚留念今夜 繼續勇敢向前方
+說再見 再見 再見不容易（從來不容易） 因為我們好不容易才相聚 讓眼淚 眼淚 眼淚告訴你 我是多麼幸運能遇見你
+說再見 再見 期待再次相見 再一起聊天 說說 彼此的冒險
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-19,,False,False,
+2026-04-21 02:07:02,44,,,2,138,2,https://streetvoice.com/Plus2/songs/852817/,https://streetvoice.com/Plus2/,"https://akstatic.streetvoice.com/music_albums/Pl/us/Plus2/D35uXmGJsCvbkh6Mk4Dajh.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_bXVzaWNfYWxidW1zL1BsL3VzL1BsdXMyL0QzNXVYbUdKc0N2YmtoNk1rNERhamguanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Plus2,音樂人,新北市,2022-09-01,2026-01-30 10:26,24,63,28,,https://www.instagram.com/josh.415_,https://youtube.com/@plustwo7954,Hip hop / Rap,雜記,https://streetvoice.com/Plus2/songs/album/97325052/,,"製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2 
+製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2","羨慕你笑得開 羨慕你有我沒有的 我還得繼續走著你卻早就回頭了 羨慕你總是學的快 我卻又學了壞 把東西裝進後車廂 可能才走得快 羨慕你有的那種自信 我花了幾個年頭才好不容易適應 要是我有足夠的勇氣 突破現在的窘境 那應該能夠治病 但也足夠能致命 要是把壞習慣趕跑 要是我不再膽小 要是我像你該有多好 I hate myself sometimes, even when you not around Idk how to find the way out right now. I hate myself sometimes, even when you not around Idk how to find the way out right now. 總是以為自己飛得高 其實被人背著跑 我只求能夠睡得著 更別說睡得飽 我拼了命的衝 像是我又被誰追著跑 但到頭來的努力 到底又是為了誰的好 又在浪費時間 浪費金錢 不只浪費之前 還有今天 想了半天的肺腑之言 反正那不值錢 那我還寧願 把自卑感往腦裡吞 無力感好幾層 我感覺犯的錯都足夠我去牢裡蹲 I hate myself sometimes, even when you not around Idk how to find the way out right now. I hate myself sometimes, even when you not around Idk how to find the way out right now. 
+羨慕你笑得開 羨慕你有我沒有的 我還得繼續走著你卻早就回頭了 羨慕你總是學的快 我卻又學了壞 把東西裝進後車廂 可能才走得快 羨慕你有的那種自信 我花了幾個年頭才好不容易適應 要是我有足夠的勇氣 突破現在的窘境 那應該能夠治病 但也足夠能致命 要是把壞習慣趕跑 要是我不再膽小 要是我像你該有多好
+I hate myself sometimes, even when you not around Idk how to find the way out right now.
+I hate myself sometimes, even when you not around Idk how to find the way out right now.
+總是以為自己飛得高 其實被人背著跑 我只求能夠睡得著 更別說睡得飽 我拼了命的衝 像是我又被誰追著跑 但到頭來的努力 到底又是為了誰的好 又在浪費時間 浪費金錢 不只浪費之前 還有今天 想了半天的肺腑之言 反正那不值錢 那我還寧願 把自卑感往腦裡吞 無力感好幾層 我感覺犯的錯都足夠我去牢裡蹲
+I hate myself sometimes, even when you not around Idk how to find the way out right now.
+I hate myself sometimes, even when you not around Idk how to find the way out right now.
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,45,,,5,1671,0,https://streetvoice.com/heathersan/songs/853403/,https://streetvoice.com/heathersan/,"https://akstatic.streetvoice.com/song_covers/he/at/heathersan/FvwxGncNZgTJeTxovGDr2D.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvaGUvYXQvaGVhdGhlcnNhbi9Gdnd4R25jTlpnVEplVHhvdkdEcjJELmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@heathersan,音樂人,宜蘭縣,2012-11-01,2025-02-03 17:42,,,,,https://www.instagram.com/shin.shin_official/,https://www.youtube.com/user/StreetVoiceTV,Folk,,,dodo、張劭威,"這是一首關於遺忘與海風的歌曲。 女兒騎機車載著失智症母親來到海邊亂晃，母親記得小時候住的地方，卻在病痛中逐漸忘記了女兒的聲音與她們度過的人生。 帶著碗粿與米糕，母女一起騎著機車展開一段小小的公路旅行。 即使母親的記憶如同海浪一樣被吞噬成為一片深海，女兒只希望能夠與她再多相處哪怕一點點的時間。 因為她曾說，女兒出生那天，像看見了安平的海一樣，如此閃爍、如此美麗。女兒帶著這份被遺忘的溫柔、失去與遺忘的疼痛，載著母親，騎機車穿梭在安平的海邊。 --------------------------- （創作背景） 這首歌曲是寫於去年台南sing時代之歌的比賽歌曲，當時因為比賽需要寫一首和台南有關的歌曲時，我忽然想起曾經在秋天時候看過的安平的海。 我想寫一首關於媽媽的歌。 我媽媽在生我的時候遭遇了嚴重的血崩，她說她當時眼前一片空白。當我看見安平那片閃爍日光、白茫茫的大海時，我想，如果媽媽當時看見的，是這麼美麗的大海就好了。 這幾年我跟媽媽的關係時好時壞，我們總是有很多無法理解彼此的時候。可是有時候愛是很複雜的一件事，很多時候對一個人的愛，總是會伴隨著委屈與矛盾。 無論如何，我希望能借用音樂的魔法，將自己的心情與願望，寄託在這首歌曲裡面。 --------------------------- 作詞/作曲 Composer /Lyricist ｜許蒲生 Pu Shen Hsu 編曲Arranger｜許蒲生 Pu Shen Hsu、張劭威 Shao Wei Chang、dodo 演唱 Vocals｜許蒲生 Pu Shen Hsu 合聲 Chorus｜許蒲生 Pu Shen Hsu （北投合唱團） 和聲編寫 Backing Vocal Arrangement｜許蒲生 Pu Shen Hsu （北投合唱團） 鼓 Drums｜張劭威 Shao Wei Chang 爵士鼓錄音室 Drum Recording ｜馥樂藝術音樂發展中心 Fu Yue Art&Music Center 電吉他 Guitars｜許蒲生 Pu Shen Hsu、張劭威 Shao Wei Chang 電貝斯 Electric Bass｜dodo 合成器 PN & Keys｜許蒲生 Pu Shen Hsu 人聲剪輯 Vocal Editing｜許蒲生 Pu Shen Hsu 混音師 Mixing Engineer｜ 張劭威 Shao Wei Chang 母帶後期工程師Mastering Engineer｜Ozone 10 單曲標準字設計 Logotype Design｜ 張劭威 Shao Wei Chang ＊本歌曲獲台南sing時代之歌 社會組首獎＊ 
+這是一首關於遺忘與海風的歌曲。 女兒騎機車載著失智症母親來到海邊亂晃，母親記得小時候住的地方，卻在病痛中逐漸忘記了女兒的聲音與她們度過的人生。 帶著碗粿與米糕，母女一起騎著機車展開一段小小的公路旅行。 即使母親的記憶如同海浪一樣被吞噬成為一片深海，女兒只希望能夠與她再多相處哪怕一點點的時間。 因為她曾說，女兒出生那天，像看見了安平的海一樣，如此閃爍、如此美麗。女兒帶著這份被遺忘的溫柔、失去與遺忘的疼痛，載著母親，騎機車穿梭在安平的海邊。
+--------------------------- （創作背景） 這首歌曲是寫於去年台南sing時代之歌的比賽歌曲，當時因為比賽需要寫一首和台南有關的歌曲時，我忽然想起曾經在秋天時候看過的安平的海。
+我想寫一首關於媽媽的歌。
+我媽媽在生我的時候遭遇了嚴重的血崩，她說她當時眼前一片空白。當我看見安平那片閃爍日光、白茫茫的大海時，我想，如果媽媽當時看見的，是這麼美麗的大海就好了。
+這幾年我跟媽媽的關係時好時壞，我們總是有很多無法理解彼此的時候。可是有時候愛是很複雜的一件事，很多時候對一個人的愛，總是會伴隨著委屈與矛盾。 無論如何，我希望能借用音樂的魔法，將自己的心情與願望，寄託在這首歌曲裡面。 --------------------------- 作詞/作曲 Composer /Lyricist ｜許蒲生 Pu Shen Hsu 編曲Arranger｜許蒲生 Pu Shen Hsu、張劭威 Shao Wei Chang、dodo 演唱 Vocals｜許蒲生 Pu Shen Hsu 合聲 Chorus｜許蒲生 Pu Shen Hsu （北投合唱團） 和聲編寫 Backing Vocal Arrangement｜許蒲生 Pu Shen Hsu （北投合唱團） 鼓 Drums｜張劭威 Shao Wei Chang 爵士鼓錄音室 Drum Recording ｜馥樂藝術音樂發展中心 Fu Yue Art&Music Center 電吉他 Guitars｜許蒲生 Pu Shen Hsu、張劭威 Shao Wei Chang 電貝斯 Electric Bass｜dodo 合成器 PN & Keys｜許蒲生 Pu Shen Hsu 人聲剪輯 Vocal Editing｜許蒲生 Pu Shen Hsu 混音師 Mixing Engineer｜ 張劭威 Shao Wei Chang 母帶後期工程師Mastering Engineer｜Ozone 10 單曲標準字設計 Logotype Design｜ 張劭威 Shao Wei Chang
+＊本歌曲獲台南sing時代之歌 社會組首獎＊","騎機車咧賴賴趖，我載妳來去看海， 妳佇後面，攬著我的肩胛頭。 下晡的風文文吹，日頭猶擱赤焱焱， 妳講彼爿，係細漢住的所在。 海邊的妳笑容滿面，想欲作伙擱加幾年。 哪是妳已經將所有的記憶，全部放袂記。 騎機車咧賴賴趖，我載你來玲瑯踅， 碗粿、米糕，佇彩色的塑膠袋內。 下晡的風文文吹，日頭猶擱赤焱焱， 妳講彼爿，係細漢住的所在。 妳袂記哩我的名字，嘛袂記哩我的聲音。 妳袂記哩，我出世的彼一工， 你說妳參像看見安平的海， 彼呢閃爍、彼呢媠。 轉頭看妳，站佇海邊，我無瞭解，妳的寂寞。 親像海湧，將我愛妳的記憶，全部放袂記......安平的海...... - （華語翻譯） 騎著機車到處亂晃，我載妳來去看海。 妳在後面，抱著我的肩膀。 下午的風緩緩吹拂，太陽仍舊炙熱， 妳說那邊，是小時候住的地方。 海邊的妳，笑容滿面，想和妳在一起，再多幾年。 如果妳已經將所有的記憶，都忘記了的話。 騎著機車到處亂晃，我載妳隨意亂轉， 碗粿、米糕，在彩色的塑膠袋裡。 下午的風緩緩吹拂，太陽仍舊炙熱， 妳說那邊，是小時候住的地方。 妳不記得我的名字，也不記得我的聲音。 妳不記得我出生那一天，妳說妳像是看見安平的海， 那麼閃耀，那麼美。 轉頭看著妳，站在海邊，我不了解，妳的寂寞， 就像海浪，將我愛你的記憶，全部都忘記......安平的海...... 
+騎機車咧賴賴趖，我載妳來去看海， 妳佇後面，攬著我的肩胛頭。 下晡的風文文吹，日頭猶擱赤焱焱， 妳講彼爿，係細漢住的所在。 海邊的妳笑容滿面，想欲作伙擱加幾年。 哪是妳已經將所有的記憶，全部放袂記。 騎機車咧賴賴趖，我載你來玲瑯踅， 碗粿、米糕，佇彩色的塑膠袋內。 下晡的風文文吹，日頭猶擱赤焱焱， 妳講彼爿，係細漢住的所在。 妳袂記哩我的名字，嘛袂記哩我的聲音。 妳袂記哩，我出世的彼一工， 你說妳參像看見安平的海， 彼呢閃爍、彼呢媠。 轉頭看妳，站佇海邊，我無瞭解，妳的寂寞。 親像海湧，將我愛妳的記憶，全部放袂記......安平的海......
+- （華語翻譯）
+騎著機車到處亂晃，我載妳來去看海。 妳在後面，抱著我的肩膀。 下午的風緩緩吹拂，太陽仍舊炙熱， 妳說那邊，是小時候住的地方。 海邊的妳，笑容滿面，想和妳在一起，再多幾年。 如果妳已經將所有的記憶，都忘記了的話。 騎著機車到處亂晃，我載妳隨意亂轉， 碗粿、米糕，在彩色的塑膠袋裡。 下午的風緩緩吹拂，太陽仍舊炙熱， 妳說那邊，是小時候住的地方。 妳不記得我的名字，也不記得我的聲音。 妳不記得我出生那一天，妳說妳像是看見安平的海， 那麼閃耀，那麼美。 轉頭看著妳，站在海邊，我不了解，妳的寂寞， 就像海浪，將我愛你的記憶，全部都忘記......安平的海......
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-12,,True,False,
+2026-04-21 02:07:02,46,,,1,43,0,https://streetvoice.com/soubocheng/songs/854083/,https://streetvoice.com/soubocheng/,"https://akstatic.streetvoice.com/song_covers/so/ub/soubocheng/MYg5o4ZpHtBxxGumzGj6nV.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvc28vdWIvc291Ym9jaGVuZy9NWWc1bzRacEh0Qnh4R3VtekdqNm5WLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@soubocheng,音樂人,台東縣,2022-02-01,,6,12,15,,,https://www.youtube.com/user/StreetVoiceTV,Folk,,,,"小時候 總覺得外公的甘蔗攤 髒髒舊舊的 長大以後才發現 那其實是我記憶裡 最甜、也最溫暖的地方 雖然現在外公已經退休了 但我還是常常想起 那個午後的陣陣甜味 還有那塊小小的招牌——「阿鴻甘蔗」 ＊ 這首歌裡藏了一個小彩蛋 整首歌用的節拍是77 剛好是外公的 77 歲 送給我最愛的外公 詞曲：爆炸頭阿澄 編曲：爆炸頭阿澄 錄音：爆炸頭阿澄 
+小時候 總覺得外公的甘蔗攤 髒髒舊舊的
+長大以後才發現 那其實是我記憶裡 最甜、也最溫暖的地方
+雖然現在外公已經退休了 但我還是常常想起 那個午後的陣陣甜味 還有那塊小小的招牌——「阿鴻甘蔗」
+＊ 這首歌裡藏了一個小彩蛋 整首歌用的節拍是77 剛好是外公的 77 歲
+送給我最愛的外公
+詞曲：爆炸頭阿澄 編曲：爆炸頭阿澄 錄音：爆炸頭阿澄","〈甘蔗調〉 哎呦 日頭漸漸浮上山 來去種甘蔗 哎呦咿都哎呦喂 哎呦 甘蔗葉仔撥仔撥 等著好收成 哎呦咿都哎呦喂 已經十年 透早四點就起床 去尋田水 天抑未亮 為著某囝 攑起沈重ê雙手 雖然真忝 為著生活 哎呦 日頭漸漸浮上山 來去種甘蔗 哎呦咿都哎呦喂 哎呦 甘蔗葉仔撥仔撥 等著好收成 哎呦咿都哎呦喂 來到下晡 坐佇我个甘蔗攤 溫暖ê風 吹入心中 人客伊講：頭家你ê甘蔗真正讚 若是有緣 擱來交關 哎呦 日頭漸漸欲落山 欲轉去阮ê厝 哎呦咿都哎呦喂 哎呦 某囝攏塊等我个 全家攏做伙 呷暗頓 幸福ê 作穡人 哎呦咿都哎呦喂 （中文歌詞） 哎呦 太陽慢慢爬上山 出門種甘蔗 哎呦咿都哎呦喂 哎呦 甘蔗葉一片一片撥 等著好收成 哎呦咿都哎呦喂 已經十年了 清晨四點就起床 去巡田水 天還沒亮 為了老婆孩子 扛起沉重的雙手 雖然很累 為了生活 哎呦 太陽慢慢爬上山 出門種甘蔗 哎呦咿都哎呦喂 哎呦 甘蔗葉一片一片撥 等著好收成 哎呦咿都哎呦喂 到了下午 坐在我的甘蔗攤 溫暖的風 吹進心裡 客人說著：「老闆你的甘蔗真的讚」 如果有緣 再來光顧 哎呦 太陽慢慢要落山 準備回我的家 哎呦咿都哎呦喂 哎呦 老婆孩子都在等我 一家人一起 吃晚餐 幸福的農人 哎呦咿都哎呦喂 
+〈甘蔗調〉
+哎呦 日頭漸漸浮上山 來去種甘蔗 哎呦咿都哎呦喂
+哎呦 甘蔗葉仔撥仔撥 等著好收成 哎呦咿都哎呦喂
+已經十年 透早四點就起床 去尋田水 天抑未亮 為著某囝 攑起沈重ê雙手 雖然真忝 為著生活
+哎呦 日頭漸漸浮上山 來去種甘蔗 哎呦咿都哎呦喂
+哎呦 甘蔗葉仔撥仔撥 等著好收成 哎呦咿都哎呦喂
+來到下晡 坐佇我个甘蔗攤 溫暖ê風 吹入心中 人客伊講：頭家你ê甘蔗真正讚 若是有緣 擱來交關
+哎呦 日頭漸漸欲落山 欲轉去阮ê厝 哎呦咿都哎呦喂
+哎呦 某囝攏塊等我个 全家攏做伙 呷暗頓
+幸福ê 作穡人 哎呦咿都哎呦喂
+（中文歌詞）
+哎呦 太陽慢慢爬上山 出門種甘蔗 哎呦咿都哎呦喂
+哎呦 甘蔗葉一片一片撥 等著好收成 哎呦咿都哎呦喂
+已經十年了 清晨四點就起床 去巡田水 天還沒亮 為了老婆孩子 扛起沉重的雙手 雖然很累 為了生活
+哎呦 太陽慢慢爬上山 出門種甘蔗 哎呦咿都哎呦喂
+哎呦 甘蔗葉一片一片撥 等著好收成 哎呦咿都哎呦喂
+到了下午 坐在我的甘蔗攤 溫暖的風 吹進心裡 客人說著：「老闆你的甘蔗真的讚」 如果有緣 再來光顧
+哎呦 太陽慢慢要落山 準備回我的家 哎呦咿都哎呦喂
+哎呦 老婆孩子都在等我 一家人一起 吃晚餐
+幸福的農人 哎呦咿都哎呦喂
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-17,,False,False,
+2026-04-21 02:07:02,47,,,1,113,2,https://streetvoice.com/Plus2/songs/853294/,https://streetvoice.com/Plus2/,"https://akstatic.streetvoice.com/music_albums/Pl/us/Plus2/D35uXmGJsCvbkh6Mk4Dajh.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_bXVzaWNfYWxidW1zL1BsL3VzL1BsdXMyL0QzNXVYbUdKc0N2YmtoNk1rNERhamguanBlZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxtX2ZpeGVkLGhfMzQ0LHdfMzQ0LGxpbWl0XzA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@Plus2,音樂人,新北市,2022-09-01,2026-01-30 10:26,6,15,7,,https://www.instagram.com/josh.415_,https://youtube.com/@plustwo7954,Hip hop / Rap,雜記,https://streetvoice.com/Plus2/songs/album/97325052/,,"製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2 
+製作：加二plus2 作詞：加二Plus2 作曲：加二Plus2 編曲：加二Plus2 錄音：加二Plus2 混音：加二Plus2","我們是最好的朋友 我有時偷臭你 你有時整我 這種友情除了這裡哪裡能有 是莫名奇妙的持續了很久 應該沒有人懂 是偶爾有人問 我總是笑著回答是一種緣分 不管我們認識還只有前陣 或是來自久遠的年份 而你總是嫌我笨 我總嫌你吵 你說話的前幾秒 我就猜到你要講什麼幹話 不懂哪裡好  可能在我眼裡好 電波剛好對到有什麼辦法 單純是白痴的對話我們常有 你只傳給我垃圾訊息當成網友 是哭到破防或是笑到嘴角失去防守 這樣的關係繼續多久才算長久 我們是最好的朋友 只會聊天的朋友 我不用等你也不會等我 可能直到我們哪天哪個人走 就只是最好的朋友 只能是最好的朋友 哪天我們各自奔走 不用擔心會不會分手 你習以為常的對話 對我來說一天比一天虛假 我們就繼續走著要是你突然走了 那剩下一個人的我又應該去哪 那話總是講得好聽 卻講得從不赤裸 我沒有想過騙了你 也騙了自我 是謊說的太多早被你識破 想矇混過關卻總沒一次過 你遠走高飛我還原地滯留 還放不開卡在這裡的人是我 可能我不夠珍惜但你算摯友 而我卻突然生情一旦日久 我們是最好的朋友 只會聊天的朋友 我不用等你也不會等我 可能直到我們哪天哪個人走 就只是最好的朋友 只能是最好的朋友 哪天我們各自奔走 不用擔心會不會分手 
+我們是最好的朋友 我有時偷臭你 你有時整我 這種友情除了這裡哪裡能有 是莫名奇妙的持續了很久 應該沒有人懂 是偶爾有人問 我總是笑著回答是一種緣分 不管我們認識還只有前陣 或是來自久遠的年份 而你總是嫌我笨 我總嫌你吵 你說話的前幾秒 我就猜到你要講什麼幹話 不懂哪裡好  可能在我眼裡好 電波剛好對到有什麼辦法 單純是白痴的對話我們常有 你只傳給我垃圾訊息當成網友 是哭到破防或是笑到嘴角失去防守 這樣的關係繼續多久才算長久
+我們是最好的朋友 只會聊天的朋友 我不用等你也不會等我 可能直到我們哪天哪個人走 就只是最好的朋友 只能是最好的朋友 哪天我們各自奔走 不用擔心會不會分手
+你習以為常的對話 對我來說一天比一天虛假 我們就繼續走著要是你突然走了 那剩下一個人的我又應該去哪 那話總是講得好聽 卻講得從不赤裸 我沒有想過騙了你 也騙了自我 是謊說的太多早被你識破 想矇混過關卻總沒一次過 你遠走高飛我還原地滯留 還放不開卡在這裡的人是我 可能我不夠珍惜但你算摯友 而我卻突然生情一旦日久
+我們是最好的朋友 只會聊天的朋友 我不用等你也不會等我 可能直到我們哪天哪個人走 就只是最好的朋友 只能是最好的朋友 哪天我們各自奔走 不用擔心會不會分手
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-04-15,,True,False,
+2026-04-21 02:07:02,48,,,16,928,3,https://streetvoice.com/glimpseofkawa/songs/851701/,https://streetvoice.com/glimpseofkawa/,"https://akstatic.streetvoice.com/song_covers/gl/im/glimpseofkawa/BerzhvJepth2cUcejT8MFh.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvZ2wvaW0vZ2xpbXBzZW9ma2F3YS9CZXJ6aHZKZXB0aDJjVWNlalQ4TUZoLmpwZWc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbV9maXhlZCxoXzM0NCx3XzM0NCxsaW1pdF8w,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@glimpseofkawa,音樂人,其他,2022-08-01,,1,6,,,,https://www.youtube.com/user/StreetVoiceTV,Pop,,,,"川之瓣影業隆重出品：《夢知秋 Fall for You》 「誰能不愛 B 級愛情動作片！ 這個秋天，最淒美的愛情故事，每一幀畫面，都像秋葉墜落般心碎。 當秋風再拂心田，錯過愛情是否能夠再次綻放？」 #夢知秋 #Fallforyou #秋天的愛情 #浸漫城 
+川之瓣影業隆重出品：《夢知秋 Fall for You》 「誰能不愛 B 級愛情動作片！
+這個秋天，最淒美的愛情故事，每一幀畫面，都像秋葉墜落般心碎。 當秋風再拂心田，錯過愛情是否能夠再次綻放？」
+#夢知秋 #Fallforyou #秋天的愛情 #浸漫城","動態歌詞
+In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away I can see you onto something Flipping in and out that’s creeping me out Keep your eyes steady Just go with the feelings Hope it’s not a dream Cuz I’m not ready to awake Gide the way for me Show what you want In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away You said that we can never be Sunset walking smiling by the sea Everything I ask you don’t want to tell You keep pulling me back can’t you see Stop fooling with me Are you into something Dress up something nice for me Why won’t you come meet me in the night Hope it’s not a dream Cuz I’m not ready to awake Gide the way for me Show what you want In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away 
+In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away
+I can see you onto something Flipping in and out that’s creeping me out Keep your eyes steady Just go with the feelings
+Hope it’s not a dream Cuz I’m not ready to awake Gide the way for me Show what you want
+In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away
+You said that we can never be Sunset walking smiling by the sea Everything I ask you don’t want to tell You keep pulling me back can’t you see Stop fooling with me Are you into something Dress up something nice for me Why won’t you come meet me in the night
+Hope it’s not a dream Cuz I’m not ready to awake Gide the way for me Show what you want
+In this fall I fall for you Does it bother when I’m still stuck in your mind? Boy open your heart let me through I don’t wanna wait if you feel the same too Don’t try to hide away You spin me round and round and round Now you’re all I can think about Am I wasting time? Just to let you realize Don’t run away
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-04-03,,True,True,
+2026-04-21 02:07:02,49,,,0,123,0,https://streetvoice.com/lumiere0628/songs/854363/,https://streetvoice.com/lumiere0628/,"https://akstatic.streetvoice.com/song_covers/lu/mi/lumiere0628/VVT5ZTusoqUVkG5Sm5nRrc.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvbHUvbWkvbHVtaWVyZTA2MjgvVlZUNVpUdXNvcVVWa0c1U201blJyYy5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@lumiere0628,音樂人,,,,1,1,,,,https://www.youtube.com/user/StreetVoiceTV,ACG,,,,,"這是沒有提供歌詞的歌曲
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-19,,False,False,
+2026-04-21 02:07:02,50,,,0,1,0,https://streetvoice.com/bedoublensound/songs/854244/,https://streetvoice.com/bedoublensound/,"https://akstatic.streetvoice.com/song_covers/be/do/bedoublensound/KEfvFDZ2nPQCThhVCZ3nYy.jpeg?x-oss-process=image/resize,m_fixed,h_1,w_1,limit_0/resize,m_fixed,h_630,w_1200,limit_0/watermark,image_c29uZ19jb3ZlcnMvYmUvZG8vYmVkb3VibGVuc291bmQvS0VmdkZEWjJuUFFDVGhoVkNaM25ZeS5qcGVnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLG1fZml4ZWQsaF8zNDQsd18zNDQsbGltaXRfMA,g_nw,x_428,y_143/watermark,image_YXNzZXQvaW1hZ2VzL21ldGFpbWFnZS1zb25nLnBuZw,g_nw,x_0,y_0",@bedoublensound,音樂人,台北市,2014-01-01,2025-08-26 12:27,7,34,2,https://www.facebook.com/bedoublensound,https://www.instagram.com/bnnwx7_tw/,https://www.youtube.com/@benn1662,Electronic,Entheos,https://streetvoice.com/bedoublensound/songs/album/97325110/,,"收錄於 B E N N 2021 年在義大利杜林（Torino）前衛廠牌 Early Reflex 發行的 EP 《Entheos》。 〈Mangaya〉是一首將 Dancehall 律動融入 Leftfield Techno 骨架的破格之作。B E N N 在這首作品中展現了精湛的打擊樂編排，以強勁且跳動感十足的節奏為基底，結合靈活變幻的手部打擊聲（Hand percussions），在低頻震盪中勾勒出極具肉體感的動能。 
+收錄於 B E N N 2021 年在義大利杜林（Torino）前衛廠牌 Early Reflex 發行的 EP 《Entheos》。 〈Mangaya〉是一首將 Dancehall 律動融入 Leftfield Techno 骨架的破格之作。B E N N 在這首作品中展現了精湛的打擊樂編排，以強勁且跳動感十足的節奏為基底，結合靈活變幻的手部打擊聲（Hand percussions），在低頻震盪中勾勒出極具肉體感的動能。","這是沒有提供歌詞的歌曲
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-04-18,,True,False,
