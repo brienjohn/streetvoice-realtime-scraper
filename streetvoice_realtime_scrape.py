@@ -26,7 +26,9 @@ except Exception:
     HAVE_PLAYWRIGHT = False
 
 BASE = "https://streetvoice.com"
-CHART_URL = "https://streetvoice.com/music/charts/realtime/all/"
+
+GENRES_REALTIME = ["all", "rock", "folk", "hip_hop", "urban", "electronic", "explore", "ai_generated"]
+GENRES_WEEKLY = ["all", "rock", "folk", "hip_hop", "urban", "electronic", "explore"]
 
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -63,6 +65,12 @@ SOCIAL_BLACKLIST_SUBSTR = {
 @dataclass
 class Row:
     snapshot_time: str
+
+    chart_timeframe: str                          # realtime / weekly
+    chart_genre: str
+    chart_year: Optional[int]
+    chart_week: Optional[int]
+
     rank: int
 
     artist_name: str
@@ -75,6 +83,7 @@ class Row:
     song_url: str
     artist_url: str
     cover_image_url: Optional[str]
+    cover_image_local_path: Optional[str]
 
     # artist
     artist_handle: Optional[str]
@@ -91,6 +100,9 @@ class Row:
     artist_instagram_url: Optional[str]
     artist_youtube_url: Optional[str]
 
+    related_news: Optional[str]           # "title|||url;;;title2|||url2"
+    big_thing_appearances: Optional[str]  # "title|||date|||url;;;..."
+
     # song
     genre: Optional[str]
     album_title: Optional[str]
@@ -102,6 +114,7 @@ class Row:
     release_date: Optional[str]                  # YYYY-MM-DD
     song_accredited_datetime: Optional[str]      # YYYY-MM-DD HH:MM
 
+    honors: Optional[str]                        # 全部榮譽徽章，分號分隔，不預設種類
     is_editor_recommended: Optional[bool]
     is_song_of_the_day: Optional[bool]
     critic_review_url: Optional[str]
@@ -116,6 +129,10 @@ def snapshot_time_str() -> str:
 
 def filename_ts() -> str:
     return taipei_now().strftime("%Y-%m-%d_%H%M")
+
+def iso_week_info(d: dt.date) -> Tuple[int, int]:
+    y, w, _ = d.isocalendar()
+    return y, w
 
 
 # ---- Generic helpers ----
@@ -180,6 +197,11 @@ def soup_of(html: str) -> BeautifulSoup:
 
 
 # ---- Chart ----
+def build_chart_url(timeframe: str, genre: str, year: Optional[int] = None, week: Optional[int] = None) -> str:
+    if timeframe == "realtime":
+        return f"{BASE}/music/charts/realtime/{genre}/"
+    return f"{BASE}/music/charts/weekly/{year}/{week}/{genre}/"
+
 def parse_chart(chart_html: str, limit: int) -> List[Tuple[int, str, str, str, str]]:
     soup = soup_of(chart_html)
     out: List[Tuple[int, str, str, str, str]] = []
@@ -318,6 +340,18 @@ def extract_flags(soup: BeautifulSoup) -> Tuple[Optional[bool], Optional[bool]]:
     text = soup.get_text("\n", strip=True)
     return ("編輯推薦" in text), (("Song of the Day" in text) or ("今日之歌" in text) or ("本日之歌" in text))
 
+def extract_honors(soup: BeautifulSoup) -> List[str]:
+    """讀榮譽徽章清單本身的 DOM 結構，不預設種類，清單裡有什麼就抓什麼。"""
+    honors: List[str] = []
+    for h3 in soup.select("h3"):
+        badge = h3.select_one(".badge, .icon-trophy")
+        if not badge:
+            continue
+        label = h3.get_text(" ", strip=True)
+        if label and label not in honors:
+            honors.append(label)
+    return honors
+
 def song_id_from_url(song_url: str) -> Optional[int]:
     m = re.search(r"/songs/(\d+)/", song_url)
     return int(m.group(1)) if m else None
@@ -382,7 +416,25 @@ def playwright_counts_song(body_text: str) -> Tuple[Optional[int], Optional[int]
         likes = int(m.group(1).replace(",", ""))
     return likes, plays
 
-def scrape_song(session: requests.Session, song_url: str, pw_page=None) -> Dict[str, Any]:
+def download_image(session: requests.Session, url: Optional[str], song_id: Optional[int], images_dir: str) -> Optional[str]:
+    if not url or not song_id:
+        return None
+    ext = ".jpg"
+    m = re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", url, re.I)
+    if m:
+        ext = "." + m.group(1).lower()
+    local_path = os.path.join(images_dir, f"{song_id}{ext}")
+    if os.path.exists(local_path):
+        return local_path
+    r = request_retry(session, "GET", url, headers=HTML_HEADERS, tries=2, timeout=20)
+    if r and r.status_code == 200 and r.content:
+        os.makedirs(images_dir, exist_ok=True)
+        with open(local_path, "wb") as f:
+            f.write(r.content)
+        return local_path
+    return None
+
+def scrape_song(session: requests.Session, song_url: str, pw_page=None, images_dir: str = "images") -> Dict[str, Any]:
     html = get_html(session, song_url)
     if not html:
         return {}
@@ -405,11 +457,14 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None) -> Dict[
     song_accredited_datetime = extract_song_accredited_datetime(soup)
     is_editor, is_sotd = extract_flags(soup)
     critic_review_url = extract_critic_review_url(soup)
+    honors = extract_honors(soup)
+
+    sid = song_id_from_url(song_url)
+    cover_local = download_image(session, cover, sid, images_dir)
 
     likes = None
     plays = None
 
-    sid = song_id_from_url(song_url)
     song_api = api_public_song(session, sid, song_url) if sid is not None else None
     next_data = extract_next_data(html)
 
@@ -423,11 +478,9 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None) -> Dict[
     if plays is None and next_data:
         plays = deep_find_int(next_data, ["play"]) or deep_find_int(next_data, ["listen"])
 
-    # IMPORTANT: only use Playwright if still missing
     if (likes is None or plays is None) and pw_page is not None:
         try:
             pw_page.goto(song_url, wait_until="domcontentloaded", timeout=25000)
-            # minimal wait to allow counters render
             try:
                 pw_page.wait_for_selector("text=播放次數", timeout=8000)
             except Exception:
@@ -441,6 +494,7 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None) -> Dict[
 
     return {
         "cover_image_url": cover,
+        "cover_image_local_path": cover_local,
         "genre": genre,
         "album_title": album_title,
         "album_url": album_url,
@@ -453,6 +507,7 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None) -> Dict[
         "is_editor_recommended": is_editor,
         "is_song_of_the_day": is_sotd,
         "critic_review_url": critic_review_url,
+        "honors": "; ".join(honors) if honors else None,
         "likes_count": likes,
         "play_count": plays,
     }
@@ -496,6 +551,41 @@ def playwright_counts_artist(body_text: str) -> Tuple[Optional[int], Optional[in
     if m: following = int(m.group(1).replace(",", ""))
     return music, fans, following
 
+def extract_related_news(soup: BeautifulSoup) -> List[Tuple[str, str]]:
+    h2 = soup.find(lambda t: getattr(t, "name", None) == "h2" and t.get_text(" ", strip=True) == "相關新聞")
+    if not h2:
+        return []
+    news: List[Tuple[str, str]] = []
+    for node in h2.find_all_next():
+        if getattr(node, "name", None) == "h2" and node is not h2:
+            break
+        if getattr(node, "name", None) == "a" and node.get("href"):
+            href = node["href"]
+            if "blow.streetvoice.com" in href:
+                title = node.get_text(" ", strip=True)
+                if title:
+                    pair = (title, href)
+                    if pair not in news:
+                        news.append(pair)
+    return news
+
+def extract_big_thing_appearances(soup: BeautifulSoup) -> List[Tuple[str, str, str]]:
+    results: List[Tuple[str, str, str]] = []
+    for a in soup.select('a[href^="/gigs/"]'):
+        title = a.get_text(" ", strip=True)
+        if "大團誕生" not in title and "Next Big Thing" not in title:
+            continue
+        href = abs_url(a["href"])
+        container = a.find_parent(["div", "li"])
+        date_text = ""
+        if container:
+            dm = re.search(r"\d{4}-\d{2}-\d{2}|\d{1,2}\s*月\s*\d{1,2}", container.get_text(" ", strip=True))
+            date_text = dm.group(0) if dm else ""
+        item = (title, date_text, href)
+        if item not in results:
+            results.append(item)
+    return results
+
 def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> Dict[str, Any]:
     html = get_html(session, artist_url)
     if not html:
@@ -507,6 +597,8 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
     handle, identity = parse_artist_handle_identity(text)
     city, joined = parse_artist_joined_line(text)
     accredited = parse_accredited_datetime_from_html(html)
+    related_news = extract_related_news(soup)
+    big_thing = extract_big_thing_appearances(soup)
 
     fb = ig = yt = None
     for a in soup.select('a[href*="facebook.com"], a[href*="instagram.com"], a[href*="youtube.com"], a[href*="youtu.be"]'):
@@ -523,7 +615,6 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
 
     music = fans = following = None
 
-    # Only use Playwright if counts are missing
     if (music is None or fans is None or following is None) and pw_page is not None:
         try:
             pw_page.goto(artist_url, wait_until="domcontentloaded", timeout=25000)
@@ -551,24 +642,37 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
         "artist_facebook_url": fb,
         "artist_instagram_url": ig,
         "artist_youtube_url": yt,
+        "related_news": "; ".join(f"{t}|||{u}" for t, u in related_news) if related_news else None,
+        "big_thing_appearances": "; ".join(f"{t}|||{d}|||{u}" for t, d, u in big_thing) if big_thing else None,
     }
+
+
+def write_csv(out_file: str, rows: List[Row]) -> None:
+    if not rows:
+        return
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+    with open(out_file, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=list(asdict(rows[0]).keys()))
+        w.writeheader()
+        for r in rows:
+            w.writerow(asdict(r))
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--mode", choices=["realtime", "weekly", "weekly-backfill"], default="realtime")
     ap.add_argument("--out-dir", default="data")
+    ap.add_argument("--images-dir", default="images")
     ap.add_argument("--limit", type=int, default=50)
+    ap.add_argument("--backfill-limit", type=int, default=20, help="回溯模式每首歌抓取上限，建議調低減少負擔")
+    ap.add_argument("--max-targets", type=int, default=10, help="回溯模式單次最多處理幾個「曲風+週次」組合")
     ap.add_argument("--no-playwright", action="store_true")
     args = ap.parse_args()
 
     os.makedirs(args.out_dir, exist_ok=True)
+    os.makedirs(args.images_dir, exist_ok=True)
 
     session = requests.Session()
-
-    chart_html = get_html(session, CHART_URL)
-    if not chart_html:
-        raise RuntimeError("Failed to fetch chart page.")
-    chart_items = parse_chart(chart_html, args.limit)
 
     pw = browser = page = None
     if HAVE_PLAYWRIGHT and not args.no_playwright:
@@ -577,73 +681,124 @@ def main() -> int:
         page = browser.new_page()
         page.set_extra_http_headers({"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7"})
 
-        # BIG SPEEDUP: block heavy resources
         def _route(route, request):
             if request.resource_type in ("image", "media", "font"):
                 return route.abort()
             return route.continue_()
         page.route("**/*", _route)
 
-    rows: List[Row] = []
-    snapshot_time = snapshot_time_str()
+    song_cache: Dict[str, Dict[str, Any]] = {}
+    artist_cache: Dict[str, Dict[str, Any]] = {}
 
-    for rank, song_title_guess, artist_name_guess, song_url, artist_url in chart_items:
-        print(f"[{rank}/{args.limit}] {song_url}", flush=True)
+    def get_song_extra(song_url: str) -> Dict[str, Any]:
+        if song_url not in song_cache:
+            song_cache[song_url] = scrape_song(session, song_url, pw_page=page, images_dir=args.images_dir)
+        return song_cache[song_url]
 
-        song_extra = scrape_song(session, song_url, pw_page=page)
-        artist_extra = scrape_artist(session, artist_url, pw_page=page) if artist_url else {}
+    def get_artist_extra(artist_url: str) -> Dict[str, Any]:
+        if artist_url not in artist_cache:
+            artist_cache[artist_url] = scrape_artist(session, artist_url, pw_page=page)
+        return artist_cache[artist_url]
 
-        rows.append(Row(
-            snapshot_time=snapshot_time,
-            rank=rank,
-            artist_name=clean_text(artist_name_guess) or "",
-            song_title=clean_text(song_title_guess) or "",
-            likes_count=song_extra.get("likes_count"),
-            play_count=song_extra.get("play_count"),
-            comments_count=song_extra.get("comments_count"),
-            song_url=song_url,
-            artist_url=artist_url,
-            cover_image_url=song_extra.get("cover_image_url"),
-            artist_handle=artist_extra.get("artist_handle"),
-            artist_identity=artist_extra.get("artist_identity"),
-            artist_city=artist_extra.get("artist_city"),
-            artist_joined_date=artist_extra.get("artist_joined_date"),
-            artist_accredited_datetime=artist_extra.get("artist_accredited_datetime"),
-            artist_music_count=artist_extra.get("artist_music_count"),
-            artist_fans_count=artist_extra.get("artist_fans_count"),
-            artist_following_count=artist_extra.get("artist_following_count"),
-            artist_facebook_url=artist_extra.get("artist_facebook_url"),
-            artist_instagram_url=artist_extra.get("artist_instagram_url"),
-            artist_youtube_url=artist_extra.get("artist_youtube_url"),
-            genre=song_extra.get("genre"),
-            album_title=song_extra.get("album_title"),
-            album_url=song_extra.get("album_url"),
-            collaborators=song_extra.get("collaborators"),
-            description=song_extra.get("description"),
-            lyrics=song_extra.get("lyrics"),
-            release_date=song_extra.get("release_date"),
-            song_accredited_datetime=song_extra.get("song_accredited_datetime"),
-            is_editor_recommended=song_extra.get("is_editor_recommended"),
-            is_song_of_the_day=song_extra.get("is_song_of_the_day"),
-            critic_review_url=song_extra.get("critic_review_url"),
-        ))
+    today = taipei_now().date()
+    cur_y, cur_w = iso_week_info(today)
 
-        time.sleep(0.15)
+    targets: List[Tuple[str, str, Optional[int], Optional[int]]] = []
+    limit = args.limit
+
+    if args.mode == "realtime":
+        targets = [("realtime", g, None, None) for g in GENRES_REALTIME]
+    elif args.mode == "weekly":
+        targets = [("weekly", g, cur_y, cur_w) for g in GENRES_WEEKLY]
+    else:  # weekly-backfill
+        limit = min(args.limit, args.backfill_limit)
+        for g in GENRES_WEEKLY:
+            for w in range(1, cur_w):
+                out_check = os.path.join(args.out_dir, f"streetvoice_weekly_{g}_{cur_y}_{w:02d}.csv")
+                if os.path.exists(out_check):
+                    continue
+                targets.append(("weekly", g, cur_y, w))
+        targets = targets[: args.max_targets]
+        print(f"[backfill] 這次會處理 {len(targets)} 個組合（還有更多要之後幾次陸續補）", flush=True)
+
+    for timeframe, genre, year, week in targets:
+        url = build_chart_url(timeframe, genre, year, week)
+        label = f"{timeframe}/{genre}" + (f"/{year}-W{week}" if week else "")
+        print(f"=== {label} : {url} ===", flush=True)
+
+        chart_html = get_html(session, url)
+        if not chart_html:
+            print(f"[warn] 抓不到 {url}，略過", flush=True)
+            continue
+
+        chart_items = parse_chart(chart_html, limit)
+        rows: List[Row] = []
+        snapshot_time = snapshot_time_str()
+
+        for rank, song_title_guess, artist_name_guess, song_url, artist_url in chart_items:
+            print(f"  [{rank}/{len(chart_items)}] {song_url}", flush=True)
+
+            song_extra = get_song_extra(song_url)
+            artist_extra = get_artist_extra(artist_url) if artist_url else {}
+
+            rows.append(Row(
+                snapshot_time=snapshot_time,
+                chart_timeframe=timeframe,
+                chart_genre=genre,
+                chart_year=year,
+                chart_week=week,
+                rank=rank,
+                artist_name=clean_text(artist_name_guess) or "",
+                song_title=clean_text(song_title_guess) or "",
+                likes_count=song_extra.get("likes_count"),
+                play_count=song_extra.get("play_count"),
+                comments_count=song_extra.get("comments_count"),
+                song_url=song_url,
+                artist_url=artist_url,
+                cover_image_url=song_extra.get("cover_image_url"),
+                cover_image_local_path=song_extra.get("cover_image_local_path"),
+                artist_handle=artist_extra.get("artist_handle"),
+                artist_identity=artist_extra.get("artist_identity"),
+                artist_city=artist_extra.get("artist_city"),
+                artist_joined_date=artist_extra.get("artist_joined_date"),
+                artist_accredited_datetime=artist_extra.get("artist_accredited_datetime"),
+                artist_music_count=artist_extra.get("artist_music_count"),
+                artist_fans_count=artist_extra.get("artist_fans_count"),
+                artist_following_count=artist_extra.get("artist_following_count"),
+                artist_facebook_url=artist_extra.get("artist_facebook_url"),
+                artist_instagram_url=artist_extra.get("artist_instagram_url"),
+                artist_youtube_url=artist_extra.get("artist_youtube_url"),
+                related_news=artist_extra.get("related_news"),
+                big_thing_appearances=artist_extra.get("big_thing_appearances"),
+                genre=song_extra.get("genre"),
+                album_title=song_extra.get("album_title"),
+                album_url=song_extra.get("album_url"),
+                collaborators=song_extra.get("collaborators"),
+                description=song_extra.get("description"),
+                lyrics=song_extra.get("lyrics"),
+                release_date=song_extra.get("release_date"),
+                song_accredited_datetime=song_extra.get("song_accredited_datetime"),
+                honors=song_extra.get("honors"),
+                is_editor_recommended=song_extra.get("is_editor_recommended"),
+                is_song_of_the_day=song_extra.get("is_song_of_the_day"),
+                critic_review_url=song_extra.get("critic_review_url"),
+            ))
+
+            time.sleep(0.15)
+
+        if timeframe == "realtime":
+            out_file = os.path.join(args.out_dir, f"streetvoice_realtime_{genre}_{filename_ts()}.csv")
+        else:
+            out_file = os.path.join(args.out_dir, f"streetvoice_weekly_{genre}_{year}_{week:02d}.csv")
+
+        write_csv(out_file, rows)
+        print(f"[OK] wrote {len(rows)} rows -> {out_file}", flush=True)
 
     if browser:
         browser.close()
     if pw:
         pw.stop()
 
-    out_file = os.path.join(args.out_dir, f"streetvoice_realtime_all_{filename_ts()}.csv")
-    if rows:
-        with open(out_file, "w", newline="", encoding="utf-8-sig") as f:
-            w = csv.DictWriter(f, fieldnames=list(asdict(rows[0]).keys()))
-            w.writeheader()
-            for r in rows:
-                w.writerow(asdict(r))
-
-    print(f"[OK] wrote {len(rows)} rows -> {out_file}", flush=True)
     return 0
 
 

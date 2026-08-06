@@ -1,45 +1,41 @@
-name: StreetVoice Realtime Chart (hourly)
-
-permissions:
-  contents: write
+name: Scrape StreetVoice Charts
 
 on:
   schedule:
-    - cron: "5 * * * *"   # every hour at minute 05 (UTC). Taiwan = UTC+8
+    - cron: "5 * * * *"      # 每小時：即時榜 8 個分類
+    - cron: "30 1 * * 1"     # 每週一台北早上 9:30：本週週榜 7 個分類
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "手動觸發時要跑哪個模式（留空＝即時榜）"
+        required: false
+        default: "realtime"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install dependencies
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - name: Determine mode
+        id: mode
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
-
-      - name: Run scraper
-        run: |
-          python streetvoice_realtime_scrape.py --out-dir data --limit 50
-
-      - name: Commit CSV
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 1 * * 1" ]; then
+            echo "mode=weekly" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=realtime" >> "$GITHUB_OUTPUT"
+          fi
+      - run: python streetvoice_realtime_scrape.py --mode ${{ steps.mode.outputs.mode }}
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.csv
-          git commit -m "Add StreetVoice realtime CSV" || echo "No changes to commit"
+          git add data/ images/
+          git diff --staged --quiet || git commit -m "StreetVoice ${{ steps.mode.outputs.mode }} snapshot $(date -u +%Y-%m-%d_%H%M)"
           git push
-
-      - name: Upload artifact (easy download)
-        uses: actions/upload-artifact@v4
-        with:
-          name: streetvoice-realtime-csv
-          path: data/*.csv
