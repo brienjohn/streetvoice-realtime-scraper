@@ -662,8 +662,12 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
             fans = f2 if f2 not in (None, 0) else fans
             following = fo2 if fo2 not in (None, 0) else following
 
-            # 相關新聞是瀏覽器執行 JS 後才動態補上的，純 requests 抓不到，
-            # 既然這裡已經開了瀏覽器，順便用渲染後的完整內容重抓一次
+            # 相關新聞是瀏覽器執行 JS 後才動態補上的，而且載入時間點比粉絲數更晚，
+            # 等到網路真的安靜下來再截取內容，比只等某個文字出現更保險
+            try:
+                pw_page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass
             rendered_html = pw_page.content()
             rendered_soup = soup_of(rendered_html)
             rendered_news = extract_related_news(rendered_soup)
