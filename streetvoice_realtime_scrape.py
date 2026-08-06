@@ -759,8 +759,8 @@ def main() -> int:
         targets = [("weekly", g, cur_y, cur_w) for g in GENRES_WEEKLY]
     else:  # weekly-backfill
         limit = min(args.limit, args.backfill_limit)
-        for g in GENRES_WEEKLY:
-            for w in range(1, cur_w):
+        for w in range(1, cur_w):
+            for g in GENRES_WEEKLY:
                 out_check = os.path.join(args.out_dir, f"streetvoice_weekly_{g}_{cur_y}_{w:02d}.csv")
                 if os.path.exists(out_check):
                     continue
