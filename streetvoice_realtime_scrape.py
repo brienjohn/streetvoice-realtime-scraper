@@ -661,6 +661,14 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
             music = m2 if m2 not in (None, 0) else music
             fans = f2 if f2 not in (None, 0) else fans
             following = fo2 if fo2 not in (None, 0) else following
+
+            # 相關新聞是瀏覽器執行 JS 後才動態補上的，純 requests 抓不到，
+            # 既然這裡已經開了瀏覽器，順便用渲染後的完整內容重抓一次
+            rendered_html = pw_page.content()
+            rendered_soup = soup_of(rendered_html)
+            rendered_news = extract_related_news(rendered_soup)
+            if rendered_news:
+                related_news = rendered_news
         except Exception:
             pass
 
