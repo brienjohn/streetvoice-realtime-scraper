@@ -352,6 +352,28 @@ def extract_honors(soup: BeautifulSoup) -> List[str]:
             honors.append(label)
     return honors
 
+def extract_title_from_page(html: str) -> Tuple[Optional[str], Optional[str]]:
+    """從網頁 <title> 標籤解析，格式通常是「歌名 - 藝人名 | StreetVoice 街聲」。
+    比從榜單頁面猜文字可靠，某些版面榜單連結裡沒有文字內容（例如純圖片連結）。"""
+    m = re.search(r"<title>([^<]*)</title>", html)
+    if not m:
+        return None, None
+    raw = m.group(1)
+    raw = re.sub(r"\s*\|\s*StreetVoice.*$", "", raw).strip()
+    if " - " in raw:
+        song, artist = raw.rsplit(" - ", 1)
+        return clean_text(song), clean_text(artist)
+    return clean_text(raw), None
+
+def extract_artist_name_from_page(html: str) -> Optional[str]:
+    """藝人頁面的 <title> 格式是「藝人名 | StreetVoice 街聲」。"""
+    m = re.search(r"<title>([^<]*)</title>", html)
+    if not m:
+        return None
+    raw = m.group(1)
+    raw = re.sub(r"\s*\|\s*StreetVoice.*$", "", raw).strip()
+    return clean_text(raw)
+
 def song_id_from_url(song_url: str) -> Optional[int]:
     m = re.search(r"/songs/(\d+)/", song_url)
     return int(m.group(1)) if m else None
@@ -458,6 +480,7 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None, images_d
     is_editor, is_sotd = extract_flags(soup)
     critic_review_url = extract_critic_review_url(soup)
     honors = extract_honors(soup)
+    page_song_title, page_artist_name = extract_title_from_page(html)
 
     sid = song_id_from_url(song_url)
     cover_local = download_image(session, cover, sid, images_dir)
@@ -493,6 +516,8 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None, images_d
             pass
 
     return {
+        "page_song_title": page_song_title,
+        "page_artist_name": page_artist_name,
         "cover_image_url": cover,
         "cover_image_local_path": cover_local,
         "genre": genre,
@@ -551,6 +576,8 @@ def playwright_counts_artist(body_text: str) -> Tuple[Optional[int], Optional[in
     if m: following = int(m.group(1).replace(",", ""))
     return music, fans, following
 
+NEWS_PLACEHOLDER_TEXTS = {"內容提供", "Blow 吹音樂", "blow 吹音樂"}
+
 def extract_related_news(soup: BeautifulSoup) -> List[Tuple[str, str]]:
     h2 = soup.find(lambda t: getattr(t, "name", None) == "h2" and t.get_text(" ", strip=True) == "相關新聞")
     if not h2:
@@ -561,12 +588,18 @@ def extract_related_news(soup: BeautifulSoup) -> List[Tuple[str, str]]:
             break
         if getattr(node, "name", None) == "a" and node.get("href"):
             href = node["href"]
-            if "blow.streetvoice.com" in href:
-                title = node.get_text(" ", strip=True)
-                if title:
-                    pair = (title, href)
-                    if pair not in news:
-                        news.append(pair)
+            if "blow.streetvoice.com" not in href:
+                continue
+            title = node.get_text(" ", strip=True)
+            if not title or title in NEWS_PLACEHOLDER_TEXTS:
+                continue
+            # 通用推廣卡片連的是網站根目錄，真新聞會帶文章路徑
+            path = href.split("blow.streetvoice.com", 1)[-1].strip("/")
+            if not path:
+                continue
+            pair = (title, href)
+            if pair not in news:
+                news.append(pair)
     return news
 
 def extract_big_thing_appearances(soup: BeautifulSoup) -> List[Tuple[str, str, str]]:
@@ -599,6 +632,7 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
     accredited = parse_accredited_datetime_from_html(html)
     related_news = extract_related_news(soup)
     big_thing = extract_big_thing_appearances(soup)
+    page_artist_display_name = extract_artist_name_from_page(html)
 
     fb = ig = yt = None
     for a in soup.select('a[href*="facebook.com"], a[href*="instagram.com"], a[href*="youtube.com"], a[href*="youtu.be"]'):
@@ -631,6 +665,7 @@ def scrape_artist(session: requests.Session, artist_url: str, pw_page=None) -> D
             pass
 
     return {
+        "page_artist_display_name": page_artist_display_name,
         "artist_handle": handle,
         "artist_identity": identity,
         "artist_city": city,
@@ -741,6 +776,18 @@ def main() -> int:
             song_extra = get_song_extra(song_url)
             artist_extra = get_artist_extra(artist_url) if artist_url else {}
 
+            final_song_title = (
+                song_extra.get("page_song_title")
+                or clean_text(song_title_guess)
+                or ""
+            )
+            final_artist_name = (
+                artist_extra.get("page_artist_display_name")
+                or song_extra.get("page_artist_name")
+                or clean_text(artist_name_guess)
+                or ""
+            )
+
             rows.append(Row(
                 snapshot_time=snapshot_time,
                 chart_timeframe=timeframe,
@@ -748,8 +795,8 @@ def main() -> int:
                 chart_year=year,
                 chart_week=week,
                 rank=rank,
-                artist_name=clean_text(artist_name_guess) or "",
-                song_title=clean_text(song_title_guess) or "",
+                artist_name=final_artist_name,
+                song_title=final_song_title,
                 likes_count=song_extra.get("likes_count"),
                 play_count=song_extra.get("play_count"),
                 comments_count=song_extra.get("comments_count"),
