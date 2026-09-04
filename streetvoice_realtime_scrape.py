@@ -467,7 +467,11 @@ def scrape_song(session: requests.Session, song_url: str, pw_page=None, images_d
     cover = None
     og = soup.select_one('meta[property="og:image"]')
     if og and og.get("content"):
-        cover = og["content"]
+        # og:image 是給社群分享卡片用的，網址裡帶的轉檔參數會把封面疊上 StreetVoice 品牌浮水印，
+        # 拿掉問號後面那串、換成單純縮放，才是乾淨沒有外框的封面圖
+        raw_url = og["content"]
+        base_url = raw_url.split("?")[0]
+        cover = f"{base_url}?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0"
 
     genre = extract_genre(soup)
     album_title, album_url = extract_album(soup)
