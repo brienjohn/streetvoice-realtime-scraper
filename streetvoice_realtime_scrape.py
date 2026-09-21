@@ -760,7 +760,12 @@ def main() -> int:
     if args.mode == "realtime":
         targets = [("realtime", g, None, None) for g in GENRES_REALTIME]
     elif args.mode == "weekly":
-        targets = [("weekly", g, cur_y, cur_w) for g in GENRES_WEEKLY]
+        # 這裡原本直接用 cur_w（本週），但排程是週一一早觸發，這時候「本週」才剛開始，
+        # StreetVoice 網站上根本不會有這一週的榜單頁面——backfill 模式一直都刻意跳過本週
+        # （range(1, cur_w) 不包含 cur_w）就是因為這樣；weekly 模式卻沒有同樣避開，
+        # 導致每次都在抓一個還不存在的頁面，安靜地失敗。改成抓上一個已經完整結束的週次。
+        prev_y, prev_w = iso_week_info(today - dt.timedelta(days=7))
+        targets = [("weekly", g, prev_y, prev_w) for g in GENRES_WEEKLY]
     else:  # weekly-backfill
         limit = min(args.limit, args.backfill_limit)
         for w in range(1, cur_w):
