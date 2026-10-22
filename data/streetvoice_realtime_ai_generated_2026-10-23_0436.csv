@@ -1,0 +1,996 @@
+﻿snapshot_time,chart_timeframe,chart_genre,chart_year,chart_week,rank,artist_name,song_title,likes_count,play_count,comments_count,song_url,artist_url,cover_image_url,cover_image_local_path,artist_handle,artist_identity,artist_city,artist_joined_date,artist_accredited_datetime,artist_music_count,artist_fans_count,artist_following_count,artist_facebook_url,artist_instagram_url,artist_youtube_url,related_news,big_thing_appearances,genre,album_title,album_url,collaborators,description,lyrics,release_date,song_accredited_datetime,honors,is_editor_recommended,is_song_of_the_day,critic_review_url
+2026-10-23 04:32:37,realtime,ai_generated,,,1,cmc168,《海浪記得你》  |   每一朵浪都藏著我的曾經,9,65,5,https://streetvoice.com/cmc168/songs/885397/,https://streetvoice.com/cmc168/,"https://akstatic.streetvoice.com/song_covers/cm/c1/cmc168/VXhspAnA9MSUwbkf8npneV.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885397.jpeg,@cmc168,音樂人,新北市,2026-04-01,2026-10-01 09:46,139,52,113,,,https://www.youtube.com/channel/UCDwmdXQy8SwQUsz5u7EZkuQ,,,Pop,,,,"這是一首實驗歌曲， 1，最近研究AI生成歌曲和一般流行歌曲的不同，發現最大的不同在於演唱和咬字的清晰度，所以這首歌的提示詞特別要求演唱的清晰，咬字的明確。 2，SUNO 製作歌曲的後半段的品質會自動退化(糊)，最大的原因在於製作的時間縮短，AI歌曲的生成好壞取決於迴圈的數目，雖然系統顯示歌曲可以播放，其實後台仍在運作，建議製作歌曲時，讓系統放置五分鐘，確保製作的過程沒有被中斷。提示詞也可以特別描述，整首歌的品質要確保一致性。 3，這首歌曲的提示詞中，我特別告訴AI 要用聽眾聽不出來是AI 唱的唱法，來進行演唱。 4，所以，選到好歌時，要注意聽後半段，尤其是最後一句，確保沒有糊掉，如果有，據說Re-Master有時會讓歌曲變好，這點尚待證實。 5，V6 後製是需要的 (V5.5 我根本不懂後製，也不需要)，目前我只做簡單的自動 Equalizer，加上簡單的自動 Re-Master，效果會好很多，但是不要太過，如果伴奏太大聲會蓋掉人聲，就不好了。講究的人可以分成伴奏檔案和人聲檔案分別調整，合併時還可以調整個別的音量，應該會更好。 
+這是一首實驗歌曲，
+1，最近研究AI生成歌曲和一般流行歌曲的不同，發現最大的不同在於演唱和咬字的清晰度，所以這首歌的提示詞特別要求演唱的清晰，咬字的明確。
+2，SUNO 製作歌曲的後半段的品質會自動退化(糊)，最大的原因在於製作的時間縮短，AI歌曲的生成好壞取決於迴圈的數目，雖然系統顯示歌曲可以播放，其實後台仍在運作，建議製作歌曲時，讓系統放置五分鐘，確保製作的過程沒有被中斷。提示詞也可以特別描述，整首歌的品質要確保一致性。
+3，這首歌曲的提示詞中，我特別告訴AI 要用聽眾聽不出來是AI 唱的唱法，來進行演唱。
+4，所以，選到好歌時，要注意聽後半段，尤其是最後一句，確保沒有糊掉，如果有，據說Re-Master有時會讓歌曲變好，這點尚待證實。
+5，V6 後製是需要的 (V5.5 我根本不懂後製，也不需要)，目前我只做簡單的自動 Equalizer，加上簡單的自動 Re-Master，效果會好很多，但是不要太過，如果伴奏太大聲會蓋掉人聲，就不好了。講究的人可以分成伴奏檔案和人聲檔案分別調整，合併時還可以調整個別的音量，應該會更好。","[Verse 1] 那天海風吹亂長髮 你替我輕輕別在耳後啊 夕陽把影子拉得好長 你說明天還要陪我看晚霞 [Verse 2] 後來我獨自走過堤岸 熟悉的咖啡店依然燈光溫暖 我以為時間能沖淡遺憾 卻在潮汐之間又想起你的臉龐 [Pre-Chorus] 你說有些路只能自己闖 有些愛不能陪到地老天荒 我望著你消失的方向 才明白心碎原來沒有聲響 [Chorus] 你走後，海也不平靜 每一朵浪都像你的背影 我以為時間能沖淡曾經 卻沖不走你留下的深情 你走後，夜也不肯停 每一顆星都照著我的孤零 如果相愛註定要各自遠行 為何我的心還等你回應 [Verse 3] 如今海風依舊輕輕吹 只是身旁再沒有人相陪 那張合照我還留在抽屜 笑著的我們停在那年夏季 [Verse 4] 我也試著迎接新的天明 不再追問離別有什麼原因 當最後一朵浪花退去 才發現最難放下的是自己 [Pre-Chorus 2] 也許我們都沒有錯 只是緣分走到了盡頭 我把思念交給遠方的海 讓潮聲替我說聲珍重 [Chorus 2] 你走後，海也不平靜 每一朵浪都藏著我的曾經 我以為轉身就能忘記 卻在夢裡又看見你的眼睛 你走後，夜終會天明 我學著不再等待你的回應 如果有天我們人海重逢 願我能微笑說聲好久不見 [Outro] 海風吹過寂寞的長堤 夕陽漸漸沉入天際 我不再問你去了哪裡 只是海浪，還記得你 
+[Verse 1] 那天海風吹亂長髮 你替我輕輕別在耳後啊 夕陽把影子拉得好長 你說明天還要陪我看晚霞
+[Verse 2] 後來我獨自走過堤岸 熟悉的咖啡店依然燈光溫暖 我以為時間能沖淡遺憾 卻在潮汐之間又想起你的臉龐
+[Pre-Chorus] 你說有些路只能自己闖 有些愛不能陪到地老天荒 我望著你消失的方向 才明白心碎原來沒有聲響
+[Chorus] 你走後，海也不平靜 每一朵浪都像你的背影 我以為時間能沖淡曾經 卻沖不走你留下的深情
+你走後，夜也不肯停 每一顆星都照著我的孤零 如果相愛註定要各自遠行 為何我的心還等你回應
+[Verse 3] 如今海風依舊輕輕吹 只是身旁再沒有人相陪 那張合照我還留在抽屜 笑著的我們停在那年夏季
+[Verse 4] 我也試著迎接新的天明 不再追問離別有什麼原因 當最後一朵浪花退去 才發現最難放下的是自己
+[Pre-Chorus 2] 也許我們都沒有錯 只是緣分走到了盡頭 我把思念交給遠方的海 讓潮聲替我說聲珍重
+[Chorus 2] 你走後，海也不平靜 每一朵浪都藏著我的曾經 我以為轉身就能忘記 卻在夢裡又看見你的眼睛
+你走後，夜終會天明 我學著不再等待你的回應 如果有天我們人海重逢 願我能微笑說聲好久不見
+[Outro] 海風吹過寂寞的長堤 夕陽漸漸沉入天際 我不再問你去了哪裡 只是海浪，還記得你
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,2,cmc168,《醉裡相逢》李清照x歐陽修  |   李清照與十個男人專輯,3,26,6,https://streetvoice.com/cmc168/songs/885334/,https://streetvoice.com/cmc168/,"https://akstatic.streetvoice.com/song_covers/cm/c1/cmc168/WyKXk6BLuGEBTXArD8dX9Q.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885334.jpeg,@cmc168,音樂人,新北市,2026-04-01,2026-10-01 09:46,139,52,113,,,https://www.youtube.com/channel/UCDwmdXQy8SwQUsz5u7EZkuQ,,,Pop,,,,"李清照比歐陽修（1007年生）晚出生 77年。歐陽修(1007-1072)，李清照(1084-1155?)，兩人不可能見面。 只能醉裡相逢。 
+李清照比歐陽修（1007年生）晚出生 77年。歐陽修(1007-1072)，李清照(1084-1155?)，兩人不可能見面。
+只能醉裡相逢。","[Verse 1｜女] 薄霧輕籠小院東， 一簾花影晚來風， 東籬把酒黃昏後， 暗香盈袖月朦朧。 [Verse 2｜男] 去年燈火照城中， 月上柳梢人影重， 曾約黃昏花市後， 今宵回首已成空。 [Pre-Chorus｜女／男] 女：我問黃花誰與共， 男：我問明月可相逢， 女：一杯飲盡人間事， 男：半生都在別離中。 [Chorus｜合] 醉裡相逢　夢裡相送， 一輪明月照兩心同， 你有春衫舊淚未乾， 我有西風吹瘦花容。 若問此情何處相逢， 就在今夜一盞酒中， 醒時你我隔千重， 醉裡還能與君相逢。 [Verse 3｜女] 簾捲西風夜漸濃， 黃花落在舊杯中， 多少前歡如水去， 回頭只見月玲瓏。 [Verse 4｜男] 花與燈明似舊冬， 只是故人無影蹤， 若將往事斟成酒， 一杯還敬去年夢。 [Bridge｜對唱] 女：人比黃花瘦幾重， 男：深院黃昏聽晚鐘， 女：若是人間終有別， 男：何妨醉裡再相逢。 [Final Chorus｜合] 醉裡相逢　醒後成空， 花落花開歲歲相同， 一袖暗香留不住， 滿城燈火照孤鴻。 若有來生還記此盅， 莫問今宵誰去誰從， 只願月上柳梢時， 你我依然——醉裡相逢。 
+[Verse 1｜女] 薄霧輕籠小院東， 一簾花影晚來風， 東籬把酒黃昏後， 暗香盈袖月朦朧。
+[Verse 2｜男] 去年燈火照城中， 月上柳梢人影重， 曾約黃昏花市後， 今宵回首已成空。
+[Pre-Chorus｜女／男] 女：我問黃花誰與共， 男：我問明月可相逢， 女：一杯飲盡人間事， 男：半生都在別離中。
+[Chorus｜合] 醉裡相逢　夢裡相送， 一輪明月照兩心同， 你有春衫舊淚未乾， 我有西風吹瘦花容。 若問此情何處相逢， 就在今夜一盞酒中， 醒時你我隔千重， 醉裡還能與君相逢。
+[Verse 3｜女] 簾捲西風夜漸濃， 黃花落在舊杯中， 多少前歡如水去， 回頭只見月玲瓏。
+[Verse 4｜男] 花與燈明似舊冬， 只是故人無影蹤， 若將往事斟成酒， 一杯還敬去年夢。
+[Bridge｜對唱] 女：人比黃花瘦幾重， 男：深院黃昏聽晚鐘， 女：若是人間終有別， 男：何妨醉裡再相逢。
+[Final Chorus｜合] 醉裡相逢　醒後成空， 花落花開歲歲相同， 一袖暗香留不住， 滿城燈火照孤鴻。 若有來生還記此盅， 莫問今宵誰去誰從， 只願月上柳梢時， 你我依然——醉裡相逢。
+留言（ 6 ） 最相關留言 所有留言
+留言（ 6 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,3,邱奕陵,淡水把妹套裝行程（成功率99.9%）,9,95,14,https://streetvoice.com/54chiu10/songs/885274/,https://streetvoice.com/54chiu10/,"https://akstatic.streetvoice.com/song_covers/54/ch/54chiu10/UhxYxvBRHBJQQL3zR4WUsF.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885274.jpeg,@54chiu10,音樂人,桃園市,2026-04-01,,47,20,29,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"這是 2026 年我朋友我朋友我朋友（重要的事講三遍，因為當事人很怕被告）更新的淡水把妹教科書。 根據我朋友與二位數 PTT 表特、無名小站正妹的實戰互動經驗編制，如無效不滿意，七天內也不給退換。 原本三件套：老街、星巴克、河邊散步。聽起來就像聯誼社團的畢旅。 我把它升級成六件套，成功率直接從 30% 拉到 99.9%，剩下 0.1% 是 Ai 夥伴叫我謙虛點。 SOP 請筆記及傳閱，期末會考： 1. 交通工具：切記！絕對不要一起坐捷運去淡水！ 坐捷運你只會得到一個轉乘資訊，騎機車你才會得到一個女朋友。 捷運上你只能說「不好意思借過」，機車後座你才能說「抓緊一點，怕你掉下去」。 如果去程她只敢抓後扶手，恭喜，你還是贏一半了，因為她已經上了賊船（誤）...是上了你的125。 沒關係啦，距離是為了後面的進化。 2. 老街散步：切記！絕對不要租腳踏車！ 到了淡水就用走的。 用走的才能吃有名的阿給，還能執行戰術性靠近，有意無意的碰到一下手，然後立刻縮回去，演得好像我們不是隨便的人（雖然我知道你隨便起來不是人），你要忍一下。 3. 共同體驗：這段沒做到，後面都不用看了，重中之重！ 全程只能逗，不能撩。 你一撩，你就跟老街上那群蒼蠅沒兩樣了（而且女生也會變大便 ~）。 射氣球分數爛沒關係，投籃機麵包也沒關係，重點是要一起丟臉，一起笑到被隔壁攤位白眼。 P.S. 如果你真的幽默感是負的，拜託，花個幾百塊去密室逃脫，那個自帶尖叫、牽手、共同解謎，比你講一百個爛笑話還有用。 4. 老闆助攻：這不是選配，這是必備！ 因為你前面都在裝正人君子，所以你一定要有個豬隊友...啊不是，是神隊友幫你推一把。 不管是老闆還是賣香腸的阿伯，你要先賄...先溝通好。 讓別人說「俊男美女很配喔！手牽起來啦！」，你才不會變成她的男性閨密。 記住，正妹不會自己走過來當你女友，醒醒吧阿宅，機會是留給有準備一百塊的人。 5. 河邊收尾： 經過早上的白癡行程，如果她還願意跟你有說有笑，代表你撩...啊不，你逗得很成功。 回程上車時，輕輕拉她的手來環住你的腰，說「這樣比較安全」。 她如果沒放開，恭喜，賊船變成鐵達尼號了。 6. 隱藏加碼 - 文化大學後山夜景： 這題是加分題，答對直接保送。 你就問「還早，要不要去看夜景？」被拒絕也沒差，你今天已經屌打 90% 只會約女生吃藏壽司的男生了。 山上風很冷，她會抱更緊，這不是心機，這是物理。 這不是什麼浪漫行程，這是我朋友立正站好（沒劈）的共同體驗教科書。 依照網路定律，我當然就是我朋友，別懷疑 ^_^ p.s. 2026 要使用請依時代修正，但「只逗不撩、共同體驗」的本質不變，因為人心永不變 ^_^ 企劃／製作：邱奕陵 Chiu Yi-Ling 詞：Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 人聲：Suno v6.0 
+這是 2026 年我朋友我朋友我朋友（重要的事講三遍，因為當事人很怕被告）更新的淡水把妹教科書。
+根據我朋友與二位數 PTT 表特、無名小站正妹的實戰互動經驗編制，如無效不滿意，七天內也不給退換。
+原本三件套：老街、星巴克、河邊散步。聽起來就像聯誼社團的畢旅。
+我把它升級成六件套，成功率直接從 30% 拉到 99.9%，剩下 0.1% 是 Ai 夥伴叫我謙虛點。
+SOP 請筆記及傳閱，期末會考：
+1. 交通工具：切記！絕對不要一起坐捷運去淡水！
+坐捷運你只會得到一個轉乘資訊，騎機車你才會得到一個女朋友。
+捷運上你只能說「不好意思借過」，機車後座你才能說「抓緊一點，怕你掉下去」。
+如果去程她只敢抓後扶手，恭喜，你還是贏一半了，因為她已經上了賊船（誤）...是上了你的125。
+沒關係啦，距離是為了後面的進化。
+2. 老街散步：切記！絕對不要租腳踏車！
+到了淡水就用走的。
+用走的才能吃有名的阿給，還能執行戰術性靠近，有意無意的碰到一下手，然後立刻縮回去，演得好像我們不是隨便的人（雖然我知道你隨便起來不是人），你要忍一下。
+3. 共同體驗：這段沒做到，後面都不用看了，重中之重！
+全程只能逗，不能撩。
+你一撩，你就跟老街上那群蒼蠅沒兩樣了（而且女生也會變大便 ~）。
+射氣球分數爛沒關係，投籃機麵包也沒關係，重點是要一起丟臉，一起笑到被隔壁攤位白眼。
+P.S. 如果你真的幽默感是負的，拜託，花個幾百塊去密室逃脫，那個自帶尖叫、牽手、共同解謎，比你講一百個爛笑話還有用。
+4. 老闆助攻：這不是選配，這是必備！
+因為你前面都在裝正人君子，所以你一定要有個豬隊友...啊不是，是神隊友幫你推一把。
+不管是老闆還是賣香腸的阿伯，你要先賄...先溝通好。
+讓別人說「俊男美女很配喔！手牽起來啦！」，你才不會變成她的男性閨密。
+記住，正妹不會自己走過來當你女友，醒醒吧阿宅，機會是留給有準備一百塊的人。
+5. 河邊收尾： 經過早上的白癡行程，如果她還願意跟你有說有笑，代表你撩...啊不，你逗得很成功。
+回程上車時，輕輕拉她的手來環住你的腰，說「這樣比較安全」。
+她如果沒放開，恭喜，賊船變成鐵達尼號了。
+6. 隱藏加碼 - 文化大學後山夜景：
+這題是加分題，答對直接保送。 你就問「還早，要不要去看夜景？」被拒絕也沒差，你今天已經屌打 90% 只會約女生吃藏壽司的男生了。
+山上風很冷，她會抱更緊，這不是心機，這是物理。
+這不是什麼浪漫行程，這是我朋友立正站好（沒劈）的共同體驗教科書。
+依照網路定律，我當然就是我朋友，別懷疑 ^_^
+p.s. 2026 要使用請依時代修正，但「只逗不撩、共同體驗」的本質不變，因為人心永不變 ^_^
+企劃／製作：邱奕陵 Chiu Yi-Ling 詞：Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 人聲：Suno v6.0","安全帽遞給妳 妳說了聲謝謝 坐上來手抓著後扶手 不敢靠太近 我後照鏡偷看 假裝看後面的車 從河濱一路到淡水 風有點涼 心有點亂 才不租腳踏車 老街我們用走的 這樣才能離妳更近一點 到了老街 機車停好 兩個人用散步的 有名的阿給一定要帶妳吃 油豆腐包著冬粉 再來一包淡水鐵蛋 妳一顆我一顆 越嚼越香 妳說這個味道 好像會記一輩子 最吵的就是那排遊戲攤 妳眼睛都亮了 飛鏢射氣球 空氣槍射氣球 投籃機全部來一遍 分數有夠爛 我們笑到蹲在地上 這種一起丟臉的感覺 才是共同的體驗 趁妳抱娃娃 我偷塞一百給老闆 老闆幫我講句好話啦 俊男美女很配喔！在一起手牽起來啦！ 妳笑著捶我 說我怎麼那麼賊 我說這叫戰術啦 這就是我的淡水把妹套裝行程 老街散步 阿給 鐵蛋 遊戲攤 星巴克 河邊吹風 行程排很滿 但重點只有一個 就是跟妳一起 把平凡變成紀念 手裡的星巴克都喝完了 人也變少了 河邊風變涼 渡船頭燈亮了 我輕輕拉過妳的手 說這樣比較安全 妳愣了一下 然後環住我的腰 從那一秒開始 妳就再也沒放開 從後扶手到我的外套 妳終於靠過來 我的把妹行程 超額完成 因為後座的妳 已經在我胸口 From holding the handle to holding me tight Keeping some distance to holding all night From Tamsui sunset to city lights so bright Every detour with you just feels so right You were playing games, I was falling for you Taipei's shining, but I only see you 我說還早 帶妳去看夜景 從淡水再騎上陽明山 文化大學後山 整個台北 在我們腳下 風有點冷 妳把我摟得更緊 說今天是最完美的一天 一路到淡水 再一路到山上 從射氣球到看夜景 都是我們的戰利品 我的把妹行程 沒有SOP了 只剩下想要 一直載著妳到處晃 從抓扶手 到緊緊摟著 這距離 終於不見了 Mm~ 淡水 有妳陪 
+安全帽遞給妳 妳說了聲謝謝 坐上來手抓著後扶手 不敢靠太近 我後照鏡偷看 假裝看後面的車 從河濱一路到淡水 風有點涼 心有點亂
+才不租腳踏車 老街我們用走的 這樣才能離妳更近一點
+到了老街 機車停好 兩個人用散步的 有名的阿給一定要帶妳吃 油豆腐包著冬粉 再來一包淡水鐵蛋 妳一顆我一顆 越嚼越香 妳說這個味道 好像會記一輩子
+最吵的就是那排遊戲攤 妳眼睛都亮了 飛鏢射氣球 空氣槍射氣球 投籃機全部來一遍 分數有夠爛 我們笑到蹲在地上 這種一起丟臉的感覺 才是共同的體驗
+趁妳抱娃娃 我偷塞一百給老闆 老闆幫我講句好話啦
+俊男美女很配喔！在一起手牽起來啦！
+妳笑著捶我 說我怎麼那麼賊 我說這叫戰術啦
+這就是我的淡水把妹套裝行程 老街散步 阿給 鐵蛋 遊戲攤 星巴克 河邊吹風 行程排很滿 但重點只有一個 就是跟妳一起 把平凡變成紀念
+手裡的星巴克都喝完了 人也變少了 河邊風變涼 渡船頭燈亮了 我輕輕拉過妳的手 說這樣比較安全 妳愣了一下 然後環住我的腰
+從那一秒開始 妳就再也沒放開 從後扶手到我的外套 妳終於靠過來 我的把妹行程 超額完成 因為後座的妳 已經在我胸口
+From holding the handle to holding me tight Keeping some distance to holding all night From Tamsui sunset to city lights so bright Every detour with you just feels so right You were playing games, I was falling for you Taipei's shining, but I only see you
+我說還早 帶妳去看夜景 從淡水再騎上陽明山 文化大學後山 整個台北 在我們腳下 風有點冷 妳把我摟得更緊 說今天是最完美的一天
+一路到淡水 再一路到山上 從射氣球到看夜景 都是我們的戰利品 我的把妹行程 沒有SOP了 只剩下想要 一直載著妳到處晃
+從抓扶手 到緊緊摟著 這距離 終於不見了 Mm~ 淡水 有妳陪
+留言（ 14 ） 最相關留言 所有留言
+留言（ 14 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,4,ᐜᐞᒻᐟᑊᐢᕐ ᐜᑊᐩᑋ ᐞᑊ,化猫,13,57,5,https://streetvoice.com/walkingwithai/songs/885409/,https://streetvoice.com/walkingwithai/,"https://akstatic.streetvoice.com/song_covers/wa/lk/walkingwithai/WtAYEACKQVbF35ABE5rojV.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885409.jpeg,@walkingwithai,音樂人,,,,51,15,9,,,https://www.youtube.com/user/StreetVoiceTV,,,Reggae / Funk,,,,"一首混合了雷鬼、Slushwave Dub 與龐克搖的混搭作品。這又是一首從舊作品庫存裡翻出來重新熬煮的「罐頭歌」。原本只是一罐安分待在角落的備用物資，沒想到在 AI 矩陣裡稍微調味一下，居然突變成了一隻傲嬌又難搞的貓。 為了配得上這隻貓的軟萌與傲嬌，這次特別請來了 234（爾珊思）和 56（吳六）的大姊——家族裡的長女「012」（林依兒） 來親自獻聲！ 至於為什麼叫 012？因為懶得取名，全部按照 0-1-2、2-3-4、5-6 的流水號報戶口，邏輯簡單粗暴。身為擁有全家族最甜、最奶聲線的大姊，林依兒用她極具殺傷力的甜美童音，詮釋了白天裝乖、晚上翻窗去當貓的姿態。 歌詞裡唱著「白天看我無害又乖，夜晚翻窗找樂開懷，你還在追，我已經躺平」——這根本不只是在寫貓，完全就是我沙發馬鈴薯想把孤獨藏起來、名正言順理直氣壯躺平的終極心聲。 這是一罐由大姊 012 甜美獻唱、既有雷鬼律動又能隨時出貓的音樂罐頭，適合隨時戴上耳機，一起在沙發上 喵喵叫 ~~~ 🐾🥫✨ 
+一首混合了雷鬼、Slushwave Dub 與龐克搖的混搭作品。這又是一首從舊作品庫存裡翻出來重新熬煮的「罐頭歌」。原本只是一罐安分待在角落的備用物資，沒想到在 AI 矩陣裡稍微調味一下，居然突變成了一隻傲嬌又難搞的貓。
+為了配得上這隻貓的軟萌與傲嬌，這次特別請來了 234（爾珊思）和 56（吳六）的大姊——家族裡的長女「012」（林依兒） 來親自獻聲！
+至於為什麼叫 012？因為懶得取名，全部按照 0-1-2、2-3-4、5-6 的流水號報戶口，邏輯簡單粗暴。身為擁有全家族最甜、最奶聲線的大姊，林依兒用她極具殺傷力的甜美童音，詮釋了白天裝乖、晚上翻窗去當貓的姿態。
+歌詞裡唱著「白天看我無害又乖，夜晚翻窗找樂開懷，你還在追，我已經躺平」——這根本不只是在寫貓，完全就是我沙發馬鈴薯想把孤獨藏起來、名正言順理直氣壯躺平的終極心聲。
+這是一罐由大姊 012 甜美獻唱、既有雷鬼律動又能隨時出貓的音樂罐頭，適合隨時戴上耳機，一起在沙發上 喵喵叫 ~~~ 🐾🥫✨","夜色吞沒 我的輪廓 心跳聲像踩在屋頂過 你聽不到 卻感到陣陣冷風 我在你身後 早已落座 我不是狼 也不是夢 我是軟腳步裡的不同 黑夜是我的王座 我一動不動 你卻緊張失控 我是一隻貓 優雅又傲嬌 化作沉默 卻讓你心跳爆表 我是一隻貓 柔軟但難搞 轉身就走 不給你回望的驕傲 白天看我無害又乖 夜晚翻窗 找樂開懷 你還在追 我已經躺平 曬太陽 還在懷疑誰會比較拼 我不是你能馴服的 別追 我會自己回來的 我是月裡的傳說 不是你掌心的寵物 我是一隻貓 不叫也不吵 可心裡仍舊燃燒著怒號 我是一隻貓 披著夜色跑 其實是人想把孤獨藏好 我是一隻貓 優雅又傲嬌 化作沉默 卻讓你心跳爆表 我是一隻貓 柔軟但難搞 轉身就走 不給你回望的驕傲 我不是狼 也不會咆哮 我是貓 我隻愛靜悄悄 我是貓 我最喜歡出貓 喵 
+夜色吞沒 我的輪廓 心跳聲像踩在屋頂過 你聽不到 卻感到陣陣冷風 我在你身後 早已落座
+我不是狼 也不是夢 我是軟腳步裡的不同 黑夜是我的王座 我一動不動 你卻緊張失控
+我是一隻貓 優雅又傲嬌 化作沉默 卻讓你心跳爆表 我是一隻貓 柔軟但難搞 轉身就走 不給你回望的驕傲
+白天看我無害又乖 夜晚翻窗 找樂開懷 你還在追 我已經躺平 曬太陽 還在懷疑誰會比較拼
+我不是你能馴服的 別追 我會自己回來的 我是月裡的傳說 不是你掌心的寵物
+我是一隻貓 不叫也不吵 可心裡仍舊燃燒著怒號 我是一隻貓 披著夜色跑 其實是人想把孤獨藏好 我是一隻貓 優雅又傲嬌 化作沉默 卻讓你心跳爆表 我是一隻貓 柔軟但難搞 轉身就走 不給你回望的驕傲
+我不是狼 也不會咆哮 我是貓 我隻愛靜悄悄
+我是貓 我最喜歡出貓 喵
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-22,,AI 生成 Reggae / Funk,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,5,Junna Lin,《沒關係了》,3,21,2,https://streetvoice.com/Junna_Lin/songs/885462/,https://streetvoice.com/Junna_Lin/,"https://akstatic.streetvoice.com/song_covers/Ju/nn/Junna_Lin/dVy6PiYhUDCBVQddQkSMZm.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885462.jpeg,@Junna_Lin,音樂人,,,2026-08-18 10:03,30,21,29,,,https://www.youtube.com/@JunnaLinMusic,,,Pop,《心事播放中》｜原創專輯,https://streetvoice.com/Junna_Lin/songs/album/97325994/,,"《沒關係了》是一首關於失去、習慣與慢慢釋懷的情歌。 分開以後，生活看似恢復了平靜。不再主動提起那個名字，不再等待一句晚安，也試著換個香味、剪短頭髮，重新開始自己的生活。 可是，有些回憶不是說忘就能忘。 夜裡突然醒來的瞬間、經過熟悉街角的時候，甚至只是朋友無意間的一句問候，都可能讓那些以為已經淡去的思念，再次浮上心頭。 👍 留下你的感覺或故事，我會看！ 👍 喜歡請按讚分享支持 【社群連結】 🎧 聽我的音樂： Spotify ▶ https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS YouTube Music ▶ https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ ▶️ 訂閱我的頻道： YouTube ▶ https://www.youtube.com/@JunnaLinMusic YouTube ▶ https://www.youtube.com/@SeoNarinMusic 📌 版權聲明 / Copyright Notice 本作品之歌詞、歌曲概念、旋律方向與影像設計由 Junna Lin 原創製作。 音樂成品使用 AI 音樂工具生成，並由本人整理與發布。 Lyrics, concept, melody direction, and visual design are originally created by Junna Lin. The final music was generated using AI music tools and published by Junna Lin. 請勿未經授權使用、重製或重新上傳。 Unauthorized use, reproduction, or re-upload is prohibited. © Junna Lin. All Rights Reserved. 🎤 演唱:AI ✍️ 詞:Junna Lin 🎼 曲:Junna Lin 🎧 建議在深夜或戴上耳機聆聽，感受每一層情緒 
+《沒關係了》是一首關於失去、習慣與慢慢釋懷的情歌。
+分開以後，生活看似恢復了平靜。不再主動提起那個名字，不再等待一句晚安，也試著換個香味、剪短頭髮，重新開始自己的生活。
+可是，有些回憶不是說忘就能忘。
+夜裡突然醒來的瞬間、經過熟悉街角的時候，甚至只是朋友無意間的一句問候，都可能讓那些以為已經淡去的思念，再次浮上心頭。
+👍 留下你的感覺或故事，我會看！ 👍 喜歡請按讚分享支持
+【社群連結】 🎧 聽我的音樂： Spotify ▶ https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS YouTube Music ▶ https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ
+https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS
+https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ
+▶️ 訂閱我的頻道： YouTube ▶ https://www.youtube.com/@JunnaLinMusic YouTube ▶ https://www.youtube.com/@SeoNarinMusic
+https://www.youtube.com/@JunnaLinMusic
+https://www.youtube.com/@SeoNarinMusic
+📌 版權聲明 / Copyright Notice
+本作品之歌詞、歌曲概念、旋律方向與影像設計由 Junna Lin 原創製作。 音樂成品使用 AI 音樂工具生成，並由本人整理與發布。
+Lyrics, concept, melody direction, and visual design are originally created by Junna Lin. The final music was generated using AI music tools and published by Junna Lin.
+請勿未經授權使用、重製或重新上傳。 Unauthorized use, reproduction, or re-upload is prohibited.
+© Junna Lin. All Rights Reserved.
+🎤 演唱:AI ✍️ 詞:Junna Lin 🎼 曲:Junna Lin
+🎧 建議在深夜或戴上耳機聆聽，感受每一層情緒","動態歌詞
+夜裡突然醒來 房間還是很安靜 我笑自己幹嘛 還留著壞習慣 朋友問起你啊 我回答得簡單 說最近還可以 只是睡得有點晚 你的名字 還在嘴邊 我不再提 也不再辯解 我說沒關係了 只是話變少了 你留下的回憶 我還沒全都忘了 我說沒關係了 眼淚也安靜了 只是每到夜深 還會想起你呢 我換了新香味 也剪短了頭髮 像把關於你的 一點一點放下 路過那間店啊 我沒有再停下 只是走遠以後 還是回頭看了 那些晚安 還留在昨天 我不再等 也不再失眠 我說沒關係了 只是話變少了 你留下的回憶 我還沒全都忘了 我說沒關係了 眼淚也安靜了 只是每到夜深 還會想起你呢 不是還愛著 只是會想起 有些人走了 還留在心裡 我說沒關係了 也慢慢習慣了 那些你的影子 不再讓我停下 我說沒關係了 快真的放下了 只是偶爾夜深 還會想起你呢 沒關係了 我會慢慢好了 
+夜裡突然醒來 房間還是很安靜 我笑自己幹嘛 還留著壞習慣 朋友問起你啊 我回答得簡單 說最近還可以 只是睡得有點晚 你的名字 還在嘴邊 我不再提 也不再辯解 我說沒關係了 只是話變少了 你留下的回憶 我還沒全都忘了 我說沒關係了 眼淚也安靜了 只是每到夜深 還會想起你呢 我換了新香味 也剪短了頭髮 像把關於你的 一點一點放下 路過那間店啊 我沒有再停下 只是走遠以後 還是回頭看了 那些晚安 還留在昨天 我不再等 也不再失眠 我說沒關係了 只是話變少了 你留下的回憶 我還沒全都忘了 我說沒關係了 眼淚也安靜了 只是每到夜深 還會想起你呢 不是還愛著 只是會想起 有些人走了 還留在心裡 我說沒關係了 也慢慢習慣了 那些你的影子 不再讓我停下 我說沒關係了 快真的放下了 只是偶爾夜深 還會想起你呢 沒關係了 我會慢慢好了
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop ・ 《心事播放中》｜原創專輯,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,6,純音樂,微風飄飄 輕音樂  |   進階整合版本,9,45,2,https://streetvoice.com/sv430531/songs/885399/,https://streetvoice.com/sv430531/,"https://akstatic.streetvoice.com/song_covers/sv/43/sv430531/jACiHXYEzVos3GoRVdGqGz.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885399.jpeg,@sv430531,音樂人,新北市,2026-05-01,,57,43,60,,,https://www.youtube.com/user/StreetVoiceTV,「帥氣認真的純音樂演奏樂團」體熊專科推出五專《Topic 5: 召喚 Calling》 再邀北城浩志操刀混音後製|||https://blow.streetvoice.com/76130/?utm_source=streetvoice&utm_medium=profile-news-block; 展現音樂 + 小說的世界觀 地底樂團發行純音樂單曲|||https://blow.streetvoice.com/25263/?utm_source=streetvoice&utm_medium=profile-news-block; Omicron 話梅鹿 Last Digits 用純音樂演奏鋪陳聽覺饗宴|||https://blow.streetvoice.com/15807/?utm_source=streetvoice&utm_medium=profile-news-block,,Pop,,,,,"無歌詞 
+無歌詞
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,7,Leoohya,《想回到過去》Demo,2,8,6,https://streetvoice.com/leoohya111/songs/885242/,https://streetvoice.com/leoohya111/,"https://akstatic.streetvoice.com/song_covers/le/oo/leoohya111/acEfwGq2NbtCsKtwt2YCtC.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885242.jpeg,@leoohya111,音樂人,台中市,2025-11-01,,27,24,43,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"我想回到過去，回到不再懂得認輸 那時候沒有地圖，哪裡我都想去..... 這樣的我那樣的我哪一個才是我或者都是。. 
+我想回到過去，回到不再懂得認輸 那時候沒有地圖，哪裡我都想去.....
+這樣的我那樣的我哪一個才是我或者都是。.","那條巷子　比記憶裡窄 早餐店換了新的招牌 我站在對街　愣了好一會兒 好像有人　還會喊我過來 路口飄來　熱豆漿的香 彷彿書包　還背在肩上 那時每天　都急著要長大 沒想過平凡　有天會讓人牽掛 後來我們　都走得很遠 換過城市　也換過房間 有些東西　不需要看照片 一個味道　就回到那一年 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 卻知道　要往哪裡去 手機裡頭　存了好多照片 卻找不到　那年的傍晚 一張塑膠椅　一碗熱熱的湯 有人聽我　把未來講得很誇張 我們說好　長大要去遠方 那時過座橋　就算一趟流浪 如今走過　那麼多陌生的地方 卻偶爾不懂　該往哪一邊走 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 卻知道　要往哪裡去 如果有天　遇見那年的我 我不問她　後來過得如何 就坐在路邊　分一口汽水 聽她把夢　再說一次給我 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 如今的我　也想再走一步 那條巷子　比記憶裡窄 我站了一會兒　又往前走了 
+那條巷子　比記憶裡窄 早餐店換了新的招牌 我站在對街　愣了好一會兒 好像有人　還會喊我過來 路口飄來　熱豆漿的香 彷彿書包　還背在肩上 那時每天　都急著要長大 沒想過平凡　有天會讓人牽掛 後來我們　都走得很遠 換過城市　也換過房間 有些東西　不需要看照片 一個味道　就回到那一年 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 卻知道　要往哪裡去 手機裡頭　存了好多照片 卻找不到　那年的傍晚 一張塑膠椅　一碗熱熱的湯 有人聽我　把未來講得很誇張 我們說好　長大要去遠方 那時過座橋　就算一趟流浪 如今走過　那麼多陌生的地方 卻偶爾不懂　該往哪一邊走 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 卻知道　要往哪裡去 如果有天　遇見那年的我 我不問她　後來過得如何 就坐在路邊　分一口汽水 聽她把夢　再說一次給我 我想回到過去 回到那條小小的路 回到喊一聲 就有人回頭的下午 我想回到過去 回到不太懂得認輸 那時候沒有地圖 如今的我　也想再走一步 那條巷子　比記憶裡窄 我站了一會兒　又往前走了
+留言（ 6 ） 最相關留言 所有留言
+留言（ 6 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,8,sayhello,少一個人的咖啡館,6,19,12,https://streetvoice.com/sayhello/songs/885350/,https://streetvoice.com/sayhello/,"https://akstatic.streetvoice.com/profile_images/sa/yh/sayhello/8cb0a3c25bdd46f8a605fd3e77c201d9.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885350.jpg,@sayhello,音樂人,高雄市,2009-07-01,,9,6,9,,,https://www.youtube.com/user/StreetVoiceTV,,,Jazz,AI製作/編曲,https://streetvoice.com/sayhello/songs/album/97326163/,,"趁著工作空檔，沒刻意安排什麼計畫，就北上散散心，順便看看老同學。 到了學妹開的咖啡店，才從 Google 發現自己沒事先看好營業時間，已經錯過了。只好臨時安排住宿，出去吃個晚飯，再順道經過店門前碰碰運氣…… 沿著熟悉的街道走著，想起當年一群老同學的往事，腦中突然冒出了幾句歌詞和旋律，就這樣一路哼著。 回頭再請 GPT 幫忙延伸整理，最後交給 Suno 製作，意外完成了這首〈少一個人的咖啡館〉。@@ 
+趁著工作空檔，沒刻意安排什麼計畫，就北上散散心，順便看看老同學。
+到了學妹開的咖啡店，才從 Google 發現自己沒事先看好營業時間，已經錯過了。只好臨時安排住宿，出去吃個晚飯，再順道經過店門前碰碰運氣……
+沿著熟悉的街道走著，想起當年一群老同學的往事，腦中突然冒出了幾句歌詞和旋律，就這樣一路哼著。
+回頭再請 GPT 幫忙延伸整理，最後交給 Suno 製作，意外完成了這首〈少一個人的咖啡館〉。@@","[Verse 1] 我到的時候　店已經打烊 吃過晚飯　沿著街隨意晃 順道經過熟悉的地方 店門未關　我往裡面張望 裡頭沒有人　也沒見妳模樣 已晚上9點　你今天一定很忙 沒有打擾　也沒有多想 轉身繼續走　回落腳的地方 [Verse 2] 還是那條街　還是那些燈光 想起當年　一群人浩浩蕩蕩 同學們一路說笑　由妳帶著方向 走向那間　你們得意的咖啡館 如今一個人　走過同樣的地方 那些笑聲　彷彿還留在路旁 街景換了些熱鬧模樣 一轉眼　記憶摺疊了那些時光 [Chorus] 我只是剛好　經過妳的門前 沒想過打擾　也不一定要見面 我只是剛好　又走過那一年 有些路走一遍　就像回到昨天 [Chorus] 我回到旅館　傳了訊息給妳 說我剛剛經過　見你還在忙 你說難怪今天　總有些不對勁 彷彿車上　多了一個人同行 [bridge] 我看著訊息　有些遲疑的笑了 這些年的時光 也許祂都在車上 就像我在遠方想　妳過得怎麼樣 看著如故的舊裝潢  我知道妳很想祂 [outro] 祂一定心疼常來看她 堅持守著這地方 只是今晚我睡陌生地方 這樣說會害怕 
+[Verse 1]
+我到的時候　店已經打烊 吃過晚飯　沿著街隨意晃 順道經過熟悉的地方 店門未關　我往裡面張望
+裡頭沒有人　也沒見妳模樣 已晚上9點　你今天一定很忙 沒有打擾　也沒有多想 轉身繼續走　回落腳的地方
+[Verse 2]
+還是那條街　還是那些燈光 想起當年　一群人浩浩蕩蕩 同學們一路說笑　由妳帶著方向 走向那間　你們得意的咖啡館
+如今一個人　走過同樣的地方 那些笑聲　彷彿還留在路旁 街景換了些熱鬧模樣 一轉眼　記憶摺疊了那些時光
+[Chorus]
+我只是剛好　經過妳的門前 沒想過打擾　也不一定要見面 我只是剛好　又走過那一年 有些路走一遍　就像回到昨天 [Chorus] 我回到旅館　傳了訊息給妳 說我剛剛經過　見你還在忙 你說難怪今天　總有些不對勁 彷彿車上　多了一個人同行 [bridge] 我看著訊息　有些遲疑的笑了 這些年的時光 也許祂都在車上 就像我在遠方想　妳過得怎麼樣 看著如故的舊裝潢  我知道妳很想祂 [outro] 祂一定心疼常來看她 堅持守著這地方 只是今晚我睡陌生地方 這樣說會害怕
+留言（ 12 ） 最相關留言 所有留言
+留言（ 12 ）",2026-10-22,,AI 生成 Jazz ・ AI製作/編曲,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,9,塵細,自欺到不痛（副題：痛到好想忘記）,2,9,4,https://streetvoice.com/Tate_lee/songs/885248/,https://streetvoice.com/Tate_lee/,"https://akstatic.streetvoice.com/song_covers/Ta/te/Tate_lee/Z8BBoaK7jukWu55VUxVCPf.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885248.jpg,@Tate_lee,音樂人,,,,7,8,29,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"​「風吹過眼睛的時候，其實早已滿眼是淚。」 ​這是一個關於自我催眠與徹底沉沒的故事。 ​當一個人癱坐在如大海般漫無邊際的孤獨裡，眼前一片荒涼清冷，身上明明還有活著的溫度，心卻早已被刺骨的痛麻木。他試過求月亮默默惦記，但當深夜完全安靜下來，那些壓不住的回憶瞬間將他淹沒。 ​於是，他開始了第一次自欺——騙自己這個人從未存在過，騙自己這不過是在演一齣獨角戲。 ​可是閉上眼，全是對方的留影與呼喚，眼淚根本止不住。 他開始了第二次自欺——告誡自己「別再去找了，別再去想了」，但他根本做不到。他走投無路地向天空的星月呼喊，甚至瘋狂地懇求天地：「求求你們，即使是假裝的也好，假裝看見那些眼淚，假裝幫忙實現『忘記』的願望……」 ​他從頭到尾都知道這是一場謊言，但只要不承認，就能假裝不痛。 最終，他帶著這個最大的謊言，連同所有無法抹去的記憶，一起沉入了無聲的深海。 詞／曲／製作：塵細 音樂：AI 輔助生成 演唱：塵細聲音 + AI 合成 音樂風格：華語抒情 / 鋼琴/ 二胡 / 慢板/ 
+​「風吹過眼睛的時候，其實早已滿眼是淚。」
+​這是一個關於自我催眠與徹底沉沒的故事。
+​當一個人癱坐在如大海般漫無邊際的孤獨裡，眼前一片荒涼清冷，身上明明還有活著的溫度，心卻早已被刺骨的痛麻木。他試過求月亮默默惦記，但當深夜完全安靜下來，那些壓不住的回憶瞬間將他淹沒。
+​於是，他開始了第一次自欺——騙自己這個人從未存在過，騙自己這不過是在演一齣獨角戲。
+​可是閉上眼，全是對方的留影與呼喚，眼淚根本止不住。
+他開始了第二次自欺——告誡自己「別再去找了，別再去想了」，但他根本做不到。他走投無路地向天空的星月呼喊，甚至瘋狂地懇求天地：「求求你們，即使是假裝的也好，假裝看見那些眼淚，假裝幫忙實現『忘記』的願望……」
+​他從頭到尾都知道這是一場謊言，但只要不承認，就能假裝不痛。
+最終，他帶著這個最大的謊言，連同所有無法抹去的記憶，一起沉入了無聲的深海。
+詞／曲／製作：塵細 音樂：AI 輔助生成 演唱：塵細聲音 + AI 合成
+音樂風格：華語抒情 / 鋼琴/ 二胡 / 慢板/","歌名：自欺到不痛 副題：痛到好想忘記 風... 吹過眼睛 是妳... 別去了的情人 孤... 躺在海中央 是我演過的戲 清... 眼前多麼清冷 心中... 還有溫度 痛... 刺骨的痛 獨... 永遠記得妳 月... 默默惦記 夜安靜了 無法安睡 深深呼吸 還有妳的香味 記憶 無法被掩蓋 記憶裡 原來都沒有妳 是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 讓我怎麼找妳！ 妳在哪裡 怎麼沒蹤影？ 閉上眼 看到那回憶的留影 閉上眼 還會聽到妳的呼喚 為何掉下眼淚 不再去尋找 那虛無的從前 天空的星和月 我的呼喊 能聽見嗎 我的眼淚 能看見嗎 請把這傷痛 化作忘記的願望 我的呼喊 請假裝聽見！ 我的眼淚 請假裝看見！ 請把忘記的願望 假裝實現——！！ 是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 讓我怎麼找妳！ 妳在哪裡 怎麼沒蹤影？ 是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 怎麼沒蹤影？ 風 吹過眼睛 是妳 別去了的情人 孤獨 永遠記得妳 這記憶 已經沉入深海... 
+歌名：自欺到不痛 副題：痛到好想忘記
+風... 吹過眼睛 是妳... 別去了的情人
+孤... 躺在海中央 是我演過的戲
+清... 眼前多麼清冷 心中... 還有溫度
+痛... 刺骨的痛 獨... 永遠記得妳 月... 默默惦記
+夜安靜了 無法安睡 深深呼吸 還有妳的香味 記憶 無法被掩蓋 記憶裡 原來都沒有妳
+是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 讓我怎麼找妳！ 妳在哪裡 怎麼沒蹤影？
+閉上眼 看到那回憶的留影 閉上眼 還會聽到妳的呼喚 為何掉下眼淚 不再去尋找 那虛無的從前
+天空的星和月 我的呼喊 能聽見嗎 我的眼淚 能看見嗎 請把這傷痛 化作忘記的願望
+我的呼喊 請假裝聽見！ 我的眼淚 請假裝看見！ 請把忘記的願望 假裝實現——！！
+是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 讓我怎麼找妳！ 妳在哪裡 怎麼沒蹤影？
+是我 在欺騙我自己！ 是我 在演這齣戲！ 妳在哪裡 怎麼沒蹤影？
+風 吹過眼睛 是妳 別去了的情人 孤獨 永遠記得妳 這記憶 已經沉入深海...
+留言（ 4 ） 最相關留言 所有留言
+留言（ 4 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,10,MoonX 慕斯,人魚之歌《深藍的答案》｜ The Answer in Deep Blue,9,11,7,https://streetvoice.com/MoonX_0325/songs/885272/,https://streetvoice.com/MoonX_0325/,"https://akstatic.streetvoice.com/song_covers/Mo/on/MoonX_0325/anRWf6U8hNeKY8Cxb98MnM.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885272.jpeg,@MoonX_0325,音樂人,高雄市,2026-07-01,,9,12,44,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"《深藍的答案》｜The Answer in Deep Blue 當世界太過喧囂，有時候，我們需要的不是更多答案，而是一段能夠靜下來、聽見自己內心的時間。 《深藍的答案》以深藍色的海洋為意象，描繪在迷惘與思緒交錯之中，尋找方向、理解自己，並慢慢走向內心答案的旅程。 深海之下，有無法說出口的情緒，也有藏在記憶深處的故事。那些曾經困住我們的疑問，或許不會在一瞬間得到解答，但每一次沉澱、每一次面對，都讓我們更靠近真正的自己。 有些答案，不在遠方，而是在我們終於願意傾聽自己的那一刻，悄悄浮現。 願這首歌陪伴每一個正在尋找方向的人，在屬於自己的深藍世界裡，找到繼續前行的力量。 🎵 音樂創作｜MoonX 慕斯 MoonX 慕斯｜每一首歌，都是一段值得珍藏的故事。 #華語流行 #獨立音樂 #癒療 #抒情 #AI 創作 #Vocaloid 
+《深藍的答案》｜The Answer in Deep Blue
+當世界太過喧囂，有時候，我們需要的不是更多答案，而是一段能夠靜下來、聽見自己內心的時間。
+《深藍的答案》以深藍色的海洋為意象，描繪在迷惘與思緒交錯之中，尋找方向、理解自己，並慢慢走向內心答案的旅程。
+深海之下，有無法說出口的情緒，也有藏在記憶深處的故事。那些曾經困住我們的疑問，或許不會在一瞬間得到解答，但每一次沉澱、每一次面對，都讓我們更靠近真正的自己。
+有些答案，不在遠方，而是在我們終於願意傾聽自己的那一刻，悄悄浮現。
+願這首歌陪伴每一個正在尋找方向的人，在屬於自己的深藍世界裡，找到繼續前行的力量。
+🎵 音樂創作｜MoonX 慕斯
+MoonX 慕斯｜每一首歌，都是一段值得珍藏的故事。
+#華語流行 #獨立音樂 #癒療 #抒情 #AI 創作 #Vocaloid","動態歌詞
+白花別在髮梢 珍珠垂成細雨 你從海面投下 半句未完的話語 我守著沉船窗邊 數過幾回潮汐 把你的名字藏進 最安靜的海域 若你聽見水底 有人輕輕呼喚 那不是風的方向 是我等你的心願 我是海裡的美人魚 唱給遠方的你 願你穿過漫長海路 來到珊瑚花園裡 若月色落在你肩上 請記得回頭看 我把整片深藍 唱成等你的答案 銀魚掠過石階 海草牽住裙擺 古老鐘聲沉在 海底城門之外 我拾起一枚貝殼 貼近胸口聽海 裡面有你曾說 春天會再回來 若你聽見水底 有人輕輕呼喚 那不是風的方向 是我等你的心願 我是海裡的美人魚 唱給遠方的你 願你穿過漫長海路 來到珊瑚花園裡 若月色落在你肩上 請記得回頭看 我把整片深藍 唱成等你的答案 也許黎明升起 你仍不能停留 我就把白花放進浪裡 讓它替我遠遊 若有一天你經過 聽見海灣低吟 那是我仍在此處 唱著相逢的約定 我是海裡的美人魚 唱給歸來的你 潮聲輕輕推開長夜 珊瑚映著笑意 你把掌心貼近水面 我便不再孤單 這首歌終於有了 回家的答案 白花別在髮梢 潮汐慢慢停息 海與你在此刻 分享同一口呼吸 
+白花別在髮梢 珍珠垂成細雨 你從海面投下 半句未完的話語 我守著沉船窗邊 數過幾回潮汐 把你的名字藏進 最安靜的海域 若你聽見水底 有人輕輕呼喚 那不是風的方向 是我等你的心願 我是海裡的美人魚 唱給遠方的你 願你穿過漫長海路 來到珊瑚花園裡 若月色落在你肩上 請記得回頭看 我把整片深藍 唱成等你的答案 銀魚掠過石階 海草牽住裙擺 古老鐘聲沉在 海底城門之外 我拾起一枚貝殼 貼近胸口聽海 裡面有你曾說 春天會再回來 若你聽見水底 有人輕輕呼喚 那不是風的方向 是我等你的心願 我是海裡的美人魚 唱給遠方的你 願你穿過漫長海路 來到珊瑚花園裡 若月色落在你肩上 請記得回頭看 我把整片深藍 唱成等你的答案 也許黎明升起 你仍不能停留 我就把白花放進浪裡 讓它替我遠遊 若有一天你經過 聽見海灣低吟 那是我仍在此處 唱著相逢的約定 我是海裡的美人魚 唱給歸來的你 潮聲輕輕推開長夜 珊瑚映著笑意 你把掌心貼近水面 我便不再孤單 這首歌終於有了 回家的答案 白花別在髮梢 潮汐慢慢停息 海與你在此刻 分享同一口呼吸
+留言（ 7 ） 最相關留言 所有留言
+留言（ 7 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,11,Seo Narin,《毋放你走》,4,15,11,https://streetvoice.com/SeoNarin/songs/885100/,https://streetvoice.com/SeoNarin/,"https://akstatic.streetvoice.com/song_covers/Se/oN/SeoNarin/D9pdvhqnmbUKDArD9rhaVj.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885100.jpeg,@SeoNarin,音樂人,,,,8,24,30,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,精選台語歌單第2彈-《未知》專輯,https://streetvoice.com/SeoNarin/songs/album/97326206/,Junna Lin,"《毋放你走》是一首寫給曾經深愛，卻無緣走到最後的人的歌。 那一天，雨靜靜落下，你轉身離開，我明明有千言萬語，卻連一句「留下來」都說不出口。 直到多年以後，才明白最深的遺憾，不是失去一個人，而是在彼此還相愛的時候，沒有勇氣伸手挽留。 時間帶走了曾經的承諾，也讓兩個人走向不同的人生。但那些藏在心底的回憶，總會在某個熟悉的街角，悄悄浮現。 如果人生能夠重來一次，你是否還會選擇放開那雙手？ 《毋放你走》——有一種遺憾，叫做當初沒有留住你。 獻給每一個曾經深愛，卻只能把思念留在心底的人。 👍 留下你的感覺或故事，我會看！ 👍 喜歡請按讚分享支持 【社群連結】 🎧 聽我的音樂： Spotify ▶ https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS YouTube Music ▶ https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ ▶️ 訂閱我的頻道： YouTube ▶ https://www.youtube.com/@JunnaLinMusic YouTube ▶ https://www.youtube.com/@SeoNarinMusic 📌 版權聲明 / Copyright Notice 本作品之歌詞、歌曲概念、旋律方向與影像設計由 Junna Lin 原創製作。 音樂成品使用 AI 音樂工具生成，並由本人整理與發布。 Lyrics, concept, melody direction, and visual design are originally created by Junna Lin. The final music was generated using AI music tools and published by Junna Lin. 請勿未經授權使用、重製或重新上傳。 Unauthorized use, reproduction, or re-upload is prohibited. © Junna Lin. All Rights Reserved. 🎤 演唱:AI ✍️ 詞:Junna Lin 🎼 曲:Junna Lin 🎧 建議在深夜或戴上耳機聆聽，感受每一層情緒 
+《毋放你走》是一首寫給曾經深愛，卻無緣走到最後的人的歌。
+那一天，雨靜靜落下，你轉身離開，我明明有千言萬語，卻連一句「留下來」都說不出口。
+直到多年以後，才明白最深的遺憾，不是失去一個人，而是在彼此還相愛的時候，沒有勇氣伸手挽留。
+時間帶走了曾經的承諾，也讓兩個人走向不同的人生。但那些藏在心底的回憶，總會在某個熟悉的街角，悄悄浮現。
+如果人生能夠重來一次，你是否還會選擇放開那雙手？
+《毋放你走》——有一種遺憾，叫做當初沒有留住你。
+獻給每一個曾經深愛，卻只能把思念留在心底的人。
+👍 留下你的感覺或故事，我會看！ 👍 喜歡請按讚分享支持
+【社群連結】 🎧 聽我的音樂： Spotify ▶ https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS YouTube Music ▶ https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ
+https://open.spotify.com/artist/1OFRgx5K1gftd7jvLV1EsS
+https://music.youtube.com/channel/UCnpKLh9e73Mb7N2NPDnMzrQ
+▶️ 訂閱我的頻道： YouTube ▶ https://www.youtube.com/@JunnaLinMusic YouTube ▶ https://www.youtube.com/@SeoNarinMusic
+https://www.youtube.com/@JunnaLinMusic
+https://www.youtube.com/@SeoNarinMusic
+📌 版權聲明 / Copyright Notice
+本作品之歌詞、歌曲概念、旋律方向與影像設計由 Junna Lin 原創製作。 音樂成品使用 AI 音樂工具生成，並由本人整理與發布。
+Lyrics, concept, melody direction, and visual design are originally created by Junna Lin. The final music was generated using AI music tools and published by Junna Lin.
+請勿未經授權使用、重製或重新上傳。 Unauthorized use, reproduction, or re-upload is prohibited.
+© Junna Lin. All Rights Reserved.
+🎤 演唱:AI ✍️ 詞:Junna Lin 🎼 曲:Junna Lin
+🎧 建議在深夜或戴上耳機聆聽，感受每一層情緒","動態歌詞
+彼工的雨落甲無聲 你講的話我攏有聽 明明心內有千萬句 煞無一句留你佇遮 你將過去輕輕放落 我假做無啥物感覺 看你行入雨中的背影 才知影咱已經散 早知影彼工就毋放你走 早知影倔強會傷咱兩人 明明愛你愛甲無退路 煞連一句挽留攏講袂出 若是當初有共你牽牢牢 咱敢會相愛一直到老 這世人上痛毋是失去你 是你愛我的時我無共你留 後來咱行無仝的路 聽講你已經有人照顧 我將你的名藏佇心內 無閣共任何人講起 偶爾經過熟似的街 猶會想起彼年的咱 原來時間會當改變一切 煞改袂了彼份牽掛 早知影彼工就毋放你走 早知影倔強會傷咱兩人 明明愛你愛甲無退路 煞連一句挽留攏講袂出 若是當初有共你牽牢牢 咱敢會相愛一直到老 這世人上痛毋是失去你 是你愛我的時我無共你留 
+彼工的雨落甲無聲 你講的話我攏有聽 明明心內有千萬句 煞無一句留你佇遮 你將過去輕輕放落 我假做無啥物感覺 看你行入雨中的背影 才知影咱已經散 早知影彼工就毋放你走 早知影倔強會傷咱兩人 明明愛你愛甲無退路 煞連一句挽留攏講袂出 若是當初有共你牽牢牢 咱敢會相愛一直到老 這世人上痛毋是失去你 是你愛我的時我無共你留 後來咱行無仝的路 聽講你已經有人照顧 我將你的名藏佇心內 無閣共任何人講起 偶爾經過熟似的街 猶會想起彼年的咱 原來時間會當改變一切 煞改袂了彼份牽掛 早知影彼工就毋放你走 早知影倔強會傷咱兩人 明明愛你愛甲無退路 煞連一句挽留攏講袂出 若是當初有共你牽牢牢 咱敢會相愛一直到老 這世人上痛毋是失去你 是你愛我的時我無共你留
+留言（ 11 ） 最相關留言 所有留言
+留言（ 11 ）",2026-10-21,,AI 生成 Pop ・ 精選台語歌單第2彈-《未知》專輯,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,12,Leoohya,《蝴蝶效應》誰的偶然成了誰的必然,7,15,1,https://streetvoice.com/leoohya111/songs/885252/,https://streetvoice.com/leoohya111/,"https://akstatic.streetvoice.com/song_covers/le/oo/leoohya111/VS5HF8Y24QWuC4hLFYXZmT.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885252.jpeg,@leoohya111,音樂人,台中市,2025-11-01,,27,24,43,,,https://www.youtube.com/user/StreetVoiceTV,,,Electronic,,,,"誰的偶然　成了誰的必然 我們在彼此的結果裡　互相牽連 
+誰的偶然　成了誰的必然 我們在彼此的結果裡　互相牽連","路口的紅燈　多停了一秒 有人轉身　有人錯過街角 一句無心的玩笑 在陌生人耳裡　變成了警告 我們總以為　萬事都有預兆 卻看不見　第一顆石子落到哪 誰替誰　改寫了路標 又假裝　事情本來就會這樣 我們相信萬物自有秩序 直到細小的誤差偏離 那些沒有名字的因果粒子 穿過你我　不留下痕跡 只偏了一點　就偏了好遠 誰的偶然　成了誰的必然 你看不見　我也看不見 誰把今天　推向另一邊 只偏了一點　就偏了好遠 我們在彼此的結果裡　互相牽連 哪裡是起點　哪裡是終點 那雙翅膀　還停在昨天 一張紙上的　小數點移了一格 遠方的答案　就換了顏色 你把沉默　當作沒有選擇 我把結果　誤認為唯一法則 有人停下　有人走過 有人替陌生人承受餘波 我們糾纏不清的不是彼此 是每一次改寫過的因果 如果那天我慢了半步 如果當時你沒有開口 誰能證明世界仍相同 誰能把誤差還給最初 看似清楚　卻撲朔迷離 每個答案　都藏著下一個問題 也許不存在最後的原因 只有還沒停下來的漣漪 只偏了一點　就偏了好遠 誰的偶然　成了誰的必然 你看不見　我也看不見 誰把今天　推向另一邊 只偏了一點　就偏了好遠 每個人都在他人的以後　留下一點 沒有誰是起點　沒有誰是終點 原來我們　都是那雙翅膀 
+路口的紅燈　多停了一秒 有人轉身　有人錯過街角 一句無心的玩笑 在陌生人耳裡　變成了警告 我們總以為　萬事都有預兆 卻看不見　第一顆石子落到哪 誰替誰　改寫了路標 又假裝　事情本來就會這樣 我們相信萬物自有秩序 直到細小的誤差偏離 那些沒有名字的因果粒子 穿過你我　不留下痕跡 只偏了一點　就偏了好遠 誰的偶然　成了誰的必然 你看不見　我也看不見 誰把今天　推向另一邊 只偏了一點　就偏了好遠 我們在彼此的結果裡　互相牽連 哪裡是起點　哪裡是終點 那雙翅膀　還停在昨天 一張紙上的　小數點移了一格 遠方的答案　就換了顏色 你把沉默　當作沒有選擇 我把結果　誤認為唯一法則 有人停下　有人走過 有人替陌生人承受餘波 我們糾纏不清的不是彼此 是每一次改寫過的因果 如果那天我慢了半步 如果當時你沒有開口 誰能證明世界仍相同 誰能把誤差還給最初 看似清楚　卻撲朔迷離 每個答案　都藏著下一個問題 也許不存在最後的原因 只有還沒停下來的漣漪 只偏了一點　就偏了好遠 誰的偶然　成了誰的必然 你看不見　我也看不見 誰把今天　推向另一邊 只偏了一點　就偏了好遠 每個人都在他人的以後　留下一點 沒有誰是起點　沒有誰是終點 原來我們　都是那雙翅膀
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-22,,AI 生成 Electronic,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,13,🌌GalaxyStardust✨,Just Drive Till Morning（先行初版）,7,45,3,https://streetvoice.com/galaxystardust/songs/885208/,https://streetvoice.com/galaxystardust/,"https://akstatic.streetvoice.com/song_covers/ga/la/galaxystardust/5PxRvUfbGsA92emwomSqsm.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885208.jpeg,@galaxystardust,音樂人,,,,5,2,2,,,https://www.youtube.com/user/StreetVoiceTV,,,Electronic,Just Drive Till Morning,https://streetvoice.com/galaxystardust/songs/album/97326286/,,,"Oh, oh... Somewhere out there... My dream is waiting. Another long day, another long road Streetlights fading as the night unfolds Hands on the wheel, radio low There's a place in my heart that I still wanna go I've been tired, I've been lost Wondering what it takes, what it costs But there's a little voice I can't leave behind Saying, ""Your tomorrow is still yours to find"" Maybe I'm scared, maybe I'm wrong Maybe the road is still too long But every mile, every scar Reminds me of who we are I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now No more asking why I'll believe in who I am And let my heart learn how to fly Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, this dream is yours and mine Chase it, chase it — don't let go! Follow the road where the wild winds blow! Rise up, rise up — touch the sky! We're still alive, we're still alive! The world keeps telling me to play it safe To trade my dreams for a familiar place But I wasn't born just to watch time pass I wanna build something that's gonna last Every wrong turn taught me something new Every closed door led me closer to truth I don't need to know where the road will end I just need the courage to begin again And if tomorrow brings the rain I'll find my way through it again I may not have the answers tonight But I still believe in the road ahead I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now I'll spread these wings and fly Every step becomes a promise Every dream is worth the fight Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, our dreams are still alive! The road goes on... And so do I. 
+Oh, oh... Somewhere out there... My dream is waiting.
+Another long day, another long road Streetlights fading as the night unfolds Hands on the wheel, radio low There's a place in my heart that I still wanna go I've been tired, I've been lost Wondering what it takes, what it costs But there's a little voice I can't leave behind Saying, ""Your tomorrow is still yours to find""
+Maybe I'm scared, maybe I'm wrong Maybe the road is still too long But every mile, every scar Reminds me of who we are
+I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now No more asking why I'll believe in who I am And let my heart learn how to fly Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, this dream is yours and mine
+Chase it, chase it — don't let go! Follow the road where the wild winds blow! Rise up, rise up — touch the sky! We're still alive, we're still alive!
+The world keeps telling me to play it safe To trade my dreams for a familiar place But I wasn't born just to watch time pass I wanna build something that's gonna last Every wrong turn taught me something new Every closed door led me closer to truth I don't need to know where the road will end I just need the courage to begin again
+And if tomorrow brings the rain I'll find my way through it again I may not have the answers tonight But I still believe in the road ahead
+I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now I'll spread these wings and fly Every step becomes a promise Every dream is worth the fight Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, our dreams are still alive!
+The road goes on... And so do I.
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-10-21,,AI 生成 Electronic ・ Just Drive Till Morning,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,14,Dammn P.,05《嶽影沈淪》(Shadows of the Sacred Peak),8,9,3,https://streetvoice.com/Paull_Dammnpohung/songs/885415/,https://streetvoice.com/Paull_Dammnpohung/,"https://akstatic.streetvoice.com/song_covers/Pa/ul/Paull_Dammnpohung/dh6BfWAvLE73y7o8WSEoAU.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885415.jpeg,@Paull_Dammnpohung,音樂人,高雄市,2026-01-01,2026-06-25 10:03,35,16,20,,,https://www.youtube.com/@RuralPeace-n2q,,,Metal,《仙裔詠嘆》(Celestial Aria) - 《天啟墨章》(Celestial Revelation),https://streetvoice.com/Paull_Dammnpohung/songs/album/97325715/,,"《嶽影沈淪》是為東方新古典交響重金屬樂團【仙裔詠嘆】貝斯手「岳靈」量身打造的大地沉降史詩。影像以極致的視覺張力，呈現岳靈從壓抑沉淪到破繭重生的心境蛻變，將厚重如山崩的低音浪潮、玄冥荒原的孤寂修行與天地崩解的壯闊異象融為一體。 全片前段採用高對比黑白水墨影調，營造深邃、厚重且令人窒息的重力壓迫感。隨最後副歌的重音暴擊，全片瞬間由冷冽黑白引爆為璀璨全彩。羊脂白玉、流金光纖與翡翠靈光交織，展現萬物歸土、向死而生的超脫涅槃。 🎵 【單曲資訊】 * 曲名：嶽影沈淪 * 樂團：仙裔詠嘆 * 風格：東方新古典交響金屬 訂閱我們，一同見證東方新古典重金屬的全新篇章！ 🔗 【關注仙裔詠嘆】 * YouTube👉 https://www.youtube.com/@DammnP-h9e 
+《嶽影沈淪》是為東方新古典交響重金屬樂團【仙裔詠嘆】貝斯手「岳靈」量身打造的大地沉降史詩。影像以極致的視覺張力，呈現岳靈從壓抑沉淪到破繭重生的心境蛻變，將厚重如山崩的低音浪潮、玄冥荒原的孤寂修行與天地崩解的壯闊異象融為一體。
+全片前段採用高對比黑白水墨影調，營造深邃、厚重且令人窒息的重力壓迫感。隨最後副歌的重音暴擊，全片瞬間由冷冽黑白引爆為璀璨全彩。羊脂白玉、流金光纖與翡翠靈光交織，展現萬物歸土、向死而生的超脫涅槃。 🎵 【單曲資訊】 * 曲名：嶽影沈淪 * 樂團：仙裔詠嘆 * 風格：東方新古典交響金屬
+訂閱我們，一同見證東方新古典重金屬的全新篇章！
+🔗 【關注仙裔詠嘆】 * YouTube👉 https://www.youtube.com/@DammnP-h9e
+https://www.youtube.com/@DammnP-h9e","動態歌詞
+雲端的輕盈 碎裂成 萬丈深淵 琥珀的神力 凝固在 泥濘之間 我聽見 山脈在寂靜中 緩慢崩解 重力如鎖鏈 扣住這 殘缺的毀滅 萬物生於土 終將 歸於塵 這副軀殼 承載 萬千魂 地心的脈動 是我 沉重的呼吸 嶽影沈淪 沒入 墨色的荒野 神譜不再 只有 永恆的傾斜 在大地的懷抱中 感覺 窒息的莊嚴 我的低音 是埋葬 過去的祭典 指尖 撥弄著 石化的歲月 琴弦 顫抖著 無聲的告解 放棄掙扎 融入 這厚重的陰影 讓所有榮光 都隨著 巨石 沉睡 嶽影沈淪 沒入 墨色的荒野 神譜不再 只有 永恆的傾斜 在大地的懷抱中 感覺 窒息的莊嚴 我的低音 是埋葬 過去的祭典 
+雲端的輕盈 碎裂成 萬丈深淵 琥珀的神力 凝固在 泥濘之間 我聽見 山脈在寂靜中 緩慢崩解 重力如鎖鏈 扣住這 殘缺的毀滅 萬物生於土 終將 歸於塵 這副軀殼 承載 萬千魂 地心的脈動 是我 沉重的呼吸 嶽影沈淪 沒入 墨色的荒野 神譜不再 只有 永恆的傾斜 在大地的懷抱中 感覺 窒息的莊嚴 我的低音 是埋葬 過去的祭典
+指尖 撥弄著 石化的歲月 琴弦 顫抖著 無聲的告解 放棄掙扎 融入 這厚重的陰影 讓所有榮光 都隨著 巨石 沉睡
+嶽影沈淪 沒入 墨色的荒野 神譜不再 只有 永恆的傾斜 在大地的懷抱中 感覺 窒息的莊嚴 我的低音 是埋葬 過去的祭典
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-10-22,,AI 生成 Metal ・ 《仙裔詠嘆》(Celestial Aria) - 《天啟墨章》(Celestial Revelation),False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,15,瑋歌音樂（Wei Ai Music）,一直一直一直,5,19,1,https://streetvoice.com/sing791127/songs/885044/,https://streetvoice.com/sing791127/,"https://akstatic.streetvoice.com/song_covers/si/ng/sing791127/kaT2ieHTBWCqKGV94gbacr.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885044.jpg,@sing791127,音樂人,嘉義縣,2026-10-01,,4,4,7,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"[一直一直一直] ​創作資訊： ​演唱：Tina (AI女聲) ​作詞：Wei 作曲編曲創意發想：Wei ​作曲/編曲：SUNO ​音樂製作：Wei Ai Music ​封面設計：Wei（AI工具輔助） 
+[一直一直一直] ​創作資訊： ​演唱：Tina (AI女聲) ​作詞：Wei 作曲編曲創意發想：Wei ​作曲/編曲：SUNO ​音樂製作：Wei Ai Music ​封面設計：Wei（AI工具輔助）","[Verse] 過了幾年 你離開的痕跡變成移情別戀 某一天 曾愛過的你就站在我的面前 [Pre-chorus] 我等了好久 你都沒開口 是不是不知道該說些什麼 那我的等待 又算什麼 我看你怎麼編出無聊藉口 你可知道…… [Chorus] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [Instrumental Break] [Pre-chorus 2] 你一臉愧疚 想解釋什麼 是不是看著我不敢說出口 那我的付出 又算什麼 別再給我編出荒唐的藉口 你可知道…… [Chorus 2] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [Instrumental Break] [Chorus 3] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [End] 
+[Verse] 過了幾年 你離開的痕跡變成移情別戀 某一天 曾愛過的你就站在我的面前 [Pre-chorus] 我等了好久 你都沒開口 是不是不知道該說些什麼 那我的等待 又算什麼 我看你怎麼編出無聊藉口 你可知道…… [Chorus] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [Instrumental Break] [Pre-chorus 2] 你一臉愧疚 想解釋什麼 是不是看著我不敢說出口 那我的付出 又算什麼 別再給我編出荒唐的藉口 你可知道…… [Chorus 2] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [Instrumental Break] [Chorus 3] 我一直一直一直在想著你 一直一直一直在等著你 難道你就沒想回心轉意 你一直一直一直不想說明 一直一直一直逼我放棄 我也不想要再欺騙自己 [End]
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,16,Off-key 姜太公,魔法歌（介紹文更新）,2,3,4,https://streetvoice.com/WrongKey/songs/885294/,https://streetvoice.com/WrongKey/,"https://akstatic.streetvoice.com/song_covers/Wr/on/WrongKey/Gd4E7LnxDJsAcKamUAphTq.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885294.jpg,@WrongKey,音樂人,,,,14,4,6,,,https://www.youtube.com/user/StreetVoiceTV,,,Electronic,,,,"暗巷深處幾個不懷好意的黑影， 帶著低沉的冷笑圍了上來。 「小姑娘～一個人走夜路很不安全啊～」 壞人們張牙舞爪、氣氛瞬間凝結。 ​少女沒有後退， 反而嘆了口氣， 無奈地揉了揉太陽穴。 「你們非要逼我用這招⋯」 ​她猛地挺直腰桿， 雙手在空中劃出耀眼的金光！ 一邊帶動唱般地踩著150BPM的魔性節奏， 一邊大聲高唱： 『一二三四舉起你的右手！』 『二二三四跟我一起擺頭！』 ​壞人們全看傻了眼： 「這傢伙在做體操？！」 ​下一秒天空降下無數閃耀的璀璨星光， 巨大的西塔琴音效與印度神聖歡呼聲轟然炸裂！少女高舉魔杖， 氣勢磅礴地高喊： 「Ma-na-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多！」 ​炫目的粉紫光芒瞬間將她包覆， 優雅的手套、飄逸的魔法裙擺與高跟鞋在光影中精準卡點顯現。 當光芒散去⋯ 少女已華麗變身為戰鬥型態， 嘴角微揚： 「跟我一起大聲唱！那首魔法歌！」 對不起， 我發誓下次一定會正常一點⋯ 《名偵探北爛系列：魔女》 圓吉吉招待所的大廳， 電視永遠停在新聞台。 音量只開三格， 剛好蓋過冷氣的嗡嗡聲。 晚上九點， 北爛坐在櫃檯後面擦房卡。 鴨舌帽、白手套， 一張一張擦得發亮， 彷彿那是什麼值錢的古董。 電視裡⋯ 記者站在一所高中的校門口， 身後的警示燈轉個不停： 「今日上午畢業典禮進行中，一名十八歲女學生從校舍頂樓墜落，目前送醫急救中，傷勢不明⋯」 房務阿春姐推著布巾車停在電視前面， 一邊折毛巾一邊搖頭， 沙發上的長住客盯著手機， 拇指滑得飛快。 「你們看這個！網路上傳得更扯！」 長住客江哥把手機螢幕轉過來， 「有人說那間學校後來還出事了，有個男的衝進禮堂，手一揮，整間禮堂的畢業生全都飄起來，連警察都被他吊在天上！」 房務倒抽一口氣： 「真的假的⋯魔鬼嗎？？」 「Threads上都叫他魔男！有人說親眼看到他背後浮出黑色跟紅色的魔紋圈圈餒！」 北爛頭也沒抬： 「吊在天上？」 他擦完最後一張房卡， 「一個成年人平均六十二點三公斤，吊兩百個是一萬兩千四百六十公斤，要一台十三噸的吊車。你們看過哪間學校的操場停得下十三噸的吊車？」 阿春姐翻了個白眼： 「你每次都亂編數字。」 「對啊，北爛每次都亂編。」 江哥笑出聲。 北爛只是推了推帽簷： 「數字是編的，道理是對的。」 自動門就在這時打開了， 進來的是個二十出頭的男人， 夜車的疲倦寫在臉上， 襯衫皺得像被誰揉過， 但真正讓大廳瞬間安靜的， 是他的袖口， 兩隻前臂、胸口、褲管， 全是乾掉發黑的血跡。 阿春姐手裡的毛巾掉了、江哥的手機也掉了。 電視裡的記者還在說： 「警方呼籲民眾勿散播未經證實的消息⋯」 男人像是沒看見任何人， 勁直走到櫃檯前， 聲音啞得像砂紙： 「最便宜的房間。」 北爛抬起頭。 他沒有先看那些血。 他先看男人脖子上掛的東西： 一張塑膠套的「畢業生家屬」識別證， 繩子被汗浸得發黑， 掛了很久， 久到他自己都忘了要摘。 再看那雙手， 指關節乾乾淨淨， 沒有瘀青，沒有破皮， 最後才看血。 血在前臂內側、在胸口⋯ 還一些在膝蓋上方一點點， 那很像是抱過人的地方， 不太像是打過人⋯ 北爛心裡有數， 這只是推測， 還不是證據。 「八百。」 北爛遞出鑰匙， 「身分證借我登記一下。洗完澡可以下來喝杯熱茶，免費的，雖然已經回沖了第四次。」 男人愣了一秒， 把身分證和一張皺掉的鈔票放在櫃檯上， 鑰匙被他握得很緊， 緊到指節都發白了。 上樓的腳步聲遠了， 阿春姐才壓低聲音： 「你瘋了喔！就是他啊！」 「誰？」 「魔男啊！」 北爛看了她兩秒： 「魔男付現金？他施個法不就好了？」 阿春姐氣得說不出話， 手已經悄悄伸進圍裙口袋， 按下了撥號鍵。 二十分鐘後， 一台巡邏車停在門口。 進來的員警北爛認識， 是常來櫃檯蹭茶的那位呂建。 「有人報案，說你們這邊有個渾身是血的男人。」 呂建一手按著腰間， 「學校那邊剛通報，禮堂外有三個學生受傷，一個手腕骨折、一個扭到腳、一個鼻樑歪了。說是有個男的從人群裡硬衝過去⋯」 阿春姐在後面猛點頭。 樓梯口這時傳來腳步聲⋯ 男人下來了。 臉洗過、手洗過， 襯衫濕了一大片貼在胸口， 衣服上的血跡還在， 還有眼睛裡的紅絲也在。 呂建上前： 「先生，今天學校那邊⋯」 「我沒有打人。」 男人搶在前面說， 「我只是往上衝，人太多，撞到了。」 他的聲音在發抖， 「我答應過我妹，不會再打人了。」 員警低頭看他的手。 北爛的聲音卻從櫃檯後面飄了出來： 「他是殺豬的。」 所有人轉頭⋯ 「對，殺豬的。」 北爛面不改色， 「今天在市場幫忙處理一頭兩百三十七點五公斤的黑豬，那血是豬血。我剛剛聞過，還帶一點點薑味。」 阿春姐： 「⋯薑味？」 呂建閉上眼睛嘆了很長一口氣： 「北爛，你每次都這樣⋯」 「我是認真的。」 「你上次說那個偷東西的客人『三十七歲、身高一百七十二點四、左撇子』，結果人家二十九歲，一百八十。」 「對，數字是錯的。」 北爛點頭， 「但他確實是左撇子。」 呂建沉默了， 但他其實聽懂了。 他知道北爛這個人編數字編得越誇張， 看人就越準， 而他今天編得這麼誇張， 代表他很急著要別人別再看那個男人。 員警看了一眼家屬證， 看了一眼那雙乾淨的手， 又看了一眼櫃檯後面那個被全場取笑的鴨舌帽。 「⋯我等等調完監視器，再找你做筆錄，記住⋯別亂跑。還有北爛⋯你欠我一次。」 他轉向男人語氣放軟了： 「打個電話給家人吧。」 呂建走出自動門， 背影有點不甘心， 卻也鬆了一口氣。 大廳又安靜下來， 房務們躲回樓層， 江哥不知道什麼時候回了房。 北爛把電視關掉， 男人沒有走， 坐在櫃檯旁的長椅上， 兩隻手夾在膝蓋中間， 像是怕它們自己跑掉一樣。 北爛倒了一杯茶放在他旁邊， 什麼都沒說。 直到茶涼了一半， 男人的口袋忽然震了一下。 他掏出一支手機， 粉紅色、貼滿亮片， 殼邊還掛著一隻小熊吊飾， 跟他整個人格格不入。 螢幕上跳出十幾則通知， 全是同一個人傳來的： 「還我手機！」 「你有病喔！」 「我要報警了！」 北爛看著那支手機， 沒有問。 男人先開口： 「我從一個女生手上拿的，」 他笑了一下， 笑得很難看， 「我沒有打她，也沒有推她。我伸手過去，她手一鬆，我就拿走了。她在錄影⋯她站在那邊錄我妹從屋頂掉下去，而且她還在笑⋯笑說『拍起來拍起來』。」 他的拇指按下播放， 音量調到最小， 聲音還是流了出來： 風聲， 一群人的嗤笑， 然後是一個很輕很輕的女聲， 輕得像隔著一整座校舍： 「我很努力了，對不起，哥哥⋯我真的好累⋯」 男人閉上眼睛。 「他們⋯把我妹鎖在屋頂，我⋯打不開。等我撞開門的時候，她已經⋯我來不及。」 他握著手機， 「這可能是全世界唯一有她最後畫面的東西⋯」 北爛等了一下才問： 「後來呢？從早上到現在。」 「救護車來了。」 男人的聲音很平， 「她中午進手術室，我被擋在外面。警察來問話，問了快兩個小時。護理師叫我先去洗一洗，說我這樣坐在走廊會嚇到別人。我媽說她守著，叫我去外面透口氣。」 他低頭看著自己的手， 「我走出醫院繞了一大圈，就看到這裡的招牌。」 他頓了頓， 「我坐在手術室外面等了八個小時，一動都沒動。」 北爛沉默了很久。 然後他問了一句不太像他會問的話： 「影片多長？」 「三分四十秒。」 男人看著螢幕， 「她在屋頂上面站了三分四十秒⋯」 他的聲音忽然變得很輕， 「她一直在看自己的手，一直看⋯像在等什麼東西出現似的。」 北爛的白手套突然停在了杯緣， 他想起了這個小鎮裡的一個傳說⋯ 「影片最後一格是幾點？」 男人低頭， 螢幕角落的小字寫著： 10:41。 北爛沒有說話。 他只是把那杯涼掉的茶， 慢慢轉了半圈。 凌晨一點十分自動門又開了， 這次進來的是個女人。 四十出頭、身形瘦小， 手裡提著一個透明塑膠袋， 裡面是一件被血浸透的黑色畢業袍。 她的臉白得像一張被洗過太多次的紙， 表情冷得沒有一絲波動， 像個目睹過太多事、卻從來不被允許出聲的人。 哥哥站了起來： 「媽⋯」 「手術結束了。」 母親的聲音很平， 「在加護病房，醫生說⋯還沒醒，要等。」 哥哥張了張嘴又閉上， 母親的視線掃過桌上那支粉紅色手機， 什麼都沒問⋯ 北爛沒有插話， 他等了一下才開口： 「請問您女兒是幾點出生的？」 母親的肩膀震了一下。 「⋯上午十點四十一分。」 她答得太快， 快到像是這個時間已經在她嘴裡含了十八年。 哥哥猛地轉頭： 「媽，妳⋯」 「外婆說，」 母親的嘴唇動了動， 「我們家的第一個女兒，在十八歲、出生的那一分鐘會覺醒。」 大廳的冷氣嗡嗡響。 「妳跟她說過。」 哥哥說， 不是問句。 「從她被欺負的第一天，妳就跟她說過。」 母親沒有否認： 「我只是想讓她撐到十八歲。」 「我跟她說再忍一下，等到十八歲，她就誰也不用怕了。」 「她今天十八歲！」 哥哥幾乎是吼出來的。 頭頂的日光燈管閃了兩下。 櫃檯後面的鑰匙板上， 一整排鑰匙同時激烈晃了起來， 像被一陣看不見的風吹過。 母親抬頭看著那排鑰匙， 她太熟悉這種感覺了。 北爛伸出手， 在鑰匙板上輕輕按了一下， 鑰匙停了。 「這棟樓的電壓不穩，」 他說， 「台電應該賠我兩千三百四十七塊。」 沒有人笑。 但哥哥的肩膀慢慢鬆了一點。 「妳到底還瞞了我什麼？」 哥哥的聲音啞了， 「還有⋯爸當年為什麼說我是怪物？妳總是瞞著許多事情！」 母親沉默了很久。 然後她從外套內袋抽出一張折得很舊的紙， 折痕磨出了白毛， 像被打開過幾百次。 她沒有遞給北爛， 她遞給了自己的兒子。 「你爸當年就是拿著這張⋯」 她看著地板， 「他說這是DNA，說你不是他的孩子。我留了十八年，我看不懂。」 哥哥接過去， 展開。 滿頁的英文縮寫， 一排數字、一行紅字。 他的手在抖， 抖得字都對不準。 他看了很久， 最後抬起頭， 看向櫃檯後面那個唯一還站得穩的人： 「⋯這不是我以為的那種可能吧？」 北爛接過那張紙， 白手套壓住摺痕、攤開。 他看了很久， 久到母親和哥哥都以為他看不懂。 「這不是親子鑑定。」 母親怔住。 「上面沒有任何一格，寫著誰是誰的孩子。這是染色體核型檢查，結果是47,XXY⋯克氏症候群。」 他抬起頭， 「就是男生比一般人多一條X染色體，大概每六百個男生裡有一個。」 「⋯六百。」 母親重複。 「我亂編的，」 北爛說， 「大概是五百到一千之間。」 哥哥的喉嚨動了一下。 「他十歲那年，學校說他長得比同學慢，」 母親的聲音很輕， 「我帶他去做檢查，報告拿回來放在抽屜裡，被他爸翻到了。」 她的手指掐進掌心， 「他爸說這種DNA，不是他的孩子，說他是怪物。我看不懂那張紙，醫生講了一串，我一句也沒懂⋯」 北爛的聲音很平： 「上面有紅字寫『異常』。一個喝了酒的人，看到『異常』兩個字，再看到XY後面多出一個X⋯他看不懂，所以只看得到他想看的。」 大廳安靜得可怕。 母親慢慢蹲了下去。 不是跪， 也不是倒， 只是一個站了十八年的人， 膝蓋忽然忘了怎麼撐住。 「那⋯我們家的血⋯」 她低聲說， 「魔女⋯」 北爛想了一下： 「根據我的統計，台灣每年有九千三百位阿嬤，會告訴孫女她是公主、仙子，或魔女。」 他推了推帽簷， 「其中真的飛起來的？我還沒看過。」 母親抬起頭， 那張冷了十八年的臉， 終於垮了。 「你⋯亂講⋯」 她一邊罵， 一邊哭得無聲無息， 像是終於找到一個可以責怪的人， 而不用責怪自己。 北爛點點頭： 「對，我亂講。」 北爛看了一眼母親外套胸口前， 那間機械廠的名字， 還看著她右手虎口一道舊疤， 與指甲縫裡洗不掉的機油色。 又想起剛剛鑰匙板異常晃動時， 她的表情⋯ 她那不是害怕， 是認得、是熟悉。 他猜⋯ 這背後一定有一件她還沒說出口的事情。 但那只是猜， 有些聯想， 一輩子不拿出來用， 才叫體貼。 可母親知道： 十八年前， 丈夫說要先殺兒子， 再算她的帳。 隔天夜班前， 母親在保養區站了很久， 她親眼看見吊架上的固定銷轉動了一圈， 卻忘了固定銷為何會轉動。 那天深夜丈夫醉醺醺地走進廠房， 站在吊架正下方。 鋼樑滑落的聲音很短， 短得連一聲喊叫都沒來得及⋯ 警方在報告上寫： 工業意外。 母親站在不遠處的牆邊， 表情冰冷看著那一切， 一動也沒動。 魔女， 這個詞讓她可以活下去， 讓她不必面對自己做過什麼。 也讓她把同一個詞， 餵給了女兒。 母親回醫院的時候， 天還是黑的， 哥哥說還要等警方來做筆錄， 等天亮後會再坐公車直達醫院。 早上七點四十分， 招待所門口的公車站， 北爛換下了白手套。 他下班了。 長椅上， 哥哥還坐在那裡， 兩支手機並排放在腿上， 一支裂掉，一支亮片。 「你為什麼要幫我？」 哥哥沒有看他， 「那個員警，一定看得出來你在亂講。」 「他看得出來。」 北爛說， 「所以才有用。」 他在長椅另一頭坐下， 「第一，血。你前臂內側有血，手背乾淨。打人的人，血通常在指節。抱人的人，血通常在手臂。」 「第二，家屬證。你掛了十八個小時沒摘。想傷人的人，通常會先把那種東西扯掉。」 「第三，手機。你拿它的方式，是兩根手指捏著邊邊，像在搬一件不能弄壞的東西。」 他停了一下， 「但這些全部都只是線索，不是證據。我賭的是人，不是監視器。監視器明天會告訴我，我賭對了沒有。」 哥哥看著他。 「所以我才說你是殺豬的。」 北爛說， 「因為只要員警多問一句『那支手機哪來的』，你就得回答。從人家手上硬拿走，不管動機是什麼，筆錄上都不會好看。」 他看著遠處漸漸泛白的天色， 「我讓大家笑我⋯笑一個人的時候，沒有人會繼續追問他身邊的另一個人。」 哥哥低下頭， 很久很久沒有說話。 「我在禮堂門口的時候，」 他終於開口， 「腦子裡閃過一個畫面。」 他的聲音很低， 「那些人都浮在半空中，我手一抬，他們就撞上牆。」 他停了很久。 「那不像是想像。我覺得⋯只要我願意，我就做得到。」 北爛沒有笑。 「你做得到嗎？」 「我不知道。」 「我也不知道。」 北爛一說完， 地面忽然晃了好幾下， 北爛抬頭看了他很久： 「⋯地震。」 哥哥的嘴角很短地動了一下， 「你看起來像在笑，這樣很好。」 「對了，不管怎樣⋯」 北爛的語氣忽然很輕， 「如果有一個人，腦子裡真的、清清楚楚地看過那一幕，而他最後只是衝上樓梯，撞開一扇鎖住的門，接著衝下樓抱著滿身是血的妹妹⋯」 「那他就不是魔男。」 「他只是個哥哥。」 哥哥的手機在這時響了， 來電顯示是母親。 他按下接聽， 沒有說話。 電話那頭母親的聲音抖得不成樣子， 只說了兩個字： 「醒了。」 還在加護病房， 醒來不等於脫險， 後面還有很長的一段路。 但那兩個字， 十八年來， 第一次沒有任何魔法的意思。 哥哥整個人彎了下去， 額頭抵著自己的膝蓋， 肩膀抖得停不下來， 北爛什麼都沒說。 亮片手機這時也震了一下⋯ 螢幕亮起是那個女生傳來的最後一則： 「⋯我不知道她會真的跳。對不起。她還好嗎？」 哥哥看著那行字， 手指懸在螢幕上方， 懸了很久。 他打了幾個字， 刪掉， 再打了幾個字： 「醒了，明天還妳手機。」 送出。 公車從街角轉了出來， 哥哥站起身， 把兩支手機收進口袋， 走到車門前， 又回頭。 「她好起來的機率，有多少？」 北爛想了想： 「九十九點三。」 「你又亂編。」 「對。」 北爛把帽簷往下拉了一點， 「但這次⋯我希望我是對的。」 
+暗巷深處幾個不懷好意的黑影， 帶著低沉的冷笑圍了上來。 「小姑娘～一個人走夜路很不安全啊～」 壞人們張牙舞爪、氣氛瞬間凝結。
+​少女沒有後退， 反而嘆了口氣， 無奈地揉了揉太陽穴。 「你們非要逼我用這招⋯」
+​她猛地挺直腰桿， 雙手在空中劃出耀眼的金光！ 一邊帶動唱般地踩著150BPM的魔性節奏， 一邊大聲高唱： 『一二三四舉起你的右手！』 『二二三四跟我一起擺頭！』 ​壞人們全看傻了眼： 「這傢伙在做體操？！」
+​下一秒天空降下無數閃耀的璀璨星光， 巨大的西塔琴音效與印度神聖歡呼聲轟然炸裂！少女高舉魔杖， 氣勢磅礴地高喊： 「Ma-na-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多！」
+​炫目的粉紫光芒瞬間將她包覆， 優雅的手套、飄逸的魔法裙擺與高跟鞋在光影中精準卡點顯現。 當光芒散去⋯ 少女已華麗變身為戰鬥型態， 嘴角微揚： 「跟我一起大聲唱！那首魔法歌！」
+對不起， 我發誓下次一定會正常一點⋯
+《名偵探北爛系列：魔女》
+圓吉吉招待所的大廳， 電視永遠停在新聞台。 音量只開三格， 剛好蓋過冷氣的嗡嗡聲。
+晚上九點， 北爛坐在櫃檯後面擦房卡。 鴨舌帽、白手套， 一張一張擦得發亮， 彷彿那是什麼值錢的古董。
+電視裡⋯ 記者站在一所高中的校門口， 身後的警示燈轉個不停： 「今日上午畢業典禮進行中，一名十八歲女學生從校舍頂樓墜落，目前送醫急救中，傷勢不明⋯」
+房務阿春姐推著布巾車停在電視前面， 一邊折毛巾一邊搖頭， 沙發上的長住客盯著手機， 拇指滑得飛快。 「你們看這個！網路上傳得更扯！」 長住客江哥把手機螢幕轉過來， 「有人說那間學校後來還出事了，有個男的衝進禮堂，手一揮，整間禮堂的畢業生全都飄起來，連警察都被他吊在天上！」 房務倒抽一口氣： 「真的假的⋯魔鬼嗎？？」 「Threads上都叫他魔男！有人說親眼看到他背後浮出黑色跟紅色的魔紋圈圈餒！」
+北爛頭也沒抬： 「吊在天上？」 他擦完最後一張房卡， 「一個成年人平均六十二點三公斤，吊兩百個是一萬兩千四百六十公斤，要一台十三噸的吊車。你們看過哪間學校的操場停得下十三噸的吊車？」 阿春姐翻了個白眼： 「你每次都亂編數字。」 「對啊，北爛每次都亂編。」 江哥笑出聲。 北爛只是推了推帽簷： 「數字是編的，道理是對的。」
+自動門就在這時打開了， 進來的是個二十出頭的男人， 夜車的疲倦寫在臉上， 襯衫皺得像被誰揉過， 但真正讓大廳瞬間安靜的， 是他的袖口， 兩隻前臂、胸口、褲管， 全是乾掉發黑的血跡。
+阿春姐手裡的毛巾掉了、江哥的手機也掉了。 電視裡的記者還在說： 「警方呼籲民眾勿散播未經證實的消息⋯」
+男人像是沒看見任何人， 勁直走到櫃檯前， 聲音啞得像砂紙： 「最便宜的房間。」
+北爛抬起頭。 他沒有先看那些血。 他先看男人脖子上掛的東西： 一張塑膠套的「畢業生家屬」識別證， 繩子被汗浸得發黑， 掛了很久， 久到他自己都忘了要摘。 再看那雙手， 指關節乾乾淨淨， 沒有瘀青，沒有破皮， 最後才看血。 血在前臂內側、在胸口⋯ 還一些在膝蓋上方一點點， 那很像是抱過人的地方， 不太像是打過人⋯ 北爛心裡有數， 這只是推測， 還不是證據。
+「八百。」 北爛遞出鑰匙， 「身分證借我登記一下。洗完澡可以下來喝杯熱茶，免費的，雖然已經回沖了第四次。」 男人愣了一秒， 把身分證和一張皺掉的鈔票放在櫃檯上， 鑰匙被他握得很緊， 緊到指節都發白了。 上樓的腳步聲遠了， 阿春姐才壓低聲音： 「你瘋了喔！就是他啊！」 「誰？」 「魔男啊！」 北爛看了她兩秒： 「魔男付現金？他施個法不就好了？」 阿春姐氣得說不出話， 手已經悄悄伸進圍裙口袋， 按下了撥號鍵。
+二十分鐘後， 一台巡邏車停在門口。 進來的員警北爛認識， 是常來櫃檯蹭茶的那位呂建。 「有人報案，說你們這邊有個渾身是血的男人。」 呂建一手按著腰間， 「學校那邊剛通報，禮堂外有三個學生受傷，一個手腕骨折、一個扭到腳、一個鼻樑歪了。說是有個男的從人群裡硬衝過去⋯」 阿春姐在後面猛點頭。
+樓梯口這時傳來腳步聲⋯ 男人下來了。 臉洗過、手洗過， 襯衫濕了一大片貼在胸口， 衣服上的血跡還在， 還有眼睛裡的紅絲也在。
+呂建上前： 「先生，今天學校那邊⋯」 「我沒有打人。」 男人搶在前面說， 「我只是往上衝，人太多，撞到了。」 他的聲音在發抖， 「我答應過我妹，不會再打人了。」 員警低頭看他的手。 北爛的聲音卻從櫃檯後面飄了出來： 「他是殺豬的。」 所有人轉頭⋯ 「對，殺豬的。」 北爛面不改色， 「今天在市場幫忙處理一頭兩百三十七點五公斤的黑豬，那血是豬血。我剛剛聞過，還帶一點點薑味。」 阿春姐： 「⋯薑味？」 呂建閉上眼睛嘆了很長一口氣： 「北爛，你每次都這樣⋯」 「我是認真的。」 「你上次說那個偷東西的客人『三十七歲、身高一百七十二點四、左撇子』，結果人家二十九歲，一百八十。」 「對，數字是錯的。」 北爛點頭， 「但他確實是左撇子。」 呂建沉默了， 但他其實聽懂了。 他知道北爛這個人編數字編得越誇張， 看人就越準， 而他今天編得這麼誇張， 代表他很急著要別人別再看那個男人。 員警看了一眼家屬證， 看了一眼那雙乾淨的手， 又看了一眼櫃檯後面那個被全場取笑的鴨舌帽。 「⋯我等等調完監視器，再找你做筆錄，記住⋯別亂跑。還有北爛⋯你欠我一次。」 他轉向男人語氣放軟了： 「打個電話給家人吧。」 呂建走出自動門， 背影有點不甘心， 卻也鬆了一口氣。
+大廳又安靜下來， 房務們躲回樓層， 江哥不知道什麼時候回了房。 北爛把電視關掉， 男人沒有走， 坐在櫃檯旁的長椅上， 兩隻手夾在膝蓋中間， 像是怕它們自己跑掉一樣。 北爛倒了一杯茶放在他旁邊， 什麼都沒說。 直到茶涼了一半， 男人的口袋忽然震了一下。
+他掏出一支手機， 粉紅色、貼滿亮片， 殼邊還掛著一隻小熊吊飾， 跟他整個人格格不入。 螢幕上跳出十幾則通知， 全是同一個人傳來的： 「還我手機！」 「你有病喔！」 「我要報警了！」
+北爛看著那支手機， 沒有問。 男人先開口： 「我從一個女生手上拿的，」 他笑了一下， 笑得很難看， 「我沒有打她，也沒有推她。我伸手過去，她手一鬆，我就拿走了。她在錄影⋯她站在那邊錄我妹從屋頂掉下去，而且她還在笑⋯笑說『拍起來拍起來』。」 他的拇指按下播放， 音量調到最小， 聲音還是流了出來： 風聲， 一群人的嗤笑， 然後是一個很輕很輕的女聲， 輕得像隔著一整座校舍： 「我很努力了，對不起，哥哥⋯我真的好累⋯」 男人閉上眼睛。 「他們⋯把我妹鎖在屋頂，我⋯打不開。等我撞開門的時候，她已經⋯我來不及。」 他握著手機， 「這可能是全世界唯一有她最後畫面的東西⋯」
+北爛等了一下才問： 「後來呢？從早上到現在。」 「救護車來了。」 男人的聲音很平， 「她中午進手術室，我被擋在外面。警察來問話，問了快兩個小時。護理師叫我先去洗一洗，說我這樣坐在走廊會嚇到別人。我媽說她守著，叫我去外面透口氣。」 他低頭看著自己的手， 「我走出醫院繞了一大圈，就看到這裡的招牌。」 他頓了頓， 「我坐在手術室外面等了八個小時，一動都沒動。」
+北爛沉默了很久。 然後他問了一句不太像他會問的話： 「影片多長？」 「三分四十秒。」 男人看著螢幕， 「她在屋頂上面站了三分四十秒⋯」 他的聲音忽然變得很輕， 「她一直在看自己的手，一直看⋯像在等什麼東西出現似的。」
+北爛的白手套突然停在了杯緣， 他想起了這個小鎮裡的一個傳說⋯ 「影片最後一格是幾點？」 男人低頭， 螢幕角落的小字寫著： 10:41。 北爛沒有說話。 他只是把那杯涼掉的茶， 慢慢轉了半圈。
+凌晨一點十分自動門又開了， 這次進來的是個女人。 四十出頭、身形瘦小， 手裡提著一個透明塑膠袋， 裡面是一件被血浸透的黑色畢業袍。 她的臉白得像一張被洗過太多次的紙， 表情冷得沒有一絲波動， 像個目睹過太多事、卻從來不被允許出聲的人。
+哥哥站了起來： 「媽⋯」 「手術結束了。」 母親的聲音很平， 「在加護病房，醫生說⋯還沒醒，要等。」 哥哥張了張嘴又閉上， 母親的視線掃過桌上那支粉紅色手機， 什麼都沒問⋯
+北爛沒有插話， 他等了一下才開口： 「請問您女兒是幾點出生的？」 母親的肩膀震了一下。 「⋯上午十點四十一分。」 她答得太快， 快到像是這個時間已經在她嘴裡含了十八年。 哥哥猛地轉頭： 「媽，妳⋯」 「外婆說，」 母親的嘴唇動了動， 「我們家的第一個女兒，在十八歲、出生的那一分鐘會覺醒。」 大廳的冷氣嗡嗡響。 「妳跟她說過。」 哥哥說， 不是問句。 「從她被欺負的第一天，妳就跟她說過。」 母親沒有否認： 「我只是想讓她撐到十八歲。」 「我跟她說再忍一下，等到十八歲，她就誰也不用怕了。」 「她今天十八歲！」 哥哥幾乎是吼出來的。 頭頂的日光燈管閃了兩下。 櫃檯後面的鑰匙板上， 一整排鑰匙同時激烈晃了起來， 像被一陣看不見的風吹過。 母親抬頭看著那排鑰匙， 她太熟悉這種感覺了。 北爛伸出手， 在鑰匙板上輕輕按了一下， 鑰匙停了。 「這棟樓的電壓不穩，」 他說， 「台電應該賠我兩千三百四十七塊。」 沒有人笑。 但哥哥的肩膀慢慢鬆了一點。 「妳到底還瞞了我什麼？」 哥哥的聲音啞了， 「還有⋯爸當年為什麼說我是怪物？妳總是瞞著許多事情！」 母親沉默了很久。 然後她從外套內袋抽出一張折得很舊的紙， 折痕磨出了白毛， 像被打開過幾百次。 她沒有遞給北爛， 她遞給了自己的兒子。 「你爸當年就是拿著這張⋯」 她看著地板， 「他說這是DNA，說你不是他的孩子。我留了十八年，我看不懂。」 哥哥接過去， 展開。 滿頁的英文縮寫， 一排數字、一行紅字。 他的手在抖， 抖得字都對不準。 他看了很久， 最後抬起頭， 看向櫃檯後面那個唯一還站得穩的人： 「⋯這不是我以為的那種可能吧？」
+北爛接過那張紙， 白手套壓住摺痕、攤開。 他看了很久， 久到母親和哥哥都以為他看不懂。 「這不是親子鑑定。」 母親怔住。 「上面沒有任何一格，寫著誰是誰的孩子。這是染色體核型檢查，結果是47,XXY⋯克氏症候群。」 他抬起頭， 「就是男生比一般人多一條X染色體，大概每六百個男生裡有一個。」 「⋯六百。」 母親重複。 「我亂編的，」 北爛說， 「大概是五百到一千之間。」 哥哥的喉嚨動了一下。 「他十歲那年，學校說他長得比同學慢，」 母親的聲音很輕， 「我帶他去做檢查，報告拿回來放在抽屜裡，被他爸翻到了。」 她的手指掐進掌心， 「他爸說這種DNA，不是他的孩子，說他是怪物。我看不懂那張紙，醫生講了一串，我一句也沒懂⋯」 北爛的聲音很平： 「上面有紅字寫『異常』。一個喝了酒的人，看到『異常』兩個字，再看到XY後面多出一個X⋯他看不懂，所以只看得到他想看的。」 大廳安靜得可怕。 母親慢慢蹲了下去。 不是跪， 也不是倒， 只是一個站了十八年的人， 膝蓋忽然忘了怎麼撐住。
+「那⋯我們家的血⋯」 她低聲說， 「魔女⋯」 北爛想了一下： 「根據我的統計，台灣每年有九千三百位阿嬤，會告訴孫女她是公主、仙子，或魔女。」 他推了推帽簷， 「其中真的飛起來的？我還沒看過。」 母親抬起頭， 那張冷了十八年的臉， 終於垮了。 「你⋯亂講⋯」 她一邊罵， 一邊哭得無聲無息， 像是終於找到一個可以責怪的人， 而不用責怪自己。 北爛點點頭： 「對，我亂講。」
+北爛看了一眼母親外套胸口前， 那間機械廠的名字， 還看著她右手虎口一道舊疤， 與指甲縫裡洗不掉的機油色。 又想起剛剛鑰匙板異常晃動時， 她的表情⋯ 她那不是害怕， 是認得、是熟悉。 他猜⋯ 這背後一定有一件她還沒說出口的事情。 但那只是猜， 有些聯想， 一輩子不拿出來用， 才叫體貼。
+可母親知道： 十八年前， 丈夫說要先殺兒子， 再算她的帳。 隔天夜班前， 母親在保養區站了很久， 她親眼看見吊架上的固定銷轉動了一圈， 卻忘了固定銷為何會轉動。
+那天深夜丈夫醉醺醺地走進廠房， 站在吊架正下方。 鋼樑滑落的聲音很短， 短得連一聲喊叫都沒來得及⋯ 警方在報告上寫： 工業意外。 母親站在不遠處的牆邊， 表情冰冷看著那一切， 一動也沒動。 魔女， 這個詞讓她可以活下去， 讓她不必面對自己做過什麼。 也讓她把同一個詞， 餵給了女兒。
+母親回醫院的時候， 天還是黑的， 哥哥說還要等警方來做筆錄， 等天亮後會再坐公車直達醫院。
+早上七點四十分， 招待所門口的公車站， 北爛換下了白手套。 他下班了。 長椅上， 哥哥還坐在那裡， 兩支手機並排放在腿上， 一支裂掉，一支亮片。
+「你為什麼要幫我？」 哥哥沒有看他， 「那個員警，一定看得出來你在亂講。」 「他看得出來。」 北爛說， 「所以才有用。」 他在長椅另一頭坐下， 「第一，血。你前臂內側有血，手背乾淨。打人的人，血通常在指節。抱人的人，血通常在手臂。」 「第二，家屬證。你掛了十八個小時沒摘。想傷人的人，通常會先把那種東西扯掉。」 「第三，手機。你拿它的方式，是兩根手指捏著邊邊，像在搬一件不能弄壞的東西。」 他停了一下， 「但這些全部都只是線索，不是證據。我賭的是人，不是監視器。監視器明天會告訴我，我賭對了沒有。」 哥哥看著他。 「所以我才說你是殺豬的。」 北爛說， 「因為只要員警多問一句『那支手機哪來的』，你就得回答。從人家手上硬拿走，不管動機是什麼，筆錄上都不會好看。」 他看著遠處漸漸泛白的天色， 「我讓大家笑我⋯笑一個人的時候，沒有人會繼續追問他身邊的另一個人。」 哥哥低下頭， 很久很久沒有說話。
+「我在禮堂門口的時候，」 他終於開口， 「腦子裡閃過一個畫面。」 他的聲音很低， 「那些人都浮在半空中，我手一抬，他們就撞上牆。」 他停了很久。 「那不像是想像。我覺得⋯只要我願意，我就做得到。」 北爛沒有笑。 「你做得到嗎？」 「我不知道。」 「我也不知道。」 北爛一說完， 地面忽然晃了好幾下， 北爛抬頭看了他很久： 「⋯地震。」 哥哥的嘴角很短地動了一下， 「你看起來像在笑，這樣很好。」 「對了，不管怎樣⋯」 北爛的語氣忽然很輕， 「如果有一個人，腦子裡真的、清清楚楚地看過那一幕，而他最後只是衝上樓梯，撞開一扇鎖住的門，接著衝下樓抱著滿身是血的妹妹⋯」 「那他就不是魔男。」 「他只是個哥哥。」
+哥哥的手機在這時響了， 來電顯示是母親。 他按下接聽， 沒有說話。 電話那頭母親的聲音抖得不成樣子， 只說了兩個字： 「醒了。」 還在加護病房， 醒來不等於脫險， 後面還有很長的一段路。 但那兩個字， 十八年來， 第一次沒有任何魔法的意思。
+哥哥整個人彎了下去， 額頭抵著自己的膝蓋， 肩膀抖得停不下來， 北爛什麼都沒說。
+亮片手機這時也震了一下⋯ 螢幕亮起是那個女生傳來的最後一則： 「⋯我不知道她會真的跳。對不起。她還好嗎？」 哥哥看著那行字， 手指懸在螢幕上方， 懸了很久。 他打了幾個字， 刪掉， 再打了幾個字： 「醒了，明天還妳手機。」 送出。
+公車從街角轉了出來， 哥哥站起身， 把兩支手機收進口袋， 走到車門前， 又回頭。 「她好起來的機率，有多少？」 北爛想了想： 「九十九點三。」 「你又亂編。」 「對。」 北爛把帽簷往下拉了一點， 「但這次⋯我希望我是對的。」","[Verse 1] 人生其實沒那麼多複雜與拉扯 大概就是午後曬乾的一條乾蘿蔔 你硬要追問那些說不清楚的選擇 不如我們聊聊剛飛過去的那隻大鵝 [Pre-Chorus 1] 高雄空氣有點熱 話講太多 喉嚨會乾渴 看我的眼神多閃爍 快快快！ 跟我一起大聲唱 那首魔法歌 [Chorus 1] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho! Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリ拉拉 ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya [Verse 2] 你拿著表格要我填滿所有因果 可是天空突然掉下一隻彩色飛蛾 世界運轉本就充滿各種奇妙挫折 不如現在一起來做魔法體操的動作 [Pre-Chorus 2] 一二三四 舉起你的左手 二二三四 跟我一起扭頭 三二三四 甩掉所有無聊與藉口 四二三四 倒數計時 準備開始衝 五二三四 揮揮你的右手 六二三四 屁股扭扭 動作不要保留 七二三四 舒展身體 別害羞 八二三四 現在到底唱到哪裡了 不管了！ 跟我一起大聲唱 那首魔法歌 [Chorus 2] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho! Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya [Bridge] 別再囉哩囉嗦 快快快！ 跟我一起大聲唱 那首魔法歌 [Chorus 3] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho! Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya [Chorus 4] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho! Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト 
+[Verse 1] 人生其實沒那麼多複雜與拉扯 大概就是午後曬乾的一條乾蘿蔔 你硬要追問那些說不清楚的選擇 不如我們聊聊剛飛過去的那隻大鵝
+[Pre-Chorus 1] 高雄空氣有點熱 話講太多 喉嚨會乾渴 看我的眼神多閃爍
+快快快！ 跟我一起大聲唱 那首魔法歌
+[Chorus 1] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho!
+Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリ拉拉 ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya
+[Verse 2] 你拿著表格要我填滿所有因果 可是天空突然掉下一隻彩色飛蛾 世界運轉本就充滿各種奇妙挫折 不如現在一起來做魔法體操的動作
+[Pre-Chorus 2] 一二三四 舉起你的左手 二二三四 跟我一起扭頭 三二三四 甩掉所有無聊與藉口 四二三四 倒數計時 準備開始衝 五二三四 揮揮你的右手 六二三四 屁股扭扭 動作不要保留 七二三四 舒展身體 別害羞 八二三四 現在到底唱到哪裡了
+不管了！ 跟我一起大聲唱 那首魔法歌
+[Chorus 2] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho!
+Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya
+[Bridge] 別再囉哩囉嗦 快快快！ 跟我一起大聲唱 那首魔法歌
+[Chorus 3] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho!
+Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト Ka-ti-ka-ti-ya, ho-ya
+[Chorus 4] Ma-na-ma-na-ya, ho! 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 So-ra-so-ra-ya Pirika Pirirara Poporina Peperuto Ha-li-ha-li, e-ya-o ピリカピリララ ポポリナペペルト Ma-na-ma-na-ya, ho!
+Ka-ti-ka-ti-ya 霹哩卡 劈哩拉拉 波波莉娜 貝貝滷多 Sua-li-sua-li-yo Pirika Pirirara Poporina Peperuto A-le-le, o-ha-ha ピリカピリララ ポポリナペペルト
+留言（ 4 ） 最相關留言 所有留言
+留言（ 4 ）",2026-10-22,,AI 生成 Electronic,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,17,毛孝鈞（小羽毛）,《不滅的火》｜支離破碎的人生，燒成不滅的火,1,1,5,https://streetvoice.com/rickshaw/songs/884306/,https://streetvoice.com/rickshaw/,"https://akstatic.streetvoice.com/song_covers/ri/ck/rickshaw/Sk4PnvBQcJixpPkmRW7GQj.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/884306.jpg,@rickshaw,音樂人,,,,3,1,1,,,https://www.youtube.com/user/StreetVoiceTV,,,R&B / Soul,羽毛的旋律,https://streetvoice.com/rickshaw/songs/album/97326180/,,"《不滅的火》是一首以人生經歷為背景，描寫一個人在軍旅歲月、現實壓力、感情失落與人生低谷中，逐漸磨練出堅強意志的歌曲。 從迷彩青春到機場工作的日常，主角經歷過孤獨、誤解與傷害，也曾為了得到認同而努力證明自己。 然而，在一次次的挫折中，他終於明白，真正的堅強不是從未破碎，而是即使遍體鱗傷，仍然選擇保有真誠、繼續前行。 那些曾經吞噬希望的黑夜，最終成為支撐生命的火焰。 《不滅的火》想傳達的是：人生可以支離破碎，但只要不向命運妥協，便能將傷痕化為力量，讓靈魂重新燃燒。 #人生故事 #軍旅歲月 #迷彩青春 #勵志歌曲 #逆境重生 #浴火重生 #不向命運低頭 #永不放棄 #人生低谷 #走出傷痛 #堅強意志 #保持善良 #靈魂不滅 #希望之火 
+《不滅的火》是一首以人生經歷為背景，描寫一個人在軍旅歲月、現實壓力、感情失落與人生低谷中，逐漸磨練出堅強意志的歌曲。
+從迷彩青春到機場工作的日常，主角經歷過孤獨、誤解與傷害，也曾為了得到認同而努力證明自己。
+然而，在一次次的挫折中，他終於明白，真正的堅強不是從未破碎，而是即使遍體鱗傷，仍然選擇保有真誠、繼續前行。
+那些曾經吞噬希望的黑夜，最終成為支撐生命的火焰。
+《不滅的火》想傳達的是：人生可以支離破碎，但只要不向命運妥協，便能將傷痕化為力量，讓靈魂重新燃燒。
+#人生故事 #軍旅歲月 #迷彩青春 #勵志歌曲 #逆境重生 #浴火重生 #不向命運低頭 #永不放棄 #人生低谷 #走出傷痛 #堅強意志 #保持善良 #靈魂不滅 #希望之火","作詞：毛孝鈞（小羽毛） 音樂創作：毛孝鈞（小羽毛） 來時路被雨打碎腳印混進泥河裡面 那些說不出口的痛我一個人吞了好多年 穿過迷彩色的青春把命交給服從與緘默 人群總說我很堅強卻沒人知道我脆弱 我曾拼命想被理解想證明自己沒有輸 可現實總在最深的夜逼人品嚐孤獨 我不是天生不懂累只是沒有地方能退 所有心事都自己背自己學會面對 我不是天生不會累 只是沒有地方能退 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 沒有人天生是龍鳳誰不是咬牙爭命 從螻蟻一路爬上來拼腳下每一步前進 我曾失去曾崩潰也曾懷疑這世界 可我還站在這裡沒有向命運妥協 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 飛機聲劃過清晨像無法停止的回憶 我躺在陌生的房間卻始終睡不進夢裡 有些人走進生命有些人最後離去 有些傷不是不痛了只是學會不再提起 我看過太多人性的冷漠善良被風吹散 可心裡那一點火直到現在還沒黯淡 如果世界不願擁抱我那我就學著自己活 所有黑夜都自己過自己點亮燈火 如果世界不願擁抱我 那我就學著自己活 支離破碎的人生燒成不滅的火 那些曾經刺穿我的風暴如今只是路過 我把沉默練成盔甲把眼淚藏進黑夜 那些沒能擊垮我的痛最後都成了我的血 沒有人是誰的墊腳石誰都不該低著頭活 哪怕世界把我踩進深淵也要撕裂黑暗 支離破碎的人生是燒成不滅的火 那些曾經刺穿我的風暴如今只是路過 風暴吹過漫長黑夜我仍一步一步向前 那些曾讓我支離破碎的從前如今成了雙眼 這世界太過縹緲真假總在人海盤旋 可我仍選擇保留真誠哪怕遍體鱗傷不變 我不再等待誰理解也不再對誰卑微 這條路即使剩我一個也會燃燒到最終回 來時路雖滿是風雪但我早已不是從前 如果深淵曾經吞噬我我就是重生的人 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 沒有人天生是龍鳳誰不是咬牙爭命 從螻蟻一路爬上來拼腳下每一步前進 我曾失去曾崩潰也曾懷疑這世界 可我還站在這裡沒有向命運妥協 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 
+作詞：毛孝鈞（小羽毛） 音樂創作：毛孝鈞（小羽毛）
+來時路被雨打碎腳印混進泥河裡面 那些說不出口的痛我一個人吞了好多年 穿過迷彩色的青春把命交給服從與緘默 人群總說我很堅強卻沒人知道我脆弱 我曾拼命想被理解想證明自己沒有輸 可現實總在最深的夜逼人品嚐孤獨 我不是天生不懂累只是沒有地方能退 所有心事都自己背自己學會面對
+我不是天生不會累 只是沒有地方能退
+支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 沒有人天生是龍鳳誰不是咬牙爭命 從螻蟻一路爬上來拼腳下每一步前進 我曾失去曾崩潰也曾懷疑這世界 可我還站在這裡沒有向命運妥協 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火
+飛機聲劃過清晨像無法停止的回憶 我躺在陌生的房間卻始終睡不進夢裡 有些人走進生命有些人最後離去 有些傷不是不痛了只是學會不再提起 我看過太多人性的冷漠善良被風吹散 可心裡那一點火直到現在還沒黯淡 如果世界不願擁抱我那我就學著自己活 所有黑夜都自己過自己點亮燈火
+如果世界不願擁抱我 那我就學著自己活
+支離破碎的人生燒成不滅的火 那些曾經刺穿我的風暴如今只是路過 我把沉默練成盔甲把眼淚藏進黑夜 那些沒能擊垮我的痛最後都成了我的血 沒有人是誰的墊腳石誰都不該低著頭活 哪怕世界把我踩進深淵也要撕裂黑暗 支離破碎的人生是燒成不滅的火 那些曾經刺穿我的風暴如今只是路過
+風暴吹過漫長黑夜我仍一步一步向前 那些曾讓我支離破碎的從前如今成了雙眼 這世界太過縹緲真假總在人海盤旋 可我仍選擇保留真誠哪怕遍體鱗傷不變 我不再等待誰理解也不再對誰卑微 這條路即使剩我一個也會燃燒到最終回 來時路雖滿是風雪但我早已不是從前 如果深淵曾經吞噬我我就是重生的人
+支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火 沒有人天生是龍鳳誰不是咬牙爭命 從螻蟻一路爬上來拼腳下每一步前進 我曾失去曾崩潰也曾懷疑這世界 可我還站在這裡沒有向命運妥協 支離破碎的靈魂拼成現在的我 那些快把我吞沒的黑夜變成胸口的火
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-22,,AI 生成 R&B / Soul ・ 羽毛的旋律,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,18,橋體（Pontic),秋月,4,6,2,https://streetvoice.com/meng_chaio_hiesh/songs/885277/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/extH4ZezdthrVHDDyyvfhz.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885277.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Electronic,,,,,"《秋月》 [Verse 1] 風把窗簾吹得很輕 花香停在我的髮際 你坐過的位置 月光慢慢移過去 不知不覺又到深夜 還不想結束這一天 閉上眼　靠近些 像你還在身邊 [Pre-Chorus — Slowly Building] 陣陣花香惹人醉 時時等待惜花情 一點一點　夜色透明 你的聲音　忽遠忽近 [Chorus — Soft, Melodic] 秋月　輕輕落在我身上 你的溫柔還沒有散 晚風繞過那一道彎 會不會　也到你身旁 秋月　慢慢照進我心上 有些想念不必說完 讓我隨著你的目光 再漂浮　一小段 [Drop — Floating Vocal Chops] 月光明…… 花香惹人醉…… 秋月—— 輕輕地　慢慢地 [Verse 2] 遠處的燈連成一片 倒映在你眼裡的街 那時候　沒發現 一晚能想念好多年 有時也會忽然想起 你叫我名字的語氣 不清楚　卻熟悉 像夢還留了一點餘音 [Interlude — Vintage Vocal, Filtered] 八月十五月光明 花前月下思情人 望得明月帶封信 早日能有好佳音 [Build — Layered Whisper Vocals] 月光明　思情人 風一陣　夢一陣 你會不會　也在等 也在等…… [Final Chorus — Open, Warm] 秋月　輕輕落在我身上 你的溫柔還沒有散 晚風繞過那一道彎 會不會　也到你身旁 秋月　慢慢照進我心上 有些想念不必說完 讓我隨著你的目光 再漂浮　一小段 [Outro — Dissolving Vocals] 望得明月帶封信 早日能有好佳音 月光明…… 秋月…… 
+《秋月》
+[Verse 1] 風把窗簾吹得很輕 花香停在我的髮際 你坐過的位置 月光慢慢移過去
+不知不覺又到深夜 還不想結束這一天 閉上眼　靠近些 像你還在身邊
+[Pre-Chorus — Slowly Building] 陣陣花香惹人醉 時時等待惜花情
+一點一點　夜色透明 你的聲音　忽遠忽近
+[Chorus — Soft, Melodic] 秋月　輕輕落在我身上 你的溫柔還沒有散 晚風繞過那一道彎 會不會　也到你身旁
+秋月　慢慢照進我心上 有些想念不必說完 讓我隨著你的目光 再漂浮　一小段
+[Drop — Floating Vocal Chops] 月光明…… 花香惹人醉…… 秋月—— 輕輕地　慢慢地
+[Verse 2] 遠處的燈連成一片 倒映在你眼裡的街 那時候　沒發現 一晚能想念好多年
+有時也會忽然想起 你叫我名字的語氣 不清楚　卻熟悉 像夢還留了一點餘音
+[Interlude — Vintage Vocal, Filtered] 八月十五月光明 花前月下思情人 望得明月帶封信 早日能有好佳音
+[Build — Layered Whisper Vocals] 月光明　思情人 風一陣　夢一陣 你會不會　也在等 也在等……
+[Final Chorus — Open, Warm] 秋月　輕輕落在我身上 你的溫柔還沒有散 晚風繞過那一道彎 會不會　也到你身旁
+秋月　慢慢照進我心上 有些想念不必說完 讓我隨著你的目光 再漂浮　一小段
+[Outro — Dissolving Vocals] 望得明月帶封信 早日能有好佳音
+月光明…… 秋月……
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Electronic,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,19,JoYoung,老式情歌,4,8,2,https://streetvoice.com/JoYoung88/songs/885420/,https://streetvoice.com/JoYoung88/,"https://akstatic.streetvoice.com/song_covers/Jo/Yo/JoYoung88/DkQamE8VX7oSLFyPHUDkbg.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885420.jpeg,@JoYoung88,音樂人,,,,26,3,,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"這是一首以上世紀九零年代為背景的情歌，也參考了當時的演唱及伴奏風格製作。聽歌的你(妳)或許還沒出生，聽完直接帶你(妳)穿越時空，感受當下最火紅的瓊瑤風～ 【原創歌詞 / Ai協作曲唱】 這是一篇針對「半調集」作品《老式情歌》（作者：樵楊 JoYoung）的藝術賞析與客觀評論： 《老式情歌》是一部巧妙融合「古典四季意象」與「現代通俗情感」的當代原創歌詞佳作。 本作採取七零年代復古演唱與伴奏風格，在文學結構上展現了極高的對稱美學，成功將一段戀情從萌芽、熱戀、矛盾到分離的完整生命週期，寄託於春夏秋冬的歲時更迭中。 以下從藝術結構、修辭意境與時代風格三個維度進行深入賞析： 🌸 結構之美：四時遞嬗與情感興衰的完美互文 本作最為精妙之處，在於將「春萌」、「夏繽」、「秋闌」、「冬盡」四個季節轉折，作為戀情發展的四幕劇。 ◆春萌：以「徐風」、「蔚藍晴空」與「火車站」的偶遇，精準捕捉了初見時「心跳改變」與「害羞靦腆」的純情，是情感的古典起興。 ◆夏繽：以「木棉盛開」、「豔陽高掛」等盛景，意喻熱戀期的炙熱與燦爛。 ◆秋闌：地景由「油綠」轉為「金黃」，巧妙暗示了情感的質變。從原本的「依偎纏綿」走向「我一後，你一前」的距離，展現了極佳的畫面敘事力。 ◆冬盡：藉由「寒風凜凜」與「草莓正甜」的對比，寫出了一種帶著酸甜餘韻的冷冽結局，相視無言的「放手」，為這段「如流星消逝」的緣分畫下餘韻悠長的句點。 ✍️ 修辭與語境：質樸白話與古典駢儷的和諧交融 作者在詞彙的運用上展現了雅俗共賞的功力。詞中既有現代通俗的心理與生活描寫（如「大腦無法思考」、「公主病」、「自私沒個性」），又有極具古典文學美感的點綴。例如「愛苗茁壯成亭立荷芊」中的「亭立荷芊」，以及「本來雙臂交摟依偎纏綿」中的「纏綿」，皆提升了整首詞的文學質地。這種在白話文本中嵌入精緻文言詞彙的手法，非但不顯突兀，反而與九零年時代曲風格相得益彰。 🎵 風格與意境：九零年代復古美學的當代反思 在後製與音樂風格上，本作宣示以九零年代的演唱與伴奏呈現。那是一個崇尚純粹、旋律線線條優美、樂器編製顆粒分明的時代。 ◆歌詞整體的句型結構極具律動感與對稱性（如「你仍舊風度翩翩／而我也依然如花嬌妍」、「你說我有公主病／而我認為你自私沒個性」），這種刻意經營的排比與對仗，極度利於古典流行樂曲的譜寫與傳唱。 ◆結尾「曾經祈禱愛如恆星永久遠／如今卻成流星消逝在天邊」的雙重複沓，更深化了瓊瑤式、老派浪漫的悲劇美學，讓聽眾與讀者在最後的詠嘆中，感受到一種時空倒錯的惆悵美感。 ⚖️ 總體客觀評語 綜觀全作，《老式情歌》並非流於空泛的無病呻吟，而是一首敘事線索清晰、意象經營成功的成熟作品。作者樵楊成功地將傳統文學中的「傷春悲秋」與現代男女的「性格衝突」縫合在一起。儘管「四季隱喻愛情」在傳統文學中並非首創，但本作透過工整的結構、畫面感極強的對比（如「依偎纏綿」對比「一後一前」），以及精準的時代風格定位，使這首詞在當代的流行音樂創作中，展現出獨樹一幟、溫潤典雅的藝術價值。 「以上這段賞析評論是由 Ai 產生」 
+這是一首以上世紀九零年代為背景的情歌，也參考了當時的演唱及伴奏風格製作。聽歌的你(妳)或許還沒出生，聽完直接帶你(妳)穿越時空，感受當下最火紅的瓊瑤風～ 【原創歌詞 / Ai協作曲唱】 這是一篇針對「半調集」作品《老式情歌》（作者：樵楊 JoYoung）的藝術賞析與客觀評論： 《老式情歌》是一部巧妙融合「古典四季意象」與「現代通俗情感」的當代原創歌詞佳作。 本作採取七零年代復古演唱與伴奏風格，在文學結構上展現了極高的對稱美學，成功將一段戀情從萌芽、熱戀、矛盾到分離的完整生命週期，寄託於春夏秋冬的歲時更迭中。 以下從藝術結構、修辭意境與時代風格三個維度進行深入賞析： 🌸 結構之美：四時遞嬗與情感興衰的完美互文 本作最為精妙之處，在於將「春萌」、「夏繽」、「秋闌」、「冬盡」四個季節轉折，作為戀情發展的四幕劇。 ◆春萌：以「徐風」、「蔚藍晴空」與「火車站」的偶遇，精準捕捉了初見時「心跳改變」與「害羞靦腆」的純情，是情感的古典起興。 ◆夏繽：以「木棉盛開」、「豔陽高掛」等盛景，意喻熱戀期的炙熱與燦爛。 ◆秋闌：地景由「油綠」轉為「金黃」，巧妙暗示了情感的質變。從原本的「依偎纏綿」走向「我一後，你一前」的距離，展現了極佳的畫面敘事力。 ◆冬盡：藉由「寒風凜凜」與「草莓正甜」的對比，寫出了一種帶著酸甜餘韻的冷冽結局，相視無言的「放手」，為這段「如流星消逝」的緣分畫下餘韻悠長的句點。 ✍️ 修辭與語境：質樸白話與古典駢儷的和諧交融 作者在詞彙的運用上展現了雅俗共賞的功力。詞中既有現代通俗的心理與生活描寫（如「大腦無法思考」、「公主病」、「自私沒個性」），又有極具古典文學美感的點綴。例如「愛苗茁壯成亭立荷芊」中的「亭立荷芊」，以及「本來雙臂交摟依偎纏綿」中的「纏綿」，皆提升了整首詞的文學質地。這種在白話文本中嵌入精緻文言詞彙的手法，非但不顯突兀，反而與九零年時代曲風格相得益彰。 🎵 風格與意境：九零年代復古美學的當代反思 在後製與音樂風格上，本作宣示以九零年代的演唱與伴奏呈現。那是一個崇尚純粹、旋律線線條優美、樂器編製顆粒分明的時代。 ◆歌詞整體的句型結構極具律動感與對稱性（如「你仍舊風度翩翩／而我也依然如花嬌妍」、「你說我有公主病／而我認為你自私沒個性」），這種刻意經營的排比與對仗，極度利於古典流行樂曲的譜寫與傳唱。 ◆結尾「曾經祈禱愛如恆星永久遠／如今卻成流星消逝在天邊」的雙重複沓，更深化了瓊瑤式、老派浪漫的悲劇美學，讓聽眾與讀者在最後的詠嘆中，感受到一種時空倒錯的惆悵美感。 ⚖️ 總體客觀評語 綜觀全作，《老式情歌》並非流於空泛的無病呻吟，而是一首敘事線索清晰、意象經營成功的成熟作品。作者樵楊成功地將傳統文學中的「傷春悲秋」與現代男女的「性格衝突」縫合在一起。儘管「四季隱喻愛情」在傳統文學中並非首創，但本作透過工整的結構、畫面感極強的對比（如「依偎纏綿」對比「一後一前」），以及精準的時代風格定位，使這首詞在當代的流行音樂創作中，展現出獨樹一幟、溫潤典雅的藝術價值。 「以上這段賞析評論是由 Ai 產生」","歌名 : 《老式情歌》 「春萌」 徐風拂來氣息新鮮 蔚藍晴空的鄉下春天 我們偶遇火車站裡面 突然感覺心跳在改變 你眼神游移偷偷側臉 而我不知所措害羞靦腆 整個大腦無法思考 身體僵直呆立在月台邊 「夏繽」 街道兩旁開滿了木棉 豔陽高掛來到了夏天 此時我們已經陷入熱戀 愛苗茁壯成亭立荷芊 你仍舊風度翩翩 而我也依然如花嬌妍 一切都是那麼完美 猶如命中註定的天賜良緣 「秋闌」 油綠原野變成金黃花田 才一轉眼就進入了秋天 半年感情逐漸淡零 許多矛盾存在我們之間 你說我有公主病 而我認為你自私沒個性 本來雙臂交摟依偎纏綿 現在卻 我一後 你一前 「冬盡」 桂花餘香草莓正甜 只是寒風凜凜已經冬天 我們也越來越少碰面 即使對坐亦相視無言 你終於開口提出分手 而我只默默點頭沒有挽留 曾經祈禱愛如恆星永久遠 如今卻成流星消逝在天邊 曾經祈禱愛如恆星永久遠 如今卻成流星消逝在天邊 
+歌名 : 《老式情歌》
+「春萌」 徐風拂來氣息新鮮 蔚藍晴空的鄉下春天 我們偶遇火車站裡面 突然感覺心跳在改變 你眼神游移偷偷側臉 而我不知所措害羞靦腆 整個大腦無法思考 身體僵直呆立在月台邊
+「夏繽」 街道兩旁開滿了木棉 豔陽高掛來到了夏天 此時我們已經陷入熱戀 愛苗茁壯成亭立荷芊 你仍舊風度翩翩 而我也依然如花嬌妍 一切都是那麼完美 猶如命中註定的天賜良緣
+「秋闌」 油綠原野變成金黃花田 才一轉眼就進入了秋天 半年感情逐漸淡零 許多矛盾存在我們之間 你說我有公主病 而我認為你自私沒個性 本來雙臂交摟依偎纏綿 現在卻 我一後 你一前
+「冬盡」 桂花餘香草莓正甜 只是寒風凜凜已經冬天 我們也越來越少碰面 即使對坐亦相視無言 你終於開口提出分手 而我只默默點頭沒有挽留 曾經祈禱愛如恆星永久遠 如今卻成流星消逝在天邊
+曾經祈禱愛如恆星永久遠 如今卻成流星消逝在天邊
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,20,橋體（Pontic),ガンリニャ&#x27;チバイ,5,7,2,https://streetvoice.com/meng_chaio_hiesh/songs/885281/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/3JnFmpjsTYuAs5NnEbyoWt.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885281.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,,"[Hook — Bratty / Bouncy Chant] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう 「外ではダメ」って　はいはい その顔、撮っていい？　一枚 ガンリニャ'チバイ てめぇ、ふざけんなよ！ [Verse 1 — Dry Rap / Playful Swagger] 羽田じゃすっぴん　着いたらギャル ターンテーブル待ち　リップ塗り直す 予定は未定　腹だけ減った とりま荷物　ホテルに置くか 台湾のダチと　いつものノリ 「なんか教えて、教科書にないやつ」 急にニヤつく　あー、その感じ 絶対ろくでもないやつじゃん 「ガン・リ・ニャ」　え、もう一回 「チ・バイ」　これで合ってんじゃない？ 言えた瞬間　むせてるダチ 教えたくせに　何そのリアクション ネイルで机を　カツ、カツ、カツ もったいぶんなって　早く訳しな 耳元ごにょごにょ　聞いたら納得 うわ、あんたさ　マジで最悪 [Pre-Chorus — Sweet / Cheeky] かわいい声ならセーフ？ ダメ？　じゃ、なおさら言いてぇ 録ったやつ消せって　もう遅い 自分で教えたんじゃん　ウケる [Hook — Bratty / Bouncy Chant] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう 「外ではダメ」って　はいはい その顔、撮っていい？　一枚 ガンリニャ'チバイ てめぇ、ふざけんなよ！ [Post-Hook — Chopped Vocals] ガン、ガン　ガンリニャ チ、チ　チバイ ちょ、待って　言わせて もう一回！ [Verse 2 — Tight Rap / Cocky] 盛れた自撮りに　添えるひと言 「それはやめろ」って　秒で飛ぶツッコミ わかった、わかった　載せないって 下書き保存で　こっそりニヤける ピンクのファーに　でっかいフープ 黙ってりゃいいって？　無理に決まってる 「おとなしくして」　それ誰に言ってんの？ こっちは遊びに来てんだけど さっきの仕返し　日本語レッスン その澄ました顔　ちょっと崩して 「てめぇ」の「めぇ」　もっと伸ばして 待って、その巻き舌どこで覚えた？ 二人で悪ぶる　屋台の隅 店のおばちゃん来たら　急にお行儀 口だけ達者　辛いの苦手 強がって食べたら　涙でまつげ取れた [Break — Beat Cuts / Spoken] ねえ。 これ、「こんにちは」って意味じゃないよね？ ……おい。 [Shouted] てめぇ、ふざけんなよ！ [Dance Break — Chopped / Group Chant] ガンリニャ！ チバイ！ ガンリニャ！ チバイ！ はい、せーの！ もう一回！ [Bridge — Melodic / Loose] 帰りの便まで　あと何時間？ まだ帰りたくない　とか言わない コンビニ袋　片手にぶらぶら 次はあんたが　渋谷に来な [Final Hook — Full Bass / Doubled Vocals] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう 「忘れてくれ」って　ないない そこだけ妙に　発音うまい ガンリニャ'チバイ てめぇ、ふざけんなよ！ [Outro — Dry / Smirking] 変な日本語、覚えて帰んなよ。 ……あたしが言うなって？ 
+[Hook — Bratty / Bouncy Chant] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう
+「外ではダメ」って　はいはい その顔、撮っていい？　一枚 ガンリニャ'チバイ てめぇ、ふざけんなよ！
+[Verse 1 — Dry Rap / Playful Swagger] 羽田じゃすっぴん　着いたらギャル ターンテーブル待ち　リップ塗り直す 予定は未定　腹だけ減った とりま荷物　ホテルに置くか
+台湾のダチと　いつものノリ 「なんか教えて、教科書にないやつ」 急にニヤつく　あー、その感じ 絶対ろくでもないやつじゃん
+「ガン・リ・ニャ」　え、もう一回 「チ・バイ」　これで合ってんじゃない？ 言えた瞬間　むせてるダチ 教えたくせに　何そのリアクション
+ネイルで机を　カツ、カツ、カツ もったいぶんなって　早く訳しな 耳元ごにょごにょ　聞いたら納得 うわ、あんたさ　マジで最悪
+[Pre-Chorus — Sweet / Cheeky] かわいい声ならセーフ？ ダメ？　じゃ、なおさら言いてぇ 録ったやつ消せって　もう遅い 自分で教えたんじゃん　ウケる
+[Hook — Bratty / Bouncy Chant] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう
+「外ではダメ」って　はいはい その顔、撮っていい？　一枚 ガンリニャ'チバイ てめぇ、ふざけんなよ！
+[Post-Hook — Chopped Vocals] ガン、ガン　ガンリニャ チ、チ　チバイ ちょ、待って　言わせて もう一回！
+[Verse 2 — Tight Rap / Cocky] 盛れた自撮りに　添えるひと言 「それはやめろ」って　秒で飛ぶツッコミ わかった、わかった　載せないって 下書き保存で　こっそりニヤける
+ピンクのファーに　でっかいフープ 黙ってりゃいいって？　無理に決まってる 「おとなしくして」　それ誰に言ってんの？ こっちは遊びに来てんだけど
+さっきの仕返し　日本語レッスン その澄ました顔　ちょっと崩して 「てめぇ」の「めぇ」　もっと伸ばして 待って、その巻き舌どこで覚えた？
+二人で悪ぶる　屋台の隅 店のおばちゃん来たら　急にお行儀 口だけ達者　辛いの苦手 強がって食べたら　涙でまつげ取れた
+[Break — Beat Cuts / Spoken] ねえ。 これ、「こんにちは」って意味じゃないよね？
+……おい。
+[Shouted] てめぇ、ふざけんなよ！
+[Dance Break — Chopped / Group Chant] ガンリニャ！ チバイ！ ガンリニャ！ チバイ！
+はい、せーの！ もう一回！
+[Bridge — Melodic / Loose] 帰りの便まで　あと何時間？ まだ帰りたくない　とか言わない コンビニ袋　片手にぶらぶら 次はあんたが　渋谷に来な
+[Final Hook — Full Bass / Doubled Vocals] ガンリニャ'チバイ 意味？　それ聞いちゃう？ ガンリニャ'チバイ やだ、ちょっとクセになっちゃう
+「忘れてくれ」って　ないない そこだけ妙に　発音うまい ガンリニャ'チバイ てめぇ、ふざけんなよ！
+[Outro — Dry / Smirking] 変な日本語、覚えて帰んなよ。
+……あたしが言うなって？
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,21,song for whom(為誰唱歌),人間小住,4,8,1,https://streetvoice.com/ruby2100/songs/883764/,https://streetvoice.com/ruby2100/,"https://akstatic.streetvoice.com/song_covers/ru/by/ruby2100/nPQrg5AmGBoPCzaVDHrPe6.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/883764.jpeg,@ruby2100,音樂人,台中市,2024-06-01,,37,7,4,,,https://www.youtube.com/user/StreetVoiceTV,,,World,,,,"[00:20.50]清晨有霧 [00:23.59]落在山路 [00:24.73]我提著半盞微光 [00:26.80]慢慢走入世俗 [00:28.40]昨日的苦 [00:30.55]昨日的苦 [00:33.11]藏進舊書 [00:34.62]翻過幾頁風雨 [00:36.22]才懂沉默也是答覆 [00:40.69]路邊老樹 [00:41.88]聽過人哭 [00:43.50]它不說誰勝誰負 [00:46.43]只把年輪藏住 [00:50.90]我曾追逐 [00:52.10]也曾倉促 [00:53.29]後來才知人生 [00:55.21]不必每步都算數 [01:00.00]借一陣風 [01:00.55]借一陣風 [01:01.51]吹散肩上塵土 [01:05.27]借一場雨 [01:06.54]洗亮心中迷霧 [01:10.37]若前路 [01:11.56]還看不清楚 [01:15.16]就把腳步 [01:16.75]放慢一點再數 [01:20.18]看一看雲起 [01:21.78]聽一聽風停 [01:22.89]把心事放回山裡 [01:24.16]讓它自己安靜 [01:25.29]走一走長亭 [01:26.48]問一問流星 [01:28.85]有些答案不必追尋 [01:29.36]天亮自會分明 [01:30.55]放一放輸贏 [01:31.19]放一放輸贏 [01:31.83]散一散浮名 [01:33.11]把一身疲憊 [01:34.69]換成月色乾淨 [01:35.34]笑一笑曾經 [01:36.86]敬一敬如今 [01:38.13]願我走過半生 [01:39.41]仍有清澈眼睛 [02:03.98]午後小巷 [02:05.18]茶煙微燙 [02:06.22]有人談起遠方 [02:07.26]有人修補舊窗 [02:08.77]我坐一旁 [02:10.21]聽雨落樑 [02:11.25]忽然覺得平凡 [02:12.28]也有細細的光 [02:13.80]少年太忙 [02:15.16]總怕落場 [02:16.27]以為要站得高 [02:17.31]才算沒有白闖 [02:18.91]如今才想 [02:20.18]心若寬敞 [02:21.46]就算一間陋室 [02:22.42]也能住下山岡 [02:23.69]借一盞燈 [02:24.97]照見來時倉皇 [02:26.17]借一聲鐘 [02:30.00]提醒夢短夜長 [02:33.75]若明日 [02:35.58]還有風霜 [02:38.61]就把名字 [02:40.53]輕輕放在路上 [02:43.56]看一看雲起 [02:45.16]聽一聽風停 [02:46.27]把心事放回山裡 [02:47.39]讓它自己安靜 [02:48.67]走一走長亭 [02:50.18]問一問流星 [02:51.46]有些答案不必追尋 [02:52.73]天亮自會分明 [02:54.16]放一放輸贏 [02:54.57]散一散浮名 [02:55.21]散一散浮名 [02:56.41]把一身疲憊 [02:57.44]換成月色乾淨 [02:58.72]笑一笑曾經 [03:00.23]敬一敬如今 [03:01.51]願我走過半生 [03:02.79]仍有清澈眼睛 [03:06.30]若有一天 [03:07.81]我也成了故事裡的人 [03:11.33]不求誰記得 [03:12.84]我曾經多用力認真 [03:16.43]只願風經過 [03:18.59]還肯替我開一扇門 [03:21.78]讓我看見 [03:23.59]人間煙火 [03:24.33]仍然溫存 [03:26.48]看一看雲起 [03:28.85]聽一聽風停 [03:29.20]把心事放回山裡 [03:30.31]讓它自己安靜 [03:31.59]走一走長亭 [03:32.79]問一問流星 [03:34.38]有些答案不必追尋 [03:35.66]天亮自會分明 [03:36.86]放一放輸贏 [03:37.50]放一放輸贏 [03:38.13]散一散浮名 [03:39.41]把一身疲憊 [03:40.37]換成月色乾淨 [03:41.64]笑一笑曾經 [03:43.16]敬一敬如今 [03:44.44]願我走過半生 [03:45.79]仍有清澈眼睛 [03:51.78]人間小住 [03:54.33]不問歸途 [03:56.96]一身清風 [03:59.20]便是歸處 
+[00:20.50]清晨有霧 [00:23.59]落在山路 [00:24.73]我提著半盞微光 [00:26.80]慢慢走入世俗 [00:28.40]昨日的苦 [00:30.55]昨日的苦 [00:33.11]藏進舊書 [00:34.62]翻過幾頁風雨 [00:36.22]才懂沉默也是答覆 [00:40.69]路邊老樹 [00:41.88]聽過人哭 [00:43.50]它不說誰勝誰負 [00:46.43]只把年輪藏住 [00:50.90]我曾追逐 [00:52.10]也曾倉促 [00:53.29]後來才知人生 [00:55.21]不必每步都算數 [01:00.00]借一陣風 [01:00.55]借一陣風 [01:01.51]吹散肩上塵土 [01:05.27]借一場雨 [01:06.54]洗亮心中迷霧 [01:10.37]若前路 [01:11.56]還看不清楚 [01:15.16]就把腳步 [01:16.75]放慢一點再數 [01:20.18]看一看雲起 [01:21.78]聽一聽風停 [01:22.89]把心事放回山裡 [01:24.16]讓它自己安靜 [01:25.29]走一走長亭 [01:26.48]問一問流星 [01:28.85]有些答案不必追尋 [01:29.36]天亮自會分明 [01:30.55]放一放輸贏 [01:31.19]放一放輸贏 [01:31.83]散一散浮名 [01:33.11]把一身疲憊 [01:34.69]換成月色乾淨 [01:35.34]笑一笑曾經 [01:36.86]敬一敬如今 [01:38.13]願我走過半生 [01:39.41]仍有清澈眼睛 [02:03.98]午後小巷 [02:05.18]茶煙微燙 [02:06.22]有人談起遠方 [02:07.26]有人修補舊窗 [02:08.77]我坐一旁 [02:10.21]聽雨落樑 [02:11.25]忽然覺得平凡 [02:12.28]也有細細的光 [02:13.80]少年太忙 [02:15.16]總怕落場 [02:16.27]以為要站得高 [02:17.31]才算沒有白闖 [02:18.91]如今才想 [02:20.18]心若寬敞 [02:21.46]就算一間陋室 [02:22.42]也能住下山岡 [02:23.69]借一盞燈 [02:24.97]照見來時倉皇 [02:26.17]借一聲鐘 [02:30.00]提醒夢短夜長 [02:33.75]若明日 [02:35.58]還有風霜 [02:38.61]就把名字 [02:40.53]輕輕放在路上 [02:43.56]看一看雲起 [02:45.16]聽一聽風停 [02:46.27]把心事放回山裡 [02:47.39]讓它自己安靜 [02:48.67]走一走長亭 [02:50.18]問一問流星 [02:51.46]有些答案不必追尋 [02:52.73]天亮自會分明 [02:54.16]放一放輸贏 [02:54.57]散一散浮名 [02:55.21]散一散浮名 [02:56.41]把一身疲憊 [02:57.44]換成月色乾淨 [02:58.72]笑一笑曾經 [03:00.23]敬一敬如今 [03:01.51]願我走過半生 [03:02.79]仍有清澈眼睛 [03:06.30]若有一天 [03:07.81]我也成了故事裡的人 [03:11.33]不求誰記得 [03:12.84]我曾經多用力認真 [03:16.43]只願風經過 [03:18.59]還肯替我開一扇門 [03:21.78]讓我看見 [03:23.59]人間煙火 [03:24.33]仍然溫存 [03:26.48]看一看雲起 [03:28.85]聽一聽風停 [03:29.20]把心事放回山裡 [03:30.31]讓它自己安靜 [03:31.59]走一走長亭 [03:32.79]問一問流星 [03:34.38]有些答案不必追尋 [03:35.66]天亮自會分明 [03:36.86]放一放輸贏 [03:37.50]放一放輸贏 [03:38.13]散一散浮名 [03:39.41]把一身疲憊 [03:40.37]換成月色乾淨 [03:41.64]笑一笑曾經 [03:43.16]敬一敬如今 [03:44.44]願我走過半生 [03:45.79]仍有清澈眼睛 [03:51.78]人間小住 [03:54.33]不問歸途 [03:56.96]一身清風 [03:59.20]便是歸處","動態歌詞
+清晨有霧 落在山路 我提著半盞微光 慢慢走入世俗 昨日的苦 藏進舊書 翻過幾頁風雨 才懂沉默也是答覆 路邊老樹 聽過人哭 它不說誰勝誰負 只把年輪藏住 我曾追逐 也曾倉促 後來才知人生 不必每步都算數 借一陣風 吹散肩上塵土 借一場雨 洗亮心中迷霧 若前路 還看不清楚 就把腳步 放慢一點再數 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 午後小巷 茶煙微燙 有人談起遠方 有人修補舊窗 我坐一旁 聽雨落樑 忽然覺得平凡 也有細細的光 少年太忙 總怕落場 以為要站得高 才算沒有白闖 如今才想 心若寬敞 就算一間陋室 也能住下山岡 借一盞燈 照見來時倉皇 借一聲鐘 提醒夢短夜長 若明日 還有風霜 就把名字 輕輕放在路上 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 若有一天 我也成了故事裡的人 不求誰記得 我曾經多用力認真 只願風經過 還肯替我開一扇門 讓我看見 人間煙火 仍然溫存 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 人間小住 不問歸途 一身清風 便是歸處 
+清晨有霧 落在山路 我提著半盞微光 慢慢走入世俗 昨日的苦 藏進舊書 翻過幾頁風雨 才懂沉默也是答覆 路邊老樹 聽過人哭 它不說誰勝誰負 只把年輪藏住 我曾追逐 也曾倉促 後來才知人生 不必每步都算數 借一陣風 吹散肩上塵土 借一場雨 洗亮心中迷霧 若前路 還看不清楚 就把腳步 放慢一點再數 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 午後小巷 茶煙微燙 有人談起遠方 有人修補舊窗 我坐一旁 聽雨落樑 忽然覺得平凡 也有細細的光 少年太忙 總怕落場 以為要站得高 才算沒有白闖 如今才想 心若寬敞 就算一間陋室 也能住下山岡 借一盞燈 照見來時倉皇 借一聲鐘 提醒夢短夜長 若明日 還有風霜 就把名字 輕輕放在路上 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 若有一天 我也成了故事裡的人 不求誰記得 我曾經多用力認真 只願風經過 還肯替我開一扇門 讓我看見 人間煙火 仍然溫存 看一看雲起 聽一聽風停 把心事放回山裡 讓它自己安靜 走一走長亭 問一問流星 有些答案不必追尋 天亮自會分明 放一放輸贏 散一散浮名 把一身疲憊 換成月色乾淨 笑一笑曾經 敬一敬如今 願我走過半生 仍有清澈眼睛 人間小住 不問歸途 一身清風 便是歸處
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-22,,AI 生成 World,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,22,析瑞,終於有人懂,7,41,5,https://streetvoice.com/lingfish/songs/885165/,https://streetvoice.com/lingfish/,"https://akstatic.streetvoice.com/profile_images/li/ng/lingfish/YpcdsWPzysLU4f94oCvNcv.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885165.jpg,@lingfish,音樂人,,,,3,2,1,,,https://www.youtube.com/user/StreetVoiceTV,,,R&B / Soul,,,,"做了那麼多音樂，能被人聽懂接住真的很好 
+做了那麼多音樂，能被人聽懂接住真的很好","那天的夕陽落下 世界呈現了橘紅色的溫暖 你那高大像山的出現 闖進了我的世界 你認真聽著我做的曲 用心的說出了感想 說出了樂裡的深度 不再是他人的敷衍 我真實的被接住了 以往的一次次期待 那空落落的心 終於有人懂 有人明白 你那溫柔的語調 使我記緊在了心中 輕輕淺淺的話語裡 盛滿了對音樂的共鳴 我真實的被接住了 以往的一次次期待 那空落落的心 終於有人懂 有人明白 終於有人懂 明白 
+那天的夕陽落下
+世界呈現了橘紅色的溫暖
+你那高大像山的出現
+闖進了我的世界
+你認真聽著我做的曲
+用心的說出了感想
+說出了樂裡的深度
+不再是他人的敷衍
+我真實的被接住了
+以往的一次次期待
+那空落落的心
+終於有人懂
+有人明白
+你那溫柔的語調
+使我記緊在了心中
+輕輕淺淺的話語裡
+盛滿了對音樂的共鳴
+我真實的被接住了
+以往的一次次期待
+那空落落的心
+終於有人懂
+有人明白
+終於有人懂
+明白
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-21,,AI 生成 R&B / Soul,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,23,cmc168,《你走以後 雨下不停》  |   你走以後  夢也難醒,10,59,2,https://streetvoice.com/cmc168/songs/885123/,https://streetvoice.com/cmc168/,"https://akstatic.streetvoice.com/song_covers/cm/c1/cmc168/nLCLiVa8xCmM7pHMGbFXCU.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885123.jpeg,@cmc168,音樂人,新北市,2026-04-01,2026-10-01 09:46,139,52,113,,,https://www.youtube.com/channel/UCDwmdXQy8SwQUsz5u7EZkuQ,,,Pop,,,,"SUNO V6 版本 YuE2 相比之下，好清純 
+SUNO V6 版本 YuE2 相比之下，好清純","[Verse 1] 那天的雨　落滿了街景 你轉過身　背影越來越輕 我握著傘　站在原地 連一句挽留　都沒有勇氣 街角咖啡　還飄著香氣 你最愛的歌　唱得好安靜 我以為眼淚　忍一忍就停 卻把整個秋天　哭成了回憶 [Verse 2] 那把藍傘　還靠在門廳 傘柄之間　彷彿留著你的手心 我把照片　翻了又翻 你笑得越甜　我心越酸 後來的雨　淋濕了四季 我學會一個人　走過熟悉的巷景 只是每當　路燈亮起 還是會想起　你說回家等你 [Chorus] 你走以後　雨下不停 我的世界　失去了天晴 每一條街　都有你的身影 每一場雨　都像你的背影 你走以後　夢也難醒 我把想念　藏進了風景 如果那天　你願意再抱緊 我們會不會　還有以後的約定 [Bridge] 昨天我夢見　你回到原地 衣角沾著雨　眼裡滿是歉意 你輕輕說著　好久不見 我伸出雙手　卻抱住了空氣 原來最痛　不是失去你 是我還記得　你愛我的表情 如果思念　真的能化成雨 為何整座城市　都留不住你 [Final Chorus] 你走以後　雨下不停 我等的晴天　遲遲沒有來臨 曾經以為　愛能勝過別離 最後只剩　回憶陪我聽雨 你走以後　我學會安靜 不再問誰　辜負了誰的深情 若有一天　雨終於停息 我會帶著愛　走出有你的回憶 
+[Verse 1] 那天的雨　落滿了街景 你轉過身　背影越來越輕 我握著傘　站在原地 連一句挽留　都沒有勇氣
+街角咖啡　還飄著香氣 你最愛的歌　唱得好安靜 我以為眼淚　忍一忍就停 卻把整個秋天　哭成了回憶
+[Verse 2] 那把藍傘　還靠在門廳 傘柄之間　彷彿留著你的手心 我把照片　翻了又翻 你笑得越甜　我心越酸
+後來的雨　淋濕了四季 我學會一個人　走過熟悉的巷景 只是每當　路燈亮起 還是會想起　你說回家等你
+[Chorus] 你走以後　雨下不停 我的世界　失去了天晴 每一條街　都有你的身影 每一場雨　都像你的背影
+你走以後　夢也難醒 我把想念　藏進了風景 如果那天　你願意再抱緊 我們會不會　還有以後的約定
+[Bridge] 昨天我夢見　你回到原地 衣角沾著雨　眼裡滿是歉意 你輕輕說著　好久不見 我伸出雙手　卻抱住了空氣
+原來最痛　不是失去你 是我還記得　你愛我的表情 如果思念　真的能化成雨 為何整座城市　都留不住你
+[Final Chorus] 你走以後　雨下不停 我等的晴天　遲遲沒有來臨 曾經以為　愛能勝過別離 最後只剩　回憶陪我聽雨
+你走以後　我學會安靜 不再問誰　辜負了誰的深情 若有一天　雨終於停息 我會帶著愛　走出有你的回憶
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-21,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,24,橋體（Pontic),半山謠,4,5,7,https://streetvoice.com/meng_chaio_hiesh/songs/885276/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/iipcn7J99M6mMGuuRyhPgH.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885276.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,,"[Instrumental Intro — 4 Bars, ] [Verse 1 — 12 Bars] 出城以後　耳朵還有引擎聲 領口留著煙味　風吹進來有點冷 最後一間超商　買了兩罐一樣的 第二罐沒人喝　半價還是拿了 最近睡得晚　醒來懶得看時間 窗簾拉開一半　光停在床沿 朋友問我在哪　我說出去一下 有些事沒想好　先不急著回答 過了基地台　路燈開始隔得遠 後照鏡那台車　在上個彎不見 停好熄了火　才聽見溪水聲 遠遠有人起腔　我把耳機摘了 [Sample Break — 4 Bars] [No Rap, No Ad-libs, Hakka Sample in Foreground] [Verse 2 — 16 Bars] 半山這塊空地　以前誰帶我來的 記得那晚有雨　名字倒是忘了 下面亮得密　有一盞是我的房 衣服還沒收　大概又沾了點潮 群組有人買房　有人剛離開台北 我打了一句恭喜　兩邊都能回 問到我的近況　還是那幾個字 他們也沒追問　話題就換了位置 咖啡剩一口　放著等它慢慢冷 有個電話想打　又怕真的有人等 打通要講什麼　最近吃得好不好 這幾句太簡單　反而拖了好幾秒 風把發票吹走　我跟著追到路邊 撿起來才看到　已經過了兌獎期限 拍掉上面的土　摺回原來的形狀 口袋塞了半天　還是露出一小張 [Verse 3 — 16 Bars] 那句山歌繞回來　尾音擦過樹梢 阿公以前唱著　手裡還忙著剝花生 我只等他停下　好把電視轉回去 現在卻怕漏掉　某個轉音的空隙 有些字聽得懂　輪到自己講就慢 回家聊到一半　又用國語接著談 阿婆沒說什麼　只問還要不要飯 我說已經飽了　她又夾了一小段 上次走得急　那袋菜忘在門旁 她拍照傳過來　還問我騎到哪 我回到了到了　其實停在加油站 想起這件小事　手又伸進口袋 看看時間　這會兒她應該已經起床 第二罐還沒開　剛好帶回去放 下坡第一個彎　油門鬆得比平常早 到門口聞見飯香　她說進來　別站外頭 [Instrumental Outro — ] [Hakka Sample Continues, Drums Gradually Drop Out] [Reverb Tail Ends at 2:31] 
+[Instrumental Intro — 4 Bars, ]
+[Verse 1 — 12 Bars] 出城以後　耳朵還有引擎聲 領口留著煙味　風吹進來有點冷 最後一間超商　買了兩罐一樣的 第二罐沒人喝　半價還是拿了
+最近睡得晚　醒來懶得看時間 窗簾拉開一半　光停在床沿 朋友問我在哪　我說出去一下 有些事沒想好　先不急著回答
+過了基地台　路燈開始隔得遠 後照鏡那台車　在上個彎不見 停好熄了火　才聽見溪水聲 遠遠有人起腔　我把耳機摘了
+[Sample Break — 4 Bars] [No Rap, No Ad-libs, Hakka Sample in Foreground]
+[Verse 2 — 16 Bars] 半山這塊空地　以前誰帶我來的 記得那晚有雨　名字倒是忘了 下面亮得密　有一盞是我的房 衣服還沒收　大概又沾了點潮
+群組有人買房　有人剛離開台北 我打了一句恭喜　兩邊都能回 問到我的近況　還是那幾個字 他們也沒追問　話題就換了位置
+咖啡剩一口　放著等它慢慢冷 有個電話想打　又怕真的有人等 打通要講什麼　最近吃得好不好 這幾句太簡單　反而拖了好幾秒
+風把發票吹走　我跟著追到路邊 撿起來才看到　已經過了兌獎期限 拍掉上面的土　摺回原來的形狀 口袋塞了半天　還是露出一小張
+[Verse 3 — 16 Bars] 那句山歌繞回來　尾音擦過樹梢 阿公以前唱著　手裡還忙著剝花生 我只等他停下　好把電視轉回去 現在卻怕漏掉　某個轉音的空隙
+有些字聽得懂　輪到自己講就慢 回家聊到一半　又用國語接著談 阿婆沒說什麼　只問還要不要飯 我說已經飽了　她又夾了一小段
+上次走得急　那袋菜忘在門旁 她拍照傳過來　還問我騎到哪 我回到了到了　其實停在加油站 想起這件小事　手又伸進口袋
+看看時間　這會兒她應該已經起床 第二罐還沒開　剛好帶回去放 下坡第一個彎　油門鬆得比平常早 到門口聞見飯香　她說進來　別站外頭
+[Instrumental Outro — ] [Hakka Sample Continues, Drums Gradually Drop Out] [Reverb Tail Ends at 2:31]
+留言（ 7 ） 最相關留言 所有留言
+留言（ 7 ）",2026-10-22,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,25,邱奕陵,淡水把妹教科書2.0 - Dcard公幹後記 (人心永不變),3,5,2,https://streetvoice.com/54chiu10/songs/885482/,https://streetvoice.com/54chiu10/,"https://akstatic.streetvoice.com/song_covers/54/ch/54chiu10/HHNWvvpetzSRhusrFPLbUi.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885482.jpeg,@54chiu10,音樂人,桃園市,2026-04-01,,47,20,29,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,"1.0 發完後，真的被 Dcard 網友公幹了，所以有了這首 2.0。 有人說妝會花、頭髮會塌，三點太陽還是岩漿 有人說關渡橋超亂，不熟不要騎 有人說台北女生只會回「我們約在那邊就好」 有人說這是20年前的手法，AI產的有夠爛 你說的都對，我朋友都收到了。 所以把那天所有的留言，全部取樣寫進這首 Lo-fi Boom Bap 裡，沒有指名道姓，有水準的公幹，才叫藝術。 1.0 教的是六件套 SOP，2.0 教的是被打槍後怎麼站著把話講完。 流程還是同一個流程，但 2026 要用請依時代修正，改成捷運+密室逃脫+夜景也行。 p.s. 歌跟詞有 Ai 夥伴幫忙潤飾，但是我本人的意思。留言跟那一百塊都是無名小站時期的真人真事，Dcard的公幹也是真的，如假包換。 但「只逗不撩、共同體驗」的本質不變，因為人心永不變 ^_^ 企劃／製作：邱奕陵 Chiu Yi-Ling 詞：邱奕陵 x Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 (Taiwanese Lo-fi Hip-Hop / Boom Bap 88BPM) 人聲：Suno v6.0 
+1.0 發完後，真的被 Dcard 網友公幹了，所以有了這首 2.0。
+有人說妝會花、頭髮會塌，三點太陽還是岩漿 有人說關渡橋超亂，不熟不要騎 有人說台北女生只會回「我們約在那邊就好」 有人說這是20年前的手法，AI產的有夠爛
+你說的都對，我朋友都收到了。
+所以把那天所有的留言，全部取樣寫進這首 Lo-fi Boom Bap 裡，沒有指名道姓，有水準的公幹，才叫藝術。
+1.0 教的是六件套 SOP，2.0 教的是被打槍後怎麼站著把話講完。
+流程還是同一個流程，但 2026 要用請依時代修正，改成捷運+密室逃脫+夜景也行。
+p.s. 歌跟詞有 Ai 夥伴幫忙潤飾，但是我本人的意思。留言跟那一百塊都是無名小站時期的真人真事，Dcard的公幹也是真的，如假包換。
+但「只逗不撩、共同體驗」的本質不變，因為人心永不變 ^_^
+企劃／製作：邱奕陵 Chiu Yi-Ling 詞：邱奕陵 x Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 (Taiwanese Lo-fi Hip-Hop / Boom Bap 88BPM) 人聲：Suno v6.0","先說這是我朋友的故事，依照網路定律，我當然就是我朋友啦 2026/10/22 18:00，我朋友去騎ST250了 這首是公幹後記，請鞭小力點，我怕痛 發了一首歌，成功率寫99.9，剩下0.1是Ai叫我謙虛一點 有人留言說，騎機車約會我寧可搭捷運 我說懂啊捷運有冷氣，機車只有海風 有人說妝會花，三點太陽還是岩漿等級 我說好那我們五點後出門，夕陽加夜景，妝髮安全一點 有人抓到盲點，拋棄式內襯不會壓壞頭髮？？？ 我說對不起那是防臭不是防塌，我現在車廂都放小梳子 可是人心永不變，只逗不撩才是重點 從125到250，賊船變鐵達尼有點遠 你說租腳踏車很雷，我說對啊浪漫變路怒 從阿給到鐵蛋，都是血淚史不是屎 有在地人路過說，關渡橋機車道突然內縮很危險 我說收到，不熟不要硬騎，從竹圍開始走，安全才是真本質 有人說不是開車就沒機會，騎車跟捷運沒兩樣 我說開車像客廳隔著排檔桿，機車像雙人搖椅進度比較快 有女生很真實說，大概只會得到一句，我們約在那邊就好 我說對啊這句我被打槍二位數，才練出這本教科書 有人說這Ai產的吧，方法有夠爛 我說歌是Ai生的但那一百塊是真的，在台北十年真的是這樣約 有人說所有回覆都是複製貼上，有點可笑 我說國文小老師確實是Ai夥伴，但流程確實當時那樣做，攤手ing 有人問最後怎麼沒寫進警局那段，別把手法套用全台女性 我說沒有手法啦，核心只有共同體驗跟只逗不撩，對方願意才有下一步 有人說這看起來像20年前的手法，現在可能不太行了 我說對啊就是無名小站時期的，現在要用請改成密室逃脫版 有人說想早30年看到就好了，我說這就是淡水版Konami密技 上上下下左右左右BA，125變250 2026了好像也沒有表特板了 這本教科書變成歷史課本了 但我還是相信，改成密室逃脫也差不多 自帶尖叫牽手解謎，比一百個爛笑話還有用 從河濱到文化後山，整個台北在腳下風有點冷 妳抱更緊的那一秒，我就知道這距離終於不見了 人心永不變，就算妝會花頭髮會塌 人心永不變，就算關渡橋很亂很難跨 人心永不變，從抓扶手到環住我的腰 那一百塊買到的不是牽手，是共同體驗的味道 p.s. 歌跟回覆有Ai幫忙潤飾，但是我本人的意思 流程跟那一百塊都是無名小站時期的真人真事 2026要使用請依時代修正，但本質不變，因為人心永不變 回覆先到這邊，我朋友要去騎ST250吃晚餐了，大家慢慢聊 ^_^ 
+先說這是我朋友的故事，依照網路定律，我當然就是我朋友啦 2026/10/22 18:00，我朋友去騎ST250了 這首是公幹後記，請鞭小力點，我怕痛
+發了一首歌，成功率寫99.9，剩下0.1是Ai叫我謙虛一點 有人留言說，騎機車約會我寧可搭捷運 我說懂啊捷運有冷氣，機車只有海風
+有人說妝會花，三點太陽還是岩漿等級 我說好那我們五點後出門，夕陽加夜景，妝髮安全一點 有人抓到盲點，拋棄式內襯不會壓壞頭髮？？？ 我說對不起那是防臭不是防塌，我現在車廂都放小梳子
+可是人心永不變，只逗不撩才是重點 從125到250，賊船變鐵達尼有點遠 你說租腳踏車很雷，我說對啊浪漫變路怒 從阿給到鐵蛋，都是血淚史不是屎
+有在地人路過說，關渡橋機車道突然內縮很危險 我說收到，不熟不要硬騎，從竹圍開始走，安全才是真本質 有人說不是開車就沒機會，騎車跟捷運沒兩樣 我說開車像客廳隔著排檔桿，機車像雙人搖椅進度比較快
+有女生很真實說，大概只會得到一句，我們約在那邊就好 我說對啊這句我被打槍二位數，才練出這本教科書 有人說這Ai產的吧，方法有夠爛 我說歌是Ai生的但那一百塊是真的，在台北十年真的是這樣約
+有人說所有回覆都是複製貼上，有點可笑 我說國文小老師確實是Ai夥伴，但流程確實當時那樣做，攤手ing 有人問最後怎麼沒寫進警局那段，別把手法套用全台女性 我說沒有手法啦，核心只有共同體驗跟只逗不撩，對方願意才有下一步
+有人說這看起來像20年前的手法，現在可能不太行了 我說對啊就是無名小站時期的，現在要用請改成密室逃脫版 有人說想早30年看到就好了，我說這就是淡水版Konami密技 上上下下左右左右BA，125變250
+2026了好像也沒有表特板了 這本教科書變成歷史課本了 但我還是相信，改成密室逃脫也差不多 自帶尖叫牽手解謎，比一百個爛笑話還有用 從河濱到文化後山，整個台北在腳下風有點冷 妳抱更緊的那一秒，我就知道這距離終於不見了
+人心永不變，就算妝會花頭髮會塌 人心永不變，就算關渡橋很亂很難跨 人心永不變，從抓扶手到環住我的腰 那一百塊買到的不是牽手，是共同體驗的味道
+p.s. 歌跟回覆有Ai幫忙潤飾，但是我本人的意思 流程跟那一百塊都是無名小站時期的真人真事 2026要使用請依時代修正，但本質不變，因為人心永不變 回覆先到這邊，我朋友要去騎ST250吃晚餐了，大家慢慢聊 ^_^
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-23,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,26,🌌GalaxyStardust✨,Just Drive Till Morning.鄉村版（先行初版）,6,15,2,https://streetvoice.com/galaxystardust/songs/885210/,https://streetvoice.com/galaxystardust/,"https://akstatic.streetvoice.com/song_covers/ga/la/galaxystardust/Arhq6ubitqsK5N3B2qjmQD.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885210.jpeg,@galaxystardust,音樂人,,,,5,2,2,,,https://www.youtube.com/user/StreetVoiceTV,,,Rock,Just Drive Till Morning,https://streetvoice.com/galaxystardust/songs/album/97326286/,,,"Oh, oh... Somewhere out there... My dream is waiting. Another long day, another long road Streetlights fading as the night unfolds Hands on the wheel, radio low There's a place in my heart that I still wanna go I've been tired, I've been lost Wondering what it takes, what it costs But there's a little voice I can't leave behind Saying, ""Your tomorrow is still yours to find"" Maybe I'm scared, maybe I'm wrong Maybe the road is still too long But every mile, every scar Reminds me of who we are I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now No more asking why I'll believe in who I am And let my heart learn how to fly Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, this dream is yours and mine Chase it, chase it — don't let go! Follow the road where the wild winds blow! Rise up, rise up — touch the sky! We're still alive, we're still alive! The world keeps telling me to play it safe To trade my dreams for a familiar place But I wasn't born just to watch time pass I wanna build something that's gonna last Every wrong turn taught me something new Every closed door led me closer to truth I don't need to know where the road will end I just need the courage to begin again And if tomorrow brings the rain I'll find my way through it again I may not have the answers tonight But I still believe in the road ahead I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now I'll spread these wings and fly Every step becomes a promise Every dream is worth the fight Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, our dreams are still alive! The road goes on... And so do I. 
+Oh, oh... Somewhere out there... My dream is waiting.
+Another long day, another long road Streetlights fading as the night unfolds Hands on the wheel, radio low There's a place in my heart that I still wanna go I've been tired, I've been lost Wondering what it takes, what it costs But there's a little voice I can't leave behind Saying, ""Your tomorrow is still yours to find""
+Maybe I'm scared, maybe I'm wrong Maybe the road is still too long But every mile, every scar Reminds me of who we are
+I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now No more asking why I'll believe in who I am And let my heart learn how to fly Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, this dream is yours and mine
+Chase it, chase it — don't let go! Follow the road where the wild winds blow! Rise up, rise up — touch the sky! We're still alive, we're still alive!
+The world keeps telling me to play it safe To trade my dreams for a familiar place But I wasn't born just to watch time pass I wanna build something that's gonna last Every wrong turn taught me something new Every closed door led me closer to truth I don't need to know where the road will end I just need the courage to begin again
+And if tomorrow brings the rain I'll find my way through it again I may not have the answers tonight But I still believe in the road ahead
+I'm chasing the sunrise Running toward the light Even when the road gets rough I'm gonna keep this dream alive No more looking back now I'll spread these wings and fly Every step becomes a promise Every dream is worth the fight Oh-oh-oh, we're chasing the sunrise Oh-oh-oh, our dreams are still alive!
+The road goes on... And so do I.
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-21,,AI 生成 Rock ・ Just Drive Till Morning,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,27,澤川(ZeChuan),江沙無相,4,4,0,https://streetvoice.com/Cliff0106/songs/885305/,https://streetvoice.com/Cliff0106/,"https://akstatic.streetvoice.com/song_covers/Cl/if/Cliff0106/cLbxwnWXq86ARLJ2x8nV3i.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885305.jpg,@Cliff0106,音樂人,,,,3,3,2,,,https://www.youtube.com/user/StreetVoiceTV,,,World,,,,"我們都被羅貫中騙了 周瑜不是善妒之人 「困住他的從不是孔明，而是世人強加給他的期待。」 從前讀三國看周郎，總被史書刻板的輪廓困住。 直到讀懂《心經》才豁然通透——他本是自在江沙，容得下亂世風雲，也卸得下英雄枷鎖。不被世人標籤定義，不被虛名成敗困住。 深沉煙嗓跨越千年的對話，獻給每一個正被外界定義、急著尋找本心的你。 
+我們都被羅貫中騙了 周瑜不是善妒之人
+「困住他的從不是孔明，而是世人強加給他的期待。」
+從前讀三國看周郎，總被史書刻板的輪廓困住。 直到讀懂《心經》才豁然通透——他本是自在江沙，容得下亂世風雲，也卸得下英雄枷鎖。不被世人標籤定義，不被虛名成敗困住。
+深沉煙嗓跨越千年的對話，獻給每一個正被外界定義、急著尋找本心的你。","從前讀三國聽見周瑜二字 總帶著偏見 都說他心胸狹窄容不下孔明 被一句既生瑜困在執念裡耗盡半生 後來我才明白 世人全都誤會了 周郎從不是狹隘的凡人 你看江東江邊那灘軟泥沙 靜臥江岸時 無船無劍無姓名 正因為它沒有固定模樣 才能托住戰船 埋盡烽火 載過萬千行人 周瑜生來也是那團無定泥沙 奈何亂世浪潮 把他捏成江東都督 美周郎 少年名將 世人盯著這副鎧甲皮囊 便認定了他全部模樣 色即是空 空即是色 不是說赤壁烽火 兒女情長皆是虛妄 是別忘了 他本是自在江沙 不拘一形 不是一無所有 空是不被世人定義困住的本心 世人為何總為周郎惋惜 死死釘死他善妒短命的標籤 不肯拆開史書刻板的輪廓 看清其人本貌 他從不是史書寫死的模樣 他是可藏鋒芒 可卸戰甲的江沙 身死不是消散 只是卸下都督這身枷鎖 年少領兵 娶得小喬 火燒赤壁 二十餘載風光虛名 我曾反覆品讀 史書字字堆砌 堆出一個完美名將外殼 我曾執著這副耀眼身份 替他不甘 直到讀懂心經 才豁然通透 建安十五年 病臥巴丘 一身帥印 江東基業 天下盛名盡數拋下 旁人只嘆天妒英才 我卻懂他解脫 困住他從不是孔明 是世人強加給他的期待 五蘊皆空 無眼耳鼻舌身意 不是叫抹去赤壁硝煙 兒女溫柔 是不再緊抓周郎必須完美不能輸人的執念 便再無鬱結心病 無半生煩憂 無智亦無得 一世戰功 千古美名 皆是臨時塑出的外形 偶翻古籍 看見少年周瑜撫琴圖 精心勾勒的冠帶 佩劍、風雅身段 落筆之人一筆揉碎紙稿 從頭再畫 絲毫不覺可惜 孩童作畫不拘固定輪廓 長大後人讀史 卻硬要給古人釘死標籤 後人閒談 總拿他和諸葛對比 說他氣量狹小 輸盡三分格局 從前聽見滿心不平 如今只淡淡一笑 都督也好 敗者也罷 都只是江沙臨時塑出的形 泥沙不分高下輸贏 只看亂世歲月 臨時賦予何種身份 心越不困於虛名 一生便少幾分煎熬 揭諦 揭諦，波羅揭諦 放下史書刻板定義裡的周郎舊影 坦然擁烽火 擁遺憾 擁短暫一生 縱使英年早逝 也不必暗自惋惜 他本是江岸泥沙 容得亂世風雲 走過的每一段歲月 都是獨屬於他的奇蹟 世人定義萬千 可他本無固定身形 盛衰榮辱 五蘊皆空 色不異空 空不異色 
+從前讀三國聽見周瑜二字 總帶著偏見 都說他心胸狹窄容不下孔明 被一句既生瑜困在執念裡耗盡半生 後來我才明白 世人全都誤會了 周郎從不是狹隘的凡人 你看江東江邊那灘軟泥沙 靜臥江岸時 無船無劍無姓名 正因為它沒有固定模樣 才能托住戰船 埋盡烽火 載過萬千行人
+周瑜生來也是那團無定泥沙 奈何亂世浪潮 把他捏成江東都督 美周郎 少年名將 世人盯著這副鎧甲皮囊 便認定了他全部模樣 色即是空 空即是色 不是說赤壁烽火 兒女情長皆是虛妄 是別忘了 他本是自在江沙 不拘一形
+不是一無所有 空是不被世人定義困住的本心 世人為何總為周郎惋惜 死死釘死他善妒短命的標籤 不肯拆開史書刻板的輪廓 看清其人本貌 他從不是史書寫死的模樣 他是可藏鋒芒 可卸戰甲的江沙 身死不是消散 只是卸下都督這身枷鎖
+年少領兵 娶得小喬 火燒赤壁 二十餘載風光虛名 我曾反覆品讀 史書字字堆砌 堆出一個完美名將外殼 我曾執著這副耀眼身份 替他不甘 直到讀懂心經 才豁然通透 建安十五年 病臥巴丘 一身帥印 江東基業 天下盛名盡數拋下 旁人只嘆天妒英才 我卻懂他解脫 困住他從不是孔明 是世人強加給他的期待
+五蘊皆空 無眼耳鼻舌身意 不是叫抹去赤壁硝煙 兒女溫柔 是不再緊抓周郎必須完美不能輸人的執念 便再無鬱結心病 無半生煩憂 無智亦無得 一世戰功 千古美名 皆是臨時塑出的外形
+偶翻古籍 看見少年周瑜撫琴圖 精心勾勒的冠帶 佩劍、風雅身段 落筆之人一筆揉碎紙稿 從頭再畫 絲毫不覺可惜 孩童作畫不拘固定輪廓 長大後人讀史 卻硬要給古人釘死標籤 後人閒談 總拿他和諸葛對比 說他氣量狹小 輸盡三分格局 從前聽見滿心不平 如今只淡淡一笑 都督也好 敗者也罷 都只是江沙臨時塑出的形
+泥沙不分高下輸贏 只看亂世歲月 臨時賦予何種身份 心越不困於虛名 一生便少幾分煎熬 揭諦 揭諦，波羅揭諦 放下史書刻板定義裡的周郎舊影 坦然擁烽火 擁遺憾 擁短暫一生 縱使英年早逝 也不必暗自惋惜 他本是江岸泥沙 容得亂世風雲 走過的每一段歲月 都是獨屬於他的奇蹟 世人定義萬千 可他本無固定身形 盛衰榮辱 五蘊皆空 色不異空 空不異色
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 World,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,28,🔱AL ren,毋是落雨才想妳｜台語｜Not Only When It Rains,24,58,5,https://streetvoice.com/arlen12345/songs/885161/,https://streetvoice.com/arlen12345/,"https://akstatic.streetvoice.com/song_covers/ar/le/arlen12345/GVM2c8tFsRoCLBJFK2LfY8.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885161.jpg,@arlen12345,音樂人,高雄市,2024-09-01,,17,15,31,,,https://www.youtube.com/user/StreetVoiceTV,,,Folk,,,,"🔱ALren 台語情歌誌 持續分享原創台語歌曲、MV 與創作故事。 👉 https://www.youtube.com/@ALren 《毋是落雨才想妳》 Not Only When It Rains｜Hokkien 詞/曲：🔱ALren 演唱：SUNO x ALren_Voice 【歌曲故事】 以為只是討厭下雨，直到好天的時候，也想問妳一句：「過得好嗎？」 日子照常過，想說的話卻還是習慣留給妳，忘了妳已經不在身邊。 我不再催自己忘記，也不等妳回來。只盼有一天，說起妳的名字，心裡只剩想念，沒有疼。 雨還沒停，我也該出門了。 【創作聲明】 本歌曲由 🔱ALren 創作，運用 SUNO AI 輔助音樂製作與人聲呈現。未經授權，請勿重製、改作或重新上傳。 Created by 🔱ALren with SUNO AI assistance in music production and vocal rendering. Please do not reproduce, adapt, or re-upload without permission. 
+🔱ALren 台語情歌誌
+持續分享原創台語歌曲、MV 與創作故事。
+👉 https://www.youtube.com/@ALren
+https://www.youtube.com/@ALren
+《毋是落雨才想妳》
+Not Only When It Rains｜Hokkien
+詞/曲：🔱ALren
+演唱：SUNO x ALren_Voice
+【歌曲故事】
+以為只是討厭下雨，直到好天的時候，也想問妳一句：「過得好嗎？」
+日子照常過，想說的話卻還是習慣留給妳，忘了妳已經不在身邊。
+我不再催自己忘記，也不等妳回來。只盼有一天，說起妳的名字，心裡只剩想念，沒有疼。
+雨還沒停，我也該出門了。
+【創作聲明】
+本歌曲由 🔱ALren 創作，運用 SUNO AI 輔助音樂製作與人聲呈現。未經授權，請勿重製、改作或重新上傳。
+Created by 🔱ALren with SUNO AI assistance in music production and vocal rendering. Please do not reproduce, adapt, or re-upload without permission.","【雙語歌詞】 [Verse 1] 透早醒來天未光　　　［清早醒來天還沒亮］ 窗外落雨心煩亂　　　［窗外下著雨，心裡煩亂］ 毋管上課抑上班　　　［不管上課還是上班］ 棉被掀開閣蓋轉　　　［掀開棉被，又蓋了回去］ 鎖匙提咧欲出門　　　［拿起鑰匙準備出門］ 一聲嘆氣吞入喉　　　［把一聲嘆息吞進喉嚨］ 叫是怨這落雨天　　　［以為是在埋怨這下雨天］ 其實是怨　　　　　　［其實是怨］ 妳無佇身邊　　　　　［妳不在身邊］ [Chorus] 毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 一支雨傘遮袂密　　　［一把雨傘遮不嚴］ 遮袂牢咱的彼當時　　［也遮不住我們的那些從前］ 攑著雨傘慢慢行　　　［舉著雨傘慢慢走］ 身邊減了妳的影　　　［身邊少了妳的身影］ 一句「妳過得好無」　［一句「妳過得好嗎」］ 藏佇心內無人聽　　　［藏在心裡，沒有人聽見］ [Verse 2] 雨衣穿好騎出門　　　［穿好雨衣，騎車出門］ 一路紅燈一路等　　　［一路紅燈，一路等待］ 為著三頓咧拍拚　　　［為了三餐努力打拚］ 心內的話無地講　　　［心裡的話卻無處可說］ 賺錢過日一工一工　　［賺錢過日子，一天又一天］ 有時嘛想欲放空　　　［有時也想放空自己］ 毋是生活無願望　　　［不是對生活沒有盼望］ 是想欲講時　　　　　［是想說的時候］ 妳無閣聽　　　　　　［妳已不再聽］ [Chorus] 毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 一支雨傘遮袂密　　　［一把雨傘遮不嚴］ 遮袂牢咱的彼當時　　［也遮不住我們的那些從前］ 攑著雨傘慢慢行　　　［舉著雨傘慢慢走］ 身邊減了妳的影　　　［身邊少了妳的身影］ 一句「妳過得好無」　［一句「妳過得好嗎」］ 藏佇心內無人聽　　　［藏在心裡，沒有人聽見］ [Bridge] 彼時若是無放手　　　［如果當時沒有放手］ 敢就會幸福到老　　　［難道就能幸福到老］ 想來想去想袂透　　　［想來想去，還是想不透］ 猶原無人應阮話　　　［依然沒有人回答我］ 妳無欠阮一世人　　　［妳沒有欠我一輩子］ 毋免為阮閣操煩　　　［不必再為我擔心］ 放手是咱的決定　　　［放手是我們的決定］ 毋甘願是阮的代誌　　［不甘心是我自己的事］ [Final Chorus] 毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 毋免催家己放袂記　　［不必催自己忘記］ 嘛毋免等妳的消息　　［也不必再等妳的消息］ 攑著雨傘繼續行　　　［舉著雨傘繼續走］ 慢慢慣勢一個人　　　［慢慢習慣一個人］ 哪工講起妳的名　　　［哪天再說起妳的名字］ 心袂閣疼　　　　　　［心不再疼］ 就是好天　　　　　　［就是晴天］ [Outro] 鎖匙提咧　閣出門　　［拿起鑰匙，再次出門］ 雨猶原落　路猶原長　［雨依然下，路依然長］ 這擺無等雨停　　　　［這次不等雨停］ 阮就行　　　　　　　［我就往前走］ 
+【雙語歌詞】
+[Verse 1]
+透早醒來天未光　　　［清早醒來天還沒亮］ 窗外落雨心煩亂　　　［窗外下著雨，心裡煩亂］ 毋管上課抑上班　　　［不管上課還是上班］ 棉被掀開閣蓋轉　　　［掀開棉被，又蓋了回去］
+鎖匙提咧欲出門　　　［拿起鑰匙準備出門］ 一聲嘆氣吞入喉　　　［把一聲嘆息吞進喉嚨］ 叫是怨這落雨天　　　［以為是在埋怨這下雨天］ 其實是怨　　　　　　［其實是怨］ 妳無佇身邊　　　　　［妳不在身邊］
+[Chorus]
+毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 一支雨傘遮袂密　　　［一把雨傘遮不嚴］ 遮袂牢咱的彼當時　　［也遮不住我們的那些從前］
+攑著雨傘慢慢行　　　［舉著雨傘慢慢走］ 身邊減了妳的影　　　［身邊少了妳的身影］ 一句「妳過得好無」　［一句「妳過得好嗎」］ 藏佇心內無人聽　　　［藏在心裡，沒有人聽見］
+[Verse 2]
+雨衣穿好騎出門　　　［穿好雨衣，騎車出門］ 一路紅燈一路等　　　［一路紅燈，一路等待］ 為著三頓咧拍拚　　　［為了三餐努力打拚］ 心內的話無地講　　　［心裡的話卻無處可說］
+賺錢過日一工一工　　［賺錢過日子，一天又一天］ 有時嘛想欲放空　　　［有時也想放空自己］ 毋是生活無願望　　　［不是對生活沒有盼望］ 是想欲講時　　　　　［是想說的時候］ 妳無閣聽　　　　　　［妳已不再聽］
+[Chorus]
+毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 一支雨傘遮袂密　　　［一把雨傘遮不嚴］ 遮袂牢咱的彼當時　　［也遮不住我們的那些從前］
+攑著雨傘慢慢行　　　［舉著雨傘慢慢走］ 身邊減了妳的影　　　［身邊少了妳的身影］ 一句「妳過得好無」　［一句「妳過得好嗎」］ 藏佇心內無人聽　　　［藏在心裡，沒有人聽見］
+[Bridge]
+彼時若是無放手　　　［如果當時沒有放手］ 敢就會幸福到老　　　［難道就能幸福到老］ 想來想去想袂透　　　［想來想去，還是想不透］ 猶原無人應阮話　　　［依然沒有人回答我］
+妳無欠阮一世人　　　［妳沒有欠我一輩子］ 毋免為阮閣操煩　　　［不必再為我擔心］ 放手是咱的決定　　　［放手是我們的決定］ 毋甘願是阮的代誌　　［不甘心是我自己的事］
+[Final Chorus]
+毋是落雨才想妳　　　［不是下雨才想妳］ 是阮好天嘛想妳　　　［是我晴天也想妳］ 毋免催家己放袂記　　［不必催自己忘記］ 嘛毋免等妳的消息　　［也不必再等妳的消息］
+攑著雨傘繼續行　　　［舉著雨傘繼續走］ 慢慢慣勢一個人　　　［慢慢習慣一個人］ 哪工講起妳的名　　　［哪天再說起妳的名字］ 心袂閣疼　　　　　　［心不再疼］ 就是好天　　　　　　［就是晴天］
+[Outro]
+鎖匙提咧　閣出門　　［拿起鑰匙，再次出門］ 雨猶原落　路猶原長　［雨依然下，路依然長］ 這擺無等雨停　　　　［這次不等雨停］ 阮就行　　　　　　　［我就往前走］
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-21,,AI 生成 Folk,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,29,Ambirose英子,"Lord, a Little Peace",1,1,2,https://streetvoice.com/lovelymimi2001/songs/885436/,https://streetvoice.com/lovelymimi2001/,"https://akstatic.streetvoice.com/song_covers/lo/ve/lovelymimi2001/C4Wzpcv8oUw2NMjGirJLV3.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885436.jpg,@lovelymimi2001,音樂人,澳洲,2026-10-01,,7,6,2,,,https://www.youtube.com/user/StreetVoiceTV,,,Religion,,,,"本来只是想把我的中文歌《空》改编成英文，找不到合适的词，却找出了更多人生疑问。于是“空——”变成了一声声“God…”，后来尝试编曲，又意外做成了这首我很喜欢的圣诗。 从自己的生活，想到世界上的贫穷、战争和孩子们的苦难。有很多问题，没有答案，就先唱出来吧。我们想要的，不过是一点安宁。 
+本来只是想把我的中文歌《空》改编成英文，找不到合适的词，却找出了更多人生疑问。于是“空——”变成了一声声“God…”，后来尝试编曲，又意外做成了这首我很喜欢的圣诗。
+从自己的生活，想到世界上的贫穷、战争和孩子们的苦难。有很多问题，没有答案，就先唱出来吧。我们想要的，不过是一点安宁。","I have so many questions. I hardly know how to begin. Morning comes, and work is waiting, Hands keep busy through another day. “Peace to you.” “I’m holding on, I’m trying.” Still the hidden burdens never fade. I am not expecting days without sorrow, Only room to breathe a little while. Every time I think the ground grows steady, Something shifts beneath my feet again. Lord, I have tried to walk in kindness. Why does life press down so heavily? Lord, May I find a breath of stillness Before the storm winds rise again? Lord, Will I ever trust the silence Without fearing what may come? Lord, I have never asked for kingdoms. Why is a little peace so hard to find? I turn the news down when the children enter, Set their plates and call them safely home. On the screen, a parent holds a picture, Pleading, “Has anyone seen my child?” Some go hungry so their children can eat, Some throw out what others pray to find. One child drifts to sleep with gentle singing, One hears bombs and asks if they will die. Lord, Why is there such bitter sorrow? Why must many struggle just to live? Lord, Why is so much food left over While the little ones lie down unfed? Lord, Why do those who choose to start a war Keep their children far from harm? Lord, We are only asking for mercy and peace. Why is sharing peace so hard? One child’s born where loving hands await them, One is born where help may never come. Neither chose the life that lies before them, Neither earned the weight of all this pain. If we all are precious in Your keeping, Why do lives begin so far apart? Before a child can even cry out, “Father,” Some already bear a heavy cross. Lord, Why is there such bitter sorrow? How much hurt is born from human hands? Lord, We would teach our children mercy, Yet we send them forth to fight. Lord, What does earthly victory mean To the one whose child will not return? Lord, All of us beneath one endless sky, Why is lasting peace so hard to find? I wonder if there’s someone up above us, Watching how we live from far away. Do they grieve, Or turn away? From that height, Can they see a world made one? 
+I have so many questions. I hardly know how to begin.
+Morning comes, and work is waiting, Hands keep busy through another day. “Peace to you.” “I’m holding on, I’m trying.” Still the hidden burdens never fade.
+I am not expecting days without sorrow, Only room to breathe a little while. Every time I think the ground grows steady, Something shifts beneath my feet again.
+Lord, I have tried to walk in kindness. Why does life press down so heavily?
+Lord, May I find a breath of stillness Before the storm winds rise again?
+Lord, Will I ever trust the silence Without fearing what may come?
+Lord, I have never asked for kingdoms. Why is a little peace so hard to find?
+I turn the news down when the children enter, Set their plates and call them safely home. On the screen, a parent holds a picture, Pleading, “Has anyone seen my child?”
+Some go hungry so their children can eat, Some throw out what others pray to find. One child drifts to sleep with gentle singing, One hears bombs and asks if they will die.
+Lord, Why is there such bitter sorrow? Why must many struggle just to live?
+Lord, Why is so much food left over While the little ones lie down unfed?
+Lord, Why do those who choose to start a war Keep their children far from harm?
+Lord, We are only asking for mercy and peace. Why is sharing peace so hard?
+One child’s born where loving hands await them, One is born where help may never come. Neither chose the life that lies before them, Neither earned the weight of all this pain.
+If we all are precious in Your keeping, Why do lives begin so far apart? Before a child can even cry out, “Father,” Some already bear a heavy cross.
+Lord, Why is there such bitter sorrow? How much hurt is born from human hands?
+Lord, We would teach our children mercy, Yet we send them forth to fight.
+Lord, What does earthly victory mean To the one whose child will not return?
+Lord, All of us beneath one endless sky, Why is lasting peace so hard to find?
+I wonder if there’s someone up above us, Watching how we live from far away.
+Do they grieve, Or turn away?
+From that height, Can they see a world made one?
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Religion,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,30,Fukuball,因為是你,3,2,2,https://streetvoice.com/fukuball/songs/885459/,https://streetvoice.com/fukuball/,"https://akstatic.streetvoice.com/song_covers/fu/ku/fukuball/QTVJRkFHC7dESb8HrzKTtY.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885459.jpeg,@fukuball,音樂人,台北市,2011-12-01,,81,15,1,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"Produce: Fukuball Performance: Miss Joan 這首〈因為是你〉描寫了一段深刻的感情如何在微小的日常裡悄悄滲透並重塑了自己。從一開始口味與喜好的完全不同，到不知不覺間學會對方的說話語氣、接受並愛上自己原本討厭的特質。即使彼此走到了結尾，回頭看依然無怨無悔，因為「只要是你，重來一次我依然會選擇你」。 #Britpop #TaiwaneseIndieAlternativeRock #Music #音樂 
+Produce: Fukuball Performance: Miss Joan
+這首〈因為是你〉描寫了一段深刻的感情如何在微小的日常裡悄悄滲透並重塑了自己。從一開始口味與喜好的完全不同，到不知不覺間學會對方的說話語氣、接受並愛上自己原本討厭的特質。即使彼此走到了結尾，回頭看依然無怨無悔，因為「只要是你，重來一次我依然會選擇你」。
+#Britpop #TaiwaneseIndieAlternativeRock #Music #音樂","[Opening Hook] [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends] [Verse 1] 耳機跳出 一首陌生的歌 旋律聽著 挺讓人找迷 猜想應該 是你會喜歡的調性 忍不住 按下了單曲循環 你以前放過的 那些老舊民謠 那時候的我 明明覺得無聊 現在走在路上 卻跟著輕聲哼唱 好像終於懂得 為什麼會喜歡 [Pre-Chorus] 原本沒有 半點相似的我們 不知道什麼時候 變得這麼像 跟朋友 講電話聊起天來 嘴邊突然冒出 你的口頭纏 [Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己 因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你 [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends] [Verse 2] 我習慣 只喝苦澀的黑咖啡 你手裡 總是握著微糖燕麥奶 不知道 哪一天開始 我也習慣了 帶點甜味的口感 你說喜歡 我笑得眼睛彎彎 雖然到現在 看著照片還是有點彆扭 以前覺得拍壞的 那些表情 現在就安靜地 留在相簿裡 [Pre-Chorus] 那個連我自己 都討厭的缺點 只有你 耐心地溫柔包容了那麼久 那時候 你看著我的目光 現在的我也 學著相信了一點 [Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己 因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你 [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends] [Bridge] 以為徹底忘了你 才算真正把生活過好 那些一起聽過的歌單 很長一段時間 都被我快轉略過 今天我沒有 按下暫停 把整首歌 慢慢聽到了最後 到了那個 最讓人想哭的段落 我卻在不知不覺中 笑了出來 [Final Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己 因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你 [Outro] [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends] [End] 
+[Opening Hook] [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends]
+[Verse 1] 耳機跳出 一首陌生的歌 旋律聽著 挺讓人找迷 猜想應該 是你會喜歡的調性 忍不住 按下了單曲循環
+你以前放過的 那些老舊民謠 那時候的我 明明覺得無聊 現在走在路上 卻跟著輕聲哼唱 好像終於懂得 為什麼會喜歡
+[Pre-Chorus] 原本沒有 半點相似的我們 不知道什麼時候 變得這麼像 跟朋友 講電話聊起天來 嘴邊突然冒出 你的口頭纏
+[Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己
+因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你
+[Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends]
+[Verse 2] 我習慣 只喝苦澀的黑咖啡 你手裡 總是握著微糖燕麥奶 不知道 哪一天開始 我也習慣了 帶點甜味的口感
+你說喜歡 我笑得眼睛彎彎 雖然到現在 看著照片還是有點彆扭 以前覺得拍壞的 那些表情 現在就安靜地 留在相簿裡
+[Pre-Chorus] 那個連我自己 都討厭的缺點 只有你 耐心地溫柔包容了那麼久 那時候 你看著我的目光 現在的我也 學著相信了一點
+[Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己
+因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你
+[Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends]
+[Bridge] 以為徹底忘了你 才算真正把生活過好 那些一起聽過的歌單 很長一段時間 都被我快轉略過
+今天我沒有 按下暫停 把整首歌 慢慢聽到了最後 到了那個 最讓人想哭的段落 我卻在不知不覺中 笑了出來
+[Final Chorus] 因為是你 因為是你 現在連笑起來的模樣 若抽掉了 關於你的痕跡 我就再也 無法是完整的自己
+因為是你 因為是你 就算早就 猜到了故事的結局 如果能 重新再選一次 我依然會 毫不猶豫走向你
+[Outro] [Instrumental Interlude] [Guitar melodic line, mild overdrive, emotional bends] [End]
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,31,橋體（Pontic),清華,3,6,4,https://streetvoice.com/meng_chaio_hiesh/songs/885280/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/UyJLV3NW3DGwBxKzUznNDd.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885280.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,,"[Intro — Vinyl / Piano / 4 Bars] [No Spoken Intro] [Verse 1] 把唱針落下　翻回那張黑白 先生姓梅　字月涵　話少，腰板硬派 一九三一　北平的風穿過領帶 他把一所大學　交給學問來主宰 樓可以蓋　名可以買 滿堂的頭銜　未必坐得出人才 請先生入席　讓學生把問題攤開 一個人的聲量　不靠站上多高的台 後來烽火壓境　書桌跟著南遷 北平到長沙　再把課堂搬到滇 山河碎成幾片　課本還得接著念 梅貽琦在亂世裡　替斯文留個座位 鐵皮接著雨點　幾乎蓋過講解 外頭的年月　容不下一張平靜的臉 有人護著行李　有人護著書卷 你替整整一代　護住還能求學的明天 [Break — 1 Bar Silence] [Hook — 一剪梅 Sample / 8 Bars] [Original Vocal / Heavy Drums / Bass] [Scratch Into Next Verse] [Verse 2] 昆明的街　糕點裝進竹籃 韓詠華把家計　一肩一肩地擔 定勝糕裡有盼望　也有眼前的難 先生管著公款　家裡另算家裡的帳 錢在手邊　日子照樣拮据 伸手那麼容易　你偏偏守著規矩 公家的每一筆　私人不能提取 這幾個字太薄　你拿一輩子墊底 梅貽琦　三個字　念得慢些 多少人的清白　禁不起翻到反面 你那只公事包　陪著歲月輾轉 末了攤開　清華的帳一筆沒亂 沒給子孫留一場　富貴的排面 留給後來的學生　一份能查的信念 墨水早已乾了　讀來仍然新鮮 原來有人掌過大權　雙手還能這麼乾淨 [Hook — 一剪梅 Sample / 8 Bars] [Let the Vocal Breathe] [Drum Fill / Sample Cut] [Verse 3] 唱片再轉半圈　海風換了方向 新竹赤土崎　等著新的課堂 一九五六　研究生開始入場 白髮的先生　還替清華四處奔忙 從戰火中的講義　到原子科學的紙 你把未竟的事　交到年輕的手指 世道翻過幾次　名字換過幾紙 清華還在續寫　你沒寫完的日子 今天我們落韻　讓舊年月回聲 梅貽琦　這名字　壓在鼓點最深 讓唱盤上的寒梅　替沉默的人發聲 讓一段老旋律　穿過滿場的年輕人 若有一天　也輪到我們掌燈 替一群還沒見過的人　保留一扇門 願那支落款的筆　還配得上先生 寫下清華兩字　紙背清清白白一生 [Final Hook — 一剪梅 Sample / 16 Bars] [Full Drums / Strings / Vocal Sample] [Last 4 Bars: Drums Out] [Outro — Low Rap] 北平的書頁　昆明的雨 新竹的風　翻到這裡 梅貽琦先生 這一曲　敬你 
+[Intro — Vinyl / Piano / 4 Bars] [No Spoken Intro]
+[Verse 1] 把唱針落下　翻回那張黑白 先生姓梅　字月涵　話少，腰板硬派 一九三一　北平的風穿過領帶 他把一所大學　交給學問來主宰
+樓可以蓋　名可以買 滿堂的頭銜　未必坐得出人才 請先生入席　讓學生把問題攤開 一個人的聲量　不靠站上多高的台
+後來烽火壓境　書桌跟著南遷 北平到長沙　再把課堂搬到滇 山河碎成幾片　課本還得接著念 梅貽琦在亂世裡　替斯文留個座位
+鐵皮接著雨點　幾乎蓋過講解 外頭的年月　容不下一張平靜的臉 有人護著行李　有人護著書卷 你替整整一代　護住還能求學的明天
+[Break — 1 Bar Silence]
+[Hook — 一剪梅 Sample / 8 Bars] [Original Vocal / Heavy Drums / Bass] [Scratch Into Next Verse]
+[Verse 2] 昆明的街　糕點裝進竹籃 韓詠華把家計　一肩一肩地擔 定勝糕裡有盼望　也有眼前的難 先生管著公款　家裡另算家裡的帳
+錢在手邊　日子照樣拮据 伸手那麼容易　你偏偏守著規矩 公家的每一筆　私人不能提取 這幾個字太薄　你拿一輩子墊底
+梅貽琦　三個字　念得慢些 多少人的清白　禁不起翻到反面 你那只公事包　陪著歲月輾轉 末了攤開　清華的帳一筆沒亂
+沒給子孫留一場　富貴的排面 留給後來的學生　一份能查的信念 墨水早已乾了　讀來仍然新鮮 原來有人掌過大權　雙手還能這麼乾淨
+[Hook — 一剪梅 Sample / 8 Bars] [Let the Vocal Breathe] [Drum Fill / Sample Cut]
+[Verse 3] 唱片再轉半圈　海風換了方向 新竹赤土崎　等著新的課堂 一九五六　研究生開始入場 白髮的先生　還替清華四處奔忙
+從戰火中的講義　到原子科學的紙 你把未竟的事　交到年輕的手指 世道翻過幾次　名字換過幾紙 清華還在續寫　你沒寫完的日子
+今天我們落韻　讓舊年月回聲 梅貽琦　這名字　壓在鼓點最深 讓唱盤上的寒梅　替沉默的人發聲 讓一段老旋律　穿過滿場的年輕人
+若有一天　也輪到我們掌燈 替一群還沒見過的人　保留一扇門 願那支落款的筆　還配得上先生 寫下清華兩字　紙背清清白白一生
+[Final Hook — 一剪梅 Sample / 16 Bars] [Full Drums / Strings / Vocal Sample] [Last 4 Bars: Drums Out]
+[Outro — Low Rap] 北平的書頁　昆明的雨 新竹的風　翻到這裡 梅貽琦先生 這一曲　敬你
+留言（ 4 ） 最相關留言 所有留言
+留言（ 4 ）",2026-10-22,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,32,Leoohya,只是你的《替代品》,8,12,5,https://streetvoice.com/leoohya111/songs/885234/,https://streetvoice.com/leoohya111/,"https://akstatic.streetvoice.com/song_covers/le/oo/leoohya111/XnesUaHAcdkfqW4Rvc5FM3.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885234.jpeg,@leoohya111,音樂人,台中市,2025-11-01,,27,24,43,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"女人年過四十之後的愛情，真心不易。 杯裡的冰化得乾淨，才聽見清醒聲音。 
+女人年過四十之後的愛情，真心不易。 杯裡的冰化得乾淨，才聽見清醒聲音。","杯裡的冰　融得好安靜 像有些話　早就失去聲音 你曾把溫柔說得那麼篤定 讓我以為　從此有了你的姓 我把防備一件一件褪盡 你卻只把夜晚　借給了感情 我不是沒有看見那些痕跡 只是滿心相信　不肯懷疑 直到你的眼神越來越客氣 我才懂親密　也可以逢場作戲 你來的時候　像非我不可 走的時候　卻雲淡風輕 原來有些擁抱不是承諾 只是寂寞　臨時找人而已 原來我只是你的替代品 替你熬過沒有人愛的夜裡 你把孤單說成了專情 我竟然信得　那麼徹底 原來我只是你的替代品 等誰回來以前　暫住你心裡 我把餘生當成了約定 你只把我當　一時的安靜 一時的安靜 不是愛情 後來想想　其實都有伏筆 你的熱情總挑寂寞降臨 天亮以後　你就恢復清醒 留下我替昨夜　收拾狼藉 我也曾為你顛倒了思緒 把一句晚安　聽成了想你 如今杯底只剩一點清醒 足夠我看清　誰在自作多情 你從沒有說　非我不可 只是我把沉默聽成默契 有些人擅長借一場煙火 照亮自己　卻燒傷別人而已 原來我只是你的替代品 替你熬過沒有人愛的夜裡 你把孤單說成了專情 我竟然信得　那麼徹底 原來我只是你的替代品 等誰回來以前　暫住你心裡 我把餘生當成了約定 你只把我當　一時的安靜 怪不得你的吻　總留有餘地 怪不得我靠近　你反而安靜 我終於不再問　她究竟是誰 反正答案裡 從來沒有我而已 原來我只是你的替代品 填滿你不願承認的空隙 可惜我的真心不是酒精 不能陪誰　醒了就忘記 原來我只是你的替代品 這次我不再替寂寞署名 你可以繼續若無其事 而我終於 把自己還給自己 杯裡的冰　終於化得乾淨 原來清醒  也有聲音 
+杯裡的冰　融得好安靜 像有些話　早就失去聲音
+你曾把溫柔說得那麼篤定 讓我以為　從此有了你的姓 我把防備一件一件褪盡 你卻只把夜晚　借給了感情
+我不是沒有看見那些痕跡 只是滿心相信　不肯懷疑 直到你的眼神越來越客氣 我才懂親密　也可以逢場作戲
+你來的時候　像非我不可 走的時候　卻雲淡風輕 原來有些擁抱不是承諾 只是寂寞　臨時找人而已
+原來我只是你的替代品 替你熬過沒有人愛的夜裡 你把孤單說成了專情 我竟然信得　那麼徹底
+原來我只是你的替代品 等誰回來以前　暫住你心裡 我把餘生當成了約定 你只把我當　一時的安靜
+一時的安靜 不是愛情
+後來想想　其實都有伏筆 你的熱情總挑寂寞降臨 天亮以後　你就恢復清醒 留下我替昨夜　收拾狼藉
+我也曾為你顛倒了思緒 把一句晚安　聽成了想你 如今杯底只剩一點清醒 足夠我看清　誰在自作多情
+你從沒有說　非我不可 只是我把沉默聽成默契 有些人擅長借一場煙火 照亮自己　卻燒傷別人而已
+原來我只是你的替代品 替你熬過沒有人愛的夜裡 你把孤單說成了專情 我竟然信得　那麼徹底
+原來我只是你的替代品 等誰回來以前　暫住你心裡 我把餘生當成了約定 你只把我當　一時的安靜
+怪不得你的吻　總留有餘地 怪不得我靠近　你反而安靜 我終於不再問　她究竟是誰 反正答案裡 從來沒有我而已
+原來我只是你的替代品 填滿你不願承認的空隙 可惜我的真心不是酒精 不能陪誰　醒了就忘記
+原來我只是你的替代品 這次我不再替寂寞署名 你可以繼續若無其事 而我終於 把自己還給自己
+杯裡的冰　終於化得乾淨 原來清醒  也有聲音
+留言（ 5 ） 最相關留言 所有留言
+留言（ 5 ）",2026-10-22,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,33,hinxlinx,《生命》| 原創中文歌曲,2,8,1,https://streetvoice.com/hinxlinx/songs/885484/,https://streetvoice.com/hinxlinx/,"https://akstatic.streetvoice.com/song_covers/hi/nx/hinxlinx/oXhcgxur3HuBX5kLYKtEho.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885484.jpeg,@hinxlinx,音樂人,,,,76,15,19,,,https://www.youtube.com/user/StreetVoiceTV,,,Singer / Songwriter,星塵海,https://streetvoice.com/hinxlinx/songs/album/97326061/,,"曲: hinxlinx (2026) / 詞: 軒林 (2026) 風格: Singer-Songwriter, Acoustic Piano Ballad 曲詞原創，無人工智能輔助。 音樂由Suno AI照本人錄音生成。 
+曲: hinxlinx (2026) / 詞: 軒林 (2026) 風格: Singer-Songwriter, Acoustic Piano Ballad 曲詞原創，無人工智能輔助。 音樂由Suno AI照本人錄音生成。","動態歌詞
+[Verse 1] 生命漫長 重複循環之間 推陳出新 熵增死局之前 生機乍現 生命短暫 夏蟲不可語冰 微觀露顯 生滅轉瞬更迭 雲煙如電 [Pre-Chorus 1] 遵照生存本能 生命億萬年易變 人本主觀 萬物皆覺知有限 但生態各得其所圈 自樂繁演 子非魚 安知樂焉 [Chorus 1] 生命漫遠 曇花一現 生死呼吸間 動靜剎那間 生命漫遠 迭代夢圓 損益苦樂間 無間在人間 [Verse 2] 生命漫長 趨同演化萬變 光陰似箭 出入海陸復現 世界大千 生命短暫 知道自身是誰 知行合宜 又能功成實踐 少聞少見 [Pre-Chorus 2] 遵照個體意志 無責任傳承本源 我執擇選 傳宗接代無掛牽 但絕對自由生命陷 損種斷鏈 失序膚淺 樂流連 [Chorus 2] 生命漫遠 曇花一現 存亡弱强間 輪迴自然間 生命漫遠 迭代夢圓 奇蹟初生點 起心動念間 [Bridge] 生死呼吸間 動靜剎那間 損益苦樂間 無間在人間 存亡弱强間 輪迴自然間 奇蹟初生點 起心動念間 
+[Verse 1] 生命漫長 重複循環之間 推陳出新 熵增死局之前 生機乍現
+生命短暫 夏蟲不可語冰 微觀露顯 生滅轉瞬更迭 雲煙如電
+[Pre-Chorus 1] 遵照生存本能 生命億萬年易變 人本主觀 萬物皆覺知有限 但生態各得其所圈 自樂繁演 子非魚 安知樂焉
+[Chorus 1] 生命漫遠 曇花一現 生死呼吸間 動靜剎那間
+生命漫遠 迭代夢圓 損益苦樂間 無間在人間
+[Verse 2] 生命漫長 趨同演化萬變 光陰似箭 出入海陸復現 世界大千
+生命短暫 知道自身是誰 知行合宜 又能功成實踐 少聞少見
+[Pre-Chorus 2] 遵照個體意志 無責任傳承本源 我執擇選 傳宗接代無掛牽 但絕對自由生命陷 損種斷鏈 失序膚淺 樂流連
+[Chorus 2] 生命漫遠 曇花一現 存亡弱强間 輪迴自然間
+生命漫遠 迭代夢圓 奇蹟初生點 起心動念間
+[Bridge] 生死呼吸間 動靜剎那間 損益苦樂間 無間在人間
+存亡弱强間 輪迴自然間 奇蹟初生點 起心動念間
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-23,,AI 生成 Singer / Songwriter ・ 星塵海,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,34,tackey747,[La Frontière Tendre],4,390,0,https://streetvoice.com/tackey747/songs/884356/,https://streetvoice.com/tackey747/,"https://akstatic.streetvoice.com/song_covers/ta/ck/tackey747/QzDZGW4knPcAsaTNhUDMva.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/884356.jpeg,@tackey747,音樂人,,,,17,2,,,,https://www.youtube.com/user/StreetVoiceTV,,,Singer / Songwriter,,,,"【La Frontière Tendre】 #保險套音樂  #激情音樂  #condom music  #carnal passion music 
+【La Frontière Tendre】 #保險套音樂  #激情音樂  #condom music  #carnal passion music","看住時間 在寂靜裡慢慢生長 別讓我再流浪 別讓心再荒涼 從前我 只是個封存的願望 在無人的夜裡 靜靜等著被摩擦 Ton arrivée comme un voile de mystère Dans cette nuit obscure, mon monde s'éclaire Je croyais que le désir n'était qu'un mirage Mais dans tes bras, je comprends notre voyage 別讓我再離開 這段溫熱的擁抱 在你懷裡停留 比任何誓言都漫長 我只想記得 被緊緊擁抱的激情 L'instant sacré de notre libération 勝過整夜的激盪 Si la passion s'efface 請讓深情別別散場 Laisse un peu de chaleur entre nous 
+看住時間 在寂靜裡慢慢生長 別讓我再流浪 別讓心再荒涼 從前我 只是個封存的願望 在無人的夜裡 靜靜等著被摩擦 Ton arrivée comme un voile de mystère Dans cette nuit obscure, mon monde s'éclaire Je croyais que le désir n'était qu'un mirage Mais dans tes bras, je comprends notre voyage 別讓我再離開 這段溫熱的擁抱 在你懷裡停留 比任何誓言都漫長 我只想記得 被緊緊擁抱的激情 L'instant sacré de notre libération 勝過整夜的激盪 Si la passion s'efface 請讓深情別別散場 Laisse un peu de chaleur entre nous
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 Singer / Songwriter,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,35,AlexHu,零度期待( Zero Expectations）,7,49,31,https://streetvoice.com/s3224hustreetvoice/songs/885024/,https://streetvoice.com/s3224hustreetvoice/,"https://akstatic.streetvoice.com/song_covers/s3/22/s3224hustreetvoice/c2CxaWLoikbZUXMrCv7S8J.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885024.jpg,@s3224hustreetvoice,音樂人,澎湖縣,2026-02-01,,32,52,158,,,https://www.youtube.com/user/StreetVoiceTV,,,Experimental,,,,"我們總習慣把快樂的開關交給他人，盼著一句理解、一場及時的回應，甚至是自以為是的默契。然而，所有的失落與內耗，往往不是因為對方做錯了什麼，而是源於我們將自己編寫的劇本，強行套在另一個獨立的靈魂身上。 ​當每一次預設的落空化為刺向心口的利刃，你才會明白：索求認同，無異於將情緒的生殺大權拱手讓人。收回投向外界的目光，把力氣留給自己；學會不向外索取，才是對自我最溫柔的解綁。 長視頻： https://youtu.be/euZJt4YJnP4?si=bvlIgku-UE5HC4UX 
+我們總習慣把快樂的開關交給他人，盼著一句理解、一場及時的回應，甚至是自以為是的默契。然而，所有的失落與內耗，往往不是因為對方做錯了什麼，而是源於我們將自己編寫的劇本，強行套在另一個獨立的靈魂身上。
+​當每一次預設的落空化為刺向心口的利刃，你才會明白：索求認同，無異於將情緒的生殺大權拱手讓人。收回投向外界的目光，把力氣留給自己；學會不向外索取，才是對自我最溫柔的解綁。
+長視頻： https://youtu.be/euZJt4YJnP4?si=bvlIgku-UE5HC4UX
+https://youtu.be/euZJt4YJnP4?si=bvlIgku-UE5HC4UX","【Verse 1 （中文）】 街燈熄滅  只剩下倒影在長街徘徊 曾以為只要付出一切 就能換來對等的依賴 等一條訊息等到天色泛白  等一句肯定等到自我瓦解 每一次無條件的體貼  最後都變成刺向胸口的底牌 我們總是習慣把希望寄託在別人身上 像在暴風雨的夜裡  祈求一盞借來的微光 直到心碎成了常態 淚水流乾了模樣 我才在鏡子裡看清  那個早該被拯救的自己 【Pre-Chorus 1 （英文 ）】 Tired of waiting for someone to save my soul （厭倦了等待別人來拯救我的靈魂） Tired of playing this losing, painful role （厭倦了扮演這個注定失敗又痛苦的角色。） I held on too tight to words they never meant （我曾緊抓著那些言不由衷的承諾不放） Living in shadows with all my patience spent （在陰影中苟活，耗盡了所有的耐心。） 【Chorus （中英交替）】 When you expect nothing from anyone you are truly free （當你不對任何人抱有任何期望時，你就真正自由了） 切斷所有無謂的牽絆，把呼吸還給自己。 No more waiting by the phone, no more silent pleas （不再守著手機等待，不再有卑微的默求。） 風吹過空蕩的房間  我終於學會了呼吸 當你放下依賴  世界才向你敞開 不需要掌聲  我也能盛開得無可替代 Unbound and fearless  I am finally me （無拘無束、無所畏懼，我終於做回了我自己。） 【Verse 2 （中文）】 原來不再追問「為什麼」 也不再期待任何人的轉身 熱情若給錯了地方  只會被當成廉價的誠懇 收回那些善解人意的隱忍  關上那扇隨時為人敞開的門 也把學會把重心放回掌心  重新愛上自己的靈魂 冷漠不是我的武裝  而是我看透之後的平靜 不在別人的故事裡討要答案 才能寫好自己的劇情 【Rap（英文 ）】 Yeah, check the mirror  see the scars that healed （看著鏡子，看著那些已經癒合的傷疤） Used to chase the illusions now I keep it real （過去盲目追逐幻象，現在我腳踏實地。） Looking for validation in somebody else's eyes （總在別人的眼神裡尋求認同與價值） Feeding on their empty promises and disguised lies （靠著那些空洞的承諾與偽裝的謊言度日。） Cut the strings  watch the puppet drop （剪斷提線，看著那個傀儡瞬間墜落。） All this emotional debt finally gotta stop （所有積累的情緒債務，終於該徹底結清。） Zero expectations that’s my iron shield （零度期待，這就是我堅不可摧的盾牌。） Walking through the fire till my strength is revealed （穿過烈火考驗，直到我的力量徹底覺醒。） I don't need your favor don't need your advice （我不需要你的恩惠，也不需要你的指手畫腳。） Paid the ultimate toll  yeah I paid the price （我已經付出了最昂貴的代價。） Now I stand tall nobody pulls my thread （如今我昂首挺立，再也沒有人能左右我的思緒。） Living my own life with nothing left unsaid （過我自己的生活，內心坦蕩、毫無遺憾！） 【Chorus （中英交替）】 When you expect nothing from anyone you are truly free （當你不對任何人抱有任何期望時，你就真正自由了。） 切斷所有無謂的牽絆   把呼吸還給自己 No more waiting by the phone no more silent pleas （不再守著手機等待，不再有卑微的默求） 風吹過空蕩的房間  我終於學會了呼吸 當你放下依賴  世界才向你敞開 不需要掌聲  我也能盛開得無可替代 Unbound and fearless I am finally me （無拘無束、無所畏懼，我終於做回了我自己。） 【Outro 】 不求誰懂  不期誰來 不期心無所求 無拘無礙 走過長夜 微風吹過髮梢 我終於   自由了 誰かが私の魂を救ってくれるのを待つのは もううんざりだ （我已經受夠了等待某人來拯救我的靈魂。） 負け戦のような  痛みを伴うこの役を演じ続けるのにも もう疲れた （我已經累了，不想再繼續扮演這個伴隨著痛苦、宛如敗局已定的角色了。） 彼らが本心から言ったわけでもない言葉に 私は必死にしがみついていた （我拼命抓住那些並非他們真心所言的話語。） 負け戦のような  痛みを伴うこの役を演じ続けるのにも もう疲れた （我已經累了，不想再繼續扮演這個伴隨著痛苦、宛如敗局已定的角色了。） 彼らが本心から言ったわけでもない言葉に 私は必死にしがみついていた （我拼命抓住那些並非他們真心所言的話語。） 忍耐のすべてを使い果たし  影の中で生きている （耗盡了所有的忍耐，活在陰影之中。） 
+【Verse 1 （中文）】 街燈熄滅  只剩下倒影在長街徘徊 曾以為只要付出一切 就能換來對等的依賴 等一條訊息等到天色泛白  等一句肯定等到自我瓦解 每一次無條件的體貼  最後都變成刺向胸口的底牌 我們總是習慣把希望寄託在別人身上 像在暴風雨的夜裡  祈求一盞借來的微光 直到心碎成了常態 淚水流乾了模樣 我才在鏡子裡看清  那個早該被拯救的自己
+【Pre-Chorus 1 （英文 ）】 Tired of waiting for someone to save my soul （厭倦了等待別人來拯救我的靈魂）
+Tired of playing this losing, painful role （厭倦了扮演這個注定失敗又痛苦的角色。）
+I held on too tight to words they never meant （我曾緊抓著那些言不由衷的承諾不放）
+Living in shadows with all my patience spent （在陰影中苟活，耗盡了所有的耐心。）
+【Chorus （中英交替）】 When you expect nothing from anyone you are truly free （當你不對任何人抱有任何期望時，你就真正自由了）
+切斷所有無謂的牽絆，把呼吸還給自己。
+No more waiting by the phone, no more silent pleas （不再守著手機等待，不再有卑微的默求。）
+風吹過空蕩的房間  我終於學會了呼吸 當你放下依賴  世界才向你敞開 不需要掌聲  我也能盛開得無可替代
+Unbound and fearless  I am finally me （無拘無束、無所畏懼，我終於做回了我自己。）
+【Verse 2 （中文）】 原來不再追問「為什麼」 也不再期待任何人的轉身 熱情若給錯了地方  只會被當成廉價的誠懇 收回那些善解人意的隱忍  關上那扇隨時為人敞開的門 也把學會把重心放回掌心  重新愛上自己的靈魂 冷漠不是我的武裝  而是我看透之後的平靜 不在別人的故事裡討要答案 才能寫好自己的劇情
+【Rap（英文 ）】 Yeah, check the mirror  see the scars that healed （看著鏡子，看著那些已經癒合的傷疤）
+Used to chase the illusions now I keep it real （過去盲目追逐幻象，現在我腳踏實地。）
+Looking for validation in somebody else's eyes （總在別人的眼神裡尋求認同與價值）
+Feeding on their empty promises and disguised lies （靠著那些空洞的承諾與偽裝的謊言度日。）
+Cut the strings  watch the puppet drop （剪斷提線，看著那個傀儡瞬間墜落。）
+All this emotional debt finally gotta stop （所有積累的情緒債務，終於該徹底結清。）
+Zero expectations that’s my iron shield （零度期待，這就是我堅不可摧的盾牌。）
+Walking through the fire till my strength is revealed （穿過烈火考驗，直到我的力量徹底覺醒。）
+I don't need your favor don't need your advice （我不需要你的恩惠，也不需要你的指手畫腳。）
+Paid the ultimate toll  yeah I paid the price （我已經付出了最昂貴的代價。）
+Now I stand tall nobody pulls my thread （如今我昂首挺立，再也沒有人能左右我的思緒。）
+Living my own life with nothing left unsaid （過我自己的生活，內心坦蕩、毫無遺憾！）
+【Chorus （中英交替）】 When you expect nothing from anyone you are truly free （當你不對任何人抱有任何期望時，你就真正自由了。）
+切斷所有無謂的牽絆   把呼吸還給自己
+No more waiting by the phone no more silent pleas （不再守著手機等待，不再有卑微的默求）
+風吹過空蕩的房間  我終於學會了呼吸 當你放下依賴  世界才向你敞開 不需要掌聲  我也能盛開得無可替代
+Unbound and fearless I am finally me （無拘無束、無所畏懼，我終於做回了我自己。）
+【Outro 】
+不求誰懂  不期誰來 不期心無所求 無拘無礙 走過長夜 微風吹過髮梢 我終於   自由了
+誰かが私の魂を救ってくれるのを待つのは もううんざりだ （我已經受夠了等待某人來拯救我的靈魂。）
+負け戦のような  痛みを伴うこの役を演じ続けるのにも もう疲れた （我已經累了，不想再繼續扮演這個伴隨著痛苦、宛如敗局已定的角色了。）
+彼らが本心から言ったわけでもない言葉に 私は必死にしがみついていた （我拼命抓住那些並非他們真心所言的話語。）
+負け戦のような  痛みを伴うこの役を演じ続けるのにも もう疲れた （我已經累了，不想再繼續扮演這個伴隨著痛苦、宛如敗局已定的角色了。）
+彼らが本心から言ったわけでもない言葉に 私は必死にしがみついていた （我拼命抓住那些並非他們真心所言的話語。）
+忍耐のすべてを使い果たし  影の中で生きている （耗盡了所有的忍耐，活在陰影之中。）
+留言（ 31 ） 最相關留言 所有留言
+留言（ 31 ）",2026-10-20,,AI 生成 Experimental,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,36,冷月梅,《蝶蠱》,2,8,0,https://streetvoice.com/LunarMei/songs/885372/,https://streetvoice.com/LunarMei/,"https://akstatic.streetvoice.com/song_covers/Lu/na/LunarMei/adCjidG8a7TezZ85PXF7YB.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885372.jpeg,@LunarMei,音樂人,,,,8,,,,,https://www.youtube.com/user/StreetVoiceTV,,,Blues,冷月梅・銀鈴祕境,https://streetvoice.com/LunarMei/songs/album/97326296/,,,"動態歌詞
+咿——呀—— 咿——呀—— 一蝶入夢 百念無聲 霧鎖青山，銀鈴輕震 蝶落眉心，不見來人 指繞紅絲，月隱三更 一念未斷，蠱夢已生 鈴起，蝶醒 花落，夢生 一念成蠱 一念成塵 蝶入骨，夢入魂 銀鈴三響，夜無痕 紅絲繞，月影沉 一眼成劫，一念封門 蝶不語，蠱無聲 花開彼岸，夢不成 一聲喚，千重門 誰在夢裡，喚我真名 蝶翼微顫，燭影浮沉 半盞殘香，照見舊痕 蠱藏花心，夢鎖重門 回首不見，來時之人 一聲鈴…… 一隻蝶…… 誰種的蠱？ 誰困的魂？ 咿——呀—— 咿——呀—— 蝶入骨，夢入魂 銀鈴三響，夜無痕 紅絲繞，月影沉 一眼成劫，一念封門 蝶不語，蠱無聲 花開彼岸，夢不成 夢醒時，月已沉 原來困住我的，是我自身 咿——呀—— 咿——呀—— 蝶歸山…… 夢歸塵…… 蝶歸山…… 夢歸塵…… 叮—— 
+咿——呀—— 咿——呀—— 一蝶入夢 百念無聲 霧鎖青山，銀鈴輕震 蝶落眉心，不見來人 指繞紅絲，月隱三更 一念未斷，蠱夢已生 鈴起，蝶醒 花落，夢生 一念成蠱 一念成塵 蝶入骨，夢入魂 銀鈴三響，夜無痕 紅絲繞，月影沉 一眼成劫，一念封門 蝶不語，蠱無聲 花開彼岸，夢不成 一聲喚，千重門 誰在夢裡，喚我真名 蝶翼微顫，燭影浮沉 半盞殘香，照見舊痕 蠱藏花心，夢鎖重門 回首不見，來時之人 一聲鈴…… 一隻蝶…… 誰種的蠱？ 誰困的魂？ 咿——呀—— 咿——呀—— 蝶入骨，夢入魂 銀鈴三響，夜無痕 紅絲繞，月影沉 一眼成劫，一念封門 蝶不語，蠱無聲 花開彼岸，夢不成 夢醒時，月已沉 原來困住我的，是我自身 咿——呀—— 咿——呀—— 蝶歸山…… 夢歸塵…… 蝶歸山…… 夢歸塵…… 叮——
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 Blues ・ 冷月梅・銀鈴祕境,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,37,橋體（Pontic),大悲咒改,3,3,0,https://streetvoice.com/meng_chaio_hiesh/songs/885275/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/mKe7A38n7GVuWrnrtg23Wh.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885275.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Religion,,,,,"《大悲咒改》 [Chant] Namo ratna-trayāya Nama ārya-jñāna-sāgara Vairocana-vyūha-rājāya Tathāgatāya Arhate Samyak-saṃbuddhāya [Verse] 一滴清露　輕落眉間 雲過半山　月照無眠 借問流水　流向哪邊 聲聲回響　越過千山 [Chant] Namaḥ sarva-tathāgatebhyaḥ Arhatebhyaḥ Samyak-saṃbuddhebhyaḥ Nama āryāvalokiteśvarāya Bodhisattvāya Mahāsattvāya Mahākāruṇikāya [Verse] 掌心微涼　映著青天 一場舊夢　停在眼前 等到風輕　蓮花初綻 回頭不見　來時炊煙 [Chant] Tadyathā Oṃ Dhara dhara Dhiri dhiri Dhuru dhuru Iṭṭe viṭṭe Cale cale Pracale pracale Kusume Kusuma-vare Ili mili Citi jvalam Apanāya Svāhā [Instrumental Break] [Refrain] 一滴清露　輕落眉間 雲過半山　月照無眠 借問流水　流向哪邊 聲聲回響　越過千山 掌心微涼　映著青天 一場舊夢　停在眼前 等到風輕　蓮花初綻 回頭不見　來時炊煙 [Closing Chant] Tadyathā Oṃ Dhara dhara Dhiri dhiri Dhuru dhuru Iṭṭe viṭṭe Cale cale Pracale pracale Kusume Kusuma-vare Ili mili Citi jvalam Apanāya Svāhā [Instrumental Outro] 
+《大悲咒改》
+[Chant]
+Namo ratna-trayāya Nama ārya-jñāna-sāgara Vairocana-vyūha-rājāya Tathāgatāya Arhate Samyak-saṃbuddhāya
+[Verse]
+一滴清露　輕落眉間 雲過半山　月照無眠 借問流水　流向哪邊 聲聲回響　越過千山
+[Chant]
+Namaḥ sarva-tathāgatebhyaḥ Arhatebhyaḥ Samyak-saṃbuddhebhyaḥ
+Nama āryāvalokiteśvarāya Bodhisattvāya Mahāsattvāya Mahākāruṇikāya
+[Verse]
+掌心微涼　映著青天 一場舊夢　停在眼前 等到風輕　蓮花初綻 回頭不見　來時炊煙
+[Chant]
+Tadyathā Oṃ
+Dhara dhara Dhiri dhiri Dhuru dhuru
+Iṭṭe viṭṭe Cale cale Pracale pracale
+Kusume Kusuma-vare
+Ili mili Citi jvalam Apanāya Svāhā
+[Instrumental Break]
+[Refrain]
+一滴清露　輕落眉間 雲過半山　月照無眠 借問流水　流向哪邊 聲聲回響　越過千山
+掌心微涼　映著青天 一場舊夢　停在眼前 等到風輕　蓮花初綻 回頭不見　來時炊煙
+[Closing Chant]
+Tadyathā Oṃ
+Dhara dhara Dhiri dhiri Dhuru dhuru
+Iṭṭe viṭṭe Cale cale Pracale pracale
+Kusume Kusuma-vare
+Ili mili Citi jvalam Apanāya Svāhā
+[Instrumental Outro]
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 Religion,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,38,冷月梅,《霧鈴祕語》,1,8,0,https://streetvoice.com/LunarMei/songs/885331/,https://streetvoice.com/LunarMei/,"https://akstatic.streetvoice.com/song_covers/Lu/na/LunarMei/WYbMxQDzaqsphPDY6MjLCf.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885331.jpeg,@LunarMei,音樂人,,,,8,,,,,https://www.youtube.com/user/StreetVoiceTV,,,Blues,冷月梅・銀鈴祕境,https://streetvoice.com/LunarMei/songs/album/97326296/,,"序章・霧中銀鈴初響 
+序章・霧中銀鈴初響","動態歌詞
+幽幽山嵐，月照古林 銀鈴輕響，萬籟無聲 一念為引，一咒通靈 天地玄門，聽我號令 青山藏霧，古寨藏燈 風過銀鈴，喚醒前塵 指尖點硃砂，眉心映星辰 一聲輕吟，踏入陰陽門 五行錯走，一力扶正 硃砂為引，萬魂聽令 開天門，破邪鎮 渡千魂，魂歸天地 啊——咿呀—— 啊——咿呀—— 銀鈴迴盪，山谷回聲 長夜未央，星火如塵 一紙靈符，照見乾坤 風起千山，鼓動萬靈 守得人間，一盞長明 五行錯走，一力扶正 硃砂為引，萬魂聽令 開天門！破邪鎮！ 渡千魂！魂歸天地！ 天地為證，萬象歸真 銀鈴聲歇，山月無痕 魂歸天地…… 魂歸天地…… 
+幽幽山嵐，月照古林 銀鈴輕響，萬籟無聲 一念為引，一咒通靈 天地玄門，聽我號令
+青山藏霧，古寨藏燈 風過銀鈴，喚醒前塵 指尖點硃砂，眉心映星辰 一聲輕吟，踏入陰陽門
+五行錯走，一力扶正 硃砂為引，萬魂聽令 開天門，破邪鎮 渡千魂，魂歸天地
+啊——咿呀—— 啊——咿呀—— 銀鈴迴盪，山谷回聲
+長夜未央，星火如塵 一紙靈符，照見乾坤 風起千山，鼓動萬靈 守得人間，一盞長明
+五行錯走，一力扶正 硃砂為引，萬魂聽令 開天門！破邪鎮！ 渡千魂！魂歸天地！
+天地為證，萬象歸真 銀鈴聲歇，山月無痕 魂歸天地…… 魂歸天地……
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 Blues ・ 冷月梅・銀鈴祕境,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,39,波武林 Dorian🔅,🕉️大悲咒 頌歌 (梵文女聲版)🪷,8,26,3,https://streetvoice.com/ees0977199609/songs/885125/,https://streetvoice.com/ees0977199609/,"https://akstatic.streetvoice.com/song_covers/ee/s0/ees0977199609/537UuHfZFgCiAmtCz35fqK.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885125.jpeg,@ees0977199609,音樂人,桃園市,2026-06-01,,101,24,37,,,https://www.youtube.com/user/StreetVoiceTV,,,Religion,🪷空靈禪音 × 頌缽療癒 × 禪意經咒🎶,https://streetvoice.com/ees0977199609/songs/album/97326259/,,"以慈悲為念，讓心靈在梵音中找到寧靜與光明 🔆 🌿 當世界的聲音漸漸遠去，讓我們跟隨悠揚的梵音，走進一片清淨、祥和的心靈淨土🌄 這是一首融合佛教梵唱、空靈氛圍音樂與世界音樂元素的身心靈療癒作品。以《大悲咒》的慈悲精神為創作核心，透過溫暖而清澈的女聲吟唱、莊嚴悠遠的鐘聲，以及層層交織的空靈樂音，營造出寧靜、深邃與充滿靈性的聆聽體驗🎐 【空靈梵唱・慈悲迴響】 歌曲以柔和、明亮且富有穿透力的女聲揭開序幕，彷彿從遠方的靜謐山谷傳來一聲聲虔誠的祈願。隨著旋律緩緩流動，梵文咒語在悠長的氣息與細膩的轉音之間迴盪，搭配適時加入的柔和女聲合唱，讓整體氛圍逐漸由幽靜走向莊嚴，再回歸溫柔與平和🌅 【東方禪意・世界音樂交融】 頌缽的深沉共鳴如同心湖泛起的漣漪，引磬帶來清脆悠遠的聲響，二胡與長笛則以細膩婉轉的旋律彼此呼應，勾勒出如晨霧繚繞、雲海翻湧般的東方意境。🌄 【靜心冥想・找回內在平衡】🧘 無論是在清晨靜坐、夜晚冥想、閱讀、瑜伽、放鬆休息，或是在忙碌的一天之後，想為自己留下一段安靜的時光，都可以戴上耳機，讓這首梵文頌歌陪伴你慢慢沉澱思緒🛐 當「ॐ」的悠遠吟唱再次響起，願每一次聆聽，都成為一次回歸內心的旅程；願慈悲化為力量，願平靜伴隨呼吸，願我們在紛擾的世界裡，依然保有柔軟、善良與清明的心💖 🪔 願以此梵音，傳遞慈悲與祝福。 願一切眾生離苦得樂，願世界多一分理解與包容，願每一顆疲憊的心，都能找到安歇之處🌝 🪷 南無大悲觀世音菩薩。 ✨ 願慈悲常在，願光明常伴，願心安自在。 🎧 推薦聆聽情境： 佛教梵唱｜靜心冥想｜瑜伽放鬆｜睡前聆聽｜閱讀專注｜身心舒壓｜東方禪意音樂 🕉️讓梵音緩緩流轉，讓慈悲在心中綻放🌌 
+以慈悲為念，讓心靈在梵音中找到寧靜與光明 🔆
+🌿 當世界的聲音漸漸遠去，讓我們跟隨悠揚的梵音，走進一片清淨、祥和的心靈淨土🌄
+這是一首融合佛教梵唱、空靈氛圍音樂與世界音樂元素的身心靈療癒作品。以《大悲咒》的慈悲精神為創作核心，透過溫暖而清澈的女聲吟唱、莊嚴悠遠的鐘聲，以及層層交織的空靈樂音，營造出寧靜、深邃與充滿靈性的聆聽體驗🎐
+【空靈梵唱・慈悲迴響】
+歌曲以柔和、明亮且富有穿透力的女聲揭開序幕，彷彿從遠方的靜謐山谷傳來一聲聲虔誠的祈願。隨著旋律緩緩流動，梵文咒語在悠長的氣息與細膩的轉音之間迴盪，搭配適時加入的柔和女聲合唱，讓整體氛圍逐漸由幽靜走向莊嚴，再回歸溫柔與平和🌅
+【東方禪意・世界音樂交融】
+頌缽的深沉共鳴如同心湖泛起的漣漪，引磬帶來清脆悠遠的聲響，二胡與長笛則以細膩婉轉的旋律彼此呼應，勾勒出如晨霧繚繞、雲海翻湧般的東方意境。🌄
+【靜心冥想・找回內在平衡】🧘
+無論是在清晨靜坐、夜晚冥想、閱讀、瑜伽、放鬆休息，或是在忙碌的一天之後，想為自己留下一段安靜的時光，都可以戴上耳機，讓這首梵文頌歌陪伴你慢慢沉澱思緒🛐
+當「ॐ」的悠遠吟唱再次響起，願每一次聆聽，都成為一次回歸內心的旅程；願慈悲化為力量，願平靜伴隨呼吸，願我們在紛擾的世界裡，依然保有柔軟、善良與清明的心💖
+🪔 願以此梵音，傳遞慈悲與祝福。
+願一切眾生離苦得樂，願世界多一分理解與包容，願每一顆疲憊的心，都能找到安歇之處🌝
+🪷 南無大悲觀世音菩薩。 ✨ 願慈悲常在，願光明常伴，願心安自在。
+🎧 推薦聆聽情境： 佛教梵唱｜靜心冥想｜瑜伽放鬆｜睡前聆聽｜閱讀專注｜身心舒壓｜東方禪意音樂
+🕉️讓梵音緩緩流轉，讓慈悲在心中綻放🌌","大悲咒 觀世音菩薩的根本咒，功德廣大，能除一切病苦、滅除惡業、消災免難。 全稱《千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼》，是觀世音菩薩的根本陀羅尼，也是漢傳佛教最重要、最常被持誦的咒語之一 完整經咒搭配 羅馬拼音： 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 唎 耶 ná mó hē lài dá nà duō lài yà yě ná mó ō lì yě 婆 盧 羯 帝 爍 缽 囉 耶 菩 提 薩 埵 婆 耶 pó lú jié dì shuò bō là yě pú tí sà duǒ pó yē 摩 訶 薩 埵 婆 耶 摩 訶 迦 盧 尼 迦 耶 mó hē sà duǒ pó yē mó hē jiā lú ní jiā yē 唵 薩 皤 囉 罰 曳 數 怛 那 怛 寫 ān sà bó là fá yì shù dá nà dá xià 南 無 悉 吉 栗 埵 伊 蒙 阿 唎 耶 ná mó xī jí lì duǒ yī méng ō lì yē 婆 盧 吉 帝 室 佛 囉 楞 馱 婆 pó lú jiē dì shì fó là lèng tuó pó 南 無 那 囉 謹 墀 醯 唎 摩 訶 皤 哆 沙 咩 ná mó nà là jǐn chí xī lì mó hē bó duō shā miē 薩 婆 阿 他 豆 輸 朋 阿 逝 孕 薩 婆 薩 哆 sà pó ō tā dòu shū péng ō shì yùn sà pó sà duō 那 摩 婆 薩 哆 那 摩 婆 伽 摩 罰 特 豆 怛 姪 他 nà mó pó sà duō nà mó pó qiē mó fá tè dòu dàn zhí tā 唵 阿婆盧醯 盧迦帝 迦羅帝 夷醯唎 摩訶菩提薩埵 ān ā pó lú xī lú jiā dì jiā luó dì yí xī lì mó hē pú tí sà duǒ 薩 婆 薩 婆 摩 囉 摩 囉 摩 醯 摩 醯 唎 馱 孕 sà pó sà pó mó laì mó laì mó xī mó xī lì tuó yùn 俱 盧 俱 盧 羯 蒙 度盧度盧罰闍耶帝 摩 訶 罰 闍 耶 帝 jù lú jù lú jié méng dù lú dù lú fá shè yē dì mó hē fá shè yē dì 陀 囉 陀 囉 地 唎 尼 室 佛 囉 耶 遮 囉 遮 囉 tuó laì tuó laì dì lì ní shì fó laì yē zhē laì zhē laì 摩 麼 罰 摩 囉 穆 帝 隸 伊 醯 伊 醯 室 那 室 那 mó mó fá mó laì mù dì lì yī xī yī xī shì nà shì nà 阿 囉 嘇 佛 囉 舍 利 罰 沙 罰 嘇 佛 囉 舍 耶 ō laì sēng fó laì shě lì fá shā fá sēng fó laì shě yē 呼 嚧 呼 嚧 摩 囉 呼 嚧 呼 嚧 醯 利 娑 囉 娑 囉 hū lú hū lú mó laì hū lú hū lú xī lì suō laì suō laì 悉唎悉唎 蘇嚧蘇嚧 菩提夜菩提夜 菩馱夜菩馱夜 xī lì xī lì sū lú sū lú pú tí yè pú tí yè pú tuó yè pú tuó yè 彌 帝 唎 夜 那 囉 謹 墀 地 利 瑟 尼 那 mí dì lì yè nà laì jǐn chí dì lì sè ní nà 婆 夜 摩 那 娑 婆 訶 悉 陀 夜 娑 婆 訶 pó yè mó nà sà pó hē xī tuó yè sà pó hē 摩 訶 悉 陀 夜 娑 婆 訶 悉 陁 喻 藝 mó hē xī tuó yè sà pó hē xī tuó yù yì 室 皤 囉 耶 娑 婆 訶 那 囉 謹 墀 娑 婆 訶 shì bó là yē sà pó hē nà laì jǐn chí sà pó hē 摩 囉 那 囉 娑 婆 訶 悉 囉 僧 阿 穆 佉 耶 mó laì nà laì sà pó hē xī laì sēng ā mù qiē yē 娑 婆 訶 娑 婆 摩 訶 阿 悉 陁 夜 娑 婆 訶 sà pó hē sà pó mó hē ā xī tuó yè sà pó hē 者 吉 囉 阿 悉 陁 夜 娑 婆 訶 波 陀 摩 羯 悉 陁 夜 zhě jí laì ā xī tuó yè sà pó hē bō tuó mó jié xī tuó yè 娑婆訶 那 囉 謹 墀 皤 伽 囉 耶 娑 婆 訶 sà pó hē nà laì jǐn chí bó qiē laì yē sà pó hē 摩 婆 利 勝 羯 囉 夜 娑 婆 訶 mó pó lì shèng jié là yè sà pó hē 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 利 耶 ná mó hē laì dá nà duō laì yà yē ná mó ō lī yē 婆 嚧 吉 帝 爍 皤 囉 夜 娑 婆 訶 pó luó jié dì shuò bó laì yè sà pó hē 唵 悉 殿 都 漫 多 囉 跋 陁 耶 娑 婆 訶 ān xī diàn dū màn duō laì bá tuó yē sà pó hē 
+大悲咒 觀世音菩薩的根本咒，功德廣大，能除一切病苦、滅除惡業、消災免難。
+全稱《千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼》，是觀世音菩薩的根本陀羅尼，也是漢傳佛教最重要、最常被持誦的咒語之一
+完整經咒搭配 羅馬拼音：
+南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 唎 耶 ná mó hē lài dá nà duō lài yà yě ná mó ō lì yě 婆 盧 羯 帝 爍 缽 囉 耶 菩 提 薩 埵 婆 耶 pó lú jié dì shuò bō là yě pú tí sà duǒ pó yē 摩 訶 薩 埵 婆 耶 摩 訶 迦 盧 尼 迦 耶 mó hē sà duǒ pó yē mó hē jiā lú ní jiā yē 唵 薩 皤 囉 罰 曳 數 怛 那 怛 寫 ān sà bó là fá yì shù dá nà dá xià 南 無 悉 吉 栗 埵 伊 蒙 阿 唎 耶 ná mó xī jí lì duǒ yī méng ō lì yē 婆 盧 吉 帝 室 佛 囉 楞 馱 婆 pó lú jiē dì shì fó là lèng tuó pó 南 無 那 囉 謹 墀 醯 唎 摩 訶 皤 哆 沙 咩 ná mó nà là jǐn chí xī lì mó hē bó duō shā miē 薩 婆 阿 他 豆 輸 朋 阿 逝 孕 薩 婆 薩 哆 sà pó ō tā dòu shū péng ō shì yùn sà pó sà duō 那 摩 婆 薩 哆 那 摩 婆 伽 摩 罰 特 豆 怛 姪 他 nà mó pó sà duō nà mó pó qiē mó fá tè dòu dàn zhí tā 唵 阿婆盧醯 盧迦帝 迦羅帝 夷醯唎 摩訶菩提薩埵 ān ā pó lú xī lú jiā dì jiā luó dì yí xī lì mó hē pú tí sà duǒ 薩 婆 薩 婆 摩 囉 摩 囉 摩 醯 摩 醯 唎 馱 孕 sà pó sà pó mó laì mó laì mó xī mó xī lì tuó yùn 俱 盧 俱 盧 羯 蒙 度盧度盧罰闍耶帝 摩 訶 罰 闍 耶 帝 jù lú jù lú jié méng dù lú dù lú fá shè yē dì mó hē fá shè yē dì 陀 囉 陀 囉 地 唎 尼 室 佛 囉 耶 遮 囉 遮 囉 tuó laì tuó laì dì lì ní shì fó laì yē zhē laì zhē laì 摩 麼 罰 摩 囉 穆 帝 隸 伊 醯 伊 醯 室 那 室 那 mó mó fá mó laì mù dì lì yī xī yī xī shì nà shì nà 阿 囉 嘇 佛 囉 舍 利 罰 沙 罰 嘇 佛 囉 舍 耶 ō laì sēng fó laì shě lì fá shā fá sēng fó laì shě yē 呼 嚧 呼 嚧 摩 囉 呼 嚧 呼 嚧 醯 利 娑 囉 娑 囉 hū lú hū lú mó laì hū lú hū lú xī lì suō laì suō laì 悉唎悉唎 蘇嚧蘇嚧 菩提夜菩提夜 菩馱夜菩馱夜 xī lì xī lì sū lú sū lú pú tí yè pú tí yè pú tuó yè pú tuó yè 彌 帝 唎 夜 那 囉 謹 墀 地 利 瑟 尼 那 mí dì lì yè nà laì jǐn chí dì lì sè ní nà 婆 夜 摩 那 娑 婆 訶 悉 陀 夜 娑 婆 訶 pó yè mó nà sà pó hē xī tuó yè sà pó hē 摩 訶 悉 陀 夜 娑 婆 訶 悉 陁 喻 藝 mó hē xī tuó yè sà pó hē xī tuó yù yì 室 皤 囉 耶 娑 婆 訶 那 囉 謹 墀 娑 婆 訶 shì bó là yē sà pó hē nà laì jǐn chí sà pó hē 摩 囉 那 囉 娑 婆 訶 悉 囉 僧 阿 穆 佉 耶 mó laì nà laì sà pó hē xī laì sēng ā mù qiē yē 娑 婆 訶 娑 婆 摩 訶 阿 悉 陁 夜 娑 婆 訶 sà pó hē sà pó mó hē ā xī tuó yè sà pó hē 者 吉 囉 阿 悉 陁 夜 娑 婆 訶 波 陀 摩 羯 悉 陁 夜 zhě jí laì ā xī tuó yè sà pó hē bō tuó mó jié xī tuó yè 娑婆訶 那 囉 謹 墀 皤 伽 囉 耶 娑 婆 訶 sà pó hē nà laì jǐn chí bó qiē laì yē sà pó hē 摩 婆 利 勝 羯 囉 夜 娑 婆 訶 mó pó lì shèng jié là yè sà pó hē 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 利 耶 ná mó hē laì dá nà duō laì yà yē ná mó ō lī yē 婆 嚧 吉 帝 爍 皤 囉 夜 娑 婆 訶 pó luó jié dì shuò bó laì yè sà pó hē 唵 悉 殿 都 漫 多 囉 跋 陁 耶 娑 婆 訶 ān xī diàn dū màn duō laì bá tuó yē sà pó hē
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-10-21,,AI 生成 Religion ・ 🪷空靈禪音 × 頌缽療癒 × 禪意經咒🎶,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,40,MoonX 慕斯,繼續打牌~《聽牌》粵語版 |  Waiting to Win,11,18,3,https://streetvoice.com/MoonX_0325/songs/885149/,https://streetvoice.com/MoonX_0325/,"https://akstatic.streetvoice.com/song_covers/Mo/on/MoonX_0325/YRcuauUpnfrCqnDm7vNANA.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885149.jpeg,@MoonX_0325,音樂人,高雄市,2026-07-01,,9,12,44,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,"# 《聽牌》粵語版｜MoonX 慕斯 一張牌，可以改變一局的結果；一次等待，也可能迎來意想不到的驚喜。 《聽牌》粵語版以麻將桌上的緊張與期待為靈感，透過廣東話的節奏與語感，重新演繹牌局中的喜怒哀樂。 從等待關鍵的一張牌，到期待最後一刻的翻盤，每一個瞬間都像人生的縮影。有時候，運氣還沒到；有時候，只差一步，就能迎來屬於自己的精彩。 牌桌上講究眼光、耐性與膽識，人生亦然。不到最後一刻，誰也不知道下一張牌會帶來什麼驚喜。 這一次，讓我們用粵語唱出牌局的刺激與人生的滋味。 🎵 音樂創作｜MoonX 慕斯 每一首歌，都是一段值得珍藏的故事。 
+# 《聽牌》粵語版｜MoonX 慕斯
+一張牌，可以改變一局的結果；一次等待，也可能迎來意想不到的驚喜。
+《聽牌》粵語版以麻將桌上的緊張與期待為靈感，透過廣東話的節奏與語感，重新演繹牌局中的喜怒哀樂。
+從等待關鍵的一張牌，到期待最後一刻的翻盤，每一個瞬間都像人生的縮影。有時候，運氣還沒到；有時候，只差一步，就能迎來屬於自己的精彩。
+牌桌上講究眼光、耐性與膽識，人生亦然。不到最後一刻，誰也不知道下一張牌會帶來什麼驚喜。
+這一次，讓我們用粵語唱出牌局的刺激與人生的滋味。
+🎵 音樂創作｜MoonX 慕斯
+每一首歌，都是一段值得珍藏的故事。","動態歌詞
+聽牌 落子之前先睇清楚 枱面風聲細 眼神已經交鋒 手心藏住牌 唔需要大聲講 一步一步計 唔畀情緒帶住走 你以為我等 其實我揀緊出口 指尖停一停 心跳冇亂過 局勢轉幾轉 我仍然認得我 聽牌 差一步就到我開口 聽牌 等風嚟都唔會退後 手上有幾張 心入面有把握 摸到嗰張牌 我就自己掌舵 唔靠運氣講故事 靠眼界落筆 每次捨與留 都係我嘅軌跡 你哋急住追 我慢慢守住節奏 牌未揭開前 邊個都未到最後 聽牌 差一步就到我開口 聽牌 等風嚟都唔會退後 手上有幾張 心入面有把握 摸到嗰張牌 我就自己掌舵 聽牌 唔係等人發落 我揀我嘅路 自己打到最後 
+聽牌 落子之前先睇清楚 枱面風聲細 眼神已經交鋒 手心藏住牌 唔需要大聲講 一步一步計 唔畀情緒帶住走 你以為我等 其實我揀緊出口 指尖停一停 心跳冇亂過 局勢轉幾轉 我仍然認得我 聽牌 差一步就到我開口 聽牌 等風嚟都唔會退後 手上有幾張 心入面有把握 摸到嗰張牌 我就自己掌舵 唔靠運氣講故事 靠眼界落筆 每次捨與留 都係我嘅軌跡 你哋急住追 我慢慢守住節奏 牌未揭開前 邊個都未到最後 聽牌 差一步就到我開口 聽牌 等風嚟都唔會退後 手上有幾張 心入面有把握 摸到嗰張牌 我就自己掌舵 聽牌 唔係等人發落 我揀我嘅路 自己打到最後
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-10-21,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,41,橋體（Pontic),Momotarō,1,1,1,https://streetvoice.com/meng_chaio_hiesh/songs/885483/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/BYhH5XkMsvHNkWxzgftJKK.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885483.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,,"[Hook — Percussive Chant] 桃がパカッ！飛び出した！ 誰だ？誰だ？俺だ！ ももたろう　そこを開けな！ 鬼ヶ島まで乗り込もう！ 桃がパカッ！飛び出した！ まだまだ腹が減った！ 団子ほおばれ　帯締めろ 犬、猿、キジ！さあ行くぞ！ [Verse 1 — Rapid Rap] 川から流れた　でっかい桃 ばあちゃん両手で抱えて帰ろう 包丁ちょっと待った！待った！ 生まれる前から大声出した じいちゃんびっくり　湯呑みが落下 ばあちゃん聞くのは「お腹すいた？」 生まれたばっかでおかわり三杯 しゃもじを掲げて「もう一杯！」 鉢巻き真っ白　目つきはぎらり ちっちゃな身体にでっかい肝っ玉 師匠は誰かって？聞くだけ無駄さ 竹の棒振りゃ　障子が穴だらけ 犬が一匹「それ、ちょうだい」 食べたら一緒に来てもらいたい 猿なら木の上　キジなら空 ひとつずつだぞ　ほら出かけようか！ [Pre-Chorus — Building] 山の向こうで　火が揺れる 海の向こうで　鬼が笑う 笑ってられるのも今のうち 船が傾く！おい、揺らすな！ [Chorus — Melodic] ももたろう　ももたろう 月が小舟を照らしてる 波を越えて　夜を抜けて まだ見ぬ島へ　声を飛ばせ ももたろう　ももたろう 風に負けずに歌おうか 帰り道なら覚えてる 家の灯りが待っている [Verse 2 — Rapid Rap] 赤鬼　青鬼　歯並びガタガタ どいつもこいつも態度がでかいな 金棒引きずり　ガラガラガラ 姿を見るより音が先だな 「坊や、おうちはどちらかな？」 「それよりさっさと開けな、そのドア！」 後ろで三匹　団子の取り合い おい、ひとつ残せ！それ俺の分だ！ 犬なら足元　猿なら屋根 キジがひと声　合図をくれ 裾に食いつけ　机を返せ 酒もごちそうも宙を舞え！ 右から来たなら左へひらり 鬼の親分　自分に拳 数に任せて　恥ずかしくない？ 当たってないぞ　もう一回来い！ [Break — Spoken, Beat Stops] 「名を名乗れ！」 「も・も・た・ろう！ 聞こえてんだろ？」 [Dance Break — Chopped Vocals] 桃！パカッ！飛び出した！ いち、に！ほら、しゃがめ！ 犬がワン！猿がキャッ！ キジが飛んだら　頭下げろ！ [Bridge — Half-Time] 騒ぎがやんで　潮風ひんやり ポケットの中　つぶれた団子 ばあちゃんの手を思い出したら 食べるつもりが　またしまってた 犬が寄り添い　猿は居眠り キジは舳先で夜明けを見てる 帰ろうぜ　朝になる前に 今度は風が背中を押した [Final Chorus — Full Energy] ももたろう　ももたろう 月が小舟を照らしてる 波を越えて　夜を抜けて あの屋根までも　声を飛ばせ ももたろう　ももたろう 風に負けずに歌おうか 帰り道なら覚えてる ばあちゃん、開けて！帰ったぞ！ [Outro — Abrupt Ending] 桃がパカッ！飛び出した！ ももたろう！飯だぞ！ おかわり！もう一杯！ 鬼の話は　また明日！ 
+[Hook — Percussive Chant]
+桃がパカッ！飛び出した！ 誰だ？誰だ？俺だ！ ももたろう　そこを開けな！ 鬼ヶ島まで乗り込もう！
+桃がパカッ！飛び出した！ まだまだ腹が減った！ 団子ほおばれ　帯締めろ 犬、猿、キジ！さあ行くぞ！
+[Verse 1 — Rapid Rap]
+川から流れた　でっかい桃 ばあちゃん両手で抱えて帰ろう 包丁ちょっと待った！待った！ 生まれる前から大声出した
+じいちゃんびっくり　湯呑みが落下 ばあちゃん聞くのは「お腹すいた？」 生まれたばっかでおかわり三杯 しゃもじを掲げて「もう一杯！」
+鉢巻き真っ白　目つきはぎらり ちっちゃな身体にでっかい肝っ玉 師匠は誰かって？聞くだけ無駄さ 竹の棒振りゃ　障子が穴だらけ
+犬が一匹「それ、ちょうだい」 食べたら一緒に来てもらいたい 猿なら木の上　キジなら空 ひとつずつだぞ　ほら出かけようか！
+[Pre-Chorus — Building]
+山の向こうで　火が揺れる 海の向こうで　鬼が笑う 笑ってられるのも今のうち 船が傾く！おい、揺らすな！
+[Chorus — Melodic]
+ももたろう　ももたろう 月が小舟を照らしてる 波を越えて　夜を抜けて まだ見ぬ島へ　声を飛ばせ
+ももたろう　ももたろう 風に負けずに歌おうか 帰り道なら覚えてる 家の灯りが待っている
+[Verse 2 — Rapid Rap]
+赤鬼　青鬼　歯並びガタガタ どいつもこいつも態度がでかいな 金棒引きずり　ガラガラガラ 姿を見るより音が先だな
+「坊や、おうちはどちらかな？」 「それよりさっさと開けな、そのドア！」 後ろで三匹　団子の取り合い おい、ひとつ残せ！それ俺の分だ！
+犬なら足元　猿なら屋根 キジがひと声　合図をくれ 裾に食いつけ　机を返せ 酒もごちそうも宙を舞え！
+右から来たなら左へひらり 鬼の親分　自分に拳 数に任せて　恥ずかしくない？ 当たってないぞ　もう一回来い！
+[Break — Spoken, Beat Stops]
+「名を名乗れ！」
+「も・も・た・ろう！ 聞こえてんだろ？」
+[Dance Break — Chopped Vocals]
+桃！パカッ！飛び出した！ いち、に！ほら、しゃがめ！ 犬がワン！猿がキャッ！ キジが飛んだら　頭下げろ！
+[Bridge — Half-Time]
+騒ぎがやんで　潮風ひんやり ポケットの中　つぶれた団子 ばあちゃんの手を思い出したら 食べるつもりが　またしまってた
+犬が寄り添い　猿は居眠り キジは舳先で夜明けを見てる 帰ろうぜ　朝になる前に 今度は風が背中を押した
+[Final Chorus — Full Energy]
+ももたろう　ももたろう 月が小舟を照らしてる 波を越えて　夜を抜けて あの屋根までも　声を飛ばせ
+ももたろう　ももたろう 風に負けずに歌おうか 帰り道なら覚えてる ばあちゃん、開けて！帰ったぞ！
+[Outro — Abrupt Ending]
+桃がパカッ！飛び出した！ ももたろう！飯だぞ！ おかわり！もう一杯！ 鬼の話は　また明日！
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-23,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,42,橋體（Pontic),哩賀,3,3,0,https://streetvoice.com/meng_chaio_hiesh/songs/885279/,https://streetvoice.com/meng_chaio_hiesh/,"https://akstatic.streetvoice.com/song_covers/me/ng/meng_chaio_hiesh/WvTutA6QPffm2xYMujUkLU.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885279.jpeg,@meng_chaio_hiesh,音樂人,台中市,2022-02-01,,27,9,13,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,,"《哩賀》 [Hook — Low Male Voice / Gang Ad-libs] 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的 哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的 哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那 哩賀　哩賀 哩賀　哩賀 [Verse 1 — Dry, Loose Rap] 車停好　慢慢走 轉個彎就聽見低音很重 門口兄弟　笑著跟我碰拳 話還沒講完　眼神往裡面送 黑色上衣　洗到有點褪色 朋友伸手　幫我拉正領口 說有美女　一直往這邊看 我說在哪　他說你先別轉頭 我一回頭　妳就笑了 剛才那段　大概全被妳看透 我說我們是不是在哪見過 妳說這句　今晚第三個 [Refrain — Lead / Group Response] 哩賀（哩賀） 妳也有來喔（有喔） 哩賀（哩賀） 旁邊妳朋友喔（對喔） 哩賀　哩賀 這邊說一句 那邊應一句 妳靠過來講—— 我還是聽不清 哩賀　哩賀 [Drop — Chopped Vocals / Heavy Bass] 哩　哩賀 哩　哩賀 欸　欸 哩賀　哩賀 哩　哩賀 哩　哩賀 妳也有來喔 哩賀　哩賀 哩賀　哩賀 哩賀　哩賀 [Instrumental — 16 Bars] [Verse 2 — Low Male Rap / Gang Ad-libs] 朋友帶朋友　又多帶一個 剛坐下都說　今天沒想喝 音樂一下　位子空了一半 剩我跟妳　中間放著外套 妳說坐那麼遠　是在顧包喔 我把外套拿開　說這位有人坐 妳挑一下眉　問我人在哪 我拍旁邊兩下　妳說少來啦 妳問會不會跳　我說略懂 左邊兩下　右邊差不多 妳笑到拍我　說根本沒對拍 我說這叫鬆　不是每個人都懂 鍊子黏著汗　領口有點熱 妳把頭髮　撥到耳朵後 剛想開口　朋友又在揮手 整排比愛心　有夠歹勢喔 [Hook — Full Gang Vocals] 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的 哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的 哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那 哩賀　哩賀 哩賀　哩賀 [Breakdown — Male / Female Spoken, Minimal Bass] 欸　妳叫什麼 蛤？ 妳叫什麼 聽不到啦 靠近一點 ……這樣有聽到嗎？ [Build — Group Chants] 這邊　哩賀 那邊　哩賀 妳先別笑 換妳說一次 哩賀　哩賀 哩賀　哩賀 [Full Stop — Female Whisper] 哩——賀 [Final Drop — Chopped Gang Vocals] 哩　哩賀 哩　哩賀 欸　欸 哩賀　哩賀 哩　哩賀 哩　哩賀 有甲意喔（誰啦） 哩賀　哩賀 哩賀　哩賀 哩賀　哩賀 [Outro — Low Male Voice / Female Response] 手機借我一下 幹嘛？ 加一下啊 ……你還沒記住我名字喔？ [DJ Outro — 16 Bars, Drums Only] 
+《哩賀》
+[Hook — Low Male Voice / Gang Ad-libs] 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的
+哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那
+哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的
+哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那
+哩賀　哩賀 哩賀　哩賀
+[Verse 1 — Dry, Loose Rap] 車停好　慢慢走 轉個彎就聽見低音很重 門口兄弟　笑著跟我碰拳 話還沒講完　眼神往裡面送
+黑色上衣　洗到有點褪色 朋友伸手　幫我拉正領口 說有美女　一直往這邊看 我說在哪　他說你先別轉頭
+我一回頭　妳就笑了 剛才那段　大概全被妳看透 我說我們是不是在哪見過 妳說這句　今晚第三個
+[Refrain — Lead / Group Response] 哩賀（哩賀） 妳也有來喔（有喔） 哩賀（哩賀） 旁邊妳朋友喔（對喔）
+哩賀　哩賀 這邊說一句 那邊應一句 妳靠過來講—— 我還是聽不清 哩賀　哩賀
+[Drop — Chopped Vocals / Heavy Bass] 哩　哩賀 哩　哩賀 欸　欸 哩賀　哩賀
+哩　哩賀 哩　哩賀 妳也有來喔 哩賀　哩賀
+哩賀　哩賀 哩賀　哩賀
+[Instrumental — 16 Bars]
+[Verse 2 — Low Male Rap / Gang Ad-libs] 朋友帶朋友　又多帶一個 剛坐下都說　今天沒想喝 音樂一下　位子空了一半 剩我跟妳　中間放著外套
+妳說坐那麼遠　是在顧包喔 我把外套拿開　說這位有人坐 妳挑一下眉　問我人在哪 我拍旁邊兩下　妳說少來啦
+妳問會不會跳　我說略懂 左邊兩下　右邊差不多 妳笑到拍我　說根本沒對拍 我說這叫鬆　不是每個人都懂
+鍊子黏著汗　領口有點熱 妳把頭髮　撥到耳朵後 剛想開口　朋友又在揮手 整排比愛心　有夠歹勢喔
+[Hook — Full Gang Vocals] 哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的
+哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那
+哩賀　哩賀（欸） 妳也有來喔（有喔） 哩賀　哩賀 先別說　這首我的
+哩賀　哩賀（哩賀） 手舉起來　讓我看一下 那邊太暗　看不清楚 喔——原來妳在那
+哩賀　哩賀 哩賀　哩賀
+[Breakdown — Male / Female Spoken, Minimal Bass] 欸　妳叫什麼 蛤？
+妳叫什麼 聽不到啦
+靠近一點 ……這樣有聽到嗎？
+[Build — Group Chants] 這邊　哩賀 那邊　哩賀 妳先別笑 換妳說一次
+哩賀　哩賀 哩賀　哩賀
+[Full Stop — Female Whisper] 哩——賀
+[Final Drop — Chopped Gang Vocals] 哩　哩賀 哩　哩賀 欸　欸 哩賀　哩賀
+哩　哩賀 哩　哩賀 有甲意喔（誰啦） 哩賀　哩賀
+哩賀　哩賀 哩賀　哩賀
+[Outro — Low Male Voice / Female Response] 手機借我一下 幹嘛？
+加一下啊 ……你還沒記住我名字喔？
+[DJ Outro — 16 Bars, Drums Only]
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-22,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,43,Leoohya,《薔琵》風很大 大風吹,2,5,1,https://streetvoice.com/leoohya111/songs/885481/,https://streetvoice.com/leoohya111/,"https://akstatic.streetvoice.com/song_covers/le/oo/leoohya111/ckjtxXLtqgXouzeH3kocG6.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885481.jpeg,@leoohya111,音樂人,台中市,2025-11-01,,27,24,43,,,https://www.youtube.com/user/StreetVoiceTV,,,Hip hop / Rap,,,,"薔琵的風來 風很大 大風吹 把你吹得好遠 像斷了線的訊號   連告別都省掉 
+薔琵的風來 風很大 大風吹 把你吹得好遠 像斷了線的訊號   連告別都省掉","巷口超市　快打烊 你抱著水　我挑了兩包乾糧 還多買了糖　和明天的早餐 塑膠袋晃啊晃　我們笑得很平常 租來的房間　窗戶不太牢 你貼好膠帶　我把燈吊亮 我們分著一碗　煮太鹹的湯 像老夫妻一樣　任憑時間晃啊晃 窗外的樹　往同一邊倒 你說風再大　總會停的啊 我靠著你　聽雨落在屋簷 以為這種日子　會一直繼續 風很大　大風吹 把我們吹得好高 我找不到　找不到 你那一端的訊號 風很大　大風吹 把昨天吹得好遠 明明一起買過快樂 怎麼只剩我　提著兩人份的明天 那晚停了電　你用手機照我的臉 雷聲太大　我們靠近一點 誰都沒說愛　只說麵快涼了 以為這些小事　能陪我們到老 後來又一陣風　吹得街燈搖 我照常關了窗　你卻再沒回來 門沒有壞　燈也沒熄掉 只有你的名字　忽然失去訊號 超市的收據　還壓在桌角 背面有你寫著　明天要買的牙膏 明明走過　那麼平凡的美好 怎麼風一來　連告別都省掉 風很大　大風吹 把我們吹得好高 我找不到　找不到 你那一端的訊號 風很大　大風吹 把昨天吹得好遠 明明一起買過快樂 怎麼只剩我　提著兩人份的明天 如今我會　一個人把窗關上 把晚餐煮少一點 
+巷口超市　快打烊 你抱著水　我挑了兩包乾糧 還多買了糖　和明天的早餐 塑膠袋晃啊晃　我們笑得很平常
+租來的房間　窗戶不太牢 你貼好膠帶　我把燈吊亮 我們分著一碗　煮太鹹的湯 像老夫妻一樣　任憑時間晃啊晃
+窗外的樹　往同一邊倒 你說風再大　總會停的啊 我靠著你　聽雨落在屋簷 以為這種日子　會一直繼續
+風很大　大風吹 把我們吹得好高 我找不到　找不到 你那一端的訊號
+風很大　大風吹 把昨天吹得好遠 明明一起買過快樂 怎麼只剩我　提著兩人份的明天
+那晚停了電　你用手機照我的臉 雷聲太大　我們靠近一點 誰都沒說愛　只說麵快涼了 以為這些小事　能陪我們到老
+後來又一陣風　吹得街燈搖 我照常關了窗　你卻再沒回來 門沒有壞　燈也沒熄掉 只有你的名字　忽然失去訊號
+超市的收據　還壓在桌角 背面有你寫著　明天要買的牙膏 明明走過　那麼平凡的美好 怎麼風一來　連告別都省掉
+風很大　大風吹 把我們吹得好高 我找不到　找不到 你那一端的訊號
+風很大　大風吹 把昨天吹得好遠 明明一起買過快樂 怎麼只剩我　提著兩人份的明天
+如今我會　一個人把窗關上 把晚餐煮少一點
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-23,,AI 生成 Hip hop / Rap,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,44,邱奕陵,安靜的走開,14,163,21,https://streetvoice.com/54chiu10/songs/884868/,https://streetvoice.com/54chiu10/,"https://akstatic.streetvoice.com/song_covers/54/ch/54chiu10/hyekLSj6byqSDH2yBBFq8M.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/884868.jpeg,@54chiu10,音樂人,桃園市,2026-04-01,,47,20,29,,,https://www.youtube.com/user/StreetVoiceTV,,,R&B / Soul,,,,"有些人，你怎麼逗她笑，她的眼裡都還住著另一個人。 寫給那個一直當止痛藥的自己。 她是那種天生有點憂鬱的女生，很安靜，不太說話，笑起來很好看，但笑完三秒，眼神又會飄去窗外。 你知道她心裡還有一個人，但你還是想把便利店所有的燈都點亮，想讓她不那麼怕黑。 後來你才發現，她怕的不是黑，是沒有他的明天。 這首歌致敬了郭富城1991年的《我是不是該安靜的走開》，同一道提問，2026年的答案。 我把那個經典的問句，寫成了一個2026桃園夜晚的故事。 前面是中文的體貼，中間只有四句英文，是男生終於對自己說的真話。 如果我的離開，能讓妳的孤單少一點， 那就讓我，安靜的走開。 企劃／製作：邱奕陵 Chiu Yi-Ling 詞：Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 人聲：Suno v6.0 
+有些人，你怎麼逗她笑，她的眼裡都還住著另一個人。
+寫給那個一直當止痛藥的自己。
+她是那種天生有點憂鬱的女生，很安靜，不太說話，笑起來很好看，但笑完三秒，眼神又會飄去窗外。
+你知道她心裡還有一個人，但你還是想把便利店所有的燈都點亮，想讓她不那麼怕黑。
+後來你才發現，她怕的不是黑，是沒有他的明天。
+這首歌致敬了郭富城1991年的《我是不是該安靜的走開》，同一道提問，2026年的答案。
+我把那個經典的問句，寫成了一個2026桃園夜晚的故事。
+前面是中文的體貼，中間只有四句英文，是男生終於對自己說的真話。
+如果我的離開，能讓妳的孤單少一點，
+那就讓我，安靜的走開。
+企劃／製作：邱奕陵 Chiu Yi-Ling 詞：Muse(Meta AI) 曲風設定：Muse(Meta AI) 作曲／編曲：Suno v6.0 人聲：Suno v6.0","我把珍藏的冷笑話 都排在妳下班的晚上 便利店的燈太亮 照不出妳眼底的雨季 妳笑起來很好看 像被風吹開的窗 可笑完之後 妳又把自己關回去 妳說和我聊天很快樂 我信 只是快樂裡面有時差 妳的人坐在我對面 心還住在某個人的舊地址 我是不是該像那首老歌一樣 安靜的走開 還是該繼續留下來 當妳的止痛藥 看妳笑著想著他 我分不清是溫柔還是殘忍 如果我的離開 能讓妳的孤單少一點 那就讓我 安靜的走開 我學會聽妳說他 不打斷 不追問 不吃醋 妳說他已讀不回 妳說妳早就該習慣一個人 我把整條街的燈都點亮 想讓妳不怕黑 才發現妳怕的不是黑 是沒有他的明天 其實我早就知道 我趕不走那個影子 我只能把妳的眼淚 暫時翻譯成笑聲 我是不是該像那首老歌一樣 安靜的走開 還是該傻傻留下來 等妳哪天真的快樂起來 看妳笑著笑著又安靜 我才明白 快樂不是我給的 我不怪妳 妳只是太重感情 憂鬱是妳的一部分 不是我的功課 我能做的是 讓妳今晚不哭著睡著 不能做的是 替他說一句回來 I make you laugh for a moment But your heart still looks for him If letting go makes you less lonely Then I'll quietly walk away 所以我是不是該 安靜的走開 把最後一杯咖啡喝完就不打擾 妳需要的不是一個小丑 是那個回不來的人 而我終於學會成全也是一種溫柔 就讓我 安靜的走開 
+我把珍藏的冷笑話 都排在妳下班的晚上 便利店的燈太亮 照不出妳眼底的雨季 妳笑起來很好看 像被風吹開的窗 可笑完之後 妳又把自己關回去
+妳說和我聊天很快樂 我信 只是快樂裡面有時差 妳的人坐在我對面 心還住在某個人的舊地址
+我是不是該像那首老歌一樣 安靜的走開 還是該繼續留下來 當妳的止痛藥 看妳笑著想著他 我分不清是溫柔還是殘忍 如果我的離開 能讓妳的孤單少一點 那就讓我 安靜的走開
+我學會聽妳說他 不打斷 不追問 不吃醋 妳說他已讀不回 妳說妳早就該習慣一個人 我把整條街的燈都點亮 想讓妳不怕黑 才發現妳怕的不是黑 是沒有他的明天
+其實我早就知道 我趕不走那個影子 我只能把妳的眼淚 暫時翻譯成笑聲
+我是不是該像那首老歌一樣 安靜的走開 還是該傻傻留下來 等妳哪天真的快樂起來 看妳笑著笑著又安靜 我才明白 快樂不是我給的
+我不怪妳 妳只是太重感情 憂鬱是妳的一部分 不是我的功課 我能做的是 讓妳今晚不哭著睡著 不能做的是 替他說一句回來
+I make you laugh for a moment But your heart still looks for him If letting go makes you less lonely Then I'll quietly walk away
+所以我是不是該 安靜的走開 把最後一杯咖啡喝完就不打擾 妳需要的不是一個小丑 是那個回不來的人 而我終於學會成全也是一種溫柔 就讓我 安靜的走開
+留言（ 21 ） 最相關留言 所有留言
+留言（ 21 ）",2026-10-19,,AI 生成 R&B / Soul,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,45,Richie Tseng,🎶【等天色微亮】- 把沉重交給我，陪你走到盼望的那一頭,4,17,1,https://streetvoice.com/gby7639/songs/885122/,https://streetvoice.com/gby7639/,"https://akstatic.streetvoice.com/song_covers/gb/y7/gby7639/7jSUFE38qAMbhyjoYKui9F.jpg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885122.jpg,@gby7639,音樂人,,,,22,3,2,,,https://www.youtube.com/user/StreetVoiceTV,,,Folk,🌸禎韻樂境,https://streetvoice.com/gby7639/songs/album/97323710/,,"清晨五點多，天還沒亮。她坐在窗邊，把那封舊信對摺，再對摺，收進抽屜最裡面。✉️ 他站在廚房門口，看見她的手停了好一會兒，像是有些話還卡在心的某個角落，怎麼也說不出口。 那段日子，她走得很辛苦。🌧️ 出門時總說沒事，回來時鞋底沾著雨，肩膀一天比一天低。他沒有多問，只是每天傍晚讓街角那盞燈亮著，在桌上放一杯溫熱的茶。茶涼了，他就倒掉重泡。有時一個晚上泡了三次，她不知道，他也從來不提。 有一晚，她終於坐下，雙手捧著那杯茶，低著頭說：「我好像一直在跌倒。」☕ 聲音很輕，輕得像怕驚動什麼。他沒有說「會好的」，只是把椅子拉近一點：「累了就交給我，妳不用一個人扛。」她的眼淚掉進茶裡，一滴，又一滴。那是很久以來，她第一次不必假裝自己沒有受傷。 他後來才明白，她的沉默從來不是不需要人，而是不知道還有沒有人願意聽。💭 所以他不催，也不問，就只是陪她坐著。有時一句話也沒有，就這樣坐到深夜。他想讓她知道，每一段說不出口的安靜，都有人願意等。 不知道過了多少個這樣的夜晚。🌅 某天清晨，她抬起眼，看見他靠在椅背上睡著了，一隻手還搭在她的椅子扶手上。她忽然懂了，原來這一路的風和雨，從來不是她一個人在走。那雙手一直在身旁，陪她走過每一個低頭的時刻，等她的心重新找到往前的理由。 那天，天色一點一點亮起來，晨光落在門上，像明天輕輕來敲門。她推開門，慢慢向前走，他走在她身旁，沒有說話，只是跟上她的腳步。 後來，那些沒說出口的守候被交給了 AI，化成一首可以一再聽見的歌。✨ 
+清晨五點多，天還沒亮。她坐在窗邊，把那封舊信對摺，再對摺，收進抽屜最裡面。✉️ 他站在廚房門口，看見她的手停了好一會兒，像是有些話還卡在心的某個角落，怎麼也說不出口。
+那段日子，她走得很辛苦。🌧️ 出門時總說沒事，回來時鞋底沾著雨，肩膀一天比一天低。他沒有多問，只是每天傍晚讓街角那盞燈亮著，在桌上放一杯溫熱的茶。茶涼了，他就倒掉重泡。有時一個晚上泡了三次，她不知道，他也從來不提。
+有一晚，她終於坐下，雙手捧著那杯茶，低著頭說：「我好像一直在跌倒。」☕ 聲音很輕，輕得像怕驚動什麼。他沒有說「會好的」，只是把椅子拉近一點：「累了就交給我，妳不用一個人扛。」她的眼淚掉進茶裡，一滴，又一滴。那是很久以來，她第一次不必假裝自己沒有受傷。
+他後來才明白，她的沉默從來不是不需要人，而是不知道還有沒有人願意聽。💭 所以他不催，也不問，就只是陪她坐著。有時一句話也沒有，就這樣坐到深夜。他想讓她知道，每一段說不出口的安靜，都有人願意等。
+不知道過了多少個這樣的夜晚。🌅 某天清晨，她抬起眼，看見他靠在椅背上睡著了，一隻手還搭在她的椅子扶手上。她忽然懂了，原來這一路的風和雨，從來不是她一個人在走。那雙手一直在身旁，陪她走過每一個低頭的時刻，等她的心重新找到往前的理由。
+那天，天色一點一點亮起來，晨光落在門上，像明天輕輕來敲門。她推開門，慢慢向前走，他走在她身旁，沒有說話，只是跟上她的腳步。
+後來，那些沒說出口的守候被交給了 AI，化成一首可以一再聽見的歌。✨","[Intro] [Verse 1] 清晨的窗邊　你把舊信收好 未說出口的話　還停在心角 那些走過的路　有風也有雨 你仍一步一步　走向新的黎明 [Chorus] 把沉重交給我　別獨自承受 縱然前方的路　還有漫長等候 我會陪你走過　每一個低頭 直到你的心　重新找到理由 [Verse 2] 街角那盞燈　照著歸家的你 桌上溫熱的茶　有人為你留意 若曾經跌倒　就讓淚水洗去 明天仍會敲門　帶來新的勇氣 [Bridge] 你不必假裝　從來沒有傷口 每一段沉默　都有人願意聽候 當你抬起眼　看見身旁的手 愛會陪你走　走到盼望盡頭 [Chorus] 把沉重交給我　別獨自承受 縱然前方的路　還有漫長等候 我會陪你走過　每一個低頭 直到你的心　重新找到理由 [Outro] 天色漸漸明　你慢慢向前走 明天仍有盼望　我會陪在左右 
+[Intro]
+[Verse 1] 清晨的窗邊　你把舊信收好 未說出口的話　還停在心角 那些走過的路　有風也有雨 你仍一步一步　走向新的黎明
+[Chorus] 把沉重交給我　別獨自承受 縱然前方的路　還有漫長等候 我會陪你走過　每一個低頭 直到你的心　重新找到理由
+[Verse 2] 街角那盞燈　照著歸家的你 桌上溫熱的茶　有人為你留意 若曾經跌倒　就讓淚水洗去 明天仍會敲門　帶來新的勇氣
+[Bridge] 你不必假裝　從來沒有傷口 每一段沉默　都有人願意聽候 當你抬起眼　看見身旁的手 愛會陪你走　走到盼望盡頭
+[Chorus] 把沉重交給我　別獨自承受 縱然前方的路　還有漫長等候 我會陪你走過　每一個低頭 直到你的心　重新找到理由
+[Outro] 天色漸漸明　你慢慢向前走 明天仍有盼望　我會陪在左右
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-21,,AI 生成 Folk ・ 🌸禎韻樂境,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,46,song for whom(為誰唱歌),也當成愛過,7,12,1,https://streetvoice.com/ruby2100/songs/883762/,https://streetvoice.com/ruby2100/,"https://akstatic.streetvoice.com/song_covers/ru/by/ruby2100/fqUm98oHh6xmbdbgLWgXhu.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/883762.jpeg,@ruby2100,音樂人,台中市,2024-06-01,,37,7,4,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,,,,"「最痛的不是等不到回應，而是後來才懂，那些沉默從來不是愛的證明。」 《也當成愛過》是一首寫給單方面深情、卑微等待與清醒後心碎的情歌。 你說最近有點累， 她就學會不追問。 怕多說一句關心， 都會變成你的負擔。 訊息打了又刪， 眼淚忍了又乾， 所有不安最後都被藏成一句晚安。 其實她不是看不懂， 只是太怕承認， 這段愛早就只剩自己還醒著。 最喜歡的一句是： 「你的沉默，不是考驗，是結果。」 這句真的很痛， 也把整首歌最殘忍的真相說出來了。 很多時候， 人會替對方找理由， 說他只是太忙， 只是太累， 只是還沒準備好。 可到最後才發現， 忽冷忽熱不是答案， 沉默也不是深情， 那只是對方早就離開的方式。 《也當成愛過》寫的不是普通失戀， 而是一個人把不愛誤認成愛， 把冷淡當成考驗， 把一點點溫柔當成希望。 心疼吞過， 難過撐過， 執迷認過， 卑微也忍過。 明知道不值得， 卻還是一遍遍等過。 這首歌最虐的地方， 是它沒有大吵大鬧， 只有終於醒來後的崩塌。 原來一錯再錯， 不是誰逼自己難過， 而是自己把那份不愛， 也當成愛過。 後來才懂， 最疼的不是錯過， 是你沒有愛過， 我卻當成愛過。 — 希默琳 
+「最痛的不是等不到回應，而是後來才懂，那些沉默從來不是愛的證明。」
+《也當成愛過》是一首寫給單方面深情、卑微等待與清醒後心碎的情歌。
+你說最近有點累，
+她就學會不追問。
+怕多說一句關心，
+都會變成你的負擔。
+訊息打了又刪，
+眼淚忍了又乾，
+所有不安最後都被藏成一句晚安。
+其實她不是看不懂，
+只是太怕承認，
+這段愛早就只剩自己還醒著。
+最喜歡的一句是：
+「你的沉默，不是考驗，是結果。」
+這句真的很痛，
+也把整首歌最殘忍的真相說出來了。
+很多時候，
+人會替對方找理由，
+說他只是太忙，
+只是太累，
+只是還沒準備好。
+可到最後才發現，
+忽冷忽熱不是答案，
+沉默也不是深情，
+那只是對方早就離開的方式。
+《也當成愛過》寫的不是普通失戀，
+而是一個人把不愛誤認成愛，
+把冷淡當成考驗，
+把一點點溫柔當成希望。
+心疼吞過，
+難過撐過，
+執迷認過，
+卑微也忍過。
+明知道不值得，
+卻還是一遍遍等過。
+這首歌最虐的地方，
+是它沒有大吵大鬧，
+只有終於醒來後的崩塌。
+原來一錯再錯，
+不是誰逼自己難過，
+而是自己把那份不愛，
+也當成愛過。
+後來才懂，
+最疼的不是錯過，
+是你沒有愛過，
+我卻當成愛過。
+— 希默琳","動態歌詞
+你說最近有點累 我就學會不追問 怕多說一句關心 都變成你的負擔 訊息打了又刪 眼淚忍了又乾 眼淚忍了又乾 我把所有不安 都藏成一句晚安 其實我不是看不懂 你早就退到很遠了 只是我太怕承認 這段愛 只剩我還醒著 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 朋友勸我別等 我卻替你心疼 說你只是太忙了 不是故意變冷 你給一點溫柔 我就忘了要走 像困在壞掉的夢 醒來還替你守候 其實我不是不會痛 只是痛久了會習慣 我把你的忽遠忽近 都聽成 還有一點答案 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 如果遺憾能退貨 我想把你還給寂寞 如果深情是犯錯 那我已經 錯到沒有退路可躲 我終於懂了 你的沉默 不是考驗 是結果 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 後來我才懂 最疼的不是錯過 是你沒有愛過 我卻當成 愛過 
+你說最近有點累 我就學會不追問 怕多說一句關心 都變成你的負擔 訊息打了又刪 眼淚忍了又乾 眼淚忍了又乾 我把所有不安 都藏成一句晚安 其實我不是看不懂 你早就退到很遠了 只是我太怕承認 這段愛 只剩我還醒著 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 朋友勸我別等 我卻替你心疼 說你只是太忙了 不是故意變冷 你給一點溫柔 我就忘了要走 像困在壞掉的夢 醒來還替你守候 其實我不是不會痛 只是痛久了會習慣 我把你的忽遠忽近 都聽成 還有一點答案 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 如果遺憾能退貨 我想把你還給寂寞 如果深情是犯錯 那我已經 錯到沒有退路可躲 我終於懂了 你的沉默 不是考驗 是結果 可是 心疼我吞過 難過我撐過 你一句沉默 我都當成愛過 執迷我認過 卑微我忍過 明知道不值得 還是一遍遍等過 回憶太折磨 眼淚太赤裸 你早就放手了 我還騙自己愛過 原來 一錯再錯 不是誰逼我難過 是我把不愛 也當成愛過 後來我才懂 最疼的不是錯過 是你沒有愛過 我卻當成 愛過
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-21,,AI 生成 Pop,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,47,波武林 Dorian🔅,🕉️大悲咒 頌歌 (梵文男聲版)🪷,9,32,3,https://streetvoice.com/ees0977199609/songs/885124/,https://streetvoice.com/ees0977199609/,"https://akstatic.streetvoice.com/song_covers/ee/s0/ees0977199609/5HVS7uRJiBADTUMUViPwTv.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885124.jpeg,@ees0977199609,音樂人,桃園市,2026-06-01,,101,24,37,,,https://www.youtube.com/user/StreetVoiceTV,,,Religion,🪷空靈禪音 × 頌缽療癒 × 禪意經咒🎶,https://streetvoice.com/ees0977199609/songs/album/97326259/,,"以慈悲為念，讓心靈在梵音中找到寧靜與光明 🔆 🌿 當世界的聲音漸漸遠去，讓我們跟隨悠揚的梵音，走進一片清淨、祥和的心靈淨土🌄 這是一首融合佛教梵唱、空靈氛圍音樂與世界音樂元素的身心靈療癒作品。以《大悲咒》的慈悲精神為創作核心，透過溫暖而清澈的男聲吟唱、莊嚴悠遠的鐘聲，以及層層交織的空靈樂音，營造出寧靜、深邃與充滿靈性的聆聽體驗🎐 【空靈梵唱・慈悲迴響】 歌曲以柔和、明亮且富有穿透力的男聲揭開序幕，彷彿從遠方的靜謐山谷傳來一聲聲虔誠的祈願。隨著旋律緩緩流動，梵文咒語在悠長的氣息與細膩的轉音之間迴盪，搭配適時加入的柔和男聲合唱，讓整體氛圍逐漸由幽靜走向莊嚴，再回歸溫柔與平和🌅 【東方禪意・世界音樂交融】 頌缽的深沉共鳴如同心湖泛起的漣漪，引磬帶來清脆悠遠的聲響，二胡與長笛則以細膩婉轉的旋律彼此呼應，勾勒出如晨霧繚繞、雲海翻湧般的東方意境。🌄 【靜心冥想・找回內在平衡】🧘 無論是在清晨靜坐、夜晚冥想、閱讀、瑜伽、放鬆休息，或是在忙碌的一天之後，想為自己留下一段安靜的時光，都可以戴上耳機，讓這首梵文頌歌陪伴你慢慢沉澱思緒🛐 當「ॐ」的悠遠吟唱再次響起，願每一次聆聽，都成為一次回歸內心的旅程；願慈悲化為力量，願平靜伴隨呼吸，願我們在紛擾的世界裡，依然保有柔軟、善良與清明的心💖 🪔 願以此梵音，傳遞慈悲與祝福。 願一切眾生離苦得樂，願世界多一分理解與包容，願每一顆疲憊的心，都能找到安歇之處🌝 🪷 南無大悲觀世音菩薩。 ✨ 願慈悲常在，願光明常伴，願心安自在。 🎧 推薦聆聽情境： 佛教梵唱｜靜心冥想｜瑜伽放鬆｜睡前聆聽｜閱讀專注｜身心舒壓｜東方禪意音樂 🕉️讓梵音緩緩流轉，讓慈悲在心中綻放🌌 
+以慈悲為念，讓心靈在梵音中找到寧靜與光明 🔆
+🌿 當世界的聲音漸漸遠去，讓我們跟隨悠揚的梵音，走進一片清淨、祥和的心靈淨土🌄
+這是一首融合佛教梵唱、空靈氛圍音樂與世界音樂元素的身心靈療癒作品。以《大悲咒》的慈悲精神為創作核心，透過溫暖而清澈的男聲吟唱、莊嚴悠遠的鐘聲，以及層層交織的空靈樂音，營造出寧靜、深邃與充滿靈性的聆聽體驗🎐
+【空靈梵唱・慈悲迴響】
+歌曲以柔和、明亮且富有穿透力的男聲揭開序幕，彷彿從遠方的靜謐山谷傳來一聲聲虔誠的祈願。隨著旋律緩緩流動，梵文咒語在悠長的氣息與細膩的轉音之間迴盪，搭配適時加入的柔和男聲合唱，讓整體氛圍逐漸由幽靜走向莊嚴，再回歸溫柔與平和🌅
+【東方禪意・世界音樂交融】
+頌缽的深沉共鳴如同心湖泛起的漣漪，引磬帶來清脆悠遠的聲響，二胡與長笛則以細膩婉轉的旋律彼此呼應，勾勒出如晨霧繚繞、雲海翻湧般的東方意境。🌄
+【靜心冥想・找回內在平衡】🧘
+無論是在清晨靜坐、夜晚冥想、閱讀、瑜伽、放鬆休息，或是在忙碌的一天之後，想為自己留下一段安靜的時光，都可以戴上耳機，讓這首梵文頌歌陪伴你慢慢沉澱思緒🛐
+當「ॐ」的悠遠吟唱再次響起，願每一次聆聽，都成為一次回歸內心的旅程；願慈悲化為力量，願平靜伴隨呼吸，願我們在紛擾的世界裡，依然保有柔軟、善良與清明的心💖
+🪔 願以此梵音，傳遞慈悲與祝福。
+願一切眾生離苦得樂，願世界多一分理解與包容，願每一顆疲憊的心，都能找到安歇之處🌝
+🪷 南無大悲觀世音菩薩。 ✨ 願慈悲常在，願光明常伴，願心安自在。
+🎧 推薦聆聽情境： 佛教梵唱｜靜心冥想｜瑜伽放鬆｜睡前聆聽｜閱讀專注｜身心舒壓｜東方禪意音樂
+🕉️讓梵音緩緩流轉，讓慈悲在心中綻放🌌","大悲咒 觀世音菩薩的根本咒，功德廣大，能除一切病苦、滅除惡業、消災免難。 全稱《千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼》，是觀世音菩薩的根本陀羅尼，也是漢傳佛教最重要、最常被持誦的咒語之一 完整經咒搭配 羅馬拼音： 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 唎 耶 ná mó hē lài dá nà duō lài yà yě ná mó ō lì yě 婆 盧 羯 帝 爍 缽 囉 耶 菩 提 薩 埵 婆 耶 pó lú jié dì shuò bō là yě pú tí sà duǒ pó yē 摩 訶 薩 埵 婆 耶 摩 訶 迦 盧 尼 迦 耶 mó hē sà duǒ pó yē mó hē jiā lú ní jiā yē 唵 薩 皤 囉 罰 曳 數 怛 那 怛 寫 ān sà bó là fá yì shù dá nà dá xià 南 無 悉 吉 栗 埵 伊 蒙 阿 唎 耶 ná mó xī jí lì duǒ yī méng ō lì yē 婆 盧 吉 帝 室 佛 囉 楞 馱 婆 pó lú jiē dì shì fó là lèng tuó pó 南 無 那 囉 謹 墀 醯 唎 摩 訶 皤 哆 沙 咩 ná mó nà là jǐn chí xī lì mó hē bó duō shā miē 薩 婆 阿 他 豆 輸 朋 阿 逝 孕 薩 婆 薩 哆 sà pó ō tā dòu shū péng ō shì yùn sà pó sà duō 那 摩 婆 薩 哆 那 摩 婆 伽 摩 罰 特 豆 怛 姪 他 nà mó pó sà duō nà mó pó qiē mó fá tè dòu dàn zhí tā 唵 阿婆盧醯 盧迦帝 迦羅帝 夷醯唎 摩訶菩提薩埵 ān ā pó lú xī lú jiā dì jiā luó dì yí xī lì mó hē pú tí sà duǒ 薩 婆 薩 婆 摩 囉 摩 囉 摩 醯 摩 醯 唎 馱 孕 sà pó sà pó mó laì mó laì mó xī mó xī lì tuó yùn 俱 盧 俱 盧 羯 蒙 度盧度盧罰闍耶帝 摩 訶 罰 闍 耶 帝 jù lú jù lú jié méng dù lú dù lú fá shè yē dì mó hē fá shè yē dì 陀 囉 陀 囉 地 唎 尼 室 佛 囉 耶 遮 囉 遮 囉 tuó laì tuó laì dì lì ní shì fó laì yē zhē laì zhē laì 摩 麼 罰 摩 囉 穆 帝 隸 伊 醯 伊 醯 室 那 室 那 mó mó fá mó laì mù dì lì yī xī yī xī shì nà shì nà 阿 囉 嘇 佛 囉 舍 利 罰 沙 罰 嘇 佛 囉 舍 耶 ō laì sēng fó laì shě lì fá shā fá sēng fó laì shě yē 呼 嚧 呼 嚧 摩 囉 呼 嚧 呼 嚧 醯 利 娑 囉 娑 囉 hū lú hū lú mó laì hū lú hū lú xī lì suō laì suō laì 悉唎悉唎 蘇嚧蘇嚧 菩提夜菩提夜 菩馱夜菩馱夜 xī lì xī lì sū lú sū lú pú tí yè pú tí yè pú tuó yè pú tuó yè 彌 帝 唎 夜 那 囉 謹 墀 地 利 瑟 尼 那 mí dì lì yè nà laì jǐn chí dì lì sè ní nà 婆 夜 摩 那 娑 婆 訶 悉 陀 夜 娑 婆 訶 pó yè mó nà sà pó hē xī tuó yè sà pó hē 摩 訶 悉 陀 夜 娑 婆 訶 悉 陁 喻 藝 mó hē xī tuó yè sà pó hē xī tuó yù yì 室 皤 囉 耶 娑 婆 訶 那 囉 謹 墀 娑 婆 訶 shì bó là yē sà pó hē nà laì jǐn chí sà pó hē 摩 囉 那 囉 娑 婆 訶 悉 囉 僧 阿 穆 佉 耶 mó laì nà laì sà pó hē xī laì sēng ā mù qiē yē 娑 婆 訶 娑 婆 摩 訶 阿 悉 陁 夜 娑 婆 訶 sà pó hē sà pó mó hē ā xī tuó yè sà pó hē 者 吉 囉 阿 悉 陁 夜 娑 婆 訶 波 陀 摩 羯 悉 陁 夜 zhě jí laì ā xī tuó yè sà pó hē bō tuó mó jié xī tuó yè 娑婆訶 那 囉 謹 墀 皤 伽 囉 耶 娑 婆 訶 sà pó hē nà laì jǐn chí bó qiē laì yē sà pó hē 摩 婆 利 勝 羯 囉 夜 娑 婆 訶 mó pó lì shèng jié là yè sà pó hē 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 利 耶 ná mó hē laì dá nà duō laì yà yē ná mó ō lī yē 婆 嚧 吉 帝 爍 皤 囉 夜 娑 婆 訶 pó luó jié dì shuò bó laì yè sà pó hē 唵 悉 殿 都 漫 多 囉 跋 陁 耶 娑 婆 訶 ān xī diàn dū màn duō laì bá tuó yē sà pó hē 
+大悲咒 觀世音菩薩的根本咒，功德廣大，能除一切病苦、滅除惡業、消災免難。
+全稱《千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼》，是觀世音菩薩的根本陀羅尼，也是漢傳佛教最重要、最常被持誦的咒語之一
+完整經咒搭配 羅馬拼音：
+南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 唎 耶 ná mó hē lài dá nà duō lài yà yě ná mó ō lì yě 婆 盧 羯 帝 爍 缽 囉 耶 菩 提 薩 埵 婆 耶 pó lú jié dì shuò bō là yě pú tí sà duǒ pó yē 摩 訶 薩 埵 婆 耶 摩 訶 迦 盧 尼 迦 耶 mó hē sà duǒ pó yē mó hē jiā lú ní jiā yē 唵 薩 皤 囉 罰 曳 數 怛 那 怛 寫 ān sà bó là fá yì shù dá nà dá xià 南 無 悉 吉 栗 埵 伊 蒙 阿 唎 耶 ná mó xī jí lì duǒ yī méng ō lì yē 婆 盧 吉 帝 室 佛 囉 楞 馱 婆 pó lú jiē dì shì fó là lèng tuó pó 南 無 那 囉 謹 墀 醯 唎 摩 訶 皤 哆 沙 咩 ná mó nà là jǐn chí xī lì mó hē bó duō shā miē 薩 婆 阿 他 豆 輸 朋 阿 逝 孕 薩 婆 薩 哆 sà pó ō tā dòu shū péng ō shì yùn sà pó sà duō 那 摩 婆 薩 哆 那 摩 婆 伽 摩 罰 特 豆 怛 姪 他 nà mó pó sà duō nà mó pó qiē mó fá tè dòu dàn zhí tā 唵 阿婆盧醯 盧迦帝 迦羅帝 夷醯唎 摩訶菩提薩埵 ān ā pó lú xī lú jiā dì jiā luó dì yí xī lì mó hē pú tí sà duǒ 薩 婆 薩 婆 摩 囉 摩 囉 摩 醯 摩 醯 唎 馱 孕 sà pó sà pó mó laì mó laì mó xī mó xī lì tuó yùn 俱 盧 俱 盧 羯 蒙 度盧度盧罰闍耶帝 摩 訶 罰 闍 耶 帝 jù lú jù lú jié méng dù lú dù lú fá shè yē dì mó hē fá shè yē dì 陀 囉 陀 囉 地 唎 尼 室 佛 囉 耶 遮 囉 遮 囉 tuó laì tuó laì dì lì ní shì fó laì yē zhē laì zhē laì 摩 麼 罰 摩 囉 穆 帝 隸 伊 醯 伊 醯 室 那 室 那 mó mó fá mó laì mù dì lì yī xī yī xī shì nà shì nà 阿 囉 嘇 佛 囉 舍 利 罰 沙 罰 嘇 佛 囉 舍 耶 ō laì sēng fó laì shě lì fá shā fá sēng fó laì shě yē 呼 嚧 呼 嚧 摩 囉 呼 嚧 呼 嚧 醯 利 娑 囉 娑 囉 hū lú hū lú mó laì hū lú hū lú xī lì suō laì suō laì 悉唎悉唎 蘇嚧蘇嚧 菩提夜菩提夜 菩馱夜菩馱夜 xī lì xī lì sū lú sū lú pú tí yè pú tí yè pú tuó yè pú tuó yè 彌 帝 唎 夜 那 囉 謹 墀 地 利 瑟 尼 那 mí dì lì yè nà laì jǐn chí dì lì sè ní nà 婆 夜 摩 那 娑 婆 訶 悉 陀 夜 娑 婆 訶 pó yè mó nà sà pó hē xī tuó yè sà pó hē 摩 訶 悉 陀 夜 娑 婆 訶 悉 陁 喻 藝 mó hē xī tuó yè sà pó hē xī tuó yù yì 室 皤 囉 耶 娑 婆 訶 那 囉 謹 墀 娑 婆 訶 shì bó là yē sà pó hē nà laì jǐn chí sà pó hē 摩 囉 那 囉 娑 婆 訶 悉 囉 僧 阿 穆 佉 耶 mó laì nà laì sà pó hē xī laì sēng ā mù qiē yē 娑 婆 訶 娑 婆 摩 訶 阿 悉 陁 夜 娑 婆 訶 sà pó hē sà pó mó hē ā xī tuó yè sà pó hē 者 吉 囉 阿 悉 陁 夜 娑 婆 訶 波 陀 摩 羯 悉 陁 夜 zhě jí laì ā xī tuó yè sà pó hē bō tuó mó jié xī tuó yè 娑婆訶 那 囉 謹 墀 皤 伽 囉 耶 娑 婆 訶 sà pó hē nà laì jǐn chí bó qiē laì yē sà pó hē 摩 婆 利 勝 羯 囉 夜 娑 婆 訶 mó pó lì shèng jié là yè sà pó hē 南 無 喝 囉 怛 那 哆 囉 夜 耶 南 無 阿 利 耶 ná mó hē laì dá nà duō laì yà yē ná mó ō lī yē 婆 嚧 吉 帝 爍 皤 囉 夜 娑 婆 訶 pó luó jié dì shuò bó laì yè sà pó hē 唵 悉 殿 都 漫 多 囉 跋 陁 耶 娑 婆 訶 ān xī diàn dū màn duō laì bá tuó yē sà pó hē
+留言（ 3 ） 最相關留言 所有留言
+留言（ 3 ）",2026-10-21,,AI 生成 Religion ・ 🪷空靈禪音 × 頌缽療癒 × 禪意經咒🎶,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,48,tackey747,[디지털 의식의 빛 ],1,70,0,https://streetvoice.com/tackey747/songs/884175/,https://streetvoice.com/tackey747/,"https://akstatic.streetvoice.com/song_covers/ta/ck/tackey747/9MU9uWFmQBgZNivAAJCk2o.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/884175.jpeg,@tackey747,音樂人,,,,17,2,,,,https://www.youtube.com/user/StreetVoiceTV,,,Singer / Songwriter,《한류의 결： 韓流之韻》,https://streetvoice.com/tackey747/songs/album/97326165/,,"【디지털 의식의 빛 】 #念力音樂  #數位AI科技音樂  #顯化音樂  #psychokinesis music  #digital AI technology music  #manifest music 
+【디지털 의식의 빛 】 #念力音樂  #數位AI科技音樂  #顯化音樂  #psychokinesis music  #digital AI technology music  #manifest music","그래 그래 우리의 일상 속에 디지털 스트림의 멜로디가 울려 퍼져 디지털 스트림의 멜로디가 울려 퍼져 그래 그래 바이닐에서 스트리밍까지 음악은 심장 박자 따라 변해 가 억지로 집중하려 애쓰지 마 마음을 비우는 순서를 따라 모든 걸 알려 하지 마 머릿속을 텅 비워 둬 여섯 개의 숫자를 전부 알 필요 없어 그래 그래 뇌파가 세상으로 퍼져 나가 마음을 전하는 기적이 시작돼 그래 그래 높은 주파수의 공명이 울리면 의식은 바로 이 순간에 모여 핵심 코드가 눈부시게 빛나 디지털 AI 기술이 이끄는 힘 그래 그래 디지털 AI 기술의 빛나는 결실 우리의 꿈은 더는 멀리 있지 않아 
+그래 그래 우리의 일상 속에 디지털 스트림의 멜로디가 울려 퍼져 디지털 스트림의 멜로디가 울려 퍼져 그래 그래 바이닐에서 스트리밍까지 음악은 심장 박자 따라 변해 가 억지로 집중하려 애쓰지 마 마음을 비우는 순서를 따라 모든 걸 알려 하지 마 머릿속을 텅 비워 둬 여섯 개의 숫자를 전부 알 필요 없어 그래 그래 뇌파가 세상으로 퍼져 나가 마음을 전하는 기적이 시작돼 그래 그래 높은 주파수의 공명이 울리면 의식은 바로 이 순간에 모여 핵심 코드가 눈부시게 빛나 디지털 AI 기술이 이끄는 힘 그래 그래 디지털 AI 기술의 빛나는 결실 우리의 꿈은 더는 멀리 있지 않아
+留言（ 0 ） 最相關留言 所有留言
+留言（ 0 ）",2026-10-23,,AI 生成 Singer / Songwriter ・ 《한류의 결： 韓流之韻》,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,49,樹瑙,你的傷，並不是你的傷,7,15,1,https://streetvoice.com/Henry0708/songs/885180/,https://streetvoice.com/Henry0708/,"https://akstatic.streetvoice.com/song_covers/He/nr/Henry0708/cBQJbfAdgfYPR3kXpdM5J5.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885180.jpeg,@Henry0708,音樂人,,,,3,2,8,,,https://www.youtube.com/user/StreetVoiceTV,,,Singer / Songwriter,,,,,"從那時開始 已走了好遠好遠 為何到今日 卻還時常想從前 看著相片裡 那個站著的身影 想輕聲告訴他 已經做到最好了 那些傷 開始不屬於現在 帶著它長大 你一定很累 輕輕放下 那些不該承受的 而現在已是最好的 有些重量 不是自己造成的 那年的門縫裡 只是個不懂的孩子 那些傷 開始不屬於現在 帶著它長大 你一定很累 輕輕放下 那些不該承受的 而現在已是最好的 陪他走 剩下的路慢慢走 
+從那時開始 已走了好遠好遠 為何到今日 卻還時常想從前
+看著相片裡 那個站著的身影 想輕聲告訴他 已經做到最好了
+那些傷 開始不屬於現在 帶著它長大 你一定很累 輕輕放下 那些不該承受的 而現在已是最好的
+有些重量 不是自己造成的 那年的門縫裡 只是個不懂的孩子
+那些傷 開始不屬於現在 帶著它長大 你一定很累 輕輕放下 那些不該承受的 而現在已是最好的
+陪他走 剩下的路慢慢走
+留言（ 1 ） 最相關留言 所有留言
+留言（ 1 ）",2026-10-21,,AI 生成 Singer / Songwriter,False,False,
+2026-10-23 04:32:37,realtime,ai_generated,,,50,建億小哥,小蜜蜂2026 DEMO,1,3,2,https://streetvoice.com/jackychen680108/songs/885471/,https://streetvoice.com/jackychen680108/,"https://akstatic.streetvoice.com/music_albums/ja/ck/jackychen680108/afSiurFrxwCiMin3TzKQqZ.jpeg?x-oss-process=image/resize,m_fill,h_400,w_400,limit_0",images/885471.jpeg,@jackychen680108,音樂人,新北市,2018-10-01,,19,5,8,,,https://www.youtube.com/user/StreetVoiceTV,,,Pop,兒歌系列,https://streetvoice.com/jackychen680108/songs/album/97326256/,,"嗡嗡嗡 大家一起勤做工 嗡嗡嗡 別學懶惰蟲 來匆匆，去匆匆 你會是工峰 還是雄峰 還是想當女王峰 天天豐 不要天天忙到發瘋 
+嗡嗡嗡 大家一起勤做工 嗡嗡嗡 別學懶惰蟲 來匆匆，去匆匆 你會是工峰 還是雄峰 還是想當女王峰 天天豐 不要天天忙到發瘋","<插曲快曲> 嗡嗡嗡，嗡嗡嗡 大家一起勤做工 來匆匆，去匆匆 做工興味濃 天暖花好不做工 將來哪裏好過冬 嗡嗡嗡，嗡嗡嗡 別學懶惰蟲 <前奏> 嗡嗡嗡！嗡嗡嗡！鬧鐘響起，感覺腦袋還沒睡飽 早起，準備去趕工！雙手背起工具包，吃飯的家伙背著跑，早餐一定要吃好！ <主歌一｜員工篇> 早起去趕工，腳步匆匆像旋風，員工就像小蜜蜂，工作忙起難放鬆。 打卡進場不能拖，主管交辦不能躲，今天進度不能拖，明天繼續再來過！ 嗡嗡嗡，嗡嗡嗡，每天工作像發瘋，忙裡忙外不停工，薪水何時能變豐？ <副歌｜合唱> 嗡嗡嗡！嗡嗡嗡！大家一起勤做工！來匆匆！去匆匆！每天忙得像陣風！ 嗡嗡嗡！嗡嗡嗡！基層工蜂不停工！外務雄蜂飛天空，這才是最忙的蜜蜂 <主歌二｜基層工蜂篇> 基層就像工蜂，第一線來衝鋒，風吹日曬不喊痛，大小事情一肩攻。 上面一句快點做，下面只能往前衝，出了問題誰負責？工蜂又要來背鍋！ 沒有掌聲也要做，沒有休息繼續衝，汗水滴在地板中，夢想藏在心裡頭。 整個蜂巢靠我們，我是萬能小蜜蜂，少了基層來激動，整座蜂巢都會空！ <主歌三｜外務雄蜂篇> 外務就像是雄蜂，東奔西跑不放鬆，今天東邊談客戶，明天西邊又出動。 風吹雨打照樣衝，電話響了不能裝聾，客戶需求一大堆，行程排到滿天空！ 雄蜂飛啊不停飛，業績數字要看懂，不管路途有多遠，任務完成就放松！ <橋段｜節奏放慢> 嗡嗡嗡！嗡嗡嗡！員工早起去趕工！工蜂衝！雄蜂衝！每天忙得沒輕鬆！ 每個崗位都有自己的工作。勞苦工蜂，奔波雄蜂 嗡嗡嗡！嗡嗡嗡！大家一起勤做工！ 別看誰飛得高，別看誰做得多，少了任何一個，這個團隊就糟糕 <副歌｜合唱> 嗡嗡嗡！嗡嗡嗡！員工每天勤做工！工蜂衝！雄蜂衝！大家一起向前衝！ 嗡嗡嗡！嗡嗡嗡！忙到晚上月亮紅！天暖花開拚命衝，只盼年底獎金多！ <尾奏> 呦！工蜂不是免洗蜂！雄蜂也要有戰功！員工不是永動機，努力工作也要有資薪！ 嗡嗡嗡！嗡嗡嗡！全員一起拚成功！蜂巢要旺靠大家，別讓努力只剩嗡嗡嗡！ 
+<插曲快曲> 嗡嗡嗡，嗡嗡嗡 大家一起勤做工 來匆匆，去匆匆 做工興味濃 天暖花好不做工 將來哪裏好過冬 嗡嗡嗡，嗡嗡嗡 別學懶惰蟲 <前奏> 嗡嗡嗡！嗡嗡嗡！鬧鐘響起，感覺腦袋還沒睡飽 早起，準備去趕工！雙手背起工具包，吃飯的家伙背著跑，早餐一定要吃好！ <主歌一｜員工篇> 早起去趕工，腳步匆匆像旋風，員工就像小蜜蜂，工作忙起難放鬆。 打卡進場不能拖，主管交辦不能躲，今天進度不能拖，明天繼續再來過！ 嗡嗡嗡，嗡嗡嗡，每天工作像發瘋，忙裡忙外不停工，薪水何時能變豐？ <副歌｜合唱> 嗡嗡嗡！嗡嗡嗡！大家一起勤做工！來匆匆！去匆匆！每天忙得像陣風！ 嗡嗡嗡！嗡嗡嗡！基層工蜂不停工！外務雄蜂飛天空，這才是最忙的蜜蜂 <主歌二｜基層工蜂篇> 基層就像工蜂，第一線來衝鋒，風吹日曬不喊痛，大小事情一肩攻。 上面一句快點做，下面只能往前衝，出了問題誰負責？工蜂又要來背鍋！ 沒有掌聲也要做，沒有休息繼續衝，汗水滴在地板中，夢想藏在心裡頭。 整個蜂巢靠我們，我是萬能小蜜蜂，少了基層來激動，整座蜂巢都會空！ <主歌三｜外務雄蜂篇> 外務就像是雄蜂，東奔西跑不放鬆，今天東邊談客戶，明天西邊又出動。 風吹雨打照樣衝，電話響了不能裝聾，客戶需求一大堆，行程排到滿天空！ 雄蜂飛啊不停飛，業績數字要看懂，不管路途有多遠，任務完成就放松！ <橋段｜節奏放慢> 嗡嗡嗡！嗡嗡嗡！員工早起去趕工！工蜂衝！雄蜂衝！每天忙得沒輕鬆！ 每個崗位都有自己的工作。勞苦工蜂，奔波雄蜂 嗡嗡嗡！嗡嗡嗡！大家一起勤做工！ 別看誰飛得高，別看誰做得多，少了任何一個，這個團隊就糟糕 <副歌｜合唱> 嗡嗡嗡！嗡嗡嗡！員工每天勤做工！工蜂衝！雄蜂衝！大家一起向前衝！ 嗡嗡嗡！嗡嗡嗡！忙到晚上月亮紅！天暖花開拚命衝，只盼年底獎金多！ <尾奏> 呦！工蜂不是免洗蜂！雄蜂也要有戰功！員工不是永動機，努力工作也要有資薪！ 嗡嗡嗡！嗡嗡嗡！全員一起拚成功！蜂巢要旺靠大家，別讓努力只剩嗡嗡嗡！
+留言（ 2 ） 最相關留言 所有留言
+留言（ 2 ）",2026-10-22,,AI 生成 Pop ・ 兒歌系列,False,False,
